@@ -276,7 +276,7 @@ static const NSInteger maxPhotoCount = 9;
         TZImagePickerController *tzImagePickerVc = [[TZImagePickerController alloc] initWithMaxImagesCount:1 delegate:self];
         tzImagePickerVc.sortAscendingByModificationDate = YES;
         [tzImagePickerVc showProgressHUD];
-        UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+//        UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
 #warning yzj 注释报错代码 20180421
 //        // save photo and get asset / 保存图片，获取到asset
 //        [[TZImageManager manager] savePhotoWithImage:image location:self.location completion:^(NSError *error){

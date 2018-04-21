@@ -8,6 +8,10 @@
 
 #import "LMJStaticTableViewController.h"
 
+
+/**
+ “预演”TabBar对应控制器
+ */
 @interface LMJNewViewController : LMJStaticTableViewController
 
 @end

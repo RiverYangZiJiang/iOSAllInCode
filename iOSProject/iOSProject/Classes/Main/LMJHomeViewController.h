@@ -8,6 +8,9 @@
 
 #import "LMJStaticTableViewController.h"
 
+/**
+ “基础”TabBar对应控制器
+ */
 @interface LMJHomeViewController : LMJStaticTableViewController
 
 @end

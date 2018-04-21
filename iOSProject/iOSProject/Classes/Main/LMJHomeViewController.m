@@ -20,6 +20,8 @@
 #import "LMJCoreAnimationViewController.h"
 #import "LMJDrawRectViewController.h"
 #import "LMJWebImagesCacheViewController.h"
+#import "LMJCameraViewController.h"
+#import "LMJImageViewController.h"
 
 @interface LMJHomeViewController ()
 
@@ -87,7 +89,24 @@
     LMJItemSection *section3 = [LMJItemSection sectionWithItems:@[item01, item14] andHeaderTitle:@"运行时RunTime, 运行循环RunLoop" footerTitle:nil];
     
     
-    [self.sections addObjectsFromArray:@[section2, section1, section3, section0]];
+    // Image、Camera、Audio、Video
+    LMJWordArrowItem *item101 = [LMJWordArrowItem itemWithTitle:@"Image" subTitle: nil];
+    item101.destVc = [LMJCameraViewController class];
+    
+    LMJWordArrowItem *item102 = [LMJWordArrowItem itemWithTitle:@"Camera" subTitle: @"建议看"];
+    item102.destVc = [LMJImageViewController class];
+    
+    LMJWordArrowItem *item103 = [LMJWordArrowItem itemWithTitle:@"Audio" subTitle: nil];
+    item103.destVc = [LMJCameraViewController class];
+    
+    LMJWordArrowItem *item104 = [LMJWordArrowItem itemWithTitle:@"Video" subTitle: nil];
+    item104.destVc = [LMJCameraViewController class];
+    
+    LMJItemSection *section101 = [LMJItemSection sectionWithItems:@[item101, item102, item103, item104] andHeaderTitle:@"Image、Camera、Audio、Video" footerTitle:nil];
+    
+    
+    [self.sections addObjectsFromArray:@[section101, section2, section1, section3, section0]];
+    
     
     UITabBarItem *homeItem = self.navigationController.tabBarItem;
     [homeItem setBadgeValue:@"3"];

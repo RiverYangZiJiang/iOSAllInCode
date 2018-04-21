@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
+		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		54E3991EBFDEC31145ED8B0F /* libPods-iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195AF1DB9976AB51691A659C /* libPods-iOSProject.a */; };
 		581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E2B2044434400AF08C0 /* LMJOfflineDownloadViewController.m */; };
 		581A3E3F20450B3E00AF08C0 /* MJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E3920450B3D00AF08C0 /* MJDownloadManager.m */; };
@@ -340,6 +342,10 @@
 
 /* Begin PBXFileReference section */
 		04BC8A56D55E3588A098FA08 /* Pods-iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
+		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
+		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
+		156EBC78208B163C00A941D3 /* LMJImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJImageViewController.m; sourceTree = "<group>"; };
 		195AF1DB9976AB51691A659C /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581A3E2A2044434400AF08C0 /* LMJOfflineDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJOfflineDownloadViewController.h; sourceTree = "<group>"; };
 		581A3E2B2044434400AF08C0 /* LMJOfflineDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJOfflineDownloadViewController.m; sourceTree = "<group>"; };
@@ -1975,6 +1981,10 @@
 		58DC84031FFBC15B0060DC03 /* 基础理论 */ = {
 			isa = PBXGroup;
 			children = (
+				156EBC77208B163C00A941D3 /* LMJImageViewController.h */,
+				156EBC78208B163C00A941D3 /* LMJImageViewController.m */,
+				156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */,
+				156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */,
 				58DC840D1FFBC1970060DC03 /* LMJLiftCycleViewController.h */,
 				58DC840E1FFBC1980060DC03 /* LMJLiftCycleViewController.m */,
 				58DC84081FFBC1960060DC03 /* LMJRunTimeViewController.h */,
@@ -2424,6 +2434,7 @@
 				5822332020182C5D0008251F /* MCCornersRoundViewController.m in Sources */,
 				5892AD031FF4F9D200E868C2 /* LMJElementsFlowLayout.m in Sources */,
 				58DC852D1FFC9B720060DC03 /* LMJCommentHeaderView.m in Sources */,
+				156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */,
 				588CCD7F205D4FA60067E3C4 /* WKBridgeTool.m in Sources */,
 				58B59D0A2015B17800C4C4C9 /* LMJCasesViewController.m in Sources */,
 				58DC818D1FFA335C0060DC03 /* LMJFingerCheckViewController.m in Sources */,
@@ -2431,6 +2442,7 @@
 				58DC83D31FFB43E30060DC03 /* LMJDotRemoveViewController.m in Sources */,
 				58DC84FF1FFC972C0060DC03 /* BSJCommentPageViewController.m in Sources */,
 				5892AD5E1FF5079C00E868C2 /* LMJTableViewController.m in Sources */,
+				156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */,
 				58651AAE1FFE6D6F0087419D /* SINDictURL.m in Sources */,
 				58DC85031FFC972C0060DC03 /* BSJPublishViewController.m in Sources */,
 				5822334B20185FB10008251F /* DBSphereView.m in Sources */,
