@@ -55,7 +55,7 @@ PODS:
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
   - Toast (4.0.0)
-  - TZImagePickerController (2.0.1)
+  - TZImagePickerController (2.0.0.9)
   - UICKeyChainStore (2.1.1)
   - UMengAnalytics (4.2.4)
   - UMengUShare/Core (6.4.8.2):
@@ -128,6 +128,44 @@ DEPENDENCIES:
   - ZFPlayer
   - ZJScrollPageView
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - ASIHTTPRequest
+    - BaiduMapKit
+    - CYLTabBarController
+    - DWBubbleMenuButton
+    - FCUUID
+    - FDFullscreenPopGesture
+    - FMDB
+    - HMEmoticon
+    - HMQRCodeScanner
+    - IQKeyboardManager
+    - KILabel
+    - M13ProgressSuite
+    - MagicWindowSDK
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MOFSPickerManager
+    - Reachability
+    - SDCycleScrollView
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+    - UICKeyChainStore
+    - UMengAnalytics
+    - UMengUShare
+    - WechatOpenSDK
+    - YYAsyncLayer
+    - YYCategories
+    - YYImage
+    - YYText
+    - ZFDownload
+    - ZFPlayer
+    - ZJScrollPageView
+
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
@@ -152,7 +190,7 @@ SPEC CHECKSUMS:
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  TZImagePickerController: 34ecb53af8c349964394407e42b6e54e22589ebe
+  TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
   UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
   UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
@@ -167,4 +205,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: d5c388975e8c4889dc356b4de31d9a5a3c38545d
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.0

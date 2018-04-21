@@ -207,15 +207,16 @@
 
 // 调用相机
 - (void)pushImagePickerController {
-    // 提前定位
-    __weak typeof(self) weakSelf = self;
-    [[TZLocationManager manager] startLocationWithSuccessBlock:^(CLLocation *location, CLLocation *oldLocation) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        strongSelf.location = location;
-    } failureBlock:^(NSError *error) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        strongSelf.location = nil;
-    }];
+#warning yzj 注释报错代码 20180421
+//    // 提前定位
+//    __weak typeof(self) weakSelf = self;
+//    [[TZLocationManager manager] startLocationWithSuccessBlock:^(CLLocation *location, CLLocation *oldLocation) {
+//        __strong typeof(weakSelf) strongSelf = weakSelf;
+//        strongSelf.location = location;
+//    } failureBlock:^(NSError *error) {
+//        __strong typeof(weakSelf) strongSelf = weakSelf;
+//        strongSelf.location = nil;
+//    }];
     
     UIImagePickerControllerSourceType sourceType = UIImagePickerControllerSourceTypeCamera;
     if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera]) {
@@ -237,34 +238,34 @@
         tzImagePickerVc.sortAscendingByModificationDate = YES;
         [tzImagePickerVc showProgressHUD];
         UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
-        
-        // save photo and get asset / 保存图片，获取到asset
-        [[TZImageManager manager] savePhotoWithImage:image location:self.location completion:^(NSError *error){
-            if (error) {
-                [tzImagePickerVc hideProgressHUD];
-                NSLog(@"图片保存失败 %@",error);
-            } else {
-                [[TZImageManager manager] getCameraRollAlbum:NO allowPickingImage:YES completion:^(TZAlbumModel *model) {
-                    [[TZImageManager manager] getAssetsFromFetchResult:model.result allowPickingVideo:NO allowPickingImage:YES completion:^(NSArray<TZAssetModel *> *models) {
-                        [tzImagePickerVc hideProgressHUD];
-                        TZAssetModel *assetModel = [models firstObject];
-                        if (tzImagePickerVc.sortAscendingByModificationDate) {
-                            assetModel = [models lastObject];
-                        }
-                        if (/* DISABLES CODE */ (NO)) { // 允许裁剪,去裁剪
-                            TZImagePickerController *imagePicker = [[TZImagePickerController alloc] initCropTypeWithAsset:assetModel.asset photo:image completion:^(UIImage *cropImage, id asset) {
-                                [self refreshAsset:asset image:cropImage];
-                            }];
-                            imagePicker.needCircleCrop = NO;
-                            imagePicker.circleCropRadius = 100;
-                            [self.currentViewController presentViewController:imagePicker animated:YES completion:nil];
-                        } else {
-                            [self refreshAsset:assetModel.asset image:image];
-                        }
-                    }];
-                }];
-            }
-        }];
+#warning yzj 注释报错代码 20180421
+//        // save photo and get asset / 保存图片，获取到asset
+//        [[TZImageManager manager] savePhotoWithImage:image location:self.location completion:^(NSError *error){
+//            if (error) {
+//                [tzImagePickerVc hideProgressHUD];
+//                NSLog(@"图片保存失败 %@",error);
+//            } else {
+//                [[TZImageManager manager] getCameraRollAlbum:NO allowPickingImage:YES completion:^(TZAlbumModel *model) {
+//                    [[TZImageManager manager] getAssetsFromFetchResult:model.result allowPickingVideo:NO allowPickingImage:YES completion:^(NSArray<TZAssetModel *> *models) {
+//                        [tzImagePickerVc hideProgressHUD];
+//                        TZAssetModel *assetModel = [models firstObject];
+//                        if (tzImagePickerVc.sortAscendingByModificationDate) {
+//                            assetModel = [models lastObject];
+//                        }
+//                        if (/* DISABLES CODE */ (NO)) { // 允许裁剪,去裁剪
+//                            TZImagePickerController *imagePicker = [[TZImagePickerController alloc] initCropTypeWithAsset:assetModel.asset photo:image completion:^(UIImage *cropImage, id asset) {
+//                                [self refreshAsset:asset image:cropImage];
+//                            }];
+//                            imagePicker.needCircleCrop = NO;
+//                            imagePicker.circleCropRadius = 100;
+//                            [self.currentViewController presentViewController:imagePicker animated:YES completion:nil];
+//                        } else {
+//                            [self refreshAsset:assetModel.asset image:image];
+//                        }
+//                    }];
+//                }];
+//            }
+//        }];
     }
 }
 
