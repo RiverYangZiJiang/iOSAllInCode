@@ -10,6 +10,9 @@
 #define NJiOSProject_pch
 
 #pragma clang diagnostic ignored "-Wstrict-prototypes"
+// base
+#import "LMJStaticTableViewController.h"
+
 // category
 #import "UIView+LMJNjHuFrame.h"
 #import "MBProgressHUD+LMJ.h"

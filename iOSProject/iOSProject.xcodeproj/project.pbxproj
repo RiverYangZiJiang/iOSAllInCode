@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
+		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
 		54E3991EBFDEC31145ED8B0F /* libPods-iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195AF1DB9976AB51691A659C /* libPods-iOSProject.a */; };
 		581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E2B2044434400AF08C0 /* LMJOfflineDownloadViewController.m */; };
 		581A3E3F20450B3E00AF08C0 /* MJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E3920450B3D00AF08C0 /* MJDownloadManager.m */; };
@@ -346,6 +347,8 @@
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
 		156EBC78208B163C00A941D3 /* LMJImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJImageViewController.m; sourceTree = "<group>"; };
+		15DC7AAC208C14D000A8D233 /* YZJImageZoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJImageZoomViewController.h; sourceTree = "<group>"; };
+		15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJImageZoomViewController.m; sourceTree = "<group>"; };
 		195AF1DB9976AB51691A659C /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581A3E2A2044434400AF08C0 /* LMJOfflineDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJOfflineDownloadViewController.h; sourceTree = "<group>"; };
 		581A3E2B2044434400AF08C0 /* LMJOfflineDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJOfflineDownloadViewController.m; sourceTree = "<group>"; };
@@ -968,6 +971,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15DC7AAB208C13F400A8D233 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				156EBC77208B163C00A941D3 /* LMJImageViewController.h */,
+				156EBC78208B163C00A941D3 /* LMJImageViewController.m */,
+				15DC7AAC208C14D000A8D233 /* YZJImageZoomViewController.h */,
+				15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		581A3E2D2044448700AF08C0 /* Toos */ = {
 			isa = PBXGroup;
 			children = (
@@ -1981,8 +1995,7 @@
 		58DC84031FFBC15B0060DC03 /* 基础理论 */ = {
 			isa = PBXGroup;
 			children = (
-				156EBC77208B163C00A941D3 /* LMJImageViewController.h */,
-				156EBC78208B163C00A941D3 /* LMJImageViewController.m */,
+				15DC7AAB208C13F400A8D233 /* Image */,
 				156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */,
 				156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */,
 				58DC840D1FFBC1970060DC03 /* LMJLiftCycleViewController.h */,
@@ -2234,7 +2247,7 @@
 		5892AC8C1FF4EB4A00E868C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = MC;
+				CLASSPREFIX = YZJ;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = github.com/njhu;
 				TargetAttributes = {
@@ -2582,6 +2595,7 @@
 				5892AD041FF4F9D200E868C2 /* LMJNormalRefreshHeader.m in Sources */,
 				58DC83EB1FFB44380060DC03 /* WPFBaseView.m in Sources */,
 				58DC84411FFBD1290060DC03 /* LMJNSOperationViewController.m in Sources */,
+				15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */,
 				589B577A2000339800B2D5A8 /* ZFVideoResolution.m in Sources */,
 				58DC851B1FFC972C0060DC03 /* BSJMeSquareCell.m in Sources */,
 				58A17C4E2005F4E600B350AB /* LMJParagraph.m in Sources */,
