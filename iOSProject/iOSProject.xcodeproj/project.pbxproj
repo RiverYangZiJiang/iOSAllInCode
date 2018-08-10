@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F4C211D38B800A883CB /* YZJCallViewController.m */; };
+		151C8F51211D43CD00A883CB /* YZJWebViewCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */; };
+		151C8F53211D45A400A883CB /* call.html in Resources */ = {isa = PBXBuildFile; fileRef = 151C8F52211D45A400A883CB /* call.html */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
@@ -344,6 +346,9 @@
 		04BC8A56D55E3588A098FA08 /* Pods-iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		151C8F4B211D38B800A883CB /* YZJCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCallViewController.h; sourceTree = "<group>"; };
 		151C8F4C211D38B800A883CB /* YZJCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCallViewController.m; sourceTree = "<group>"; };
+		151C8F4F211D43CD00A883CB /* YZJWebViewCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJWebViewCallViewController.h; sourceTree = "<group>"; };
+		151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJWebViewCallViewController.m; sourceTree = "<group>"; };
+		151C8F52211D45A400A883CB /* call.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = call.html; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -978,12 +983,15 @@
 		15DC7AAB208C13F400A8D233 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				151C8F52211D45A400A883CB /* call.html */,
 				156EBC77208B163C00A941D3 /* LMJImageViewController.h */,
 				156EBC78208B163C00A941D3 /* LMJImageViewController.m */,
 				15DC7AAC208C14D000A8D233 /* YZJImageZoomViewController.h */,
 				15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */,
 				151C8F4B211D38B800A883CB /* YZJCallViewController.h */,
 				151C8F4C211D38B800A883CB /* YZJCallViewController.m */,
+				151C8F4F211D43CD00A883CB /* YZJWebViewCallViewController.h */,
+				151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -2332,6 +2340,7 @@
 				58DC851F1FFC972C0060DC03 /* BSJTopicCell.xib in Resources */,
 				589B57041FFFC52F00B2D5A8 /* QQLrcCell.xib in Resources */,
 				589B57792000339800B2D5A8 /* videoData.json in Resources */,
+				151C8F53211D45A400A883CB /* call.html in Resources */,
 				588CCD7C205D49000067E3C4 /* H5Bridge.js in Resources */,
 				583D507020731574001480C8 /* LMJLocalJsons in Resources */,
 				58DC83871FFB43460060DC03 /* LMJDYViewController.xib in Resources */,
@@ -2578,6 +2587,7 @@
 				58DC83811FFB43460060DC03 /* LMJLZDHDTSViewController.m in Sources */,
 				5892ACA71FF4EB4A00E868C2 /* main.m in Sources */,
 				58223312201821910008251F /* UIView+GestureCallback.m in Sources */,
+				151C8F51211D43CD00A883CB /* YZJWebViewCallViewController.m in Sources */,
 				58A043D9206B28A1003CB4E5 /* LMJRSAViewController.m in Sources */,
 				584038061FF62371002A0566 /* LMJAddressPickerViewController.m in Sources */,
 				589B577C2000339800B2D5A8 /* ZFVideoModel.m in Sources */,

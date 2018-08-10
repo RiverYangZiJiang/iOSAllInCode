@@ -10,7 +10,7 @@
 
 
 /**
- 图片控制器，继承自静态表格基类LMJStaticTableViewController
+ IMAGE-CAMERA-AUDIO-VIDEO-CALL控制器，继承自静态表格基类LMJStaticTableViewController
  
  排序：可以对已经选中的照片进行排序(微博、TZ、微信)
  裁剪：微博、TZ、微信

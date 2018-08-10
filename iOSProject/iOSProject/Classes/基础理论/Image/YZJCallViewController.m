@@ -7,6 +7,7 @@
 //
 
 #import "YZJCallViewController.h"
+#import "YZJWebViewCallViewController.h"
 
 @interface YZJCallViewController ()
 
@@ -50,8 +51,12 @@
         }
     }];
     
+    
+    LMJWordArrowItem *item3 = [LMJWordArrowItem itemWithTitle:@"网页直接拨打<a href=\"tel:13587454758\">" subTitle:nil];
+    item3.destVc = [YZJWebViewCallViewController class];
+    
     // 2.创建节section
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item0, item1, item2] andHeaderTitle:@"Header" footerTitle:@"备注：\n1.在iOS10之后再用openURL: 的方法拨打电话会有1-2秒的延迟时间，iOS10之后使用openURL: options: completionHandler:的API可以解决延迟问题。\n2.此openURL: options: completionHandler:方法API在iOS11下测试情况：拨打前弹出提示， and, 拨打完以后会回到原来的应用。"];
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item0, item1, item2, item3] andHeaderTitle:@"Header" footerTitle:@"备注：\n1.在iOS10之后再用openURL: 的方法拨打电话会有1-2秒的延迟时间，iOS10之后使用openURL: options: completionHandler:的API可以解决延迟问题。\n2.此openURL: options: completionHandler:方法API在iOS11下测试情况：拨打前弹出提示， and, 拨打完以后会回到原来的应用。"];
     
     // 3.添加节到节数组
     [self.sections addObject:section0];
