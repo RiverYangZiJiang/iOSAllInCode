@@ -22,6 +22,7 @@
 #import "LMJWebImagesCacheViewController.h"
 #import "LMJCameraViewController.h"
 #import "LMJImageViewController.h"
+#import "YZJTimerViewController.h"
 
 @interface LMJHomeViewController ()
 
@@ -86,10 +87,12 @@
     item01.destVc = [LMJRunTimeViewController class];
     
     LMJWordArrowItem *item14 = [LMJWordArrowItem itemWithTitle:@"RunLoop" subTitle: @"建议看"];
-    
     item14.destVc = [LMJRunLoopViewController class];
+ 
+    LMJWordArrowItem *item15 = [LMJWordArrowItem itemWithTitle:@"各种定时器" subTitle: nil];
+    item15.destVc = [YZJTimerViewController class];
     
-    LMJItemSection *section3 = [LMJItemSection sectionWithItems:@[item01, item14] andHeaderTitle:@"运行时RunTime, 运行循环RunLoop" footerTitle:nil];
+    LMJItemSection *section3 = [LMJItemSection sectionWithItems:@[item01, item14, item15] andHeaderTitle:@"运行时RunTime, 运行循环RunLoop" footerTitle:nil];
     
     
     // Image、Camera、Audio、Video

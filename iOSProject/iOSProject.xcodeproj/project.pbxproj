@@ -10,6 +10,7 @@
 		151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F4C211D38B800A883CB /* YZJCallViewController.m */; };
 		151C8F51211D43CD00A883CB /* YZJWebViewCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */; };
 		151C8F53211D45A400A883CB /* call.html in Resources */ = {isa = PBXBuildFile; fileRef = 151C8F52211D45A400A883CB /* call.html */; };
+		151C8F58211D972100A883CB /* YZJTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F57211D972100A883CB /* YZJTimerViewController.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
@@ -349,6 +350,8 @@
 		151C8F4F211D43CD00A883CB /* YZJWebViewCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJWebViewCallViewController.h; sourceTree = "<group>"; };
 		151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJWebViewCallViewController.m; sourceTree = "<group>"; };
 		151C8F52211D45A400A883CB /* call.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = call.html; sourceTree = "<group>"; };
+		151C8F56211D972100A883CB /* YZJTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJTimerViewController.h; sourceTree = "<group>"; };
+		151C8F57211D972100A883CB /* YZJTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJTimerViewController.m; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -2038,6 +2041,8 @@
 				58926468202D6645007DA41E /* Other */,
 				58DC84051FFBC1770060DC03 /* Model */,
 				58DC84041FFBC1770060DC03 /* View */,
+				151C8F56211D972100A883CB /* YZJTimerViewController.h */,
+				151C8F57211D972100A883CB /* YZJTimerViewController.m */,
 			);
 			path = "基础理论";
 			sourceTree = "<group>";
@@ -2495,6 +2500,7 @@
 				584038381FF7E2BE002A0566 /* LMJVerticalLayoutViewController.m in Sources */,
 				58DC84541FFBDDC40060DC03 /* LMJChildBlockViewController.m in Sources */,
 				581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */,
+				151C8F58211D972100A883CB /* YZJTimerViewController.m in Sources */,
 				584038681FF88594002A0566 /* LMJUpLoadImageCell.m in Sources */,
 				58651A9E1FFE6D6F0087419D /* SINStatusListDAL.m in Sources */,
 				151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */,
