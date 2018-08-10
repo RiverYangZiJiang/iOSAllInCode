@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LMJCameraViewController : UIViewController
+@interface LMJCameraViewController : LMJBaseViewController
 #pragma mark - AVCaptureSession
 /**
  AVCaptureSession自定义拍照、拍视频控件，如连续拍摄多张照片之后再返回、如二维码扫码

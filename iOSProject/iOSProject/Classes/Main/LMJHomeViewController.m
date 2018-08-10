@@ -27,6 +27,9 @@
 
 @end
 
+/**
+ “基础”TabBar对应控制器
+ */
 @implementation LMJHomeViewController
 
 #pragma mark viewController生命周期
@@ -90,19 +93,10 @@
     
     
     // Image、Camera、Audio、Video
-    LMJWordArrowItem *item101 = [LMJWordArrowItem itemWithTitle:@"Image" subTitle: nil];
-    item101.destVc = [LMJCameraViewController class];
+    LMJWordArrowItem *item101 = [LMJWordArrowItem itemWithTitle:@"Image-Camera-Audio-Video-Call" subTitle: nil];
+    item101.destVc = [LMJImageViewController class];
     
-    LMJWordArrowItem *item102 = [LMJWordArrowItem itemWithTitle:@"Camera" subTitle: @"建议看"];
-    item102.destVc = [LMJImageViewController class];
-    
-    LMJWordArrowItem *item103 = [LMJWordArrowItem itemWithTitle:@"Audio" subTitle: nil];
-    item103.destVc = [LMJCameraViewController class];
-    
-    LMJWordArrowItem *item104 = [LMJWordArrowItem itemWithTitle:@"Video" subTitle: nil];
-    item104.destVc = [LMJCameraViewController class];
-    
-    LMJItemSection *section101 = [LMJItemSection sectionWithItems:@[item101, item102, item103, item104] andHeaderTitle:@"Image、Camera、Audio、Video" footerTitle:nil];
+    LMJItemSection *section101 = [LMJItemSection sectionWithItems:@[item101] andHeaderTitle:@"Image-Camera-Audio-Video-Call" footerTitle:nil];
     
     
     [self.sections addObjectsFromArray:@[section101, section2, section1, section3, section0]];
