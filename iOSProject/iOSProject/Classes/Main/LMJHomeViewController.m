@@ -23,6 +23,7 @@
 #import "LMJCameraViewController.h"
 #import "LMJImageViewController.h"
 #import "YZJTimerViewController.h"
+#import "YZJMemoryManagementViewController.h"
 
 @interface LMJHomeViewController ()
 
@@ -47,7 +48,10 @@
     LMJWordArrowItem *item04 = [LMJWordArrowItem itemWithTitle:@"Block 内存释放" subTitle: nil];
     item04.destVc = [LMJBlockLoopViewController class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item04] andHeaderTitle:@"生命周期, block" footerTitle:nil];
+    LMJWordArrowItem *item05 = [LMJWordArrowItem itemWithTitle:@"内存管理" subTitle: nil];
+    item05.destVc = [YZJMemoryManagementViewController class];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item04, item05] andHeaderTitle:@"生命周期-block-内存管理" footerTitle:nil];
     
 
     LMJWordArrowItem *item10 = [LMJWordArrowItem itemWithTitle:@"Thread 多线程" subTitle: nil];

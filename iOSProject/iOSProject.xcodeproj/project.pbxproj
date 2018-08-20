@@ -11,6 +11,8 @@
 		151C8F51211D43CD00A883CB /* YZJWebViewCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */; };
 		151C8F53211D45A400A883CB /* call.html in Resources */ = {isa = PBXBuildFile; fileRef = 151C8F52211D45A400A883CB /* call.html */; };
 		151C8F58211D972100A883CB /* YZJTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F57211D972100A883CB /* YZJTimerViewController.m */; };
+		151C8F5C2122AB8A00A883CB /* YZJMemoryManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */; };
+		151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
@@ -352,6 +354,10 @@
 		151C8F52211D45A400A883CB /* call.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = call.html; sourceTree = "<group>"; };
 		151C8F56211D972100A883CB /* YZJTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJTimerViewController.h; sourceTree = "<group>"; };
 		151C8F57211D972100A883CB /* YZJTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJTimerViewController.m; sourceTree = "<group>"; };
+		151C8F5A2122AB8A00A883CB /* YZJMemoryManagementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMemoryManagementViewController.h; sourceTree = "<group>"; };
+		151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMemoryManagementViewController.m; sourceTree = "<group>"; };
+		151C8F5E2123FFBE00A883CB /* YZJARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJARCViewController.h; sourceTree = "<group>"; };
+		151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJARCViewController.m; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -981,6 +987,17 @@
 			children = (
 			);
 			path = CallSms;
+			sourceTree = "<group>";
+		};
+		151C8F5D2123FF8C00A883CB /* MemoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				151C8F5A2122AB8A00A883CB /* YZJMemoryManagementViewController.h */,
+				151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */,
+				151C8F5E2123FFBE00A883CB /* YZJARCViewController.h */,
+				151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */,
+			);
+			path = MemoryManagement;
 			sourceTree = "<group>";
 		};
 		15DC7AAB208C13F400A8D233 /* Image */ = {
@@ -2012,6 +2029,7 @@
 		58DC84031FFBC15B0060DC03 /* 基础理论 */ = {
 			isa = PBXGroup;
 			children = (
+				151C8F5D2123FF8C00A883CB /* MemoryManagement */,
 				15015D10210F38C100B53C15 /* CallSms */,
 				15DC7AAB208C13F400A8D233 /* Image */,
 				156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */,
@@ -2505,6 +2523,7 @@
 				58651A9E1FFE6D6F0087419D /* SINStatusListDAL.m in Sources */,
 				151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */,
 				58DC84F71FFC972C0060DC03 /* BSJNewViewController.m in Sources */,
+				151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */,
 				58651AA21FFE6D6F0087419D /* SINHomeCategoryViewController.m in Sources */,
 				58DC85181FFC972C0060DC03 /* BSJTabBar.m in Sources */,
 				5892AD8D1FF5E2D700E868C2 /* LMJIntroductoryPagesView.m in Sources */,
@@ -2717,6 +2736,7 @@
 				5840380C1FF62ECF002A0566 /* LMJAdaptFontViewController.m in Sources */,
 				58A858522078842B0063DE98 /* LMJStudent.m in Sources */,
 				584038751FF93A86002A0566 /* LMJCountDownModel.m in Sources */,
+				151C8F5C2122AB8A00A883CB /* YZJMemoryManagementViewController.m in Sources */,
 				58DC85021FFC972C0060DC03 /* BSJPublishWordViewController.m in Sources */,
 				58DC81781FFA2CF90060DC03 /* LMJCalendarViewController.m in Sources */,
 				58651ABB1FFE6D6F0087419D /* SINPostStatusService.m in Sources */,

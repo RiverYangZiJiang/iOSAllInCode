@@ -24,7 +24,8 @@
     LMJWordItem *item0 = [LMJWordItem itemWithTitle:@"NSDelayedPerforming" subTitle:nil itemOperation:^(NSIndexPath *indexPath) {
         NSLog(@"123");
         
-        // 三秒过后在当前线程执行，不会阻塞当前线程
+        // 1.1 NSDelayedPerforming
+        // 三秒过后只能在当前线程执行，不会阻塞当前线程。缺点：一旦使用，根本就没有方法暂停定时器；只能在当前线程执行
         [self performSelector:@selector(testSelectorDelay) withObject:nil afterDelay:3];
         
         NSLog(@"321");
@@ -32,7 +33,8 @@
     
     LMJWordItem *item1 = [LMJWordItem itemWithTitle:@"dispatch_after" subTitle:nil itemOperation:^(NSIndexPath *indexPath) {
         NSLog(@"123");
-        // 3秒钟之后执行 block
+        // 1.2 线程派发 dispatch_after
+        // 3秒钟之后在指定的线程执行 block。缺点：一旦使用，根本就没有方法暂停定时器。
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             NSLog(@"%@ %s", [NSThread currentThread], __func__);
         });
