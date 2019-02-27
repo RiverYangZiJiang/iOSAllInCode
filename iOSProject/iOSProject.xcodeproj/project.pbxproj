@@ -13,6 +13,7 @@
 		151C8F58211D972100A883CB /* YZJTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F57211D972100A883CB /* YZJTimerViewController.m */; };
 		151C8F5C2122AB8A00A883CB /* YZJMemoryManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */; };
 		151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */; };
+		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
@@ -358,6 +359,8 @@
 		151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMemoryManagementViewController.m; sourceTree = "<group>"; };
 		151C8F5E2123FFBE00A883CB /* YZJARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJARCViewController.h; sourceTree = "<group>"; };
 		151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJARCViewController.m; sourceTree = "<group>"; };
+		1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJConcentricCirclesVC.h; sourceTree = "<group>"; };
+		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -2022,6 +2025,8 @@
 				58DC83A41FFB43E20060DC03 /* LMJDrawBoardViewController.xib */,
 				58DC83BB1FFB43E20060DC03 /* LMJFingerLockViewController.h */,
 				58DC83AB1FFB43E20060DC03 /* LMJFingerLockViewController.m */,
+				1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */,
+				1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */,
 			);
 			path = CoreGraphics;
 			sourceTree = "<group>";
@@ -2725,6 +2730,7 @@
 				5892AD561FF5079C00E868C2 /* LMJStaticTableViewController.m in Sources */,
 				584038331FF72A40002A0566 /* LMJElementsCollectionViewController.m in Sources */,
 				58926467202C54C2007DA41E /* LMJRunLoopViewController.m in Sources */,
+				1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */,
 				58DC83C11FFB43E30060DC03 /* LMJZhusViewController.m in Sources */,
 				58651A9F1FFE6D6F0087419D /* SINUserManager.m in Sources */,
 				584038861FF9F602002A0566 /* LMJFillTableFormViewController.m in Sources */,
