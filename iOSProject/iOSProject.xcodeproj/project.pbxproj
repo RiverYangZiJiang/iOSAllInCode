@@ -16,6 +16,12 @@
 		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
+		1596E10C2235778100D66C53 /* YZJOCTechVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1002235777E00D66C53 /* YZJOCTechVC.m */; };
+		1596E10D2235778100D66C53 /* YZJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1032235777F00D66C53 /* YZJTabBarController.m */; };
+		1596E10E2235778100D66C53 /* YZJToolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1042235777F00D66C53 /* YZJToolVC.m */; };
+		1596E10F2235778100D66C53 /* YZJArchitectureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1052235777F00D66C53 /* YZJArchitectureVC.m */; };
+		1596E1102235778100D66C53 /* YZJiOSTechVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1072235778000D66C53 /* YZJiOSTechVC.m */; };
+		1596E1112235778100D66C53 /* YZJProjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E10B2235778000D66C53 /* YZJProjectVC.m */; };
 		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
 		54E3991EBFDEC31145ED8B0F /* libPods-iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195AF1DB9976AB51691A659C /* libPods-iOSProject.a */; };
 		581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E2B2044434400AF08C0 /* LMJOfflineDownloadViewController.m */; };
@@ -365,6 +371,18 @@
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
 		156EBC78208B163C00A941D3 /* LMJImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJImageViewController.m; sourceTree = "<group>"; };
+		1596E1002235777E00D66C53 /* YZJOCTechVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJOCTechVC.m; sourceTree = "<group>"; };
+		1596E1012235777E00D66C53 /* YZJProjectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJProjectVC.h; sourceTree = "<group>"; };
+		1596E1022235777F00D66C53 /* YZJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJTabBarController.h; sourceTree = "<group>"; };
+		1596E1032235777F00D66C53 /* YZJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJTabBarController.m; sourceTree = "<group>"; };
+		1596E1042235777F00D66C53 /* YZJToolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJToolVC.m; sourceTree = "<group>"; };
+		1596E1052235777F00D66C53 /* YZJArchitectureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJArchitectureVC.m; sourceTree = "<group>"; };
+		1596E1062235777F00D66C53 /* YZJOCTechVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJOCTechVC.h; sourceTree = "<group>"; };
+		1596E1072235778000D66C53 /* YZJiOSTechVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJiOSTechVC.m; sourceTree = "<group>"; };
+		1596E1082235778000D66C53 /* YZJiOSTechVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJiOSTechVC.h; sourceTree = "<group>"; };
+		1596E1092235778000D66C53 /* YZJToolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJToolVC.h; sourceTree = "<group>"; };
+		1596E10A2235778000D66C53 /* YZJArchitectureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJArchitectureVC.h; sourceTree = "<group>"; };
+		1596E10B2235778000D66C53 /* YZJProjectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJProjectVC.m; sourceTree = "<group>"; };
 		15DC7AAC208C14D000A8D233 /* YZJImageZoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJImageZoomViewController.h; sourceTree = "<group>"; };
 		15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJImageZoomViewController.m; sourceTree = "<group>"; };
 		195AF1DB9976AB51691A659C /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1003,6 +1021,204 @@
 			path = MemoryManagement;
 			sourceTree = "<group>";
 		};
+		1596E0E82235761800D66C53 /* Supports Files */ = {
+			isa = PBXGroup;
+			children = (
+				1596E0E92235762E00D66C53 /* Resources */,
+				5892ACA61FF4EB4A00E868C2 /* main.m */,
+				5892AD6A1FF5096500E868C2 /* LMJiOSProject.pch */,
+			);
+			path = "Supports Files";
+			sourceTree = "<group>";
+		};
+		1596E0E92235762E00D66C53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1596E0EA2235763600D66C53 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1596E0EA2235763600D66C53 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5892ACA01FF4EB4A00E868C2 /* Assets.xcassets */,
+				5892ACB71FF4EF4500E868C2 /* BSJ.xcassets */,
+				5892ACB31FF4EF4400E868C2 /* Preview.xcassets */,
+				5892ACB81FF4EF4500E868C2 /* Public.xcassets */,
+				5892ACB41FF4EF4400E868C2 /* QQMusic.xcassets */,
+				5892ACB51FF4EF4400E868C2 /* Sina.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1596E0EC2235769200D66C53 /* Tool工具 */ = {
+			isa = PBXGroup;
+			children = (
+				1596E0F0223576B800D66C53 /* OpenSource开源 */,
+				1596E0EF223576AE00D66C53 /* Category分类 */,
+				1596E0EE223576A500D66C53 /* Tools工具 */,
+				1596E0ED2235769E00D66C53 /* Libs */,
+			);
+			path = "Tool工具";
+			sourceTree = "<group>";
+		};
+		1596E0ED2235769E00D66C53 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		1596E0EE223576A500D66C53 /* Tools工具 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools工具";
+			sourceTree = "<group>";
+		};
+		1596E0EF223576AE00D66C53 /* Category分类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category分类";
+			sourceTree = "<group>";
+		};
+		1596E0F0223576B800D66C53 /* OpenSource开源 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OpenSource开源";
+			sourceTree = "<group>";
+		};
+		1596E0F1223576C500D66C53 /* Architecture架构 */ = {
+			isa = PBXGroup;
+			children = (
+				1596E0F62235770500D66C53 /* NetworkLayer网络层 */,
+				1596E0F5223576F500D66C53 /* DatabaseLayer数据库层 */,
+				1596E0F4223576EB00D66C53 /* FileLayer文件层 */,
+				1596E0F3223576E000D66C53 /* RouterLayer路由层 */,
+				1596E0F2223576D500D66C53 /* LogLayer日志层 */,
+			);
+			path = "Architecture架构";
+			sourceTree = "<group>";
+		};
+		1596E0F2223576D500D66C53 /* LogLayer日志层 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LogLayer日志层";
+			sourceTree = "<group>";
+		};
+		1596E0F3223576E000D66C53 /* RouterLayer路由层 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RouterLayer路由层";
+			sourceTree = "<group>";
+		};
+		1596E0F4223576EB00D66C53 /* FileLayer文件层 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "FileLayer文件层";
+			sourceTree = "<group>";
+		};
+		1596E0F5223576F500D66C53 /* DatabaseLayer数据库层 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DatabaseLayer数据库层";
+			sourceTree = "<group>";
+		};
+		1596E0F62235770500D66C53 /* NetworkLayer网络层 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "NetworkLayer网络层";
+			sourceTree = "<group>";
+		};
+		1596E0F72235771100D66C53 /* Project项目 */ = {
+			isa = PBXGroup;
+			children = (
+				1596E0FB2235773C00D66C53 /* 喜马拉雅 */,
+				1596E0FA2235773500D66C53 /* QQ音乐 */,
+				1596E0F92235772900D66C53 /* 新浪微博 */,
+				1596E0F82235771B00D66C53 /* 百思不得姐 */,
+			);
+			path = "Project项目";
+			sourceTree = "<group>";
+		};
+		1596E0F82235771B00D66C53 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		1596E0F92235772900D66C53 /* 新浪微博 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "新浪微博";
+			sourceTree = "<group>";
+		};
+		1596E0FA2235773500D66C53 /* QQ音乐 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "QQ音乐";
+			sourceTree = "<group>";
+		};
+		1596E0FB2235773C00D66C53 /* 喜马拉雅 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "喜马拉雅";
+			sourceTree = "<group>";
+		};
+		1596E0FC2235774300D66C53 /* OCTech */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OCTech;
+			sourceTree = "<group>";
+		};
+		1596E0FD2235774A00D66C53 /* iOSTech */ = {
+			isa = PBXGroup;
+			children = (
+				1596E0FF2235776E00D66C53 /* Main */,
+				1596E0FE2235776800D66C53 /* Base */,
+			);
+			path = iOSTech;
+			sourceTree = "<group>";
+		};
+		1596E0FE2235776800D66C53 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1596E0FF2235776E00D66C53 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1596E10A2235778000D66C53 /* YZJArchitectureVC.h */,
+				1596E1052235777F00D66C53 /* YZJArchitectureVC.m */,
+				1596E1082235778000D66C53 /* YZJiOSTechVC.h */,
+				1596E1072235778000D66C53 /* YZJiOSTechVC.m */,
+				1596E1062235777F00D66C53 /* YZJOCTechVC.h */,
+				1596E1002235777E00D66C53 /* YZJOCTechVC.m */,
+				1596E1012235777E00D66C53 /* YZJProjectVC.h */,
+				1596E10B2235778000D66C53 /* YZJProjectVC.m */,
+				1596E1022235777F00D66C53 /* YZJTabBarController.h */,
+				1596E1032235777F00D66C53 /* YZJTabBarController.m */,
+				1596E1092235778000D66C53 /* YZJToolVC.h */,
+				1596E1042235777F00D66C53 /* YZJToolVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		15DC7AAB208C13F400A8D233 /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -1420,21 +1636,19 @@
 		5892AC961FF4EB4A00E868C2 /* iOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				1596E0FD2235774A00D66C53 /* iOSTech */,
+				1596E0FC2235774300D66C53 /* OCTech */,
+				1596E0F72235771100D66C53 /* Project项目 */,
+				1596E0F1223576C500D66C53 /* Architecture架构 */,
+				1596E0EC2235769200D66C53 /* Tool工具 */,
+				1596E0E82235761800D66C53 /* Supports Files */,
 				584037FE1FF61CF8002A0566 /* iOSProject.entitlements */,
 				5892ACA51FF4EB4A00E868C2 /* Info.plist */,
-				5892ACA61FF4EB4A00E868C2 /* main.m */,
-				5892AD6A1FF5096500E868C2 /* LMJiOSProject.pch */,
 				58A17C572007335400B350AB /* LMJConst.h */,
 				58A17C582007335400B350AB /* LMJConst.m */,
 				5892ACB01FF4EEB300E868C2 /* LMJAppDelegate.h */,
 				5892ACB11FF4EEB300E868C2 /* LMJAppDelegate.m */,
 				58651ABF1FFE6F3F0087419D /* Classes */,
-				5892ACA01FF4EB4A00E868C2 /* Assets.xcassets */,
-				5892ACB71FF4EF4500E868C2 /* BSJ.xcassets */,
-				5892ACB31FF4EF4400E868C2 /* Preview.xcassets */,
-				5892ACB81FF4EF4500E868C2 /* Public.xcassets */,
-				5892ACB41FF4EF4400E868C2 /* QQMusic.xcassets */,
-				5892ACB51FF4EF4400E868C2 /* Sina.xcassets */,
 			);
 			path = iOSProject;
 			sourceTree = "<group>";
@@ -2488,6 +2702,7 @@
 				589B56FF1FFFC52F00B2D5A8 /* QQLrcModel.m in Sources */,
 				58DC84FD1FFC972C0060DC03 /* BSJTabBarController.m in Sources */,
 				584038421FF7EC0E002A0566 /* LMJDownLoadFileViewController.m in Sources */,
+				1596E10F2235778100D66C53 /* YZJArchitectureVC.m in Sources */,
 				588CCD7A205D45DC0067E3C4 /* WKWebViewJsBridge.m in Sources */,
 				58DC850B1FFC972C0060DC03 /* BSJUser.m in Sources */,
 				58DC852A1FFC972C0060DC03 /* BSJRecommendSevice.m in Sources */,
@@ -2523,6 +2738,7 @@
 				584038381FF7E2BE002A0566 /* LMJVerticalLayoutViewController.m in Sources */,
 				58DC84541FFBDDC40060DC03 /* LMJChildBlockViewController.m in Sources */,
 				581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */,
+				1596E10E2235778100D66C53 /* YZJToolVC.m in Sources */,
 				151C8F58211D972100A883CB /* YZJTimerViewController.m in Sources */,
 				584038681FF88594002A0566 /* LMJUpLoadImageCell.m in Sources */,
 				58651A9E1FFE6D6F0087419D /* SINStatusListDAL.m in Sources */,
@@ -2559,6 +2775,7 @@
 				5892ADAF1FF60A8300E868C2 /* JXTAlertController.m in Sources */,
 				5892AD051FF4F9D200E868C2 /* LMJHorizontalFlowLayout.m in Sources */,
 				58DC846B1FFC94B30060DC03 /* LMJTeam.m in Sources */,
+				1596E1102235778100D66C53 /* YZJiOSTechVC.m in Sources */,
 				58DC846F1FFC967E0060DC03 /* LMJBaseRequest.m in Sources */,
 				588CCD8A205DF92F0067E3C4 /* LMJGirdLayout.m in Sources */,
 				58DC83CC1FFB43E30060DC03 /* LMJJuZhenCaoZuoViewController.m in Sources */,
@@ -2629,18 +2846,21 @@
 				584038091FF629AC002A0566 /* LMJNoNavBarViewController.m in Sources */,
 				58DC84401FFBD1290060DC03 /* LMJLockViewController.m in Sources */,
 				58DC84021FFB47ED0060DC03 /* LMJBezierPathCP.m in Sources */,
+				1596E10D2235778100D66C53 /* YZJTabBarController.m in Sources */,
 				589B57752000339800B2D5A8 /* VIDNetListViewController.m in Sources */,
 				589888A0206B34BF00BDAACD /* EncryptorTool.m in Sources */,
 				58DC83861FFB43460060DC03 /* LMJCATransitionViewController.m in Sources */,
 				58651AB51FFE6D6F0087419D /* SINPublishToolBar.m in Sources */,
 				5892AD811FF5175A00E868C2 /* UIColor+Random.m in Sources */,
 				584038301FF64919002A0566 /* LMJListExpendHeaderView.m in Sources */,
+				1596E10C2235778100D66C53 /* YZJOCTechVC.m in Sources */,
 				589B570A1FFFC53000B2D5A8 /* QQMusicOperationTool.m in Sources */,
 				584038581FF872EB002A0566 /* LMJCoordinateModel.m in Sources */,
 				58DC851C1FFC972C0060DC03 /* BSJHlightedTextField.m in Sources */,
 				584038501FF8727D002A0566 /* LMJBaiduMapViewController.m in Sources */,
 				58926426201B622B007DA41E /* BSJSQLiteManager.m in Sources */,
 				58DC84FA1FFC972C0060DC03 /* BSJEssenceViewController.m in Sources */,
+				1596E1112235778100D66C53 /* YZJProjectVC.m in Sources */,
 				58DC83E61FFB44380060DC03 /* WPFSpringView.m in Sources */,
 				58DC851E1FFC972C0060DC03 /* BSJTopicVideoView.m in Sources */,
 				584038571FF872EB002A0566 /* LMJBaiduPointAnnotation.m in Sources */,
@@ -2874,7 +3094,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U96PM2V9GH;
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = iOSProject/LMJiOSProject.pch;
+				GCC_PREFIX_HEADER = "iOSProject/Supports Files/LMJiOSProject.pch";
 				INFOPLIST_FILE = iOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3005,7 +3225,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U96PM2V9GH;
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = iOSProject/LMJiOSProject.pch;
+				GCC_PREFIX_HEADER = "iOSProject/Supports Files/LMJiOSProject.pch";
 				INFOPLIST_FILE = iOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
