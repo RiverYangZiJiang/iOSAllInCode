@@ -1,7 +1,7 @@
 platform :ios, '10.3'
 
 
-target 'iOSProject' do
+target 'AllInCode' do
 
 inhibit_all_warnings!
 
@@ -106,5 +106,7 @@ pod 'DWBubbleMenuButton'
 # 环信连天包含实时语音版本
 # pod 'Hyphenate'
 # pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
+
+pod 'AvoidCrash'  # 防止崩溃
 
 end
