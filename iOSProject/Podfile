@@ -108,4 +108,6 @@ pod 'DWBubbleMenuButton'
 # pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
 
 pod 'AvoidCrash'  # 防止崩溃
+pod 'MLeaksFinder'  # MLeaksFinder helps you find memory leaks in your iOS apps at develop time. It can automatically find leaks in UIView and UIViewController objects, present an alert with the leaked object in its View-ViewController stack when leaks happening.
+pod 'WoodPeckeriOS' # View simulator & real device sandbox files, UserDefaults, network request from Mac.
 end

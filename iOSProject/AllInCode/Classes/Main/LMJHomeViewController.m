@@ -8,7 +8,7 @@
 
 #import "LMJHomeViewController.h"
 #import "LMJWebViewController.h"
-#import "LMJLiftCycleViewController.h"
+#import "LMJLifeCycleViewController.h"
 #import "LMJRunTimeViewController.h"
 #import "LMJNSThreadViewController.h"
 #import "LMJGCDViewController.h"
@@ -43,7 +43,7 @@
     self.tableView.contentInset = edgeInsets;
     
     LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"ViewController的生命周期" subTitle: nil];
-    item00.destVc = [LMJLiftCycleViewController class];
+    item00.destVc = [LMJLifeCycleViewController class];
     
     LMJWordArrowItem *item04 = [LMJWordArrowItem itemWithTitle:@"Block 内存释放" subTitle: nil];
     item04.destVc = [LMJBlockLoopViewController class];

@@ -19,16 +19,21 @@
 @implementation LMJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];  // 一定要有这句，否则屏幕一片漆黑
-    self.window.rootViewController = [[YZJTabBarController alloc] init];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];  // 一定要有这句，否则屏幕一片漆黑
+//    self.window.rootViewController = [[YZJTabBarController alloc] init];
+//    [self.window makeKeyAndVisible];
     
     // 如果删除Main.storyboard，在此不添加任何代码，则App也能运行，只不过一片黑，什么都没有。使用Debug View Hierarchy也看不到任务UIWindow、UIView
-    return YES;
+    
     
     // window在后面有一个get方法
-    self.window.rootViewController = [[LMJTabBarController alloc] init];
+//    self.window.rootViewController = [[LMJTabBarController alloc] init];
+    self.window.rootViewController = [[YZJTabBarController alloc] init];
     
+    // 刷新率
+    [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 70, 0, 0)]];
+    
+    return YES;
     // 欢迎视图
     [LMJIntroductoryPagesHelper showIntroductoryPageView:@[@"intro_0.jpg", @"intro_1.jpg", @"intro_2.jpg", @"intro_3.jpg"]];
     
@@ -38,9 +43,6 @@
     
     // 检查版本更新
     NSLog(@"%zd", [LMJRequestManager sharedManager].reachabilityManager.networkReachabilityStatus);
-    
-    // 刷新率
-    [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 70, 0, 0)]];
     
     // 友盟统计
     [LMJUMengHelper UMAnalyticStart];

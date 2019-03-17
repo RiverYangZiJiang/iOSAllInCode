@@ -73,6 +73,7 @@ const UIEdgeInsets tableViewDefaultLayoutMargins = {8, 8, 8, 8};
             UIViewController *vc = [[arrowItem.destVc alloc] init];
             if ([vc isKindOfClass:[UIViewController class]]) {
                 vc.navigationItem.title = arrowItem.title;
+                [vc setHidesBottomBarWhenPushed:YES];
                 [self.navigationController pushViewController:vc animated:YES];
             }
         }

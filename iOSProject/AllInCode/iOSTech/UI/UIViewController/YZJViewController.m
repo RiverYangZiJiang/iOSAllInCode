@@ -7,7 +7,7 @@
 //
 
 #import "YZJViewController.h"
-#import "LMJLiftCycleViewController.h"
+#import "LMJLifeCycleViewController.h"
 
 @interface YZJViewController ()
 
@@ -19,18 +19,8 @@
     [super viewDidLoad];
     
     LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"UIViewController生命周期" subTitle:nil];
-    item00.destVc = [LMJLiftCycleViewController class];
+    item00.destVc = [LMJLifeCycleViewController class];
     self.addItem(item00);
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
