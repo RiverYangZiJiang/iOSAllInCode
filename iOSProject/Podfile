@@ -108,5 +108,4 @@ pod 'DWBubbleMenuButton'
 # pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
 
 pod 'AvoidCrash'  # 防止崩溃
-
 end

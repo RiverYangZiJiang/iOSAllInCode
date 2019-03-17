@@ -14,6 +14,15 @@
 @end
 
 @implementation LMJLiftCycleViewController
+#pragma mark - 生命周期
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self life:__FUNCTION__];
+    }
+    return self;
+}
 
 - (void)loadView
 {
@@ -22,7 +31,6 @@
     [self life:__FUNCTION__];
 }
 
-#pragma mark - 生命周期
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self life:__FUNCTION__];
@@ -98,6 +106,7 @@
 
 }
 
+#pragma mark - Private
 - (void)life:(const char *)func
 {
     LMJWordItem *item = [LMJWordItem itemWithTitle:[NSString stringWithUTF8String:func] subTitle:nil itemOperation:nil];
@@ -107,23 +116,5 @@
     
     [self.tableView reloadData];
 }
-
-#pragma mark - LMJNavUIBaseViewControllerDataSource
-
-/** 导航条左边的按钮 */
-- (UIImage *)lmjNavigationBarLeftButtonImage:(UIButton *)leftButton navigationBar:(LMJNavigationBar *)navigationBar
-{
-    [leftButton setImage:[UIImage imageNamed:@"NavgationBar_white_back"] forState:UIControlStateHighlighted];
-    
-    return [UIImage imageNamed:@"NavgationBar_blue_back"];
-}
-
-#pragma mark - LMJNavUIBaseViewControllerDelegate
-/** 左边的按钮的点击 */
--(void)leftButtonEvent:(UIButton *)sender navigationBar:(LMJNavigationBar *)navigationBar
-{
-    [self.navigationController popViewControllerAnimated:YES];
-}
-
 
 @end

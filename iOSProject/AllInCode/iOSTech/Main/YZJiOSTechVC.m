@@ -7,6 +7,8 @@
 //
 
 #import "YZJiOSTechVC.h"
+#import "YZJViewController.h"
+#import "YZJUIViewController.h"
 
 @interface YZJiOSTechVC ()
 
@@ -17,7 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    // 表格底部往上移ttabBar的高度
+    UIEdgeInsets edgeInsets = self.tableView.contentInset;
+    edgeInsets.bottom += self.tabBarController.tabBar.height;
+    self.tableView.contentInset = edgeInsets;
+    
+    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"MLUI" subTitle:@"自定义UI"];
+    item00.destVc = [YZJUIViewController class];
+    
+    LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"UIViewController" subTitle:@"控制器测试"];
+    item01.destVc = [YZJViewController class];
+    
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01] andHeaderTitle:@"UI" footerTitle:nil];
+    [self.sections addObjectsFromArray:@[section0]];
 }
 
 /*

@@ -6,11 +6,11 @@
 //  Copyright © 2019 杨子江. All rights reserved.
 //
 
-//#import "LMJStaticTableViewController.h"
+#import "LMJStaticTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YZJToolVC : UIViewController
+@interface YZJToolVC : LMJStaticTableViewController
 
 @end
 

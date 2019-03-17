@@ -21,6 +21,9 @@
 #import "UIButton+LMJ.h"
 #import "UITextView+WZB.h"
 #import "NSDecimalNumber+Addtion.h"
+#import "UILabel+MLCategory.h"
+#import "UIButton+MLCategory.h"
+#import "UIColor+MLCategory.h"
 
 // helpers
 #import "LMJConst.h"
@@ -82,5 +85,8 @@
 #define NSLogFunc
 
 #endif
+
+// 宏
+#import "MLMacro.h"
 
 #endif /* NJiOSProject_pch */
