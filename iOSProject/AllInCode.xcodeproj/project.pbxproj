@@ -18,7 +18,6 @@
 		151C8F58211D972100A883CB /* YZJTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F57211D972100A883CB /* YZJTimerViewController.m */; };
 		151C8F5C2122AB8A00A883CB /* YZJMemoryManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */; };
 		151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */; };
-		153100D6223E473600BC7AE5 /* 布局.md in Resources */ = {isa = PBXBuildFile; fileRef = 153100D5223E473600BC7AE5 /* 布局.md */; };
 		153101EC223E475D00BC7AE5 /* 封装.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 153101EB223E475D00BC7AE5 /* 封装.rtf */; };
 		153101F0223E47F600BC7AE5 /* UIImageTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153101EE223E47F600BC7AE5 /* UIImageTestVC.m */; };
 		153101F3223E480500BC7AE5 /* UIImageViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153101F1223E480500BC7AE5 /* UIImageViewTestVC.m */; };
@@ -70,6 +69,11 @@
 		153103AE223E52DF00BC7AE5 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103AC223E52DF00BC7AE5 /* NSStringTest.m */; };
 		153103B3223E535400BC7AE5 /* YZJDownloadImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103B1223E535400BC7AE5 /* YZJDownloadImageOperation.m */; };
 		153103B4223E535400BC7AE5 /* MainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103B2223E535400BC7AE5 /* MainThread.m */; };
+		153103B9223E579C00BC7AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103B8223E579C00BC7AE5 /* ViewController.m */; };
+		153103BD223E584C00BC7AE5 /* CustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103BB223E584B00BC7AE5 /* CustomUIView.m */; };
+		153103C0223E58B600BC7AE5 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103BE223E58B500BC7AE5 /* BlockTest.m */; };
+		153103C4223E595600BC7AE5 /* YZJInstrumentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103C3223E595600BC7AE5 /* YZJInstrumentsVC.m */; };
+		153103F6223E944300BC7AE5 /* YZJUIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103F5223E944300BC7AE5 /* YZJUIViewAnimationVC.m */; };
 		1531FD75223E40D800BC7AE5 /* MLBaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD74223E40D800BC7AE5 /* MLBaseTableVC.m */; };
 		1531FD7D223E415900BC7AE5 /* iOS字体大小适配的几种方法.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1531FD77223E415900BC7AE5 /* iOS字体大小适配的几种方法.docx */; };
 		1531FD7E223E415900BC7AE5 /* iPhoneXAdaptivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD79223E415900BC7AE5 /* iPhoneXAdaptivityVC.m */; };
@@ -540,6 +544,18 @@
 		153103B0223E535400BC7AE5 /* YZJDownloadImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJDownloadImageOperation.h; sourceTree = "<group>"; };
 		153103B1223E535400BC7AE5 /* YZJDownloadImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJDownloadImageOperation.m; sourceTree = "<group>"; };
 		153103B2223E535400BC7AE5 /* MainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainThread.m; sourceTree = "<group>"; };
+		153103B7223E579C00BC7AE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		153103B8223E579C00BC7AE5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		153103BB223E584B00BC7AE5 /* CustomUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIView.m; sourceTree = "<group>"; };
+		153103BC223E584C00BC7AE5 /* CustomUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIView.h; sourceTree = "<group>"; };
+		153103BE223E58B500BC7AE5 /* BlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		153103BF223E58B600BC7AE5 /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		153103C2223E595600BC7AE5 /* YZJInstrumentsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJInstrumentsVC.h; sourceTree = "<group>"; };
+		153103C3223E595600BC7AE5 /* YZJInstrumentsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJInstrumentsVC.m; sourceTree = "<group>"; };
+		153103F4223E944300BC7AE5 /* YZJUIViewAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIViewAnimationVC.h; sourceTree = "<group>"; };
+		153103F5223E944300BC7AE5 /* YZJUIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIViewAnimationVC.m; sourceTree = "<group>"; };
+		153103F7223E94FB00BC7AE5 /* Animation动画.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Animation动画.md"; sourceTree = "<group>"; };
+		153103F8223EA01900BC7AE5 /* OC_Concept概念.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC_Concept概念.md"; sourceTree = "<group>"; };
 		1531FD73223E40D800BC7AE5 /* MLBaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBaseTableVC.h; sourceTree = "<group>"; };
 		1531FD74223E40D800BC7AE5 /* MLBaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBaseTableVC.m; sourceTree = "<group>"; };
 		1531FD77223E415900BC7AE5 /* iOS字体大小适配的几种方法.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iOS字体大小适配的几种方法.docx"; sourceTree = "<group>"; };
@@ -578,6 +594,7 @@
 		154EF8ED223DEE8C00E1D528 /* MLMacroColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMacroColor.h; sourceTree = "<group>"; };
 		154EF8EE223DF7EB00E1D528 /* MLTopToastViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTopToastViewVC.h; sourceTree = "<group>"; };
 		154EF8EF223DF7EB00E1D528 /* MLTopToastViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTopToastViewVC.m; sourceTree = "<group>"; };
+		154FAC22223EAB9F00E14859 /* awesome-ios.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "awesome-ios.md"; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -1445,6 +1462,8 @@
 		1531038E223E51DA00BC7AE5 /* BlockTest */ = {
 			isa = PBXGroup;
 			children = (
+				153103BF223E58B600BC7AE5 /* BlockTest.h */,
+				153103BE223E58B500BC7AE5 /* BlockTest.m */,
 				1531038F223E51E100BC7AE5 /* BlockTestViewController.h */,
 				15310390223E51E100BC7AE5 /* BlockTestViewController.m */,
 			);
@@ -1512,6 +1531,58 @@
 				153103AC223E52DF00BC7AE5 /* NSStringTest.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		153103B6223E577300BC7AE5 /* CopyAndMutableCopy */ = {
+			isa = PBXGroup;
+			children = (
+				153103B7223E579C00BC7AE5 /* ViewController.h */,
+				153103B8223E579C00BC7AE5 /* ViewController.m */,
+			);
+			path = CopyAndMutableCopy;
+			sourceTree = "<group>";
+		};
+		153103BA223E584100BC7AE5 /* CustomUIView */ = {
+			isa = PBXGroup;
+			children = (
+				153103BC223E584C00BC7AE5 /* CustomUIView.h */,
+				153103BB223E584B00BC7AE5 /* CustomUIView.m */,
+			);
+			path = CustomUIView;
+			sourceTree = "<group>";
+		};
+		153103C1223E593500BC7AE5 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				153103C2223E595600BC7AE5 /* YZJInstrumentsVC.h */,
+				153103C3223E595600BC7AE5 /* YZJInstrumentsVC.m */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		153103C5223E5AA300BC7AE5 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		153103F2223E935E00BC7AE5 /* Animation动画 */ = {
+			isa = PBXGroup;
+			children = (
+				153103F3223E936900BC7AE5 /* UIView */,
+				153103F7223E94FB00BC7AE5 /* Animation动画.md */,
+			);
+			path = "Animation动画";
+			sourceTree = "<group>";
+		};
+		153103F3223E936900BC7AE5 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				153103F4223E944300BC7AE5 /* YZJUIViewAnimationVC.h */,
+				153103F5223E944300BC7AE5 /* YZJUIViewAnimationVC.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		1531FD72223E40BE00BC7AE5 /* MLBaseTableVC */ = {
@@ -1623,6 +1694,7 @@
 		154EF8D5223DEB2300E1D528 /* MLUI */ = {
 			isa = PBXGroup;
 			children = (
+				153103BA223E584100BC7AE5 /* CustomUIView */,
 				154EF8D6223DEB3900E1D528 /* MLToastView */,
 				1510EC1C223E28BE0007C39A /* YZJUIViewController.h */,
 				1510EC1D223E28BE0007C39A /* YZJUIViewController.m */,
@@ -1744,6 +1816,7 @@
 		1596E0EE223576A500D66C53 /* Tools工具 */ = {
 			isa = PBXGroup;
 			children = (
+				153103C1223E593500BC7AE5 /* Instruments */,
 			);
 			path = "Tools工具";
 			sourceTree = "<group>";
@@ -1762,6 +1835,7 @@
 		1596E0F0223576B800D66C53 /* OpenSource开源 */ = {
 			isa = PBXGroup;
 			children = (
+				154FAC22223EAB9F00E14859 /* awesome-ios.md */,
 			);
 			path = "OpenSource开源";
 			sourceTree = "<group>";
@@ -1803,6 +1877,7 @@
 		1596E0F5223576F500D66C53 /* DatabaseLayer数据库层 */ = {
 			isa = PBXGroup;
 			children = (
+				153103C5223E5AA300BC7AE5 /* FMDB */,
 			);
 			path = "DatabaseLayer数据库层";
 			sourceTree = "<group>";
@@ -1871,6 +1946,7 @@
 		1596E0FD2235774A00D66C53 /* iOSTech */ = {
 			isa = PBXGroup;
 			children = (
+				153103F2223E935E00BC7AE5 /* Animation动画 */,
 				153101EA223E475D00BC7AE5 /* 封装 */,
 				153100D4223E473600BC7AE5 /* 布局 */,
 				1531FD83223E430100BC7AE5 /* Template模板 */,
@@ -1925,6 +2001,7 @@
 		1596E1132236C15B00D66C53 /* Memory内存 */ = {
 			isa = PBXGroup;
 			children = (
+				153103B6223E577300BC7AE5 /* CopyAndMutableCopy */,
 				15310383223E51A900BC7AE5 /* ARC-MRCTest */,
 			);
 			path = "Memory内存";
@@ -1982,6 +2059,7 @@
 				154EF8D0223DE68900E1D528 /* NSObjectTest */,
 				1596E1242236C6D600D66C53 /* NSRegularExpressionTest */,
 				1596E1202236C62200D66C53 /* NSErrorTest */,
+				153103F8223EA01900BC7AE5 /* OC_Concept概念.md */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -3414,7 +3492,6 @@
 				58B4EE31205FA4E100FFF4F8 /* H5Bridge.css in Resources */,
 				1510EC22223E2D210007C39A /* MLTopToastViewTypeOffline.png in Resources */,
 				1531020B223E4C6500BC7AE5 /* arror.png in Resources */,
-				153100D6223E473600BC7AE5 /* 布局.md in Resources */,
 				58DC84F61FFC972C0060DC03 /* BSJLoginRegisterViewController.xib in Resources */,
 				58DC83ED1FFB472B0060DC03 /* 卡哇伊.jpg in Resources */,
 				1531034A223E4D2F00BC7AE5 /* open_page.png in Resources */,
@@ -3682,6 +3759,7 @@
 				58DC83BF1FFB43E30060DC03 /* LMJScreenShotViewController.m in Sources */,
 				5840383C1FF7E437002A0566 /* LMJKeyboardHandleViewController.m in Sources */,
 				15310202223E4C4600BC7AE5 /* MLCustomSegmentedControlItemView.m in Sources */,
+				153103B9223E579C00BC7AE5 /* ViewController.m in Sources */,
 				5892AD5B1FF5079C00E868C2 /* LMJRequestBaseViewController.m in Sources */,
 				583D508720765978001480C8 /* YYFPSLabel.m in Sources */,
 				5822334E20187D610008251F /* LMJAutoLayoutViewController.m in Sources */,
@@ -3733,6 +3811,7 @@
 				584038581FF872EB002A0566 /* LMJCoordinateModel.m in Sources */,
 				58DC851C1FFC972C0060DC03 /* BSJHlightedTextField.m in Sources */,
 				15310379223E50CE00BC7AE5 /* MLUserDefaults.m in Sources */,
+				153103F6223E944300BC7AE5 /* YZJUIViewAnimationVC.m in Sources */,
 				584038501FF8727D002A0566 /* LMJBaiduMapViewController.m in Sources */,
 				58926426201B622B007DA41E /* BSJSQLiteManager.m in Sources */,
 				1531038C223E51CA00BC7AE5 /* Employee.m in Sources */,
@@ -3791,6 +3870,7 @@
 				58DC85271FFC972C0060DC03 /* BSJTopicService.m in Sources */,
 				153101F0223E47F600BC7AE5 /* UIImageTestVC.m in Sources */,
 				58DC84011FFB47ED0060DC03 /* LMJDrawingView.m in Sources */,
+				153103C0223E58B600BC7AE5 /* BlockTest.m in Sources */,
 				15310369223E4DA900BC7AE5 /* YZJScrollLabel.m in Sources */,
 				58DC838C1FFB43460060DC03 /* LMJCAKeyFrameAnimationViewController.m in Sources */,
 				58DC85331FFCA30C0060DC03 /* UIImageView+FitNet.m in Sources */,
@@ -3806,6 +3886,7 @@
 				58DC85251FFC972C0060DC03 /* BSJWordToolBar.m in Sources */,
 				58651AB01FFE6D6F0087419D /* SINUser.m in Sources */,
 				5892AD721FF5113800E868C2 /* LMJMeViewController.m in Sources */,
+				153103BD223E584C00BC7AE5 /* CustomUIView.m in Sources */,
 				153103B4223E535400BC7AE5 /* MainThread.m in Sources */,
 				58DC850A1FFC972C0060DC03 /* BSJRecommendUser.m in Sources */,
 				1596E12B2236C70600D66C53 /* OCDevelopmentNorms.m in Sources */,
@@ -3850,6 +3931,7 @@
 				1531FD75223E40D800BC7AE5 /* MLBaseTableVC.m in Sources */,
 				584038331FF72A40002A0566 /* LMJElementsCollectionViewController.m in Sources */,
 				58926467202C54C2007DA41E /* LMJRunLoopViewController.m in Sources */,
+				153103C4223E595600BC7AE5 /* YZJInstrumentsVC.m in Sources */,
 				1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */,
 				58DC83C11FFB43E30060DC03 /* LMJZhusViewController.m in Sources */,
 				58651A9F1FFE6D6F0087419D /* SINUserManager.m in Sources */,
