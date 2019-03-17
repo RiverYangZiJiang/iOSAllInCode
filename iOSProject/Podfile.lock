@@ -27,6 +27,7 @@ PODS:
     - Reachability
   - ASIHTTPRequest/S3 (1.8.2):
     - ASIHTTPRequest/Core
+  - AvoidCrash (2.5.2)
   - BaiduMapKit (3.4.4)
   - CYLTabBarController (1.17.6)
   - DWBubbleMenuButton (1.0.1)
@@ -93,6 +94,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - ASIHTTPRequest
+  - AvoidCrash
   - BaiduMapKit
   - CYLTabBarController
   - DWBubbleMenuButton
@@ -132,6 +134,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - ASIHTTPRequest
+    - AvoidCrash
     - BaiduMapKit
     - CYLTabBarController
     - DWBubbleMenuButton
@@ -169,6 +172,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
   BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
   CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
   DWBubbleMenuButton: 4d9bdbb9d662bdf65c93ceb7fc65901871143d1e
@@ -203,6 +207,6 @@ SPEC CHECKSUMS:
   ZFPlayer: 833cb3974b619bfd01a0ec1ebaabfe6f629e85b4
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: 6ff23d75f9f2dc7649827f0a59b3ee6e8341a132
+PODFILE CHECKSUM: 0195ab752c4595ef99b8e1ede149c397778787a8
 
 COCOAPODS: 1.5.0

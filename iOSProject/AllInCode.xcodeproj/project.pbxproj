@@ -14,6 +14,9 @@
 		151C8F5C2122AB8A00A883CB /* YZJMemoryManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5B2122AB8A00A883CB /* YZJMemoryManagementViewController.m */; };
 		151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */; };
 		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
+		154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CA223DE63400E1D528 /* NSError+Hook.m */; };
+		154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTest.m */; };
+		154EF8D3223DE68900E1D528 /* NSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8D2223DE68900E1D528 /* NSObjectTest.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		1596E10C2235778100D66C53 /* YZJOCTechVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1002235777E00D66C53 /* YZJOCTechVC.m */; };
@@ -373,6 +376,12 @@
 		151C8F5F2123FFBE00A883CB /* YZJARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJARCViewController.m; sourceTree = "<group>"; };
 		1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJConcentricCirclesVC.h; sourceTree = "<group>"; };
 		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
+		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
+		154EF8CA223DE63400E1D528 /* NSError+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Hook.m"; sourceTree = "<group>"; };
+		154EF8CD223DE64C00E1D528 /* NSURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTest.h; sourceTree = "<group>"; };
+		154EF8CE223DE64C00E1D528 /* NSURLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTest.m; sourceTree = "<group>"; };
+		154EF8D1223DE68900E1D528 /* NSObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectTest.h; sourceTree = "<group>"; };
+		154EF8D2223DE68900E1D528 /* NSObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectTest.m; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -1043,6 +1052,42 @@
 			path = MemoryManagement;
 			sourceTree = "<group>";
 		};
+		154EF8C7223DE5F600E1D528 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				154EF8C8223DE63400E1D528 /* HookTest */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		154EF8C8223DE63400E1D528 /* HookTest */ = {
+			isa = PBXGroup;
+			children = (
+				154EF8C9223DE63400E1D528 /* NSError+Hook.h */,
+				154EF8CA223DE63400E1D528 /* NSError+Hook.m */,
+			);
+			path = HookTest;
+			sourceTree = "<group>";
+		};
+		154EF8CC223DE64C00E1D528 /* NSURLTest */ = {
+			isa = PBXGroup;
+			children = (
+				154EF8CD223DE64C00E1D528 /* NSURLTest.h */,
+				154EF8CE223DE64C00E1D528 /* NSURLTest.m */,
+			);
+			path = NSURLTest;
+			sourceTree = "<group>";
+		};
+		154EF8D0223DE68900E1D528 /* NSObjectTest */ = {
+			isa = PBXGroup;
+			children = (
+				154EF8D1223DE68900E1D528 /* NSObjectTest.h */,
+				154EF8D2223DE68900E1D528 /* NSObjectTest.m */,
+			);
+			name = NSObjectTest;
+			path = ../../../../../iosTest2017/iosTest2017/OCTest/NSObjectTest;
+			sourceTree = "<group>";
+		};
 		1596E0E82235761800D66C53 /* Supports Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1157,6 +1202,7 @@
 		1596E0F62235770500D66C53 /* NetworkLayer网络层 */ = {
 			isa = PBXGroup;
 			children = (
+				154EF8CC223DE64C00E1D528 /* NSURLTest */,
 			);
 			path = "NetworkLayer网络层";
 			sourceTree = "<group>";
@@ -1203,10 +1249,10 @@
 		1596E0FC2235774300D66C53 /* OCTech */ = {
 			isa = PBXGroup;
 			children = (
+				154EF8C7223DE5F600E1D528 /* Runtime */,
 				1596E12C2236C73500D66C53 /* CrashTest */,
 				1596E1282236C70600D66C53 /* OCDevelopmentNorms */,
 				1596E11F2236C61800D66C53 /* Class */,
-				1596E1142236C16300D66C53 /* Runtime运行时 */,
 				1596E1132236C15B00D66C53 /* Memory内存 */,
 				1596E1122236C15300D66C53 /* Thread线程 */,
 			);
@@ -1264,13 +1310,6 @@
 			path = "Memory内存";
 			sourceTree = "<group>";
 		};
-		1596E1142236C16300D66C53 /* Runtime运行时 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Runtime运行时";
-			sourceTree = "<group>";
-		};
 		1596E1162236C52C00D66C53 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -1299,6 +1338,7 @@
 		1596E11F2236C61800D66C53 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				154EF8D0223DE68900E1D528 /* NSObjectTest */,
 				1596E1242236C6D600D66C53 /* NSRegularExpressionTest */,
 				1596E1202236C62200D66C53 /* NSErrorTest */,
 			);
@@ -2864,6 +2904,7 @@
 				58DC83C51FFB43E30060DC03 /* LMJDrawBoardViewController.m in Sources */,
 				58926476202DA70E007DA41E /* LMJEventTool.m in Sources */,
 				584038381FF7E2BE002A0566 /* LMJVerticalLayoutViewController.m in Sources */,
+				154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */,
 				58DC84541FFBDDC40060DC03 /* LMJChildBlockViewController.m in Sources */,
 				581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */,
 				1596E10E2235778100D66C53 /* YZJToolVC.m in Sources */,
@@ -2873,6 +2914,7 @@
 				151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */,
 				58DC84F71FFC972C0060DC03 /* BSJNewViewController.m in Sources */,
 				151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */,
+				154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */,
 				58651AA21FFE6D6F0087419D /* SINHomeCategoryViewController.m in Sources */,
 				58DC85181FFC972C0060DC03 /* BSJTabBar.m in Sources */,
 				5892AD8D1FF5E2D700E868C2 /* LMJIntroductoryPagesView.m in Sources */,
@@ -2991,6 +3033,7 @@
 				58926426201B622B007DA41E /* BSJSQLiteManager.m in Sources */,
 				58DC84FA1FFC972C0060DC03 /* BSJEssenceViewController.m in Sources */,
 				1596E1112235778100D66C53 /* YZJProjectVC.m in Sources */,
+				154EF8D3223DE68900E1D528 /* NSObjectTest.m in Sources */,
 				58DC83E61FFB44380060DC03 /* WPFSpringView.m in Sources */,
 				58DC851E1FFC972C0060DC03 /* BSJTopicVideoView.m in Sources */,
 				584038571FF872EB002A0566 /* LMJBaiduPointAnnotation.m in Sources */,
