@@ -57,4 +57,11 @@
     
     NSLog(@"avoidCrashTest end");
 }
+
+- (void)dictionaryCrashTest{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:@{@"k1":@"v1"}];
+    NSLog(@"k object = %@", [dict objectForKey:@"k"]);  // nil，如果key不存在，并不会崩溃，会返回nil，看帮助文档就能看到
+    
+    [dict setObject:@"k2" forKey:nil];  // object如果为nil，会抛出NSInvalidArgumentException异常
+}
 @end
