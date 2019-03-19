@@ -9,6 +9,7 @@
 #import "YZJiOSTechVC.h"
 #import "YZJViewController.h"
 #import "YZJUIViewController.h"
+#import "YZJMultiMedia_HardWareVC.h"
 
 @interface YZJiOSTechVC ()
 
@@ -30,8 +31,11 @@
     LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"UIViewController" subTitle:@"控制器测试"];
     item01.destVc = [YZJViewController class];
     
+    LMJWordArrowItem *item02= [LMJWordArrowItem itemWithTitle:@"YZJMultiMedia_HardWareVC" subTitle:@""];
+    item02.destVc = [YZJMultiMedia_HardWareVC class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01] andHeaderTitle:@"UI" footerTitle:nil];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02] andHeaderTitle:@"UI" footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }
 

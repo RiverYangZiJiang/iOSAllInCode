@@ -8,6 +8,10 @@
 
 #import "BlockTestViewController.h"
 
+
+// 静态全局变量，在block外修改了静态全局变量，再访问block里的静态全局变量，其值是修改后的值
+// Block中可以修改全局变量，全局静态变量，局部静态变量[1]
+static NSInteger staticNum = 0;
 // Use Type Definitions to Simplify Block Syntax 输入typedefBlock的snippet就OK
 // If you need to define more than one block with the same signature, you might like to define your own type for that signature.
 // define a type for a simple block with no arguments or return value, like this:
@@ -22,6 +26,8 @@ typedef void(^XYZSimpleBlock)(void);
 @property (copy) XYZSimpleBlock blockPropertyOfTypeDefinitions;
 
 @property (copy) XYZSimpleBlock block;
+
+@property(assign, nonatomic) __block NSInteger propertyNum;
 @end
 
 @implementation BlockTestViewController
@@ -107,10 +113,20 @@ typedef void(^XYZSimpleBlock)(void);
 // Avoid Strong Reference Cycles when Capturing self. To avoid this problem, it’s best practice to capture a weak reference to self, like this:
 - (void)configureBlock {
     BlockTestViewController * __weak weakSelf = self;
+    NSInteger num = 0;
+    __block NSInteger num1 = 0;
     self.block = ^{
         [weakSelf doSomething];   // capture the weak reference
+        NSLog(@"%s num = %ld", __func__, (long)num);  // 0
+        NSLog(@"%s num1 = %ld", __func__, (long)num1);  // 1
+        NSLog(@"%s staticNum = %ld", __func__, (long)staticNum);  // 1
+        NSLog(@"%s self.propertyNum = %ld", __func__, (long)weakSelf.propertyNum);  // 1
     };
     
+    num = 1;
+    num1 = 1;
+    staticNum = 1;
+    self.propertyNum = 1;
     self.block();
 }
 
@@ -119,7 +135,7 @@ typedef void(^XYZSimpleBlock)(void);
 }
 
 
-
+// 1.Block中可以修改全局变量，全局静态变量，局部静态变量http://www.code4app.com/blog-969296-47680.html
 
 
 

@@ -91,6 +91,8 @@
 		154EF8E3223DEDE000E1D528 /* UIButton+MLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8E2223DEDE000E1D528 /* UIButton+MLCategory.m */; };
 		154EF8E7223DEE3300E1D528 /* UIColor+MLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8E6223DEE3300E1D528 /* UIColor+MLCategory.m */; };
 		154EF8F0223DF7EB00E1D528 /* MLTopToastViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8EF223DF7EB00E1D528 /* MLTopToastViewVC.m */; };
+		154FAC332241482300E14859 /* YZJAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC322241482300E14859 /* YZJAVAudioPlayer.m */; };
+		154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		1571FEF0223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 1571FEEF223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png */; };
@@ -588,6 +590,10 @@
 		154EF8EE223DF7EB00E1D528 /* MLTopToastViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTopToastViewVC.h; sourceTree = "<group>"; };
 		154EF8EF223DF7EB00E1D528 /* MLTopToastViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTopToastViewVC.m; sourceTree = "<group>"; };
 		154FAC22223EAB9F00E14859 /* awesome-ios.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "awesome-ios.md"; sourceTree = "<group>"; };
+		154FAC312241482300E14859 /* YZJAVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJAVAudioPlayer.h; sourceTree = "<group>"; };
+		154FAC322241482300E14859 /* YZJAVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJAVAudioPlayer.m; sourceTree = "<group>"; };
+		154FAC3422414A2C00E14859 /* YZJMultiMedia_HardWareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMultiMedia_HardWareVC.h; sourceTree = "<group>"; };
+		154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMultiMedia_HardWareVC.m; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -1731,6 +1737,40 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		154FAC2C22413D8300E14859 /* MultiMedia_HardWare */ = {
+			isa = PBXGroup;
+			children = (
+				154FAC30224147D400E14859 /* AVAudioPlayer */,
+				154FAC2D22413D9600E14859 /* AudioServicesPlaySystemSound */,
+				154FAC3422414A2C00E14859 /* YZJMultiMedia_HardWareVC.h */,
+				154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */,
+			);
+			path = MultiMedia_HardWare;
+			sourceTree = "<group>";
+		};
+		154FAC2D22413D9600E14859 /* AudioServicesPlaySystemSound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AudioServicesPlaySystemSound;
+			sourceTree = "<group>";
+		};
+		154FAC2F22413EBC00E14859 /* xlog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xlog;
+			sourceTree = "<group>";
+		};
+		154FAC30224147D400E14859 /* AVAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				154FAC312241482300E14859 /* YZJAVAudioPlayer.h */,
+				154FAC322241482300E14859 /* YZJAVAudioPlayer.m */,
+			);
+			path = AVAudioPlayer;
+			sourceTree = "<group>";
+		};
 		1571FEE9223F710900BBC3AC /* Expand */ = {
 			isa = PBXGroup;
 			children = (
@@ -1850,6 +1890,7 @@
 		1596E0F2223576D500D66C53 /* LogLayer日志层 */ = {
 			isa = PBXGroup;
 			children = (
+				154FAC2F22413EBC00E14859 /* xlog */,
 			);
 			path = "LogLayer日志层";
 			sourceTree = "<group>";
@@ -1941,6 +1982,7 @@
 		1596E0FD2235774A00D66C53 /* iOSTech */ = {
 			isa = PBXGroup;
 			children = (
+				154FAC2C22413D8300E14859 /* MultiMedia_HardWare */,
 				1571FEE9223F710900BBC3AC /* Expand */,
 				153103F2223E935E00BC7AE5 /* Animation动画 */,
 				153101EA223E475D00BC7AE5 /* 封装 */,
@@ -3400,6 +3442,9 @@
 							com.apple.SafariKeychain = {
 								enabled = 1;
 							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
 						};
 					};
 				};
@@ -3669,6 +3714,7 @@
 				15310204223E4C4600BC7AE5 /* MLCustomSegmentedControl.m in Sources */,
 				58DC84EE1FFC972B0060DC03 /* BSJ.m in Sources */,
 				581A3E4120450B3E00AF08C0 /* NSString+MJDownload.m in Sources */,
+				154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */,
 				58926429201B64D3007DA41E /* BSJTopicListDAL.m in Sources */,
 				584038721FF9399B002A0566 /* LMJListTimerCountDownViewController.m in Sources */,
 				5898889F206B34BF00BDAACD /* DES3Encryptor.m in Sources */,
@@ -3884,6 +3930,7 @@
 				15310352223E4D5800BC7AE5 /* UICollectionViewTestViewController.m in Sources */,
 				58DC84F91FFC972C0060DC03 /* BSJMeViewController.m in Sources */,
 				153103A6223E526100BC7AE5 /* NSArrayTest.m in Sources */,
+				154FAC332241482300E14859 /* YZJAVAudioPlayer.m in Sources */,
 				1531FD8F223E447C00BC7AE5 /* UIViewControllerTemplate.m in Sources */,
 				58DC81721FFA29E00060DC03 /* LMJDragTableViewController.m in Sources */,
 				154EF8E3223DEDE000E1D528 /* UIButton+MLCategory.m in Sources */,
@@ -4061,7 +4108,7 @@
 				CODE_SIGN_ENTITLEMENTS = AllInCode/AllInCode.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U96PM2V9GH;
+				DEVELOPMENT_TEAM = 5X83UD87RT;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "AllInCode/Supports Files/LMJAllInCode.pch";
 				INFOPLIST_FILE = AllInCode/Info.plist;
@@ -4173,7 +4220,7 @@
 					"-framework",
 					"\"WebKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yzj.AllInCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzj.AllInCode1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4192,7 +4239,7 @@
 				CODE_SIGN_ENTITLEMENTS = AllInCode/AllInCode.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U96PM2V9GH;
+				DEVELOPMENT_TEAM = 5X83UD87RT;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "AllInCode/Supports Files/LMJAllInCode.pch";
 				INFOPLIST_FILE = AllInCode/Info.plist;
@@ -4304,7 +4351,7 @@
 					"-framework",
 					"\"WebKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yzj.AllInCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzj.AllInCode1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;

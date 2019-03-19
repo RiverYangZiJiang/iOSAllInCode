@@ -1,28 +1,22 @@
 //
-//  YZJOCTechVC.m
-//  iOSAllInCode
+//  YZJMultiMedia_HardWareVC.m
+//  AllInCode
 //
-//  Created by 杨子江 on 3/10/19.
-//  Copyright © 2019 杨子江. All rights reserved.
+//  Created by 杨子江 on 3/20/19.
+//  Copyright © 2019 github.com/njhu. All rights reserved.
 //
 
-#import "YZJOCTechVC.h"
-#import "BlockTestViewController.h"
+#import "YZJMultiMedia_HardWareVC.h"
+#import "YZJAVAudioPlayer.h"
 
-@interface YZJOCTechVC ()
-
-@end
-
-@implementation YZJOCTechVC
-
+@implementation YZJMultiMedia_HardWareVC
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"Block" subTitle:nil];
-    item00.destVc = [BlockTestViewController class];
+    item00.destVc = [YZJAVAudioPlayer class];
     LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
-
+    
 }
-
 @end

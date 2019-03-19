@@ -1,6 +1,6 @@
 platform :ios, '10.3'
 
-
+#如果在Podfile中没有指定target，那么只有工程里的第一个target能够使用Podfile中描述的Pods依赖库。http://blog.csdn.net/wzzvictory/article/details/19178709
 target 'AllInCode' do
 
 inhibit_all_warnings!
