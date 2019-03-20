@@ -12,6 +12,7 @@
 		1510EC22223E2D210007C39A /* MLTopToastViewTypeOffline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1510EC1F223E2D1F0007C39A /* MLTopToastViewTypeOffline.png */; };
 		1510EC23223E2D210007C39A /* MLTopToastViewTypeNetworkUnavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 1510EC20223E2D1F0007C39A /* MLTopToastViewTypeNetworkUnavailable.png */; };
 		1510EC24223E2D210007C39A /* MLTopToastViewTypeDownloadSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 1510EC21223E2D200007C39A /* MLTopToastViewTypeDownloadSuccess.png */; };
+		15199E9E2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 15199E9D2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.m */; };
 		151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F4C211D38B800A883CB /* YZJCallViewController.m */; };
 		151C8F51211D43CD00A883CB /* YZJWebViewCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C8F50211D43CD00A883CB /* YZJWebViewCallViewController.m */; };
 		151C8F53211D45A400A883CB /* call.html in Resources */ = {isa = PBXBuildFile; fileRef = 151C8F52211D45A400A883CB /* call.html */; };
@@ -445,6 +446,9 @@
 		1510EC1F223E2D1F0007C39A /* MLTopToastViewTypeOffline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTopToastViewTypeOffline.png; sourceTree = "<group>"; };
 		1510EC20223E2D1F0007C39A /* MLTopToastViewTypeNetworkUnavailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTopToastViewTypeNetworkUnavailable.png; sourceTree = "<group>"; };
 		1510EC21223E2D200007C39A /* MLTopToastViewTypeDownloadSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTopToastViewTypeDownloadSuccess.png; sourceTree = "<group>"; };
+		15199E9C2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJAudioServicesPlaySystemSoundVC.h; sourceTree = "<group>"; };
+		15199E9D2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJAudioServicesPlaySystemSoundVC.m; sourceTree = "<group>"; };
+		15199E9F2241DA9500464480 /* MultiMedia_HardWare.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MultiMedia_HardWare.md; sourceTree = "<group>"; };
 		151C8F4B211D38B800A883CB /* YZJCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCallViewController.h; sourceTree = "<group>"; };
 		151C8F4C211D38B800A883CB /* YZJCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCallViewController.m; sourceTree = "<group>"; };
 		151C8F4F211D43CD00A883CB /* YZJWebViewCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJWebViewCallViewController.h; sourceTree = "<group>"; };
@@ -1266,6 +1270,15 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		15199E9B2241D9E100464480 /* AudioServicesPlaySystemSound */ = {
+			isa = PBXGroup;
+			children = (
+				15199E9C2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.h */,
+				15199E9D2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.m */,
+			);
+			path = AudioServicesPlaySystemSound;
+			sourceTree = "<group>";
+		};
 		151C8F5D2123FF8C00A883CB /* MemoryManagement */ = {
 			isa = PBXGroup;
 			children = (
@@ -1740,19 +1753,13 @@
 		154FAC2C22413D8300E14859 /* MultiMedia_HardWare */ = {
 			isa = PBXGroup;
 			children = (
+				15199E9B2241D9E100464480 /* AudioServicesPlaySystemSound */,
 				154FAC30224147D400E14859 /* AVAudioPlayer */,
-				154FAC2D22413D9600E14859 /* AudioServicesPlaySystemSound */,
 				154FAC3422414A2C00E14859 /* YZJMultiMedia_HardWareVC.h */,
 				154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */,
+				15199E9F2241DA9500464480 /* MultiMedia_HardWare.md */,
 			);
 			path = MultiMedia_HardWare;
-			sourceTree = "<group>";
-		};
-		154FAC2D22413D9600E14859 /* AudioServicesPlaySystemSound */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AudioServicesPlaySystemSound;
 			sourceTree = "<group>";
 		};
 		154FAC2F22413EBC00E14859 /* xlog */ = {
@@ -3749,6 +3756,7 @@
 				588CCD8A205DF92F0067E3C4 /* LMJGirdLayout.m in Sources */,
 				58DC83CC1FFB43E30060DC03 /* LMJJuZhenCaoZuoViewController.m in Sources */,
 				58DC838E1FFB43460060DC03 /* LMJHDZSQViewController.m in Sources */,
+				15199E9E2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.m in Sources */,
 				58DC84FC1FFC972C0060DC03 /* BSJPictureShowViewController.m in Sources */,
 				58DC83C91FFB43E30060DC03 /* LMJDrawBaseViewController.m in Sources */,
 				58DC83C01FFB43E30060DC03 /* LMJDrawLineViewController.m in Sources */,
@@ -4108,7 +4116,7 @@
 				CODE_SIGN_ENTITLEMENTS = AllInCode/AllInCode.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5X83UD87RT;
+				DEVELOPMENT_TEAM = U96PM2V9GH;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "AllInCode/Supports Files/LMJAllInCode.pch";
 				INFOPLIST_FILE = AllInCode/Info.plist;
@@ -4239,7 +4247,7 @@
 				CODE_SIGN_ENTITLEMENTS = AllInCode/AllInCode.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5X83UD87RT;
+				DEVELOPMENT_TEAM = U96PM2V9GH;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "AllInCode/Supports Files/LMJAllInCode.pch";
 				INFOPLIST_FILE = AllInCode/Info.plist;

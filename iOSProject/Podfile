@@ -110,4 +110,7 @@ pod 'DWBubbleMenuButton'
 pod 'AvoidCrash'  # 防止崩溃
 pod 'MLeaksFinder'  # MLeaksFinder helps you find memory leaks in your iOS apps at develop time. It can automatically find leaks in UIView and UIViewController objects, present an alert with the leaked object in its View-ViewController stack when leaks happening.
 pod 'WoodPeckeriOS' # View simulator & real device sandbox files, UserDefaults, network request from Mac.
+
+pod 'ZJAnimationPopView'  # A fast, convenient view to show animation pop view,it support 72 kinds of animation pop effect.
+
 end
