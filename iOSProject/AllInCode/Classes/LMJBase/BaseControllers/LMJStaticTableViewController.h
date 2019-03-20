@@ -22,6 +22,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath NS_REQUIRES_SUPER;
 
 - (LMJStaticTableViewController *(^)(LMJWordItem *item))addItem;
+
+- (void)addTitle:(id)title subTitle:(id)subTitle;
 @end
 
 UIKIT_EXTERN const UIEdgeInsets tableViewDefaultSeparatorInset;

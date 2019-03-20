@@ -106,6 +106,15 @@ const UIEdgeInsets tableViewDefaultLayoutMargins = {8, 8, 8, 8};
     return _sections;
 }
 
+- (void)addTitle:(id)title subTitle:(id)subTitle{
+    NSString *tempTitle;
+    title = [NSString stringWithFormat:@"%@", title];
+    subTitle = [NSString stringWithFormat:@"%@", subTitle];
+    
+    LMJWordItem *item = [LMJWordItem itemWithTitle:tempTitle subTitle:subTitle itemOperation:nil];
+    self.addItem(item);
+}
+
 - (LMJStaticTableViewController *(^)(LMJWordItem *))addItem {
     
     LMJWeak(self);

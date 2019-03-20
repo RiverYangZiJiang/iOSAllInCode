@@ -94,6 +94,7 @@
 		154EF8F0223DF7EB00E1D528 /* MLTopToastViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8EF223DF7EB00E1D528 /* MLTopToastViewVC.m */; };
 		154FAC332241482300E14859 /* YZJAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC322241482300E14859 /* YZJAVAudioPlayer.m */; };
 		154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */; };
+		154FAC412242700B00E14859 /* YZJMathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC402242700B00E14859 /* YZJMathVC.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		1571FEF0223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 1571FEEF223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png */; };
@@ -598,6 +599,10 @@
 		154FAC322241482300E14859 /* YZJAVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJAVAudioPlayer.m; sourceTree = "<group>"; };
 		154FAC3422414A2C00E14859 /* YZJMultiMedia_HardWareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMultiMedia_HardWareVC.h; sourceTree = "<group>"; };
 		154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMultiMedia_HardWareVC.m; sourceTree = "<group>"; };
+		154FAC3E22426E1800E14859 /* Math.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Math.md; sourceTree = "<group>"; };
+		154FAC3F2242700B00E14859 /* YZJMathVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMathVC.h; sourceTree = "<group>"; };
+		154FAC402242700B00E14859 /* YZJMathVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMathVC.m; sourceTree = "<group>"; };
+		154FAC442242740800E14859 /* Macro宏.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Macro宏.md"; path = "AllInCode/OCTech/Other/Macro宏/Macro宏.md"; sourceTree = SOURCE_ROOT; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -1778,6 +1783,33 @@
 			path = AVAudioPlayer;
 			sourceTree = "<group>";
 		};
+		154FAC3D22426DED00E14859 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				154FAC3E22426E1800E14859 /* Math.md */,
+				154FAC3F2242700B00E14859 /* YZJMathVC.h */,
+				154FAC402242700B00E14859 /* YZJMathVC.m */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		154FAC42224273AB00E14859 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				154FAC43224273B600E14859 /* Macro宏 */,
+			);
+			name = Other;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		154FAC43224273B600E14859 /* Macro宏 */ = {
+			isa = PBXGroup;
+			children = (
+				154FAC442242740800E14859 /* Macro宏.md */,
+			);
+			name = "Macro宏";
+			sourceTree = "<group>";
+		};
 		1571FEE9223F710900BBC3AC /* Expand */ = {
 			isa = PBXGroup;
 			children = (
@@ -1975,6 +2007,8 @@
 		1596E0FC2235774300D66C53 /* OCTech */ = {
 			isa = PBXGroup;
 			children = (
+				154FAC42224273AB00E14859 /* Other */,
+				154FAC3D22426DED00E14859 /* Math */,
 				1531038E223E51DA00BC7AE5 /* BlockTest */,
 				154EF8C7223DE5F600E1D528 /* Runtime */,
 				1596E12C2236C73500D66C53 /* CrashTest */,
@@ -3718,6 +3752,7 @@
 				1531FD7F223E415900BC7AE5 /* HotspotViewController.m in Sources */,
 				5892AD071FF4F9D200E868C2 /* LMJAutoRefreshFooter.m in Sources */,
 				58223317201821C00008251F /* NullSafe.m in Sources */,
+				154FAC412242700B00E14859 /* YZJMathVC.m in Sources */,
 				15310204223E4C4600BC7AE5 /* MLCustomSegmentedControl.m in Sources */,
 				58DC84EE1FFC972B0060DC03 /* BSJ.m in Sources */,
 				581A3E4120450B3E00AF08C0 /* NSString+MJDownload.m in Sources */,

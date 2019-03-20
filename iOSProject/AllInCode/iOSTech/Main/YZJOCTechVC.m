@@ -8,6 +8,7 @@
 
 #import "YZJOCTechVC.h"
 #import "BlockTestViewController.h"
+#import "YZJMathVC.h"
 
 @interface YZJOCTechVC ()
 
@@ -20,7 +21,11 @@
     
     LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"Block" subTitle:nil];
     item00.destVc = [BlockTestViewController class];
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00] andHeaderTitle:nil footerTitle:nil];
+    
+    LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"Math" subTitle:nil];
+    item01.destVc = [YZJMathVC class];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 
 }
