@@ -578,6 +578,7 @@
 		1531FD8E223E447C00BC7AE5 /* UIViewControllerTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerTemplate.m; sourceTree = "<group>"; };
 		1531FD98223E45E000BC7AE5 /* ___FILEBASENAME___.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___FILEBASENAME___.h"; sourceTree = "<group>"; };
 		1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
+		153CE5512248A9F70049BA1F /* Location地理位置.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Location地理位置.md"; sourceTree = "<group>"; };
 		1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJConcentricCirclesVC.h; sourceTree = "<group>"; };
 		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
 		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
@@ -1665,6 +1666,14 @@
 			path = "UITableViewCellObjective-C";
 			sourceTree = "<group>";
 		};
+		153CE5502248A9910049BA1F /* Location地理位置 */ = {
+			isa = PBXGroup;
+			children = (
+				153CE5512248A9F70049BA1F /* Location地理位置.md */,
+			);
+			path = "Location地理位置";
+			sourceTree = "<group>";
+		};
 		154EF8C7223DE5F600E1D528 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -1759,6 +1768,7 @@
 		154FAC2C22413D8300E14859 /* MultiMedia_HardWare */ = {
 			isa = PBXGroup;
 			children = (
+				153CE5502248A9910049BA1F /* Location地理位置 */,
 				15199E9B2241D9E100464480 /* AudioServicesPlaySystemSound */,
 				154FAC30224147D400E14859 /* AVAudioPlayer */,
 				154FAC3422414A2C00E14859 /* YZJMultiMedia_HardWareVC.h */,
