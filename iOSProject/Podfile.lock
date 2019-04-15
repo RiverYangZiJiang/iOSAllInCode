@@ -93,6 +93,7 @@ PODS:
     - ASIHTTPRequest
   - ZFPlayer (2.1.6):
     - Masonry
+  - ZJAnimationPopView (1.0.1)
   - ZJScrollPageView (0.4.0)
 
 DEPENDENCIES:
@@ -134,6 +135,7 @@ DEPENDENCIES:
   - YYText
   - ZFDownload
   - ZFPlayer
+  - ZJAnimationPopView
   - ZJScrollPageView
 
 SPEC REPOS:
@@ -176,6 +178,7 @@ SPEC REPOS:
     - YYText
     - ZFDownload
     - ZFPlayer
+    - ZJAnimationPopView
     - ZJScrollPageView
 
 SPEC CHECKSUMS:
@@ -217,8 +220,9 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZFDownload: a52f94ebb080833b8a8ceb19a409f2941343fe7f
   ZFPlayer: 833cb3974b619bfd01a0ec1ebaabfe6f629e85b4
+  ZJAnimationPopView: 23fcb7e67e9c26c14af4795b142df3215b910e6f
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: d2180a36367cf9e5ac2565869ddd82a69b8b8c5d
+PODFILE CHECKSUM: afd475df605833d0eda8d604cd64b52f3a67e278
 
 COCOAPODS: 1.6.0

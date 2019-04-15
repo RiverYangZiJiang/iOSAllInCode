@@ -84,6 +84,7 @@
 		1531FD8F223E447C00BC7AE5 /* UIViewControllerTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD8E223E447C00BC7AE5 /* UIViewControllerTemplate.m */; };
 		1531FD9A223E45E000BC7AE5 /* ___FILEBASENAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */; };
 		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
+		1549A41B22647EA9007F57A5 /* YZJCarrierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549A41A22647EA9007F57A5 /* YZJCarrierVC.m */; };
 		154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CA223DE63400E1D528 /* NSError+Hook.m */; };
 		154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTest.m */; };
 		154EF8D9223DEB9A00E1D528 /* MLTopToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8D8223DEB9A00E1D528 /* MLTopToastView.m */; };
@@ -581,6 +582,8 @@
 		153CE5512248A9F70049BA1F /* Location地理位置.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Location地理位置.md"; sourceTree = "<group>"; };
 		1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJConcentricCirclesVC.h; sourceTree = "<group>"; };
 		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
+		1549A41922647EA9007F57A5 /* YZJCarrierVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCarrierVC.h; sourceTree = "<group>"; };
+		1549A41A22647EA9007F57A5 /* YZJCarrierVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCarrierVC.m; sourceTree = "<group>"; };
 		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
 		154EF8CA223DE63400E1D528 /* NSError+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Hook.m"; sourceTree = "<group>"; };
 		154EF8CD223DE64C00E1D528 /* NSURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTest.h; sourceTree = "<group>"; };
@@ -1674,6 +1677,15 @@
 			path = "Location地理位置";
 			sourceTree = "<group>";
 		};
+		1549A41822647DD7007F57A5 /* 运营商_信号强度 */ = {
+			isa = PBXGroup;
+			children = (
+				1549A41922647EA9007F57A5 /* YZJCarrierVC.h */,
+				1549A41A22647EA9007F57A5 /* YZJCarrierVC.m */,
+			);
+			path = "运营商_信号强度";
+			sourceTree = "<group>";
+		};
 		154EF8C7223DE5F600E1D528 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -1768,6 +1780,7 @@
 		154FAC2C22413D8300E14859 /* MultiMedia_HardWare */ = {
 			isa = PBXGroup;
 			children = (
+				1549A41822647DD7007F57A5 /* 运营商_信号强度 */,
 				153CE5502248A9910049BA1F /* Location地理位置 */,
 				15199E9B2241D9E100464480 /* AudioServicesPlaySystemSound */,
 				154FAC30224147D400E14859 /* AVAudioPlayer */,
@@ -3925,6 +3938,7 @@
 				58DC81891FFA317B0060DC03 /* LMJExpandImageView.m in Sources */,
 				584038191FF64218002A0566 /* LMJBlankPageViewController.m in Sources */,
 				5892AD681FF508E600E868C2 /* UIView+LMJNjHuFrame.m in Sources */,
+				1549A41B22647EA9007F57A5 /* YZJCarrierVC.m in Sources */,
 				153101F9223E484300BC7AE5 /* UISearchControllerTestVC.m in Sources */,
 				58DC85121FFC972C0060DC03 /* BSJTopicTopComent.m in Sources */,
 				58DC83881FFB43460060DC03 /* LMJCALayerYSDHViewController.m in Sources */,
