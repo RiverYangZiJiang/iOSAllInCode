@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (3.2.0):
-    - AFNetworking/NSURLSession (= 3.2.0)
-    - AFNetworking/Reachability (= 3.2.0)
-    - AFNetworking/Security (= 3.2.0)
-    - AFNetworking/Serialization (= 3.2.0)
-    - AFNetworking/UIKit (= 3.2.0)
-  - AFNetworking/NSURLSession (3.2.0):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.0)
-  - AFNetworking/Security (3.2.0)
-  - AFNetworking/Serialization (3.2.0)
-  - AFNetworking/UIKit (3.2.0):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - ASIHTTPRequest (1.8.2):
     - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
@@ -42,6 +42,7 @@ PODS:
   - HMQRCodeScanner (1.0.6)
   - IQKeyboardManager (6.0.0)
   - KILabel (1.0.1)
+  - LYEmptyView (1.2.3)
   - M13ProgressSuite (1.2.9)
   - MagicWindowSDK (4.2.180210):
     - WechatOpenSDK
@@ -97,7 +98,7 @@ PODS:
   - ZJScrollPageView (0.4.0)
 
 DEPENDENCIES:
-  - AFNetworking
+  - AFNetworking (~> 3.2.0)
   - ASIHTTPRequest
   - AvoidCrash
   - BaiduMapKit
@@ -110,6 +111,7 @@ DEPENDENCIES:
   - HMQRCodeScanner
   - IQKeyboardManager
   - KILabel
+  - LYEmptyView
   - M13ProgressSuite
   - MagicWindowSDK
   - Masonry
@@ -139,7 +141,7 @@ DEPENDENCIES:
   - ZJScrollPageView
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
     - ASIHTTPRequest
     - AvoidCrash
@@ -154,6 +156,7 @@ SPEC REPOS:
     - HMQRCodeScanner
     - IQKeyboardManager
     - KILabel
+    - LYEmptyView
     - M13ProgressSuite
     - MagicWindowSDK
     - Masonry
@@ -182,7 +185,7 @@ SPEC REPOS:
     - ZJScrollPageView
 
 SPEC CHECKSUMS:
-  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
   AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
   BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
@@ -196,6 +199,7 @@ SPEC CHECKSUMS:
   HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
   IQKeyboardManager: fdba62488e23c48a3fa8591635aff166ed946632
   KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
+  LYEmptyView: ea5827f3f81fcbec427f990005501991477bdae8
   M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
   MagicWindowSDK: 0a00c8322b444b8a12eac62958d0803c917ffcd1
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -223,6 +227,6 @@ SPEC CHECKSUMS:
   ZJAnimationPopView: 23fcb7e67e9c26c14af4795b142df3215b910e6f
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: afd475df605833d0eda8d604cd64b52f3a67e278
+PODFILE CHECKSUM: 1236b25b2f8fb10bf920a3c0c4150adc27608576
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.3

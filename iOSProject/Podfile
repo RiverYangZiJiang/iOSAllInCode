@@ -1,3 +1,6 @@
+# 清华大学镜像 https://mirror.tuna.tsinghua.edu.cn/help/CocoaPods/
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
 platform :ios, '10.3'
 
 #如果在Podfile中没有指定target，那么只有工程里的第一个target能够使用Podfile中描述的Pods依赖库。http://blog.csdn.net/wzzvictory/article/details/19178709
@@ -6,7 +9,7 @@ target 'AllInCode' do
 inhibit_all_warnings!
 
 # 网络请求
-pod 'AFNetworking'
+pod 'AFNetworking',  '~> 3.2.0'
 pod 'ASIHTTPRequest'
 # 网络监控
 pod 'Reachability'
@@ -112,5 +115,6 @@ pod 'MLeaksFinder'  # MLeaksFinder helps you find memory leaks in your iOS apps 
 pod 'WoodPeckeriOS' # View simulator & real device sandbox files, UserDefaults, network request from Mac.
 
 pod 'ZJAnimationPopView'  # A fast, convenient view to show animation pop view,it support 72 kinds of animation pop effect.
+pod 'LYEmptyView'  # 一行代码集成空白页面占位图(无数据、无网络占位图)
 
 end

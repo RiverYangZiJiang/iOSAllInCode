@@ -84,7 +84,6 @@
 		1531FD8F223E447C00BC7AE5 /* UIViewControllerTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD8E223E447C00BC7AE5 /* UIViewControllerTemplate.m */; };
 		1531FD9A223E45E000BC7AE5 /* ___FILEBASENAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */; };
 		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
-		1549A41B22647EA9007F57A5 /* YZJCarrierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549A41A22647EA9007F57A5 /* YZJCarrierVC.m */; };
 		154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CA223DE63400E1D528 /* NSError+Hook.m */; };
 		154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTest.m */; };
 		154EF8D9223DEB9A00E1D528 /* MLTopToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8D8223DEB9A00E1D528 /* MLTopToastView.m */; };
@@ -110,6 +109,26 @@
 		1596E1272236C6D600D66C53 /* NSRegularExpressionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1252236C6D600D66C53 /* NSRegularExpressionTest.m */; };
 		1596E12B2236C70600D66C53 /* OCDevelopmentNorms.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E1292236C70600D66C53 /* OCDevelopmentNorms.m */; };
 		1596E12F2236C73500D66C53 /* CrashTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E12D2236C73500D66C53 /* CrashTest.m */; };
+		159BEF202245D74F00EF2BC8 /* HomeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEEFE2245D74D00EF2BC8 /* HomeListViewController.xib */; };
+		159BEF212245D74F00EF2BC8 /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEEFF2245D74E00EF2BC8 /* HomeListViewController.m */; };
+		159BEF222245D74F00EF2BC8 /* Demo6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF062245D74E00EF2BC8 /* Demo6ViewController.m */; };
+		159BEF232245D74F00EF2BC8 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF072245D74E00EF2BC8 /* Demo1ViewController.m */; };
+		159BEF242245D74F00EF2BC8 /* Demo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF092245D74E00EF2BC8 /* Demo3ViewController.xib */; };
+		159BEF252245D74F00EF2BC8 /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF0A2245D74E00EF2BC8 /* Demo4ViewController.m */; };
+		159BEF262245D74F00EF2BC8 /* DemoEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF0B2245D74E00EF2BC8 /* DemoEmptyView.m */; };
+		159BEF272245D74F00EF2BC8 /* Demo6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF0C2245D74E00EF2BC8 /* Demo6ViewController.xib */; };
+		159BEF282245D74F00EF2BC8 /* Demo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF0D2245D74E00EF2BC8 /* Demo2ViewController.xib */; };
+		159BEF292245D74F00EF2BC8 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF0E2245D74E00EF2BC8 /* Demo3ViewController.m */; };
+		159BEF2A2245D74F00EF2BC8 /* Demo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF0F2245D74E00EF2BC8 /* Demo1ViewController.xib */; };
+		159BEF2B2245D74F00EF2BC8 /* Demo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF102245D74E00EF2BC8 /* Demo4ViewController.xib */; };
+		159BEF2C2245D74F00EF2BC8 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF122245D74E00EF2BC8 /* Demo2ViewController.m */; };
+		159BEF2D2245D74F00EF2BC8 /* Demo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF132245D74E00EF2BC8 /* Demo5ViewController.m */; };
+		159BEF2E2245D74F00EF2BC8 /* OtherAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF162245D74E00EF2BC8 /* OtherAppViewController.xib */; };
+		159BEF2F2245D74F00EF2BC8 /* OtherAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF172245D74E00EF2BC8 /* OtherAppViewController.m */; };
+		159BEF302245D74F00EF2BC8 /* MyDIYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF1A2245D74E00EF2BC8 /* MyDIYViewController.m */; };
+		159BEF312245D74F00EF2BC8 /* MyDIYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159BEF1C2245D74E00EF2BC8 /* MyDIYViewController.xib */; };
+		159BEF322245D74F00EF2BC8 /* MyDIYEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF1D2245D74E00EF2BC8 /* MyDIYEmpty.m */; };
+		159BEF352245DBAE00EF2BC8 /* YZJOpenSourceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 159BEF342245DBAE00EF2BC8 /* YZJOpenSourceVC.m */; };
 		15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */; };
 		581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E2B2044434400AF08C0 /* LMJOfflineDownloadViewController.m */; };
 		581A3E3F20450B3E00AF08C0 /* MJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A3E3920450B3D00AF08C0 /* MJDownloadManager.m */; };
@@ -579,11 +598,8 @@
 		1531FD8E223E447C00BC7AE5 /* UIViewControllerTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerTemplate.m; sourceTree = "<group>"; };
 		1531FD98223E45E000BC7AE5 /* ___FILEBASENAME___.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___FILEBASENAME___.h"; sourceTree = "<group>"; };
 		1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
-		153CE5512248A9F70049BA1F /* Location地理位置.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Location地理位置.md"; sourceTree = "<group>"; };
 		1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJConcentricCirclesVC.h; sourceTree = "<group>"; };
 		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
-		1549A41922647EA9007F57A5 /* YZJCarrierVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCarrierVC.h; sourceTree = "<group>"; };
-		1549A41A22647EA9007F57A5 /* YZJCarrierVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCarrierVC.m; sourceTree = "<group>"; };
 		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
 		154EF8CA223DE63400E1D528 /* NSError+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Hook.m"; sourceTree = "<group>"; };
 		154EF8CD223DE64C00E1D528 /* NSURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTest.h; sourceTree = "<group>"; };
@@ -618,6 +634,7 @@
 		1571FEEE223F712600BBC3AC /* MLMarcoFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLMarcoFont.h; sourceTree = "<group>"; };
 		1571FEEF223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTopToastViewTypeOpenLocation.png; sourceTree = "<group>"; };
 		1571FF022240E46000BBC3AC /* RunLoop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RunLoop.md; sourceTree = "<group>"; };
+		157A79DA22ADC77D00E3F3F8 /* GCD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GCD.md; sourceTree = "<group>"; };
 		1596E1002235777E00D66C53 /* YZJOCTechVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJOCTechVC.m; sourceTree = "<group>"; };
 		1596E1012235777E00D66C53 /* YZJProjectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJProjectVC.h; sourceTree = "<group>"; };
 		1596E1022235777F00D66C53 /* YZJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJTabBarController.h; sourceTree = "<group>"; };
@@ -641,6 +658,40 @@
 		1596E12A2236C70600D66C53 /* OCDevelopmentNorms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDevelopmentNorms.h; sourceTree = "<group>"; };
 		1596E12D2236C73500D66C53 /* CrashTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashTest.m; sourceTree = "<group>"; };
 		1596E12E2236C73500D66C53 /* CrashTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashTest.h; sourceTree = "<group>"; };
+		159BEEFE2245D74D00EF2BC8 /* HomeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeListViewController.xib; sourceTree = "<group>"; };
+		159BEEFF2245D74E00EF2BC8 /* HomeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListViewController.m; sourceTree = "<group>"; };
+		159BEF022245D74E00EF2BC8 /* DemoEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoEmptyView.h; sourceTree = "<group>"; };
+		159BEF032245D74E00EF2BC8 /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
+		159BEF042245D74E00EF2BC8 /* Demo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		159BEF052245D74E00EF2BC8 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		159BEF062245D74E00EF2BC8 /* Demo6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6ViewController.m; sourceTree = "<group>"; };
+		159BEF072245D74E00EF2BC8 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		159BEF082245D74E00EF2BC8 /* Demo5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5ViewController.h; sourceTree = "<group>"; };
+		159BEF092245D74E00EF2BC8 /* Demo3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo3ViewController.xib; sourceTree = "<group>"; };
+		159BEF0A2245D74E00EF2BC8 /* Demo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
+		159BEF0B2245D74E00EF2BC8 /* DemoEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoEmptyView.m; sourceTree = "<group>"; };
+		159BEF0C2245D74E00EF2BC8 /* Demo6ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo6ViewController.xib; sourceTree = "<group>"; };
+		159BEF0D2245D74E00EF2BC8 /* Demo2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo2ViewController.xib; sourceTree = "<group>"; };
+		159BEF0E2245D74E00EF2BC8 /* Demo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
+		159BEF0F2245D74E00EF2BC8 /* Demo1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo1ViewController.xib; sourceTree = "<group>"; };
+		159BEF102245D74E00EF2BC8 /* Demo4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo4ViewController.xib; sourceTree = "<group>"; };
+		159BEF112245D74E00EF2BC8 /* Demo6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6ViewController.h; sourceTree = "<group>"; };
+		159BEF122245D74E00EF2BC8 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		159BEF132245D74E00EF2BC8 /* Demo5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5ViewController.m; sourceTree = "<group>"; };
+		159BEF142245D74E00EF2BC8 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		159BEF162245D74E00EF2BC8 /* OtherAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherAppViewController.xib; sourceTree = "<group>"; };
+		159BEF172245D74E00EF2BC8 /* OtherAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherAppViewController.m; sourceTree = "<group>"; };
+		159BEF182245D74E00EF2BC8 /* OtherAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherAppViewController.h; sourceTree = "<group>"; };
+		159BEF1A2245D74E00EF2BC8 /* MyDIYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDIYViewController.m; sourceTree = "<group>"; };
+		159BEF1B2245D74E00EF2BC8 /* MyDIYEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDIYEmpty.h; sourceTree = "<group>"; };
+		159BEF1C2245D74E00EF2BC8 /* MyDIYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDIYViewController.xib; sourceTree = "<group>"; };
+		159BEF1D2245D74E00EF2BC8 /* MyDIYEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDIYEmpty.m; sourceTree = "<group>"; };
+		159BEF1E2245D74E00EF2BC8 /* MyDIYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDIYViewController.h; sourceTree = "<group>"; };
+		159BEF1F2245D74E00EF2BC8 /* HomeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListViewController.h; sourceTree = "<group>"; };
+		159BEF332245DBAE00EF2BC8 /* YZJOpenSourceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJOpenSourceVC.h; sourceTree = "<group>"; };
+		159BEF342245DBAE00EF2BC8 /* YZJOpenSourceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJOpenSourceVC.m; sourceTree = "<group>"; };
+		159BEF362245E27400EF2BC8 /* LYEmptyView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LYEmptyView.md; sourceTree = "<group>"; };
+		159BEF382245E67F00EF2BC8 /* AlertView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AlertView.md; sourceTree = "<group>"; };
 		15DC7AAC208C14D000A8D233 /* YZJImageZoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJImageZoomViewController.h; sourceTree = "<group>"; };
 		15DC7AAD208C14D000A8D233 /* YZJImageZoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJImageZoomViewController.m; sourceTree = "<group>"; };
 		195AF1DB9976AB51691A659C /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1669,21 +1720,11 @@
 			path = "UITableViewCellObjective-C";
 			sourceTree = "<group>";
 		};
-		153CE5502248A9910049BA1F /* Location地理位置 */ = {
+		15379BA32262C18400D53F6E /* CellID */ = {
 			isa = PBXGroup;
 			children = (
-				153CE5512248A9F70049BA1F /* Location地理位置.md */,
 			);
-			path = "Location地理位置";
-			sourceTree = "<group>";
-		};
-		1549A41822647DD7007F57A5 /* 运营商_信号强度 */ = {
-			isa = PBXGroup;
-			children = (
-				1549A41922647EA9007F57A5 /* YZJCarrierVC.h */,
-				1549A41A22647EA9007F57A5 /* YZJCarrierVC.m */,
-			);
-			path = "运营商_信号强度";
+			path = CellID;
 			sourceTree = "<group>";
 		};
 		154EF8C7223DE5F600E1D528 /* Runtime */ = {
@@ -1727,6 +1768,7 @@
 		154EF8D5223DEB2300E1D528 /* MLUI */ = {
 			isa = PBXGroup;
 			children = (
+				159BEF372245E66200EF2BC8 /* AlertView */,
 				153103BA223E584100BC7AE5 /* CustomUIView */,
 				154EF8D6223DEB3900E1D528 /* MLTopToastView */,
 				1510EC1C223E28BE0007C39A /* YZJUIViewController.h */,
@@ -1780,8 +1822,7 @@
 		154FAC2C22413D8300E14859 /* MultiMedia_HardWare */ = {
 			isa = PBXGroup;
 			children = (
-				1549A41822647DD7007F57A5 /* 运营商_信号强度 */,
-				153CE5502248A9910049BA1F /* Location地理位置 */,
+				15379BA32262C18400D53F6E /* CellID */,
 				15199E9B2241D9E100464480 /* AudioServicesPlaySystemSound */,
 				154FAC30224147D400E14859 /* AVAudioPlayer */,
 				154FAC3422414A2C00E14859 /* YZJMultiMedia_HardWareVC.h */,
@@ -1820,6 +1861,8 @@
 		154FAC42224273AB00E14859 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				15D9B9932483F7D400EC24A7 /* Const常量 */,
+				15D9B9922483F7D400EC24A7 /* Snippets */,
 				154FAC43224273B600E14859 /* Macro宏 */,
 			);
 			name = Other;
@@ -1859,6 +1902,14 @@
 				1571FF022240E46000BBC3AC /* RunLoop.md */,
 			);
 			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		157A79D922ADC75900E3F3F8 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				157A79DA22ADC77D00E3F3F8 /* GCD.md */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 		1596E0E82235761800D66C53 /* Supports Files */ = {
@@ -1933,7 +1984,10 @@
 		1596E0F0223576B800D66C53 /* OpenSource开源 */ = {
 			isa = PBXGroup;
 			children = (
+				159BEEC22245D71C00EF2BC8 /* LYEmptyView */,
 				154FAC22223EAB9F00E14859 /* awesome-ios.md */,
+				159BEF332245DBAE00EF2BC8 /* YZJOpenSourceVC.h */,
+				159BEF342245DBAE00EF2BC8 /* YZJOpenSourceVC.m */,
 			);
 			path = "OpenSource开源";
 			sourceTree = "<group>";
@@ -2093,6 +2147,7 @@
 		1596E1122236C15300D66C53 /* Thread线程 */ = {
 			isa = PBXGroup;
 			children = (
+				157A79D922ADC75900E3F3F8 /* GCD */,
 				1571FF012240E40900BBC3AC /* RunLoop */,
 				153103AF223E535300BC7AE5 /* MainThread.h */,
 				153103B2223E535400BC7AE5 /* MainThread.m */,
@@ -2132,6 +2187,7 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				154EF8D5223DEB2300E1D528 /* MLUI */,
 				1531039F223E523C00BC7AE5 /* CLLocationManager */,
 				1531036A223E4DBB00BC7AE5 /* UIToolbarTest */,
 				15310361223E4D9F00BC7AE5 /* UILableUITextView */,
@@ -2144,7 +2200,6 @@
 				153101F4223E483A00BC7AE5 /* UISearchController */,
 				153101ED223E47E800BC7AE5 /* UIImageView */,
 				1510EC18223E23F90007C39A /* UIViewController */,
-				154EF8D5223DEB2300E1D528 /* MLUI */,
 				154EF8D4223DE8A800E1D528 /* UITableView */,
 			);
 			path = UI;
@@ -2191,6 +2246,98 @@
 				1596E12E2236C73500D66C53 /* CrashTest.h */,
 			);
 			path = CrashTest;
+			sourceTree = "<group>";
+		};
+		159BEEC22245D71C00EF2BC8 /* LYEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				159BEF002245D74E00EF2BC8 /* Classes */,
+				159BEF1F2245D74E00EF2BC8 /* HomeListViewController.h */,
+				159BEEFF2245D74E00EF2BC8 /* HomeListViewController.m */,
+				159BEEFE2245D74D00EF2BC8 /* HomeListViewController.xib */,
+				159BEF362245E27400EF2BC8 /* LYEmptyView.md */,
+			);
+			path = LYEmptyView;
+			sourceTree = "<group>";
+		};
+		159BEF002245D74E00EF2BC8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				159BEF012245D74E00EF2BC8 /* Demo */,
+				159BEF152245D74E00EF2BC8 /* OtherApp */,
+				159BEF192245D74E00EF2BC8 /* DIY */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		159BEF012245D74E00EF2BC8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				159BEF022245D74E00EF2BC8 /* DemoEmptyView.h */,
+				159BEF032245D74E00EF2BC8 /* Demo4ViewController.h */,
+				159BEF042245D74E00EF2BC8 /* Demo3ViewController.h */,
+				159BEF052245D74E00EF2BC8 /* Demo2ViewController.h */,
+				159BEF062245D74E00EF2BC8 /* Demo6ViewController.m */,
+				159BEF072245D74E00EF2BC8 /* Demo1ViewController.m */,
+				159BEF082245D74E00EF2BC8 /* Demo5ViewController.h */,
+				159BEF092245D74E00EF2BC8 /* Demo3ViewController.xib */,
+				159BEF0A2245D74E00EF2BC8 /* Demo4ViewController.m */,
+				159BEF0B2245D74E00EF2BC8 /* DemoEmptyView.m */,
+				159BEF0C2245D74E00EF2BC8 /* Demo6ViewController.xib */,
+				159BEF0D2245D74E00EF2BC8 /* Demo2ViewController.xib */,
+				159BEF0E2245D74E00EF2BC8 /* Demo3ViewController.m */,
+				159BEF0F2245D74E00EF2BC8 /* Demo1ViewController.xib */,
+				159BEF102245D74E00EF2BC8 /* Demo4ViewController.xib */,
+				159BEF112245D74E00EF2BC8 /* Demo6ViewController.h */,
+				159BEF122245D74E00EF2BC8 /* Demo2ViewController.m */,
+				159BEF132245D74E00EF2BC8 /* Demo5ViewController.m */,
+				159BEF142245D74E00EF2BC8 /* Demo1ViewController.h */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		159BEF152245D74E00EF2BC8 /* OtherApp */ = {
+			isa = PBXGroup;
+			children = (
+				159BEF162245D74E00EF2BC8 /* OtherAppViewController.xib */,
+				159BEF172245D74E00EF2BC8 /* OtherAppViewController.m */,
+				159BEF182245D74E00EF2BC8 /* OtherAppViewController.h */,
+			);
+			path = OtherApp;
+			sourceTree = "<group>";
+		};
+		159BEF192245D74E00EF2BC8 /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+				159BEF1A2245D74E00EF2BC8 /* MyDIYViewController.m */,
+				159BEF1B2245D74E00EF2BC8 /* MyDIYEmpty.h */,
+				159BEF1C2245D74E00EF2BC8 /* MyDIYViewController.xib */,
+				159BEF1D2245D74E00EF2BC8 /* MyDIYEmpty.m */,
+				159BEF1E2245D74E00EF2BC8 /* MyDIYViewController.h */,
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
+		159BEF372245E66200EF2BC8 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				159BEF382245E67F00EF2BC8 /* AlertView.md */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		15D9B9922483F7D400EC24A7 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		15D9B9932483F7D400EC24A7 /* Const常量 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Const常量";
 			sourceTree = "<group>";
 		};
 		15DC7AAB208C13F400A8D233 /* Image */ = {
@@ -3546,11 +3693,13 @@
 				5892ACBE1FF4EF4500E868C2 /* Public.xcassets in Resources */,
 				58DC83831FFB43460060DC03 /* LMJLZDHDTViewController.xib in Resources */,
 				58DC83CB1FFB43E30060DC03 /* LMJPiesViewController.xib in Resources */,
+				159BEF282245D74F00EF2BC8 /* Demo2ViewController.xib in Resources */,
 				15310368223E4DA900BC7AE5 /* UILabelViewController.xib in Resources */,
 				58DC83C71FFB43E30060DC03 /* LMJDrawBoardViewController.xib in Resources */,
 				1571FEF0223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png in Resources */,
 				58A043DB206B2E1E003CB4E5 /* RSA证书 in Resources */,
 				1531FD7D223E415900BC7AE5 /* iOS字体大小适配的几种方法.docx in Resources */,
+				159BEF272245D74F00EF2BC8 /* Demo6ViewController.xib in Resources */,
 				58651AB81FFE6D6F0087419D /* SINStatusToolBarView.xib in Resources */,
 				5892ACBB1FF4EF4500E868C2 /* Sina.xcassets in Resources */,
 				58B4EE2F205F697E00FFF4F8 /* LMJH5JSBridgeViewController.html in Resources */,
@@ -3575,6 +3724,7 @@
 				588CCD7C205D49000067E3C4 /* H5Bridge.js in Resources */,
 				583D507020731574001480C8 /* LMJLocalJsons in Resources */,
 				1531036E223E4DC400BC7AE5 /* UIToobarTestViewController.xib in Resources */,
+				159BEF312245D74F00EF2BC8 /* MyDIYViewController.xib in Resources */,
 				58DC83871FFB43460060DC03 /* LMJDYViewController.xib in Resources */,
 				58DC83F31FFB47710060DC03 /* 钟表.png in Resources */,
 				15310341223E4D2F00BC7AE5 /* task_plm_24.png in Resources */,
@@ -3585,6 +3735,7 @@
 				58A17C562007112A00B350AB /* intro_1.jpg in Resources */,
 				15310348223E4D2F00BC7AE5 /* floating_button_map.png in Resources */,
 				584038801FF9F128002A0566 /* LMJH5_OCViewController.html in Resources */,
+				159BEF242245D74F00EF2BC8 /* Demo3ViewController.xib in Resources */,
 				58B4EE31205FA4E100FFF4F8 /* H5Bridge.css in Resources */,
 				1510EC22223E2D210007C39A /* MLTopToastViewTypeOffline.png in Resources */,
 				1531020B223E4C6500BC7AE5 /* arror.png in Resources */,
@@ -3598,13 +3749,16 @@
 				589B57802000339800B2D5A8 /* VIDTableViewVideoCell.xib in Resources */,
 				58DC85161FFC972C0060DC03 /* BSJRecommendUserCell.xib in Resources */,
 				5892ACA11FF4EB4A00E868C2 /* Assets.xcassets in Resources */,
+				159BEF2E2245D74F00EF2BC8 /* OtherAppViewController.xib in Resources */,
 				58DC85241FFC972C0060DC03 /* BSJReommmendCategoryCell.xib in Resources */,
 				15310345223E4D2F00BC7AE5 /* station_next_one.png in Resources */,
 				589B56FA1FFFC52F00B2D5A8 /* MUSPlayingViewController.xib in Resources */,
+				159BEF2A2245D74F00EF2BC8 /* Demo1ViewController.xib in Resources */,
 				5840385C1FF873A8002A0566 /* LMJAnnotationCustomPopView.xib in Resources */,
 				58651AB31FFE6D6F0087419D /* SINPublishToolBar.xib in Resources */,
 				5822332120182C5D0008251F /* MCCornersRoundViewController.xib in Resources */,
 				154EF8DB223DED3800E1D528 /* ML.xcassets in Resources */,
+				159BEF202245D74F00EF2BC8 /* HomeListViewController.xib in Resources */,
 				58A17C552007112A00B350AB /* intro_0.jpg in Resources */,
 				58DC837E1FFB43460060DC03 /* LMJZDTPViewController.xib in Resources */,
 				584038691FF88594002A0566 /* LMJUpLoadImageCell.xib in Resources */,
@@ -3613,6 +3767,7 @@
 				5892ACBD1FF4EF4500E868C2 /* BSJ.xcassets in Resources */,
 				58DC85231FFC972C0060DC03 /* BSJTopicCmtCell.xib in Resources */,
 				5822335620188F6E0008251F /* adm in Resources */,
+				159BEF2B2245D74F00EF2BC8 /* Demo4ViewController.xib in Resources */,
 				1531034B223E4D2F00BC7AE5 /* station_last_one.png in Resources */,
 				58DC83C31FFB43E30060DC03 /* LMJDrawProgressViewController.xib in Resources */,
 				58DC83F91FFB478E0060DC03 /* CATransition2.png in Resources */,
@@ -3715,6 +3870,7 @@
 				1596E11D2236C5BF00D66C53 /* i18n.m in Sources */,
 				58DC85201FFC972C0060DC03 /* BSJGuidePushView.m in Sources */,
 				588CCD82205DF7860067E3C4 /* LMJCuteFlowLayoutViewController.m in Sources */,
+				159BEF252245D74F00EF2BC8 /* Demo4ViewController.m in Sources */,
 				58651AAC1FFE6D6F0087419D /* SINStatusViewModel.m in Sources */,
 				589B56FB1FFFC52F00B2D5A8 /* MUSPlayingViewController.m in Sources */,
 				589B57852000339800B2D5A8 /* VIDVideoDownloadingCell.m in Sources */,
@@ -3791,6 +3947,7 @@
 				58651ABD1FFE6D6F0087419D /* SINStatusListService.m in Sources */,
 				589B57772000339800B2D5A8 /* VIDCollectionViewController.m in Sources */,
 				58651AA91FFE6D6F0087419D /* SINBroswerViewController.m in Sources */,
+				159BEF352245DBAE00EF2BC8 /* YZJOpenSourceVC.m in Sources */,
 				5822334520185F790008251F /* MCSphereTagCloudViewController.m in Sources */,
 				588CCD8B205DF92F0067E3C4 /* LMJCircleLayout.m in Sources */,
 				589B57762000339800B2D5A8 /* VIDTableViewController.m in Sources */,
@@ -3805,6 +3962,7 @@
 				5840381F1FF64718002A0566 /* LMJYYTextViewController.m in Sources */,
 				1531039D223E521000BC7AE5 /* NSDictionaryTest.m in Sources */,
 				5892AD081FF4F9D200E868C2 /* LMJNavigationBar.m in Sources */,
+				159BEF2F2245D74F00EF2BC8 /* OtherAppViewController.m in Sources */,
 				15310381223E518600BC7AE5 /* PropertyTestViewController.m in Sources */,
 				5892AD001FF4F9D200E868C2 /* LMJItemSection.m in Sources */,
 				589B570B1FFFC53000B2D5A8 /* QQMusicTool.m in Sources */,
@@ -3835,6 +3993,7 @@
 				58DC818A1FFA317B0060DC03 /* LMJExpandHeader.m in Sources */,
 				58DC83EA1FFB44380060DC03 /* WPFPushView.m in Sources */,
 				5892AD531FF5079C00E868C2 /* LMJCollectionViewController.m in Sources */,
+				159BEF292245D74F00EF2BC8 /* Demo3ViewController.m in Sources */,
 				153101F3223E480500BC7AE5 /* UIImageViewTestVC.m in Sources */,
 				584038831FF9F2F1002A0566 /* LMJAlertViewsViewController.m in Sources */,
 				58DC85131FFC972C0060DC03 /* BSJTopicCell.m in Sources */,
@@ -3862,6 +4021,7 @@
 				5892AD5B1FF5079C00E868C2 /* LMJRequestBaseViewController.m in Sources */,
 				583D508720765978001480C8 /* YYFPSLabel.m in Sources */,
 				5822334E20187D610008251F /* LMJAutoLayoutViewController.m in Sources */,
+				159BEF322245D74F00EF2BC8 /* MyDIYEmpty.m in Sources */,
 				589B57011FFFC52F00B2D5A8 /* MUSMusicCell.m in Sources */,
 				58DC84471FFBDC8A0060DC03 /* LMJBlockLoopViewController.m in Sources */,
 				15310203223E4C4600BC7AE5 /* UISegmentedControlVC.m in Sources */,
@@ -3938,7 +4098,6 @@
 				58DC81891FFA317B0060DC03 /* LMJExpandImageView.m in Sources */,
 				584038191FF64218002A0566 /* LMJBlankPageViewController.m in Sources */,
 				5892AD681FF508E600E868C2 /* UIView+LMJNjHuFrame.m in Sources */,
-				1549A41B22647EA9007F57A5 /* YZJCarrierVC.m in Sources */,
 				153101F9223E484300BC7AE5 /* UISearchControllerTestVC.m in Sources */,
 				58DC85121FFC972C0060DC03 /* BSJTopicTopComent.m in Sources */,
 				58DC83881FFB43460060DC03 /* LMJCALayerYSDHViewController.m in Sources */,
@@ -3956,6 +4115,7 @@
 				15310395223E51F200BC7AE5 /* NSTimerTest.m in Sources */,
 				58651AAB1FFE6D6F0087419D /* SINBroswerAnimator.m in Sources */,
 				58DC846C1FFC94B30060DC03 /* LMJGroup.m in Sources */,
+				159BEF2C2245D74F00EF2BC8 /* Demo2ViewController.m in Sources */,
 				5892AD5A1FF5079C00E868C2 /* LMJBaseViewController.m in Sources */,
 				58DC83C21FFB43E30060DC03 /* LMJDrawStrPicsViewController.m in Sources */,
 				588CCD76205D42EE0067E3C4 /* LMJH5JSBridgeViewController.m in Sources */,
@@ -3982,8 +4142,10 @@
 				589B577D2000339800B2D5A8 /* VIDTableViewVideoCell.m in Sources */,
 				15310351223E4D5800BC7AE5 /* CustomCollectionViewCell.m in Sources */,
 				58DC844A1FFBDC9E0060DC03 /* LMJModalBlockViewController.m in Sources */,
+				159BEF222245D74F00EF2BC8 /* Demo6ViewController.m in Sources */,
 				58DC85251FFC972C0060DC03 /* BSJWordToolBar.m in Sources */,
 				58651AB01FFE6D6F0087419D /* SINUser.m in Sources */,
+				159BEF232245D74F00EF2BC8 /* Demo1ViewController.m in Sources */,
 				5892AD721FF5113800E868C2 /* LMJMeViewController.m in Sources */,
 				153103BD223E584C00BC7AE5 /* CustomUIView.m in Sources */,
 				153103B4223E535400BC7AE5 /* MainThread.m in Sources */,
@@ -3992,9 +4154,11 @@
 				58DC85101FFC972C0060DC03 /* BSJRecommendCategory.m in Sources */,
 				58DC83D91FFB440E0060DC03 /* WPFDemoController.m in Sources */,
 				58DC843F1FFBD1290060DC03 /* LMJGCDViewController.m in Sources */,
+				159BEF2D2245D74F00EF2BC8 /* Demo5ViewController.m in Sources */,
 				58DC85291FFC972C0060DC03 /* BSJTopicCmtService.m in Sources */,
 				58651AA71FFE6D6F0087419D /* SINTabBarController.m in Sources */,
 				58DC83CD1FFB43E30060DC03 /* LMJShangXiaWenZhanViewController.m in Sources */,
+				159BEF212245D74F00EF2BC8 /* HomeListViewController.m in Sources */,
 				58A858A6207C934E0063DE98 /* PresentAnimator.m in Sources */,
 				15310352223E4D5800BC7AE5 /* UICollectionViewTestViewController.m in Sources */,
 				58DC84F91FFC972C0060DC03 /* BSJMeViewController.m in Sources */,
@@ -4011,6 +4175,7 @@
 				589B56F61FFFC52F00B2D5A8 /* CALayer+MUSAmi.m in Sources */,
 				584038221FF64865002A0566 /* LMJListExpandHideViewController.m in Sources */,
 				58DC83851FFB43460060DC03 /* LMJCALayerViewController.m in Sources */,
+				159BEF262245D74F00EF2BC8 /* DemoEmptyView.m in Sources */,
 				1531FD86223E432000BC7AE5 /* ___FILEBASENAME___.m in Sources */,
 				58651AA01FFE6D6F0087419D /* SINSQLiteManager.m in Sources */,
 				589B56FC1FFFC52F00B2D5A8 /* QQMusicMessageModel.m in Sources */,
@@ -4036,6 +4201,7 @@
 				58DC83C11FFB43E30060DC03 /* LMJZhusViewController.m in Sources */,
 				58651A9F1FFE6D6F0087419D /* SINUserManager.m in Sources */,
 				584038861FF9F602002A0566 /* LMJFillTableFormViewController.m in Sources */,
+				159BEF302245D74F00EF2BC8 /* MyDIYViewController.m in Sources */,
 				58DC83C41FFB43E30060DC03 /* LMJXueHuaViewController.m in Sources */,
 				58DC850F1FFC972C0060DC03 /* BSJTopicViewModel.m in Sources */,
 				584038631FF87939002A0566 /* LMJUpLoadImagesViewController.m in Sources */,

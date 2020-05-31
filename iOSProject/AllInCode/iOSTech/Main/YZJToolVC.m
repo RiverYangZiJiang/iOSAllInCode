@@ -7,6 +7,7 @@
 //
 
 #import "YZJToolVC.h"
+#import "YZJOpenSourceVC.h"
 
 @interface YZJToolVC ()
 
@@ -16,17 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 需要跳转到其他界面
+    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"OpenSource开源" subTitle:@""];
+    item00.destVc = [YZJOpenSourceVC class];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00] andHeaderTitle:nil footerTitle:nil];
+    [self.sections addObjectsFromArray:@[section0]];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

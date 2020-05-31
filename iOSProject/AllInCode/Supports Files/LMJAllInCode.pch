@@ -89,4 +89,16 @@
 // 宏
 #import "MLMacro.h"
 
+#import "LYEmptyViewHeader.h"
+#import "MyDIYEmpty.h"
+#import "MBProgressHUD.h"
+
+#define kMainScreenWidth  [[UIScreen mainScreen] bounds].size.width
+#define kMainScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define kStatusBarHeight  [UIApplication sharedApplication].statusBarFrame.size.height
+
+#define MainColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
 #endif /* NJiOSProject_pch */
