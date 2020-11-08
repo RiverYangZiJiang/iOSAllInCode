@@ -10,5 +10,5 @@
 #import <CYLTabBarController.h>
 
 @interface LMJTabBarController : CYLTabBarController
-
+@property(copy) NSMutableArray *mutableArray;
 @end

@@ -25,6 +25,7 @@
     return self;
 }
 
+/// loads or creates a view and assigns it to the view property. If the view controller has an associated nib file, this method loads the view from the nib file. This is where subclasses should create their custom view hierarchy if they aren't using a nib. Should never be called directly.
 - (void)loadView
 {
     NSLog(@"%s", __func__);
@@ -33,12 +34,23 @@
     [self life:__FUNCTION__];
 }
 
+/// Loads the view controller’s view if it has not yet been loaded.
+- (void)loadViewIfNeeded{
+    NSLog(@"%s", __func__);
+    [super loadViewIfNeeded];
+    
+    [self life:__FUNCTION__];
+}
+
+/// called after the view controller has loaded its view hierarchy into memory. d. You usually override this method to perform additional initialization on views that were loaded from nib files.国内一般在该方法中添加其他UI控件，虽然官方建议在loadView方法中添加
 - (void)viewDidLoad {
     NSLog(@"%s", __func__);
     [super viewDidLoad];
     [self life:__FUNCTION__];
 }
 
+/// Notifies the view controller that its view is about to be added to a view hierarchy.【因为视图消失的时候会被移除，所以出现的时候要增加】
+/// @param animated <#animated description#>
 - (void)viewWillAppear:(BOOL)animated
 {
     NSLog(@"%s", __func__);
@@ -47,14 +59,7 @@
     [self life:__FUNCTION__];
 }
 
-- (void)didReceiveMemoryWarning {
-    NSLog(@"%s", __func__);
-    [super didReceiveMemoryWarning];
-    
-    [self life:__FUNCTION__];
-    
-}
-
+/// When a view's bounds change, the view adjusts the position of its subviews. Your view controller can override this method to make changes before the view lays out its subviews.
 - (void)viewWillLayoutSubviews
 {
     NSLog(@"%s", __func__);
@@ -79,6 +84,8 @@
     [self life:__FUNCTION__];
 }
 
+/// Notifies the view controller that its view is about to be removed from a view hierarchy. If you override this method, you must call super at some point in your implementation.
+/// @param animated <#animated description#>
 - (void)viewWillDisappear:(BOOL)animated
 {
     NSLog(@"%s", __func__);
@@ -116,6 +123,14 @@
 //        _blockTimer = nil;
 //    }
 
+}
+
+- (void)didReceiveMemoryWarning {
+    NSLog(@"%s", __func__);
+    [super didReceiveMemoryWarning];
+    
+    [self life:__FUNCTION__];
+    
 }
 
 #pragma mark - Private

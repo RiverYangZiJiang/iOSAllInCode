@@ -21,7 +21,7 @@ const UIEdgeInsets tableViewDefaultLayoutMargins = {8, 8, 8, 8};
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
     NSLog(@"self.tableView.separatorInset = %@, self.tableView.separatorInset = %@", NSStringFromUIEdgeInsets(self.tableView.separatorInset), NSStringFromUIEdgeInsets(self.tableView.layoutMargins));
     //    self.tableView.separatorInset = UIEdgeInsetsZero;
     //    self.tableView.layoutMargins = UIEdgeInsetsZero;
@@ -131,6 +131,5 @@ const UIEdgeInsets tableViewDefaultLayoutMargins = {8, 8, 8, 8};
 {
     return [super initWithStyle:UITableViewStyleGrouped];
 }
-
 
 @end

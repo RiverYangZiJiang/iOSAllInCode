@@ -44,8 +44,6 @@
 		1531034B223E4D2F00BC7AE5 /* station_last_one.png in Resources */ = {isa = PBXBuildFile; fileRef = 15310340223E4D2F00BC7AE5 /* station_last_one.png */; };
 		15310351223E4D5800BC7AE5 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531034D223E4D5700BC7AE5 /* CustomCollectionViewCell.m */; };
 		15310352223E4D5800BC7AE5 /* UICollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15310350223E4D5800BC7AE5 /* UICollectionViewTestViewController.m */; };
-		15310356223E4D7200BC7AE5 /* UIWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15310354223E4D7200BC7AE5 /* UIWebViewTest.m */; };
-		15310359223E4D7E00BC7AE5 /* WKWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15310357223E4D7E00BC7AE5 /* WKWebViewTest.m */; };
 		1531035F223E4D9200BC7AE5 /* UINavigationControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531035D223E4D9200BC7AE5 /* UINavigationControllerTest.m */; };
 		15310360223E4D9200BC7AE5 /* UINavigationItem+BackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531035E223E4D9200BC7AE5 /* UINavigationItem+BackItem.m */; };
 		15310367223E4DA900BC7AE5 /* UILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15310362223E4DA800BC7AE5 /* UILabelViewController.m */; };
@@ -95,6 +93,8 @@
 		154FAC332241482300E14859 /* YZJAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC322241482300E14859 /* YZJAVAudioPlayer.m */; };
 		154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */; };
 		154FAC412242700B00E14859 /* YZJMathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC402242700B00E14859 /* YZJMathVC.m */; };
+		156277632546AAA400E5FF34 /* UIWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 156277612546AAA400E5FF34 /* UIWebViewTest.m */; };
+		156277642546AAA400E5FF34 /* WKWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 156277622546AAA400E5FF34 /* WKWebViewTest.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
 		156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC78208B163C00A941D3 /* LMJImageViewController.m */; };
 		1571FEF0223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 1571FEEF223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png */; };
@@ -521,10 +521,6 @@
 		1531034E223E4D5700BC7AE5 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
 		1531034F223E4D5800BC7AE5 /* UICollectionViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewTestViewController.h; sourceTree = "<group>"; };
 		15310350223E4D5800BC7AE5 /* UICollectionViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewTestViewController.m; sourceTree = "<group>"; };
-		15310354223E4D7200BC7AE5 /* UIWebViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTest.m; sourceTree = "<group>"; };
-		15310355223E4D7200BC7AE5 /* UIWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewTest.h; sourceTree = "<group>"; };
-		15310357223E4D7E00BC7AE5 /* WKWebViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTest.m; sourceTree = "<group>"; };
-		15310358223E4D7E00BC7AE5 /* WKWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTest.h; sourceTree = "<group>"; };
 		1531035B223E4D9100BC7AE5 /* UINavigationControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationControllerTest.h; sourceTree = "<group>"; };
 		1531035C223E4D9200BC7AE5 /* UINavigationItem+BackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+BackItem.h"; sourceTree = "<group>"; };
 		1531035D223E4D9200BC7AE5 /* UINavigationControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationControllerTest.m; sourceTree = "<group>"; };
@@ -624,6 +620,10 @@
 		154FAC3F2242700B00E14859 /* YZJMathVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMathVC.h; sourceTree = "<group>"; };
 		154FAC402242700B00E14859 /* YZJMathVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMathVC.m; sourceTree = "<group>"; };
 		154FAC442242740800E14859 /* Macro宏.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Macro宏.md"; path = "AllInCode/OCTech/Other/Macro宏/Macro宏.md"; sourceTree = SOURCE_ROOT; };
+		1562775F2546AAA400E5FF34 /* UIWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewTest.h; sourceTree = "<group>"; };
+		156277602546AAA400E5FF34 /* WKWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTest.h; sourceTree = "<group>"; };
+		156277612546AAA400E5FF34 /* UIWebViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTest.m; sourceTree = "<group>"; };
+		156277622546AAA400E5FF34 /* WKWebViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTest.m; sourceTree = "<group>"; };
 		156EBC74208B0F1400A941D3 /* LMJCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJCameraViewController.h; sourceTree = "<group>"; };
 		156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJCameraViewController.m; sourceTree = "<group>"; };
 		156EBC77208B163C00A941D3 /* LMJImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJImageViewController.h; sourceTree = "<group>"; };
@@ -1454,17 +1454,6 @@
 			path = UICollectionView;
 			sourceTree = "<group>";
 		};
-		15310353223E4D6A00BC7AE5 /* UIWebView */ = {
-			isa = PBXGroup;
-			children = (
-				15310358223E4D7E00BC7AE5 /* WKWebViewTest.h */,
-				15310357223E4D7E00BC7AE5 /* WKWebViewTest.m */,
-				15310355223E4D7200BC7AE5 /* UIWebViewTest.h */,
-				15310354223E4D7200BC7AE5 /* UIWebViewTest.m */,
-			);
-			path = UIWebView;
-			sourceTree = "<group>";
-		};
 		1531035A223E4D8900BC7AE5 /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1877,6 +1866,17 @@
 			name = "Macro宏";
 			sourceTree = "<group>";
 		};
+		1562775E2546AAA400E5FF34 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				156277602546AAA400E5FF34 /* WKWebViewTest.h */,
+				156277622546AAA400E5FF34 /* WKWebViewTest.m */,
+				1562775F2546AAA400E5FF34 /* UIWebViewTest.h */,
+				156277612546AAA400E5FF34 /* UIWebViewTest.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
 		1571FEE9223F710900BBC3AC /* Expand */ = {
 			isa = PBXGroup;
 			children = (
@@ -2187,12 +2187,12 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1562775E2546AAA400E5FF34 /* WKWebView */,
 				154EF8D5223DEB2300E1D528 /* MLUI */,
 				1531039F223E523C00BC7AE5 /* CLLocationManager */,
 				1531036A223E4DBB00BC7AE5 /* UIToolbarTest */,
 				15310361223E4D9F00BC7AE5 /* UILableUITextView */,
 				1531035A223E4D8900BC7AE5 /* UINavigationController */,
-				15310353223E4D6A00BC7AE5 /* UIWebView */,
 				1531034C223E4D4D00BC7AE5 /* UICollectionView */,
 				1531020D223E4CAC00BC7AE5 /* MKMapView */,
 				15310205223E4C5600BC7AE5 /* UIAppearanceTest */,
@@ -3949,16 +3949,17 @@
 				58651AA91FFE6D6F0087419D /* SINBroswerViewController.m in Sources */,
 				159BEF352245DBAE00EF2BC8 /* YZJOpenSourceVC.m in Sources */,
 				5822334520185F790008251F /* MCSphereTagCloudViewController.m in Sources */,
+				156277642546AAA400E5FF34 /* WKWebViewTest.m in Sources */,
 				588CCD8B205DF92F0067E3C4 /* LMJCircleLayout.m in Sources */,
 				589B57762000339800B2D5A8 /* VIDTableViewController.m in Sources */,
 				58DC83D11FFB43E30060DC03 /* LMJClipImageViewController.m in Sources */,
-				15310359223E4D7E00BC7AE5 /* WKWebViewTest.m in Sources */,
 				589B56F91FFFC52F00B2D5A8 /* MUSLrcTableViewController.m in Sources */,
 				15310391223E51E100BC7AE5 /* BlockTestViewController.m in Sources */,
 				5892AD591FF5079C00E868C2 /* LMJTextViewController.m in Sources */,
 				58651AB91FFE6D6F0087419D /* SINTabBar.m in Sources */,
 				58DC83D81FFB440E0060DC03 /* LMJDynamicViewController.m in Sources */,
 				15310375223E4DD800BC7AE5 /* UITableViewControllerTest.m in Sources */,
+				156277632546AAA400E5FF34 /* UIWebViewTest.m in Sources */,
 				5840381F1FF64718002A0566 /* LMJYYTextViewController.m in Sources */,
 				1531039D223E521000BC7AE5 /* NSDictionaryTest.m in Sources */,
 				5892AD081FF4F9D200E868C2 /* LMJNavigationBar.m in Sources */,
@@ -4064,7 +4065,6 @@
 				1596E1272236C6D600D66C53 /* NSRegularExpressionTest.m in Sources */,
 				584038301FF64919002A0566 /* LMJListExpendHeaderView.m in Sources */,
 				1596E10C2235778100D66C53 /* YZJOCTechVC.m in Sources */,
-				15310356223E4D7200BC7AE5 /* UIWebViewTest.m in Sources */,
 				15310333223E4CE500BC7AE5 /* MLAnnotationView.m in Sources */,
 				589B570A1FFFC53000B2D5A8 /* QQMusicOperationTool.m in Sources */,
 				584038581FF872EB002A0566 /* LMJCoordinateModel.m in Sources */,

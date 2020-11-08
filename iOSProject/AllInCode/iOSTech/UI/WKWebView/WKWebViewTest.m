@@ -28,10 +28,12 @@
     NSLog(@"%s", __func__);
     [self setupUI];
 }
+
 - (void)viewWillAppear:(BOOL)animated{
     NSLog(@"%s", __func__);
     [super viewWillAppear:animated];
 }
+
 - (void)dealloc {
     NSLog(@"%s", __func__);
     // ------ 移除观察者
@@ -48,9 +50,7 @@
     UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(rightBarButtonDidClicked:)];
     self.navigationItem.rightBarButtonItem = rightBarButtonItem;
     
-    
-    self.url = @"https://0000049-wfm.dev.owsgo.com/Reports?username=I6mkuLbvkvc50ybR3WPEug==&logonflag=i4xLoD72wwzurf4Qts+msRSFY5n2nyUrE3H9WSUaO0o=&logonState=Y";
-//    self.url = @"https://www.baidu.com";
+    self.url = @"https://www.baidu.com";
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
     
     //TODO:kvo监听，获得页面和加载进度值
