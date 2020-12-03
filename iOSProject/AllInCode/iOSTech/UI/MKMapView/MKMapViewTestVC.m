@@ -473,6 +473,16 @@
     if (!_locationM) {
         _locationM = [[CLLocationManager alloc] init];
         
+        // 如果在设置-隐私-定位服务中关闭定位服务，则输出0，否则输出1
+        NSLog(@"locationM locationServicesEnabled：%d", [CLLocationManager locationServicesEnabled]);
+        
+        // 默认为0；如果关闭设备定位服务或拒绝定位服务，则输出2；如果始终，则输出3
+        if (@available(iOS 14.0, *)) {
+            NSLog(@"locationM authorizationStatus：%d", [_locationM authorizationStatus]);
+        } else {
+            NSLog(@"locationM authorizationStatus：%d", [CLLocationManager authorizationStatus]);
+        }
+        // 必须调用本方法才会弹窗。如果尚未获取过权限，则系统会弹窗；已经获取过或拒绝过，则不会弹窗。
         [_locationM requestAlwaysAuthorization];
     }
     return _locationM;
