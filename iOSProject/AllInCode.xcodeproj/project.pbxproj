@@ -93,6 +93,8 @@
 		154FAC332241482300E14859 /* YZJAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC322241482300E14859 /* YZJAVAudioPlayer.m */; };
 		154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC3522414A2C00E14859 /* YZJMultiMedia_HardWareVC.m */; };
 		154FAC412242700B00E14859 /* YZJMathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC402242700B00E14859 /* YZJMathVC.m */; };
+		155A4ED325A6057900BC841F /* TYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4ED225A6057900BC841F /* TYWaterWaveView.m */; };
+		155A4ED725A6063A00BC841F /* YZJWaterWaveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4ED625A6063A00BC841F /* YZJWaterWaveVC.m */; };
 		156277632546AAA400E5FF34 /* UIWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 156277612546AAA400E5FF34 /* UIWebViewTest.m */; };
 		156277642546AAA400E5FF34 /* WKWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 156277622546AAA400E5FF34 /* WKWebViewTest.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
@@ -621,6 +623,10 @@
 		154FAC3F2242700B00E14859 /* YZJMathVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMathVC.h; sourceTree = "<group>"; };
 		154FAC402242700B00E14859 /* YZJMathVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMathVC.m; sourceTree = "<group>"; };
 		154FAC442242740800E14859 /* Macro宏.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Macro宏.md"; path = "AllInCode/OCTech/Other/Macro宏/Macro宏.md"; sourceTree = SOURCE_ROOT; };
+		155A4ED125A6057800BC841F /* TYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWaterWaveView.h; sourceTree = "<group>"; };
+		155A4ED225A6057900BC841F /* TYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterWaveView.m; sourceTree = "<group>"; };
+		155A4ED525A6063A00BC841F /* YZJWaterWaveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJWaterWaveVC.h; sourceTree = "<group>"; };
+		155A4ED625A6063A00BC841F /* YZJWaterWaveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJWaterWaveVC.m; sourceTree = "<group>"; };
 		1562775F2546AAA400E5FF34 /* UIWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewTest.h; sourceTree = "<group>"; };
 		156277602546AAA400E5FF34 /* WKWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTest.h; sourceTree = "<group>"; };
 		156277612546AAA400E5FF34 /* UIWebViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTest.m; sourceTree = "<group>"; };
@@ -1639,6 +1645,7 @@
 		153103F2223E935E00BC7AE5 /* Animation动画 */ = {
 			isa = PBXGroup;
 			children = (
+				155A4ED025A603AC00BC841F /* WaterWave */,
 				153103F3223E936900BC7AE5 /* UIView */,
 				153103F7223E94FB00BC7AE5 /* Animation动画.md */,
 			);
@@ -1867,6 +1874,17 @@
 				154FAC442242740800E14859 /* Macro宏.md */,
 			);
 			name = "Macro宏";
+			sourceTree = "<group>";
+		};
+		155A4ED025A603AC00BC841F /* WaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				155A4ED125A6057800BC841F /* TYWaterWaveView.h */,
+				155A4ED225A6057900BC841F /* TYWaterWaveView.m */,
+				155A4ED525A6063A00BC841F /* YZJWaterWaveVC.h */,
+				155A4ED625A6063A00BC841F /* YZJWaterWaveVC.m */,
+			);
+			path = WaterWave;
 			sourceTree = "<group>";
 		};
 		1562775E2546AAA400E5FF34 /* WKWebView */ = {
@@ -3877,6 +3895,7 @@
 			files = (
 				58DC850C1FFC972C0060DC03 /* BSJTopic.m in Sources */,
 				58651AB11FFE6D6F0087419D /* SINStatusToolBarView.m in Sources */,
+				155A4ED325A6057900BC841F /* TYWaterWaveView.m in Sources */,
 				58DC83E71FFB44380060DC03 /* WPFSnapView.m in Sources */,
 				5840384D1FF7FBCF002A0566 /* LMJMasonryViewController.m in Sources */,
 				58A8584E207878430063DE98 /* LMJWebImageCacheCell.m in Sources */,
@@ -3967,6 +3986,7 @@
 				589B57762000339800B2D5A8 /* VIDTableViewController.m in Sources */,
 				58DC83D11FFB43E30060DC03 /* LMJClipImageViewController.m in Sources */,
 				589B56F91FFFC52F00B2D5A8 /* MUSLrcTableViewController.m in Sources */,
+				155A4ED725A6063A00BC841F /* YZJWaterWaveVC.m in Sources */,
 				15310391223E51E100BC7AE5 /* BlockTestViewController.m in Sources */,
 				5892AD591FF5079C00E868C2 /* LMJTextViewController.m in Sources */,
 				58651AB91FFE6D6F0087419D /* SINTabBar.m in Sources */,
