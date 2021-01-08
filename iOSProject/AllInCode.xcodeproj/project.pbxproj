@@ -460,9 +460,8 @@
 		58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */; };
 		6751299F25A8842700F72B9F /* GHUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6751299E25A8842600F72B9F /* GHUIDefine.m */; };
 		675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A125A885AE00F72B9F /* UILabel+CPExtension.m */; };
-		675129A825A8862000F72B9F /* UIFont+GHPingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A725A8862000F72B9F /* UIFont+GHPingFang.m */; };
 		675129AE25A886F800F72B9F /* CPActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129AD25A886F700F72B9F /* CPActivityController.m */; };
-		675129B325A8874900F72B9F /* UIFont+GHPingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129B125A8874900F72B9F /* UIFont+GHPingFang.m */; };
+		675129C725A88BEE00F72B9F /* UIFont+GHPingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */; };
 		DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA18E4D516C513D679667E40 /* libPods-AllInCode.a */; };
 /* End PBXBuildFile section */
 
@@ -1310,10 +1309,10 @@
 		6751299E25A8842600F72B9F /* GHUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUIDefine.m; sourceTree = "<group>"; };
 		675129A125A885AE00F72B9F /* UILabel+CPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CPExtension.m"; sourceTree = "<group>"; };
 		675129A225A885AE00F72B9F /* UILabel+CPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CPExtension.h"; sourceTree = "<group>"; };
-		675129A725A8862000F72B9F /* UIFont+GHPingFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GHPingFang.m"; sourceTree = "<group>"; };
 		675129AC25A886F700F72B9F /* CPActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPActivityController.h; sourceTree = "<group>"; };
 		675129AD25A886F700F72B9F /* CPActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPActivityController.m; sourceTree = "<group>"; };
-		675129B125A8874900F72B9F /* UIFont+GHPingFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GHPingFang.m"; sourceTree = "<group>"; };
+		675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GHPingFang.m"; sourceTree = "<group>"; };
+		675129C625A88BEE00F72B9F /* UIFont+GHPingFang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GHPingFang.h"; sourceTree = "<group>"; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
 		D49A30618F315E1413EBE11B /* Pods-AllInCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2012,7 +2011,7 @@
 		1596E0EF223576AE00D66C53 /* Category分类 */ = {
 			isa = PBXGroup;
 			children = (
-				675129A525A8861000F72B9F /* UIFont */,
+				675129C425A88BEE00F72B9F /* UIFont */,
 				153103A7223E528700BC7AE5 /* NSString */,
 				154EF8E4223DEDFE00E1D528 /* UIColor */,
 				154EF8E0223DEDCD00E1D528 /* UIButton */,
@@ -3625,15 +3624,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		675129A525A8861000F72B9F /* UIFont */ = {
-			isa = PBXGroup;
-			children = (
-				675129B125A8874900F72B9F /* UIFont+GHPingFang.m */,
-				675129A725A8862000F72B9F /* UIFont+GHPingFang.m */,
-			);
-			path = UIFont;
-			sourceTree = "<group>";
-		};
 		675129AB25A886E300F72B9F /* CustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -3641,6 +3631,15 @@
 				675129AD25A886F700F72B9F /* CPActivityController.m */,
 			);
 			path = CustomNavigationBar;
+			sourceTree = "<group>";
+		};
+		675129C425A88BEE00F72B9F /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				675129C625A88BEE00F72B9F /* UIFont+GHPingFang.h */,
+				675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */,
+			);
+			path = UIFont;
 			sourceTree = "<group>";
 		};
 		8FC3A5937CA448C8AE6DDE55 /* Frameworks */ = {
@@ -4160,7 +4159,6 @@
 				15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */,
 				589B577A2000339800B2D5A8 /* ZFVideoResolution.m in Sources */,
 				15310334223E4CE500BC7AE5 /* MKMapViewTestVC.m in Sources */,
-				675129B325A8874900F72B9F /* UIFont+GHPingFang.m in Sources */,
 				58DC851B1FFC972C0060DC03 /* BSJMeSquareCell.m in Sources */,
 				154EF8DF223DEDCA00E1D528 /* UILabel+MLCategory.m in Sources */,
 				58A17C4E2005F4E600B350AB /* LMJParagraph.m in Sources */,
@@ -4264,7 +4262,6 @@
 				589B57001FFFC52F00B2D5A8 /* QQLrcCell.m in Sources */,
 				585A22E7207DAB77001BD3AD /* SINPickPhotoTool.m in Sources */,
 				5892AD021FF4F9D200E868C2 /* LMJWordArrowItem.m in Sources */,
-				675129A825A8862000F72B9F /* UIFont+GHPingFang.m in Sources */,
 				58651AA51FFE6D6F0087419D /* SINHomeViewController.m in Sources */,
 				58DC838B1FFB43460060DC03 /* LMJCAClockViewController.m in Sources */,
 				153103AE223E52DF00BC7AE5 /* NSStringTest.m in Sources */,
@@ -4295,6 +4292,7 @@
 				58DC83D01FFB43E30060DC03 /* LMJPicClipViewController.m in Sources */,
 				5892AD9F1FF5F23D00E868C2 /* AdvertiseView.m in Sources */,
 				589B57091FFFC53000B2D5A8 /* QQImageTool.m in Sources */,
+				675129C725A88BEE00F72B9F /* UIFont+GHPingFang.m in Sources */,
 				5840381C1FF644D2002A0566 /* LMJAnimationNavBarViewController.m in Sources */,
 				15310367223E4DA900BC7AE5 /* UILabelViewController.m in Sources */,
 			);
