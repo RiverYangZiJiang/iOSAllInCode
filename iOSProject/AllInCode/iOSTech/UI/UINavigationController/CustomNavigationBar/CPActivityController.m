@@ -7,13 +7,15 @@
 //
 
 #import "CPActivityController.h"
-#import "UILabel+CPExtension.h"
+#import "CPActivityNavigationBar.h"
+#import "GHUIDefine.h"
+#import "MJRefresh.h"
 
 @interface CPActivityController ()
+@property (nonatomic, strong) UITableView *tableView;
 /// 自定义导航条
-@property (nonatomic, strong) UIView *customNavigationBar;
+@property (nonatomic, strong) CPActivityNavigationBar *customNavigationBar;
 @property (nonatomic, strong) UIImageView *topBackgroundImageView;
-@property (nonatomic, strong) UILabel *titleLabel;
 
 @end
 
@@ -21,13 +23,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationBarHidden = NO;
-    self.titleLabel.text = @"福利中心";
+    
     
     [self.view addSubview:self.topBackgroundImageView];
-    [self.view addSubview:self.titleLabel];
-    
+    [self.view addSubview:self.customNavigationBar];
+    [self.view addSubview:self.tableView];
     self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    // 隐藏导航条 《iOS 导航栏的正确隐藏方式http://www.jishudog.com/28853/html》
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -38,27 +45,25 @@
     self.topBackgroundImageView.width = self.view.width;
     self.topBackgroundImageView.height = SH(161);
     
-    self.titleLabel.top = CPNavigationBarHeight + SH(12);
-    self.titleLabel.centerX = self.view.centerX;
-    self.titleLabel.width = self.view.width;
-    self.titleLabel.height = SH(24);
+    self.customNavigationBar.top =  0;
+    self.customNavigationBar.left = 0;
+    self.customNavigationBar.width = self.view.width;
+    self.customNavigationBar.height = SC_STATUS_BAR_HEIGHT + self.navigationController.navigationBar.height;
     
-    
+    self.tableView.left = 0;
+    self.tableView.top =  self.customNavigationBar.bottom;
+    self.tableView.width = self.view.width;
+    self.tableView.height = self.view.bottom - self.tableView.top;
 }
 
 #pragma mark - Getters & Setters
-- (UIView *)customNavigationBar {
+- (CPActivityNavigationBar *)customNavigationBar {
     if (!_customNavigationBar) {
-        _customNavigationBar = [[UIView alloc] init];
+        _customNavigationBar = [[CPActivityNavigationBar alloc] initWithTitle:@"福利中心" doneBlock:^(UIButton * _Nonnull button) {
+            NSLog(@"%@ %s", NSStringFromClass([self class]), __func__);
+        }];
     }
     return _customNavigationBar;
-}
-
-- (UILabel *)titleLabel{
-    if(!_titleLabel) {
-        _titleLabel = [UILabel labelWithTextColor:[UIColor whiteColor] backgroundColor:[UIColor clearColor] textFont:[UIFont PingFangSC_RegularOfSize:16] textAlignment:NSTextAlignmentCenter nuberOflines:1];
-    }
-    return _titleLabel;
 }
 
 - (UIImageView *)topBackgroundImageView {
@@ -66,6 +71,24 @@
         _topBackgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg_activity"]];
     }
     return _topBackgroundImageView;
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] init];
+        _tableView.backgroundColor = [UIColor clearColor];
+        
+        MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            NSLog(@"%@ %s", NSStringFromClass([self class]), __func__);
+        }];
+        // 设置颜色
+        header.stateLabel.textColor = [UIColor whiteColor];
+        header.lastUpdatedTimeLabel.textColor = [UIColor whiteColor];
+        _tableView.mj_header = header;
+//        _tableView.delegate = self;
+//        _tableView.dataSource = self;
+    }
+    return _tableView;
 }
 
 @end

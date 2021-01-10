@@ -95,6 +95,31 @@
 		154FAC412242700B00E14859 /* YZJMathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154FAC402242700B00E14859 /* YZJMathVC.m */; };
 		155A4ED325A6057900BC841F /* TYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4ED225A6057900BC841F /* TYWaterWaveView.m */; };
 		155A4ED725A6063A00BC841F /* YZJWaterWaveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4ED625A6063A00BC841F /* YZJWaterWaveVC.m */; };
+		155A4EDE25A88DCD00BC841F /* CPActivityNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EDD25A88DCD00BC841F /* CPActivityNavigationBar.m */; };
+		155A4F1125A9234000BC841F /* JMRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EEC25A9234000BC841F /* JMRadioButton.m */; };
+		155A4F1225A9234000BC841F /* JMBootstrapButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EF025A9234000BC841F /* JMBootstrapButtonConfig.m */; };
+		155A4F1325A9234000BC841F /* JMBootstrapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EF125A9234000BC841F /* JMBootstrapButton.m */; };
+		155A4F1425A9234000BC841F /* JMBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EF625A9234000BC841F /* JMBaseButton.m */; };
+		155A4F1525A9234000BC841F /* JMBaseButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EF825A9234000BC841F /* JMBaseButtonConfig.m */; };
+		155A4F1625A9234000BC841F /* JMWaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EFC25A9234000BC841F /* JMWaveButton.m */; };
+		155A4F1725A9234000BC841F /* JMWaveButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4EFD25A9234000BC841F /* JMWaveButtonConfig.m */; };
+		155A4F1825A9234000BC841F /* JMNumberButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0025A9234000BC841F /* JMNumberButtonConfig.m */; };
+		155A4F1925A9234000BC841F /* JMNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0325A9234000BC841F /* JMNumberButton.m */; };
+		155A4F1A25A9234000BC841F /* JMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0425A9234000BC841F /* JMButton.m */; };
+		155A4F1B25A9234000BC841F /* JMRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0825A9234000BC841F /* JMRuntime.m */; };
+		155A4F1C25A9234000BC841F /* UIView+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0925A9234000BC841F /* UIView+JM.m */; };
+		155A4F1D25A9234000BC841F /* JMBaseButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0B25A9234000BC841F /* JMBaseButton+CountDown.m */; };
+		155A4F1E25A9234000BC841F /* UIColor+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F0F25A9234000BC841F /* UIColor+JM.m */; };
+		155A4F1F25A9234000BC841F /* JMBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F1025A9234000BC841F /* JMBadgeValue.m */; };
+		155A4F3525A9237E00BC841F /* JMCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2525A9237500BC841F /* JMCustomViewController.m */; };
+		155A4F3625A9237E00BC841F /* JMCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2725A9237600BC841F /* JMCountDownViewController.m */; };
+		155A4F3725A9237E00BC841F /* JMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2825A9237600BC841F /* JMViewController.m */; };
+		155A4F3825A9237E00BC841F /* JMBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2A25A9237700BC841F /* JMBasicViewController.m */; };
+		155A4F3925A9237E00BC841F /* JMWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2B25A9237800BC841F /* JMWaveViewController.m */; };
+		155A4F3A25A9237E00BC841F /* JMNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2C25A9237800BC841F /* JMNumberViewController.m */; };
+		155A4F3B25A9237E00BC841F /* JMBadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F2D25A9237900BC841F /* JMBadgeViewController.m */; };
+		155A4F3C25A9237E00BC841F /* JMBootstrapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F3125A9237C00BC841F /* JMBootstrapViewController.m */; };
+		155A4F3D25A9237E00BC841F /* JMRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A4F3225A9237D00BC841F /* JMRadioViewController.m */; };
 		156277632546AAA400E5FF34 /* UIWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 156277612546AAA400E5FF34 /* UIWebViewTest.m */; };
 		156277642546AAA400E5FF34 /* WKWebViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 156277622546AAA400E5FF34 /* WKWebViewTest.m */; };
 		156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EBC75208B0F1400A941D3 /* LMJCameraViewController.m */; };
@@ -631,6 +656,58 @@
 		155A4ED225A6057900BC841F /* TYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterWaveView.m; sourceTree = "<group>"; };
 		155A4ED525A6063A00BC841F /* YZJWaterWaveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJWaterWaveVC.h; sourceTree = "<group>"; };
 		155A4ED625A6063A00BC841F /* YZJWaterWaveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJWaterWaveVC.m; sourceTree = "<group>"; };
+		155A4EDC25A88DCD00BC841F /* CPActivityNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPActivityNavigationBar.h; sourceTree = "<group>"; };
+		155A4EDD25A88DCD00BC841F /* CPActivityNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPActivityNavigationBar.m; sourceTree = "<group>"; };
+		155A4EEC25A9234000BC841F /* JMRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRadioButton.m; sourceTree = "<group>"; };
+		155A4EED25A9234000BC841F /* JMRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRadioButton.h; sourceTree = "<group>"; };
+		155A4EEE25A9234000BC841F /* JMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMButton.h; sourceTree = "<group>"; };
+		155A4EF025A9234000BC841F /* JMBootstrapButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBootstrapButtonConfig.m; sourceTree = "<group>"; };
+		155A4EF125A9234000BC841F /* JMBootstrapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBootstrapButton.m; sourceTree = "<group>"; };
+		155A4EF225A9234000BC841F /* JMBootstrapButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBootstrapButtonConfig.h; sourceTree = "<group>"; };
+		155A4EF325A9234000BC841F /* JMBootstrapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBootstrapButton.h; sourceTree = "<group>"; };
+		155A4EF525A9234000BC841F /* JMBaseButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseButtonConfig.h; sourceTree = "<group>"; };
+		155A4EF625A9234000BC841F /* JMBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseButton.m; sourceTree = "<group>"; };
+		155A4EF725A9234000BC841F /* JMBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseButton.h; sourceTree = "<group>"; };
+		155A4EF825A9234000BC841F /* JMBaseButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseButtonConfig.m; sourceTree = "<group>"; };
+		155A4EF925A9234000BC841F /* JMBadgeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeValue.h; sourceTree = "<group>"; };
+		155A4EFB25A9234000BC841F /* JMWaveButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWaveButtonConfig.h; sourceTree = "<group>"; };
+		155A4EFC25A9234000BC841F /* JMWaveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMWaveButton.m; sourceTree = "<group>"; };
+		155A4EFD25A9234000BC841F /* JMWaveButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMWaveButtonConfig.m; sourceTree = "<group>"; };
+		155A4EFE25A9234000BC841F /* JMWaveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWaveButton.h; sourceTree = "<group>"; };
+		155A4F0025A9234000BC841F /* JMNumberButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNumberButtonConfig.m; sourceTree = "<group>"; };
+		155A4F0125A9234000BC841F /* JMNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNumberButton.h; sourceTree = "<group>"; };
+		155A4F0225A9234000BC841F /* JMNumberButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNumberButtonConfig.h; sourceTree = "<group>"; };
+		155A4F0325A9234000BC841F /* JMNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNumberButton.m; sourceTree = "<group>"; };
+		155A4F0425A9234000BC841F /* JMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMButton.m; sourceTree = "<group>"; };
+		155A4F0525A9234000BC841F /* JMButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMButtons.h; sourceTree = "<group>"; };
+		155A4F0725A9234000BC841F /* JMBaseButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JMBaseButton+CountDown.h"; sourceTree = "<group>"; };
+		155A4F0825A9234000BC841F /* JMRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRuntime.m; sourceTree = "<group>"; };
+		155A4F0925A9234000BC841F /* UIView+JM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JM.m"; sourceTree = "<group>"; };
+		155A4F0A25A9234000BC841F /* UIColor+JM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JM.h"; sourceTree = "<group>"; };
+		155A4F0B25A9234000BC841F /* JMBaseButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JMBaseButton+CountDown.m"; sourceTree = "<group>"; };
+		155A4F0C25A9234000BC841F /* UIView+JM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JM.h"; sourceTree = "<group>"; };
+		155A4F0D25A9234000BC841F /* JMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDefine.h; sourceTree = "<group>"; };
+		155A4F0E25A9234000BC841F /* JMRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRuntime.h; sourceTree = "<group>"; };
+		155A4F0F25A9234000BC841F /* UIColor+JM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JM.m"; sourceTree = "<group>"; };
+		155A4F1025A9234000BC841F /* JMBadgeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBadgeValue.m; sourceTree = "<group>"; };
+		155A4F2225A9237200BC841F /* JMBootstrapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBootstrapViewController.h; sourceTree = "<group>"; };
+		155A4F2325A9237300BC841F /* JMBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMBadgeViewController.h; path = "../../../../../../../../../../Downloads/JMButton-master/JMButton/JMBadgeViewController.h"; sourceTree = "<group>"; };
+		155A4F2425A9237400BC841F /* JMWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWaveViewController.h; sourceTree = "<group>"; };
+		155A4F2525A9237500BC841F /* JMCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCustomViewController.m; sourceTree = "<group>"; };
+		155A4F2625A9237500BC841F /* JMRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRadioViewController.h; sourceTree = "<group>"; };
+		155A4F2725A9237600BC841F /* JMCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCountDownViewController.m; sourceTree = "<group>"; };
+		155A4F2825A9237600BC841F /* JMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMViewController.m; sourceTree = "<group>"; };
+		155A4F2A25A9237700BC841F /* JMBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBasicViewController.m; sourceTree = "<group>"; };
+		155A4F2B25A9237800BC841F /* JMWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMWaveViewController.m; sourceTree = "<group>"; };
+		155A4F2C25A9237800BC841F /* JMNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNumberViewController.m; sourceTree = "<group>"; };
+		155A4F2D25A9237900BC841F /* JMBadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBadgeViewController.m; sourceTree = "<group>"; };
+		155A4F2E25A9237A00BC841F /* JMCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCustomViewController.h; sourceTree = "<group>"; };
+		155A4F2F25A9237B00BC841F /* JMNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNumberViewController.h; sourceTree = "<group>"; };
+		155A4F3025A9237B00BC841F /* JMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMViewController.h; sourceTree = "<group>"; };
+		155A4F3125A9237C00BC841F /* JMBootstrapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBootstrapViewController.m; sourceTree = "<group>"; };
+		155A4F3225A9237D00BC841F /* JMRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRadioViewController.m; sourceTree = "<group>"; };
+		155A4F3325A9237E00BC841F /* JMBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBasicViewController.h; sourceTree = "<group>"; };
+		155A4F3425A9237E00BC841F /* JMCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCountDownViewController.h; sourceTree = "<group>"; };
 		1562775F2546AAA400E5FF34 /* UIWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewTest.h; sourceTree = "<group>"; };
 		156277602546AAA400E5FF34 /* WKWebViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTest.h; sourceTree = "<group>"; };
 		156277612546AAA400E5FF34 /* UIWebViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTest.m; sourceTree = "<group>"; };
@@ -1902,6 +1979,127 @@
 			path = WaterWave;
 			sourceTree = "<group>";
 		};
+		155A4EE025A8983600BC841F /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4F2125A9234800BC841F /* JMButtonVC */,
+				155A4EEA25A9234000BC841F /* JMButton */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		155A4EEA25A9234000BC841F /* JMButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4EEB25A9234000BC841F /* RadioButton */,
+				155A4EEE25A9234000BC841F /* JMButton.h */,
+				155A4EEF25A9234000BC841F /* BootstrapButton */,
+				155A4EF425A9234000BC841F /* BaseButton */,
+				155A4EF925A9234000BC841F /* JMBadgeValue.h */,
+				155A4EFA25A9234000BC841F /* WaveButton */,
+				155A4EFF25A9234000BC841F /* NumberButton */,
+				155A4F0425A9234000BC841F /* JMButton.m */,
+				155A4F0525A9234000BC841F /* JMButtons.h */,
+				155A4F0625A9234000BC841F /* JMCategroy */,
+				155A4F1025A9234000BC841F /* JMBadgeValue.m */,
+			);
+			path = JMButton;
+			sourceTree = "<group>";
+		};
+		155A4EEB25A9234000BC841F /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4EEC25A9234000BC841F /* JMRadioButton.m */,
+				155A4EED25A9234000BC841F /* JMRadioButton.h */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		155A4EEF25A9234000BC841F /* BootstrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4EF025A9234000BC841F /* JMBootstrapButtonConfig.m */,
+				155A4EF125A9234000BC841F /* JMBootstrapButton.m */,
+				155A4EF225A9234000BC841F /* JMBootstrapButtonConfig.h */,
+				155A4EF325A9234000BC841F /* JMBootstrapButton.h */,
+			);
+			path = BootstrapButton;
+			sourceTree = "<group>";
+		};
+		155A4EF425A9234000BC841F /* BaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4EF525A9234000BC841F /* JMBaseButtonConfig.h */,
+				155A4EF625A9234000BC841F /* JMBaseButton.m */,
+				155A4EF725A9234000BC841F /* JMBaseButton.h */,
+				155A4EF825A9234000BC841F /* JMBaseButtonConfig.m */,
+			);
+			path = BaseButton;
+			sourceTree = "<group>";
+		};
+		155A4EFA25A9234000BC841F /* WaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4EFB25A9234000BC841F /* JMWaveButtonConfig.h */,
+				155A4EFC25A9234000BC841F /* JMWaveButton.m */,
+				155A4EFD25A9234000BC841F /* JMWaveButtonConfig.m */,
+				155A4EFE25A9234000BC841F /* JMWaveButton.h */,
+			);
+			path = WaveButton;
+			sourceTree = "<group>";
+		};
+		155A4EFF25A9234000BC841F /* NumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				155A4F0025A9234000BC841F /* JMNumberButtonConfig.m */,
+				155A4F0125A9234000BC841F /* JMNumberButton.h */,
+				155A4F0225A9234000BC841F /* JMNumberButtonConfig.h */,
+				155A4F0325A9234000BC841F /* JMNumberButton.m */,
+			);
+			path = NumberButton;
+			sourceTree = "<group>";
+		};
+		155A4F0625A9234000BC841F /* JMCategroy */ = {
+			isa = PBXGroup;
+			children = (
+				155A4F0725A9234000BC841F /* JMBaseButton+CountDown.h */,
+				155A4F0825A9234000BC841F /* JMRuntime.m */,
+				155A4F0925A9234000BC841F /* UIView+JM.m */,
+				155A4F0A25A9234000BC841F /* UIColor+JM.h */,
+				155A4F0B25A9234000BC841F /* JMBaseButton+CountDown.m */,
+				155A4F0C25A9234000BC841F /* UIView+JM.h */,
+				155A4F0D25A9234000BC841F /* JMDefine.h */,
+				155A4F0E25A9234000BC841F /* JMRuntime.h */,
+				155A4F0F25A9234000BC841F /* UIColor+JM.m */,
+			);
+			path = JMCategroy;
+			sourceTree = "<group>";
+		};
+		155A4F2125A9234800BC841F /* JMButtonVC */ = {
+			isa = PBXGroup;
+			children = (
+				155A4F2325A9237300BC841F /* JMBadgeViewController.h */,
+				155A4F2D25A9237900BC841F /* JMBadgeViewController.m */,
+				155A4F3325A9237E00BC841F /* JMBasicViewController.h */,
+				155A4F2A25A9237700BC841F /* JMBasicViewController.m */,
+				155A4F2225A9237200BC841F /* JMBootstrapViewController.h */,
+				155A4F3125A9237C00BC841F /* JMBootstrapViewController.m */,
+				155A4F3425A9237E00BC841F /* JMCountDownViewController.h */,
+				155A4F2725A9237600BC841F /* JMCountDownViewController.m */,
+				155A4F2E25A9237A00BC841F /* JMCustomViewController.h */,
+				155A4F2525A9237500BC841F /* JMCustomViewController.m */,
+				155A4F2F25A9237B00BC841F /* JMNumberViewController.h */,
+				155A4F2C25A9237800BC841F /* JMNumberViewController.m */,
+				155A4F2625A9237500BC841F /* JMRadioViewController.h */,
+				155A4F3225A9237D00BC841F /* JMRadioViewController.m */,
+				155A4F2425A9237400BC841F /* JMWaveViewController.h */,
+				155A4F2B25A9237800BC841F /* JMWaveViewController.m */,
+				155A4F3025A9237B00BC841F /* JMViewController.h */,
+				155A4F2825A9237600BC841F /* JMViewController.m */,
+			);
+			path = JMButtonVC;
+			sourceTree = "<group>";
+		};
 		1562775E2546AAA400E5FF34 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2226,6 +2424,7 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				155A4EE025A8983600BC841F /* UIButton */,
 				15A00051257506150044686B /* UIScrollView */,
 				1562775E2546AAA400E5FF34 /* WKWebView */,
 				154EF8D5223DEB2300E1D528 /* MLUI */,
@@ -3629,6 +3828,8 @@
 			children = (
 				675129AC25A886F700F72B9F /* CPActivityController.h */,
 				675129AD25A886F700F72B9F /* CPActivityController.m */,
+				155A4EDC25A88DCD00BC841F /* CPActivityNavigationBar.h */,
+				155A4EDD25A88DCD00BC841F /* CPActivityNavigationBar.m */,
 			);
 			path = CustomNavigationBar;
 			sourceTree = "<group>";
@@ -3956,6 +4157,7 @@
 				156EBC79208B163C00A941D3 /* LMJImageViewController.m in Sources */,
 				588CCD7F205D4FA60067E3C4 /* WKBridgeTool.m in Sources */,
 				58B59D0A2015B17800C4C4C9 /* LMJCasesViewController.m in Sources */,
+				155A4F1725A9234000BC841F /* JMWaveButtonConfig.m in Sources */,
 				58DC818D1FFA335C0060DC03 /* LMJFingerCheckViewController.m in Sources */,
 				58A8584A2078760A0063DE98 /* LMJWebImagesCacheViewController.m in Sources */,
 				58DC83D31FFB43E30060DC03 /* LMJDotRemoveViewController.m in Sources */,
@@ -3974,16 +4176,21 @@
 				58DC838D1FFB43460060DC03 /* LMJCABasicAnimationViewController.m in Sources */,
 				58DC81841FFA31200060DC03 /* LMJNavBarFadeViewController.m in Sources */,
 				58DC84FE1FFC972C0060DC03 /* BSJLoginRegisterViewController.m in Sources */,
+				155A4F3D25A9237E00BC841F /* JMRadioViewController.m in Sources */,
+				155A4F1C25A9234000BC841F /* UIView+JM.m in Sources */,
 				584038491FF7F3E5002A0566 /* LMJBaseResponse.m in Sources */,
 				5892AD551FF5079C00E868C2 /* LMJNavUIBaseViewController.m in Sources */,
+				155A4F3725A9237E00BC841F /* JMViewController.m in Sources */,
 				58651AB21FFE6D6F0087419D /* SINStatusCell.m in Sources */,
 				58DC85011FFC972C0060DC03 /* BSJTopicViewController.m in Sources */,
 				5892ACB21FF4EEB400E868C2 /* LMJAppDelegate.m in Sources */,
 				58DC83C51FFB43E30060DC03 /* LMJDrawBoardViewController.m in Sources */,
 				58926476202DA70E007DA41E /* LMJEventTool.m in Sources */,
+				155A4F1225A9234000BC841F /* JMBootstrapButtonConfig.m in Sources */,
 				584038381FF7E2BE002A0566 /* LMJVerticalLayoutViewController.m in Sources */,
 				154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */,
 				1531038D223E51CA00BC7AE5 /* KVC-KVOTest.m in Sources */,
+				155A4F3B25A9237E00BC841F /* JMBadgeViewController.m in Sources */,
 				58DC84541FFBDDC40060DC03 /* LMJChildBlockViewController.m in Sources */,
 				581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */,
 				153103AA223E529200BC7AE5 /* NSString+Category.m in Sources */,
@@ -4002,21 +4209,25 @@
 				5892AD071FF4F9D200E868C2 /* LMJAutoRefreshFooter.m in Sources */,
 				58223317201821C00008251F /* NullSafe.m in Sources */,
 				154FAC412242700B00E14859 /* YZJMathVC.m in Sources */,
+				155A4F1B25A9234000BC841F /* JMRuntime.m in Sources */,
 				675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */,
 				15310204223E4C4600BC7AE5 /* MLCustomSegmentedControl.m in Sources */,
 				58DC84EE1FFC972B0060DC03 /* BSJ.m in Sources */,
+				155A4F1125A9234000BC841F /* JMRadioButton.m in Sources */,
 				581A3E4120450B3E00AF08C0 /* NSString+MJDownload.m in Sources */,
 				154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */,
 				58926429201B64D3007DA41E /* BSJTopicListDAL.m in Sources */,
 				584038721FF9399B002A0566 /* LMJListTimerCountDownViewController.m in Sources */,
 				5898889F206B34BF00BDAACD /* DES3Encryptor.m in Sources */,
 				1596E12F2236C73500D66C53 /* CrashTest.m in Sources */,
+				155A4F1825A9234000BC841F /* JMNumberButtonConfig.m in Sources */,
 				5840385D1FF873A8002A0566 /* LMJAnnotationCustomPopView.m in Sources */,
 				58651AB41FFE6D6F0087419D /* SINUnLoginRegisterView.m in Sources */,
 				58651ABD1FFE6D6F0087419D /* SINStatusListService.m in Sources */,
 				589B57772000339800B2D5A8 /* VIDCollectionViewController.m in Sources */,
 				58651AA91FFE6D6F0087419D /* SINBroswerViewController.m in Sources */,
 				159BEF352245DBAE00EF2BC8 /* YZJOpenSourceVC.m in Sources */,
+				155A4F3C25A9237E00BC841F /* JMBootstrapViewController.m in Sources */,
 				5822334520185F790008251F /* MCSphereTagCloudViewController.m in Sources */,
 				156277642546AAA400E5FF34 /* WKWebViewTest.m in Sources */,
 				588CCD8B205DF92F0067E3C4 /* LMJCircleLayout.m in Sources */,
@@ -4028,6 +4239,7 @@
 				5892AD591FF5079C00E868C2 /* LMJTextViewController.m in Sources */,
 				58651AB91FFE6D6F0087419D /* SINTabBar.m in Sources */,
 				58DC83D81FFB440E0060DC03 /* LMJDynamicViewController.m in Sources */,
+				155A4F1325A9234000BC841F /* JMBootstrapButton.m in Sources */,
 				675129AE25A886F800F72B9F /* CPActivityController.m in Sources */,
 				15310375223E4DD800BC7AE5 /* UITableViewControllerTest.m in Sources */,
 				156277632546AAA400E5FF34 /* UIWebViewTest.m in Sources */,
@@ -4041,6 +4253,7 @@
 				589B570B1FFFC53000B2D5A8 /* QQMusicTool.m in Sources */,
 				5892ADAF1FF60A8300E868C2 /* JXTAlertController.m in Sources */,
 				5892AD051FF4F9D200E868C2 /* LMJHorizontalFlowLayout.m in Sources */,
+				155A4F3525A9237E00BC841F /* JMCustomViewController.m in Sources */,
 				58DC846B1FFC94B30060DC03 /* LMJTeam.m in Sources */,
 				1596E1102235778100D66C53 /* YZJiOSTechVC.m in Sources */,
 				58DC846F1FFC967E0060DC03 /* LMJBaseRequest.m in Sources */,
@@ -4090,6 +4303,7 @@
 				58DC83BF1FFB43E30060DC03 /* LMJScreenShotViewController.m in Sources */,
 				5840383C1FF7E437002A0566 /* LMJKeyboardHandleViewController.m in Sources */,
 				15310202223E4C4600BC7AE5 /* MLCustomSegmentedControlItemView.m in Sources */,
+				155A4F1F25A9234000BC841F /* JMBadgeValue.m in Sources */,
 				153103B9223E579C00BC7AE5 /* ViewController.m in Sources */,
 				5892AD5B1FF5079C00E868C2 /* LMJRequestBaseViewController.m in Sources */,
 				583D508720765978001480C8 /* YYFPSLabel.m in Sources */,
@@ -4108,6 +4322,7 @@
 				58DC83CA1FFB43E30060DC03 /* LMJFingerLockViewController.m in Sources */,
 				1531FD7E223E415900BC7AE5 /* iPhoneXAdaptivityVC.m in Sources */,
 				58DC84571FFBE0440060DC03 /* LMJBlockLoopOperation.m in Sources */,
+				155A4F3925A9237E00BC841F /* JMWaveViewController.m in Sources */,
 				58DC83E81FFB44380060DC03 /* WPFAttachmentView.m in Sources */,
 				1531FD9A223E45E000BC7AE5 /* ___FILEBASENAME___.m in Sources */,
 				15310374223E4DD800BC7AE5 /* CustomTableViewCell.m in Sources */,
@@ -4135,6 +4350,7 @@
 				58651AB51FFE6D6F0087419D /* SINPublishToolBar.m in Sources */,
 				5892AD811FF5175A00E868C2 /* UIColor+Random.m in Sources */,
 				1596E1272236C6D600D66C53 /* NSRegularExpressionTest.m in Sources */,
+				155A4F1D25A9234000BC841F /* JMBaseButton+CountDown.m in Sources */,
 				584038301FF64919002A0566 /* LMJListExpendHeaderView.m in Sources */,
 				1596E10C2235778100D66C53 /* YZJOCTechVC.m in Sources */,
 				15310333223E4CE500BC7AE5 /* MLAnnotationView.m in Sources */,
@@ -4161,10 +4377,13 @@
 				15310334223E4CE500BC7AE5 /* MKMapViewTestVC.m in Sources */,
 				58DC851B1FFC972C0060DC03 /* BSJMeSquareCell.m in Sources */,
 				154EF8DF223DEDCA00E1D528 /* UILabel+MLCategory.m in Sources */,
+				155A4F1525A9234000BC841F /* JMBaseButtonConfig.m in Sources */,
+				155A4F3825A9237E00BC841F /* JMBasicViewController.m in Sources */,
 				58A17C4E2005F4E600B350AB /* LMJParagraph.m in Sources */,
 				58DC83CE1FFB43E30060DC03 /* LMJPiesViewController.m in Sources */,
 				589B57071FFFC53000B2D5A8 /* QQLrcDataTool.m in Sources */,
 				58651AA41FFE6D6F0087419D /* SINProfileViewController.m in Sources */,
+				155A4F1425A9234000BC841F /* JMBaseButton.m in Sources */,
 				58651AA81FFE6D6F0087419D /* SINMessageViewController.m in Sources */,
 				58DC85041FFC972C0060DC03 /* BSJRecommendViewController.m in Sources */,
 				589B56FE1FFFC52F00B2D5A8 /* QQMusicModel.m in Sources */,
@@ -4174,8 +4393,10 @@
 				153101F9223E484300BC7AE5 /* UISearchControllerTestVC.m in Sources */,
 				58DC85121FFC972C0060DC03 /* BSJTopicTopComent.m in Sources */,
 				58DC83881FFB43460060DC03 /* LMJCALayerYSDHViewController.m in Sources */,
+				155A4F1625A9234000BC841F /* JMWaveButton.m in Sources */,
 				58DC83C61FFB43E30060DC03 /* LMJDrawProgressViewController.m in Sources */,
 				58651AA61FFE6D6F0087419D /* SINPublishViewController.m in Sources */,
+				155A4F1925A9234000BC841F /* JMNumberButton.m in Sources */,
 				15310386223E51AE00BC7AE5 /* ARC-MRCTest.m in Sources */,
 				58223315201821910008251F /* NSDecimalNumber+Addtion.m in Sources */,
 				58DC85191FFC972C0060DC03 /* BSJTopicVoiceView.m in Sources */,
@@ -4216,6 +4437,8 @@
 				15310351223E4D5800BC7AE5 /* CustomCollectionViewCell.m in Sources */,
 				58DC844A1FFBDC9E0060DC03 /* LMJModalBlockViewController.m in Sources */,
 				159BEF222245D74F00EF2BC8 /* Demo6ViewController.m in Sources */,
+				155A4F3625A9237E00BC841F /* JMCountDownViewController.m in Sources */,
+				155A4EDE25A88DCD00BC841F /* CPActivityNavigationBar.m in Sources */,
 				58DC85251FFC972C0060DC03 /* BSJWordToolBar.m in Sources */,
 				58651AB01FFE6D6F0087419D /* SINUser.m in Sources */,
 				159BEF232245D74F00EF2BC8 /* Demo1ViewController.m in Sources */,
@@ -4231,6 +4454,7 @@
 				58DC85291FFC972C0060DC03 /* BSJTopicCmtService.m in Sources */,
 				58651AA71FFE6D6F0087419D /* SINTabBarController.m in Sources */,
 				58DC83CD1FFB43E30060DC03 /* LMJShangXiaWenZhanViewController.m in Sources */,
+				155A4F1E25A9234000BC841F /* UIColor+JM.m in Sources */,
 				159BEF212245D74F00EF2BC8 /* HomeListViewController.m in Sources */,
 				58A858A6207C934E0063DE98 /* PresentAnimator.m in Sources */,
 				15310352223E4D5800BC7AE5 /* UICollectionViewVC.m in Sources */,
@@ -4242,6 +4466,7 @@
 				154EF8E3223DEDE000E1D528 /* UIButton+MLCategory.m in Sources */,
 				589888A3206B34BF00BDAACD /* RSAEncryptor.m in Sources */,
 				584038481FF7F3E5002A0566 /* LMJRequestManager.m in Sources */,
+				155A4F1A25A9234000BC841F /* JMButton.m in Sources */,
 				5892AD781FF5115E00E868C2 /* LMJNewViewController.m in Sources */,
 				58DC84291FFBC3260060DC03 /* UIButton+LMJBlock.m in Sources */,
 				58DC83891FFB43460060DC03 /* LMJCALayerBaseViewController.m in Sources */,
@@ -4290,6 +4515,7 @@
 				1510EC1B223E24360007C39A /* YZJViewController.m in Sources */,
 				58651ABB1FFE6D6F0087419D /* SINPostStatusService.m in Sources */,
 				58DC83D01FFB43E30060DC03 /* LMJPicClipViewController.m in Sources */,
+				155A4F3A25A9237E00BC841F /* JMNumberViewController.m in Sources */,
 				5892AD9F1FF5F23D00E868C2 /* AdvertiseView.m in Sources */,
 				589B57091FFFC53000B2D5A8 /* QQImageTool.m in Sources */,
 				675129C725A88BEE00F72B9F /* UIFont+GHPingFang.m in Sources */,

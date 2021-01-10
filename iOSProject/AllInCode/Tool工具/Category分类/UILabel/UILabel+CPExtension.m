@@ -46,12 +46,12 @@
 + (UILabel *)balanceAlertLabel {
     UILabel *label = [[UILabel alloc] init];
     label.numberOfLines = 1;
-
-    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"账户余额低于5元时将自动结束订单，请确保账户余额充足"attributes: @{NSFontAttributeName: SCFont_12, NSForegroundColorAttributeName: [UIColor colorWithRed:238/255.0 green:149/255.0 blue:3/255.0 alpha:1.0]}];
-
-    label.attributedText = string;
-    label.textAlignment = NSTextAlignmentCenter;
-    label.alpha = 1.0;
+//
+//    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:@"账户余额低于5元时将自动结束订单，请确保账户余额充足"attributes: @{NSFontAttributeName: SCFont_12, NSForegroundColorAttributeName: [UIColor colorWithRed:238/255.0 green:149/255.0 blue:3/255.0 alpha:1.0]}];
+//
+//    label.attributedText = string;
+//    label.textAlignment = NSTextAlignmentCenter;
+//    label.alpha = 1.0;
     return label;
 }
 

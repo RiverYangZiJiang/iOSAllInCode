@@ -10,6 +10,9 @@
 #define NJiOSProject_pch
 
 #pragma clang diagnostic ignored "-Wstrict-prototypes"
+#import "UIFont+GHPingFang.h"
+#import "GHUIDefine.h"
+
 // base
 #import "LMJStaticTableViewController.h"
 

@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HomeTabDelegete.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CPActivityController : GHBaseViewController <HomeTabDelegete>
+@interface CPActivityController : UIViewController
 
 @end
 

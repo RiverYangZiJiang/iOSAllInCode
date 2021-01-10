@@ -13,6 +13,7 @@
 #import "WKWebViewTest.h"
 #import "UICollectionViewVC.h"
 #import "YZJUIViewAnimationVC.h"
+#import "JMViewController.h"
 
 @interface YZJiOSTechVC ()
 
@@ -45,8 +46,10 @@
     LMJWordArrowItem *item05= [LMJWordArrowItem itemWithTitle:@"动画" subTitle:@""];
     item05.destVc = [YZJUIViewAnimationVC class];
     
+    LMJWordArrowItem *item06= [LMJWordArrowItem itemWithTitle:@"UIButton" subTitle:@""];
+    item06.destVc = [JMViewController class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05] andHeaderTitle:@"UI" footerTitle:nil];
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06] andHeaderTitle:@"UI" footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }
 

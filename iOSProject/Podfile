@@ -60,7 +60,7 @@ pod 'MBProgressHUD'
 pod 'M13ProgressSuite'
 
 # 无线轮播
-pod 'SDCycleScrollView'
+pod 'SDCycleScrollView','>= 1.82'
 
 # 键盘管理
 pod 'IQKeyboardManager'
