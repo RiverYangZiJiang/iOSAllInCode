@@ -82,6 +82,7 @@
 		1531FD8F223E447C00BC7AE5 /* UIViewControllerTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD8E223E447C00BC7AE5 /* UIViewControllerTemplate.m */; };
 		1531FD9A223E45E000BC7AE5 /* ___FILEBASENAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */; };
 		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
+		154D3A4825AB30E200C84C23 /* SDCycleScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D3A4725AB30E200C84C23 /* SDCycleScrollViewVC.m */; };
 		154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CA223DE63400E1D528 /* NSError+Hook.m */; };
 		154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTest.m */; };
 		154EF8D9223DEB9A00E1D528 /* MLTopToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8D8223DEB9A00E1D528 /* MLTopToastView.m */; };
@@ -628,6 +629,8 @@
 		1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		1546B4D021D0C5870072B89F /* YZJConcentricCirclesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJConcentricCirclesVC.h; sourceTree = "<group>"; };
 		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
+		154D3A4625AB30E200C84C23 /* SDCycleScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollViewVC.h; sourceTree = "<group>"; };
+		154D3A4725AB30E200C84C23 /* SDCycleScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollViewVC.m; sourceTree = "<group>"; };
 		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
 		154EF8CA223DE63400E1D528 /* NSError+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Hook.m"; sourceTree = "<group>"; };
 		154EF8CD223DE64C00E1D528 /* NSURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTest.h; sourceTree = "<group>"; };
@@ -1816,6 +1819,15 @@
 			path = CellID;
 			sourceTree = "<group>";
 		};
+		154D3A4525AB30AF00C84C23 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				154D3A4625AB30E200C84C23 /* SDCycleScrollViewVC.h */,
+				154D3A4725AB30E200C84C23 /* SDCycleScrollViewVC.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
 		154EF8C7223DE5F600E1D528 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -2221,6 +2233,7 @@
 		1596E0F0223576B800D66C53 /* OpenSource开源 */ = {
 			isa = PBXGroup;
 			children = (
+				154D3A4525AB30AF00C84C23 /* SDCycleScrollView */,
 				159BEEC22245D71C00EF2BC8 /* LYEmptyView */,
 				154FAC22223EAB9F00E14859 /* awesome-ios.md */,
 				159BEF332245DBAE00EF2BC8 /* YZJOpenSourceVC.h */,
@@ -4073,7 +4086,6 @@
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
 				"${PODS_ROOT}/HMEmoticon/表情键盘/Emoticon/HMEmoticon.bundle",
 				"${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml",
 				"${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle",
@@ -4089,7 +4101,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMEmoticon.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMScanner.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.xml",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MagicWindow.bundle",
@@ -4220,6 +4231,7 @@
 				584038721FF9399B002A0566 /* LMJListTimerCountDownViewController.m in Sources */,
 				5898889F206B34BF00BDAACD /* DES3Encryptor.m in Sources */,
 				1596E12F2236C73500D66C53 /* CrashTest.m in Sources */,
+				154D3A4825AB30E200C84C23 /* SDCycleScrollViewVC.m in Sources */,
 				155A4F1825A9234000BC841F /* JMNumberButtonConfig.m in Sources */,
 				5840385D1FF873A8002A0566 /* LMJAnnotationCustomPopView.m in Sources */,
 				58651AB41FFE6D6F0087419D /* SINUnLoginRegisterView.m in Sources */,

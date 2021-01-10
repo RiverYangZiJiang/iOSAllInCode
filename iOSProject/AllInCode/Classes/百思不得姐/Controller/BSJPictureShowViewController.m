@@ -50,19 +50,19 @@
     // 3.2刷新进度立马
     [self.ringProgressView setProgress:self.topicViewModel.downloadPictureProgress animated:NO];
     
-    [self.pictureImageView lmj_setImageWithURL:self.topicViewModel.topic.largePicture thumbnailImageURL:self.topicViewModel.topic.smallPicture placeholderImage:nil options:SDWebImageTransformAnimatedImage progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
-        
-        // 3.3储存 "每个模型" 的进度
-        topicViewModel.downloadPictureProgress = (CGFloat)receivedSize / expectedSize;
-        
-        // 3.4给每个cell对应的模型进度赋值
-        [self.ringProgressView setProgress:self.topicViewModel.downloadPictureProgress animated:NO];
-        
-    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        
-        self.ringProgressView.hidden = self.topicViewModel.downloadPictureProgress >= 1;
-        
-    }];
+//    [self.pictureImageView lmj_setImageWithURL:self.topicViewModel.topic.largePicture thumbnailImageURL:self.topicViewModel.topic.smallPicture placeholderImage:nil options:SDWebImageTransformAnimatedImage progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
+//        
+//        // 3.3储存 "每个模型" 的进度
+//        topicViewModel.downloadPictureProgress = (CGFloat)receivedSize / expectedSize;
+//        
+//        // 3.4给每个cell对应的模型进度赋值
+//        [self.ringProgressView setProgress:self.topicViewModel.downloadPictureProgress animated:NO];
+//        
+//    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+//        
+//        self.ringProgressView.hidden = self.topicViewModel.downloadPictureProgress >= 1;
+//        
+//    }];
     
 
 

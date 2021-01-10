@@ -69,47 +69,47 @@
     // 3.2刷新进度立马
     [self.ringProgressView setProgress:topicViewModel.downloadPictureProgress animated:NO];
     LMJWeak(self);
-    [self.pictureImageView lmj_setImageWithURL:topicViewModel.topic.largePicture thumbnailImageURL:topicViewModel.topic.smallPicture placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL *targetURL) {
-        
-        // 3.3储存 "每个模型" 的进度, topicViewModel
-        topicViewModel.downloadPictureProgress = (CGFloat)receivedSize / expectedSize;
-        
-        // 3.4给每个cell对应的模型进度赋值, self.topicViewModel, getter 获得
-        [weakself.ringProgressView setProgress:weakself.topicViewModel.downloadPictureProgress animated:NO];
-        
-    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        
-        // 4, 处理大图, 必须是当前的模型
-        if (!image || error || !weakself.topicViewModel.isBigPicture || weakself.topicViewModel != topicViewModel) {
-            return ;
-        }
-        
-        // 4.1 裁剪
-        // 只要设置图片就会调用
-        // 控制隐藏, 当是当前的模型的时候才隐藏
-        dispatch_async(dispatch_get_global_queue(0, 0), ^{
-            
-            UIGraphicsBeginImageContextWithOptions(weakself.topicViewModel.pictureFrame.size, NO, 0);
-            
-            CGFloat w = weakself.topicViewModel.pictureFrame.size.width;
-            
-            CGFloat h = w * weakself.topicViewModel.topic.height / weakself.topicViewModel.topic.width;
-            
-            [image drawInRect:CGRectMake(0, 0, w, h)];
-            
-            UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
-            
-            UIGraphicsEndImageContext();
-            
-            dispatch_async(dispatch_get_main_queue(), ^{
-                
-                weakself.pictureImageView.image = newImage;
-                
-            });
-            
-        });
-        
-    }];
+//    [self.pictureImageView lmj_setImageWithURL:topicViewModel.topic.largePicture thumbnailImageURL:topicViewModel.topic.smallPicture placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL *targetURL) {
+//        
+//        // 3.3储存 "每个模型" 的进度, topicViewModel
+//        topicViewModel.downloadPictureProgress = (CGFloat)receivedSize / expectedSize;
+//        
+//        // 3.4给每个cell对应的模型进度赋值, self.topicViewModel, getter 获得
+//        [weakself.ringProgressView setProgress:weakself.topicViewModel.downloadPictureProgress animated:NO];
+//        
+//    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+//        
+//        // 4, 处理大图, 必须是当前的模型
+//        if (!image || error || !weakself.topicViewModel.isBigPicture || weakself.topicViewModel != topicViewModel) {
+//            return ;
+//        }
+//        
+//        // 4.1 裁剪
+//        // 只要设置图片就会调用
+//        // 控制隐藏, 当是当前的模型的时候才隐藏
+//        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//            
+//            UIGraphicsBeginImageContextWithOptions(weakself.topicViewModel.pictureFrame.size, NO, 0);
+//            
+//            CGFloat w = weakself.topicViewModel.pictureFrame.size.width;
+//            
+//            CGFloat h = w * weakself.topicViewModel.topic.height / weakself.topicViewModel.topic.width;
+//            
+//            [image drawInRect:CGRectMake(0, 0, w, h)];
+//            
+//            UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+//            
+//            UIGraphicsEndImageContext();
+//            
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                
+//                weakself.pictureImageView.image = newImage;
+//                
+//            });
+//            
+//        });
+//        
+//    }];
     
 }
 

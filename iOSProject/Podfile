@@ -9,7 +9,7 @@ target 'AllInCode' do
 inhibit_all_warnings!
 
 # 网络请求
-pod 'AFNetworking',  '~> 3.2.0'
+pod 'AFNetworking', "~> 3.2.1"
 pod 'ASIHTTPRequest'
 # 网络监控
 pod 'Reachability'
@@ -19,7 +19,8 @@ pod 'MJExtension'
 # 下拉刷新
 pod 'MJRefresh'
 # 图片加载
-pod 'SDWebImage'
+pod 'SDWebImage',  '~> 5.0.0'
+
 #用于适配
 pod 'Masonry'
 
@@ -32,7 +33,7 @@ pod 'UMengUShare/Social/QQ'
 pod 'UMengUShare/Social/Sina'
 
 #百度地图SDK
-pod 'BaiduMapKit'
+pod 'BaiduMapKit', "~> 3.4.4"
 
 pod 'CYLTabBarController'
 
@@ -60,7 +61,7 @@ pod 'MBProgressHUD'
 pod 'M13ProgressSuite'
 
 # 无线轮播
-pod 'SDCycleScrollView','>= 1.82'
+pod 'SDCycleScrollView'
 
 # 键盘管理
 pod 'IQKeyboardManager'
@@ -70,7 +71,7 @@ pod 'FCUUID'
 
 
 # 三级联动 时间 地址
-pod 'MOFSPickerManager'
+pod 'MOFSPickerManager', "~> 2.0.2"
 
 
 # 全局滑动
@@ -83,13 +84,13 @@ pod 'Toast'
 pod 'HMQRCodeScanner'
 
 # 照片
-pod 'TZImagePickerController'
+pod 'TZImagePickerController', "~>2.0.0.9"
 
 # scrollpageView
 pod 'ZJScrollPageView'
 
 # 列表视频
-pod 'ZFPlayer'
+pod 'ZFPlayer', "~> 2.1.6"
 pod 'ZFDownload'
 
 # mark- 好玩的
@@ -115,6 +116,6 @@ pod 'MLeaksFinder'  # MLeaksFinder helps you find memory leaks in your iOS apps 
 pod 'WoodPeckeriOS' # View simulator & real device sandbox files, UserDefaults, network request from Mac.
 
 pod 'ZJAnimationPopView'  # A fast, convenient view to show animation pop view,it support 72 kinds of animation pop effect.
-pod 'LYEmptyView'  # 一行代码集成空白页面占位图(无数据、无网络占位图)
+pod 'LYEmptyView', "~> 1.2.3"  # 一行代码集成空白页面占位图(无数据、无网络占位图)
 
 end
