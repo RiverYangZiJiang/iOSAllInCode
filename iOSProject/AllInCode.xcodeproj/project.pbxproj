@@ -83,6 +83,7 @@
 		1531FD9A223E45E000BC7AE5 /* ___FILEBASENAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD99223E45E000BC7AE5 /* ___FILEBASENAME___.m */; };
 		1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */; };
 		154D3A4825AB30E200C84C23 /* SDCycleScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D3A4725AB30E200C84C23 /* SDCycleScrollViewVC.m */; };
+		154D3BA525AD08DA00C84C23 /* YZJCountDownVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */; };
 		154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CA223DE63400E1D528 /* NSError+Hook.m */; };
 		154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTest.m */; };
 		154EF8D9223DEB9A00E1D528 /* MLTopToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8D8223DEB9A00E1D528 /* MLTopToastView.m */; };
@@ -631,6 +632,8 @@
 		1546B4D121D0C5880072B89F /* YZJConcentricCirclesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJConcentricCirclesVC.m; sourceTree = "<group>"; };
 		154D3A4625AB30E200C84C23 /* SDCycleScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollViewVC.h; sourceTree = "<group>"; };
 		154D3A4725AB30E200C84C23 /* SDCycleScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollViewVC.m; sourceTree = "<group>"; };
+		154D3BA325AD08D900C84C23 /* YZJCountDownVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCountDownVC.h; sourceTree = "<group>"; };
+		154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountDownVC.m; sourceTree = "<group>"; };
 		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
 		154EF8CA223DE63400E1D528 /* NSError+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Hook.m"; sourceTree = "<group>"; };
 		154EF8CD223DE64C00E1D528 /* NSURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTest.h; sourceTree = "<group>"; };
@@ -1464,6 +1467,8 @@
 			isa = PBXGroup;
 			children = (
 				153101EB223E475D00BC7AE5 /* 封装.rtf */,
+				154D3BA325AD08D900C84C23 /* YZJCountDownVC.h */,
+				154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */,
 			);
 			path = "封装";
 			sourceTree = "<group>";
@@ -4493,6 +4498,7 @@
 				5892AD901FF5E32500E868C2 /* LMJIntroductoryPagesHelper.m in Sources */,
 				58DC850D1FFC972C0060DC03 /* BSJComment.m in Sources */,
 				58651AAA1FFE6D6F0087419D /* SINBroswerCell.m in Sources */,
+				154D3BA525AD08DA00C84C23 /* YZJCountDownVC.m in Sources */,
 				15310360223E4D9200BC7AE5 /* UINavigationItem+BackItem.m in Sources */,
 				583D508420765948001480C8 /* TDTouchID.m in Sources */,
 				154EF8D9223DEB9A00E1D528 /* MLTopToastView.m in Sources */,
