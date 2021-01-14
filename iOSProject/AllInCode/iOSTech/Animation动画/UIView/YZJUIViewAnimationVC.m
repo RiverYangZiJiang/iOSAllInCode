@@ -8,6 +8,7 @@
 
 #import "YZJUIViewAnimationVC.h"
 #import "YZJWaterWaveVC.h"
+#import "YZJImageLoopViewController.h"
 
 @implementation YZJUIViewAnimationVC
 - (void)viewDidLoad {
@@ -20,8 +21,11 @@
     LMJWordArrowItem *item00= [LMJWordArrowItem itemWithTitle:@"波浪动画" subTitle:@"TYWaterWaveView"];
     item00.destVc = [YZJWaterWaveVC class];
     
+    LMJWordArrowItem *item01= [LMJWordArrowItem itemWithTitle:@"图片循环旋转" subTitle:@""];
+    item01.destVc = [YZJImageLoopViewController class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00] andHeaderTitle:@"动画" footerTitle:nil];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01] andHeaderTitle:@"动画" footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }
 

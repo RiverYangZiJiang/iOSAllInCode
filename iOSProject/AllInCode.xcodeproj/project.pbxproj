@@ -485,10 +485,18 @@
 		58DC85331FFCA30C0060DC03 /* UIImageView+FitNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC85311FFCA30B0060DC03 /* UIImageView+FitNet.m */; };
 		58DC88CE1FFDEEF70060DC03 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */; };
 		58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */; };
+		672FFAF025AD26250065DE21 /* YZJUILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */; };
+		672FFB5025AD47360065DE21 /* YZJCountDownTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */; };
 		6751299F25A8842700F72B9F /* GHUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6751299E25A8842600F72B9F /* GHUIDefine.m */; };
 		675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A125A885AE00F72B9F /* UILabel+CPExtension.m */; };
 		675129AE25A886F800F72B9F /* CPActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129AD25A886F700F72B9F /* CPActivityController.m */; };
 		675129C725A88BEE00F72B9F /* UIFont+GHPingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */; };
+		6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0625AE7E0D001A93D9 /* UIView+Category.m */; };
+		6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */; };
+		6786FB1025AE8088001A93D9 /* YZJCornerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0F25AE8088001A93D9 /* YZJCornerVC.m */; };
+		6786FB4E25AEC570001A93D9 /* YZJImageLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB4D25AEC570001A93D9 /* YZJImageLoopViewController.m */; };
+		6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */; };
+		6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */; };
 		DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA18E4D516C513D679667E40 /* libPods-AllInCode.a */; };
 /* End PBXBuildFile section */
 
@@ -697,7 +705,6 @@
 		155A4F0F25A9234000BC841F /* UIColor+JM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JM.m"; sourceTree = "<group>"; };
 		155A4F1025A9234000BC841F /* JMBadgeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBadgeValue.m; sourceTree = "<group>"; };
 		155A4F2225A9237200BC841F /* JMBootstrapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBootstrapViewController.h; sourceTree = "<group>"; };
-		155A4F2325A9237300BC841F /* JMBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMBadgeViewController.h; path = "../../../../../../../../../../Downloads/JMButton-master/JMButton/JMBadgeViewController.h"; sourceTree = "<group>"; };
 		155A4F2425A9237400BC841F /* JMWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWaveViewController.h; sourceTree = "<group>"; };
 		155A4F2525A9237500BC841F /* JMCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCustomViewController.m; sourceTree = "<group>"; };
 		155A4F2625A9237500BC841F /* JMRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRadioViewController.h; sourceTree = "<group>"; };
@@ -1388,6 +1395,11 @@
 		58DC85321FFCA30C0060DC03 /* UIImageView+FitNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FitNet.h"; sourceTree = "<group>"; };
 		58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		672FFAEE25AD26250065DE21 /* YZJUILabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUILabelVC.h; sourceTree = "<group>"; };
+		672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUILabelVC.m; sourceTree = "<group>"; };
+		672FFB1F25AD29F00065DE21 /* JMBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeViewController.h; sourceTree = "<group>"; };
+		672FFB4E25AD47360065DE21 /* YZJCountDownTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCountDownTool.h; sourceTree = "<group>"; };
+		672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountDownTool.m; sourceTree = "<group>"; };
 		6751299D25A8842600F72B9F /* GHUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUIDefine.h; sourceTree = "<group>"; };
 		6751299E25A8842600F72B9F /* GHUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUIDefine.m; sourceTree = "<group>"; };
 		675129A125A885AE00F72B9F /* UILabel+CPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CPExtension.m"; sourceTree = "<group>"; };
@@ -1396,6 +1408,18 @@
 		675129AD25A886F700F72B9F /* CPActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPActivityController.m; sourceTree = "<group>"; };
 		675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GHPingFang.m"; sourceTree = "<group>"; };
 		675129C625A88BEE00F72B9F /* UIFont+GHPingFang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GHPingFang.h"; sourceTree = "<group>"; };
+		6786FB0525AE7E0D001A93D9 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		6786FB0625AE7E0D001A93D9 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		6786FB0A25AE8043001A93D9 /* YZJUIViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIViewVC.h; sourceTree = "<group>"; };
+		6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIViewVC.m; sourceTree = "<group>"; };
+		6786FB0E25AE8088001A93D9 /* YZJCornerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCornerVC.h; sourceTree = "<group>"; };
+		6786FB0F25AE8088001A93D9 /* YZJCornerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCornerVC.m; sourceTree = "<group>"; };
+		6786FB4C25AEC570001A93D9 /* YZJImageLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJImageLoopViewController.h; sourceTree = "<group>"; };
+		6786FB4D25AEC570001A93D9 /* YZJImageLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJImageLoopViewController.m; sourceTree = "<group>"; };
+		6786FB5725AED695001A93D9 /* YZJCountdownLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCountdownLabel.h; sourceTree = "<group>"; };
+		6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountdownLabel.m; sourceTree = "<group>"; };
+		6786FB7925AF3EDF001A93D9 /* YZJVerticalStringVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJVerticalStringVC.h; sourceTree = "<group>"; };
+		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
 		D49A30618F315E1413EBE11B /* Pods-AllInCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1467,8 +1491,6 @@
 			isa = PBXGroup;
 			children = (
 				153101EB223E475D00BC7AE5 /* 封装.rtf */,
-				154D3BA325AD08D900C84C23 /* YZJCountDownVC.h */,
-				154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */,
 			);
 			path = "封装";
 			sourceTree = "<group>";
@@ -1743,6 +1765,7 @@
 		153103F2223E935E00BC7AE5 /* Animation动画 */ = {
 			isa = PBXGroup;
 			children = (
+				6786FB4B25AEC522001A93D9 /* ImgaeLoop */,
 				155A4ED025A603AC00BC841F /* WaterWave */,
 				153103F3223E936900BC7AE5 /* UIView */,
 				153103F7223E94FB00BC7AE5 /* Animation动画.md */,
@@ -2095,7 +2118,7 @@
 		155A4F2125A9234800BC841F /* JMButtonVC */ = {
 			isa = PBXGroup;
 			children = (
-				155A4F2325A9237300BC841F /* JMBadgeViewController.h */,
+				672FFB1F25AD29F00065DE21 /* JMBadgeViewController.h */,
 				155A4F2D25A9237900BC841F /* JMBadgeViewController.m */,
 				155A4F3325A9237E00BC841F /* JMBasicViewController.h */,
 				155A4F2A25A9237700BC841F /* JMBasicViewController.m */,
@@ -2442,6 +2465,8 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				6786FB0425AE7D36001A93D9 /* UIView */,
+				672FFAEC25AD25E30065DE21 /* UILabel */,
 				155A4EE025A8983600BC841F /* UIButton */,
 				15A00051257506150044686B /* UIScrollView */,
 				1562775E2546AAA400E5FF34 /* WKWebView */,
@@ -3841,6 +3866,23 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		672FFAEC25AD25E30065DE21 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				154D3BA325AD08D900C84C23 /* YZJCountDownVC.h */,
+				154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */,
+				672FFAEE25AD26250065DE21 /* YZJUILabelVC.h */,
+				672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */,
+				672FFB4E25AD47360065DE21 /* YZJCountDownTool.h */,
+				672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */,
+				6786FB5725AED695001A93D9 /* YZJCountdownLabel.h */,
+				6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */,
+				6786FB7925AF3EDF001A93D9 /* YZJVerticalStringVC.h */,
+				6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		675129AB25A886E300F72B9F /* CustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -3859,6 +3901,28 @@
 				675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */,
 			);
 			path = UIFont;
+			sourceTree = "<group>";
+		};
+		6786FB0425AE7D36001A93D9 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				6786FB0525AE7E0D001A93D9 /* UIView+Category.h */,
+				6786FB0625AE7E0D001A93D9 /* UIView+Category.m */,
+				6786FB0A25AE8043001A93D9 /* YZJUIViewVC.h */,
+				6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */,
+				6786FB0E25AE8088001A93D9 /* YZJCornerVC.h */,
+				6786FB0F25AE8088001A93D9 /* YZJCornerVC.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		6786FB4B25AEC522001A93D9 /* ImgaeLoop */ = {
+			isa = PBXGroup;
+			children = (
+				6786FB4C25AEC570001A93D9 /* YZJImageLoopViewController.h */,
+				6786FB4D25AEC570001A93D9 /* YZJImageLoopViewController.m */,
+			);
+			path = ImgaeLoop;
 			sourceTree = "<group>";
 		};
 		8FC3A5937CA448C8AE6DDE55 /* Frameworks */ = {
@@ -4253,6 +4317,7 @@
 				589B56F91FFFC52F00B2D5A8 /* MUSLrcTableViewController.m in Sources */,
 				155A4ED725A6063A00BC841F /* YZJWaterWaveVC.m in Sources */,
 				15310391223E51E100BC7AE5 /* BlockTestViewController.m in Sources */,
+				6786FB1025AE8088001A93D9 /* YZJCornerVC.m in Sources */,
 				5892AD591FF5079C00E868C2 /* LMJTextViewController.m in Sources */,
 				58651AB91FFE6D6F0087419D /* SINTabBar.m in Sources */,
 				58DC83D81FFB440E0060DC03 /* LMJDynamicViewController.m in Sources */,
@@ -4265,8 +4330,10 @@
 				1531039D223E521000BC7AE5 /* NSDictionaryTest.m in Sources */,
 				5892AD081FF4F9D200E868C2 /* LMJNavigationBar.m in Sources */,
 				159BEF2F2245D74F00EF2BC8 /* OtherAppViewController.m in Sources */,
+				6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */,
 				15310381223E518600BC7AE5 /* PropertyTestViewController.m in Sources */,
 				5892AD001FF4F9D200E868C2 /* LMJItemSection.m in Sources */,
+				6786FB4E25AEC570001A93D9 /* YZJImageLoopViewController.m in Sources */,
 				589B570B1FFFC53000B2D5A8 /* QQMusicTool.m in Sources */,
 				5892ADAF1FF60A8300E868C2 /* JXTAlertController.m in Sources */,
 				5892AD051FF4F9D200E868C2 /* LMJHorizontalFlowLayout.m in Sources */,
@@ -4289,12 +4356,14 @@
 				58651ABA1FFE6D6F0087419D /* SINStatusRetweetView.m in Sources */,
 				58DC85221FFC972C0060DC03 /* BSJTopicPictureView.m in Sources */,
 				581A3E3F20450B3E00AF08C0 /* MJDownloadManager.m in Sources */,
+				672FFB5025AD47360065DE21 /* YZJCountDownTool.m in Sources */,
 				588CCD89205DF92F0067E3C4 /* LMJLineFlowLayout.m in Sources */,
 				5892AD571FF5079C00E868C2 /* LMJNavigationController.m in Sources */,
 				154EF8F0223DF7EB00E1D528 /* MLTopToastViewVC.m in Sources */,
 				5892AD091FF4F9D200E868C2 /* LMJSettingCell.m in Sources */,
 				58DC818A1FFA317B0060DC03 /* LMJExpandHeader.m in Sources */,
 				58DC83EA1FFB44380060DC03 /* WPFPushView.m in Sources */,
+				672FFAF025AD26250065DE21 /* YZJUILabelVC.m in Sources */,
 				5892AD531FF5079C00E868C2 /* LMJCollectionViewController.m in Sources */,
 				159BEF292245D74F00EF2BC8 /* Demo3ViewController.m in Sources */,
 				153101F3223E480500BC7AE5 /* UIImageViewTestVC.m in Sources */,
@@ -4334,6 +4403,7 @@
 				58651AA31FFE6D6F0087419D /* SINDiscoveryViewController.m in Sources */,
 				58DC83E91FFB44380060DC03 /* WPFCollisionView.m in Sources */,
 				589B57021FFFC52F00B2D5A8 /* QQLrcLabel.m in Sources */,
+				6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */,
 				584038601FF875F8002A0566 /* LMJQRCodeViewController.m in Sources */,
 				5892ADAA1FF603AD00E868C2 /* LMJUMengHelper.m in Sources */,
 				58DC83CA1FFB43E30060DC03 /* LMJFingerLockViewController.m in Sources */,
@@ -4428,6 +4498,7 @@
 				58DC846C1FFC94B30060DC03 /* LMJGroup.m in Sources */,
 				159BEF2C2245D74F00EF2BC8 /* Demo2ViewController.m in Sources */,
 				5892AD5A1FF5079C00E868C2 /* LMJBaseViewController.m in Sources */,
+				6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */,
 				58DC83C21FFB43E30060DC03 /* LMJDrawStrPicsViewController.m in Sources */,
 				588CCD76205D42EE0067E3C4 /* LMJH5JSBridgeViewController.m in Sources */,
 				5892AD5D1FF5079C00E868C2 /* LMJWebViewController.m in Sources */,
@@ -4461,6 +4532,7 @@
 				159BEF232245D74F00EF2BC8 /* Demo1ViewController.m in Sources */,
 				5892AD721FF5113800E868C2 /* LMJMeViewController.m in Sources */,
 				153103BD223E584C00BC7AE5 /* CustomUIView.m in Sources */,
+				6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */,
 				153103B4223E535400BC7AE5 /* MainThread.m in Sources */,
 				58DC850A1FFC972C0060DC03 /* BSJRecommendUser.m in Sources */,
 				1596E12B2236C70600D66C53 /* OCDevelopmentNorms.m in Sources */,

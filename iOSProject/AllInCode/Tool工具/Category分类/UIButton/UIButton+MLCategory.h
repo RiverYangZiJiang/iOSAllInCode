@@ -15,12 +15,21 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  创建UIButtonTypeCustom类型按钮
 
- @param title <#title description#>
+ @param title title description
  @param titleColor <#titleColor description#>
  @param titleFont <#titleFont description#>
  @return <#return value description#>
  */
 + (UIButton *)buttonWithTitle:(NSString *)title titleColor:(UIColor *)titleColor titleFont:(UIFont *)titleFont;
+/**
+ 创建UIButtonTypeCustom类型按钮
+
+ @param title <#title description#>
+ @param titleColor <#titleColor description#>
+ @param titleFont <#titleFont description#>
+ @return <#return value description#>
+ */
+- (UIButton *)initWithTitle:(NSString *)title titleColor:(UIColor *)titleColor titleFont:(UIFont *)titleFont doneBlock:(nullable void(^)(UIButton *))doneBlock;
 @end
 
 NS_ASSUME_NONNULL_END

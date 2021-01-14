@@ -43,6 +43,7 @@ PODS:
   - HMEmoticon (1.0.12)
   - HMQRCodeScanner (1.0.6)
   - IQKeyboardManager (6.5.6)
+  - JKCountDownButton (1.3.0)
   - KILabel (1.0.1)
   - LYEmptyView (1.2.5)
   - M13ProgressSuite (1.2.9)
@@ -112,6 +113,7 @@ DEPENDENCIES:
   - HMEmoticon
   - HMQRCodeScanner
   - IQKeyboardManager
+  - JKCountDownButton
   - KILabel
   - LYEmptyView (~> 1.2.3)
   - M13ProgressSuite
@@ -143,7 +145,7 @@ DEPENDENCIES:
   - ZJScrollPageView
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - ASIHTTPRequest
     - AvoidCrash
@@ -169,7 +171,6 @@ SPEC REPOS:
     - MOFSPickerManager
     - Reachability
     - SDCycleScrollView
-    - SDWebImage
     - Toast
     - TZImagePickerController
     - UICKeyChainStore
@@ -185,6 +186,9 @@ SPEC REPOS:
     - ZFPlayer
     - ZJAnimationPopView
     - ZJScrollPageView
+  trunk:
+    - JKCountDownButton
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -200,6 +204,7 @@ SPEC CHECKSUMS:
   HMEmoticon: 7cac18c01b74a2eaf833e2083c0238cb3c29b6a8
   HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JKCountDownButton: 3b557e75d23e7243bb63c8130e6d12d8510468dd
   KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
   LYEmptyView: b17adfc2dd9ad2988ecaf7c9606efa916e24c767
   M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
@@ -229,6 +234,6 @@ SPEC CHECKSUMS:
   ZJAnimationPopView: 7edb9b4c9f10dc2bba3b6738817726adc9abc08f
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: 33b33b5c483880098f2ece54a918a6832336ad59
+PODFILE CHECKSUM: 464277e78049ff5382d90a0cb03038604a2867b2
 
 COCOAPODS: 1.10.0

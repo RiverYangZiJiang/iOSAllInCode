@@ -118,4 +118,5 @@ pod 'WoodPeckeriOS' # View simulator & real device sandbox files, UserDefaults, 
 pod 'ZJAnimationPopView'  # A fast, convenient view to show animation pop view,it support 72 kinds of animation pop effect.
 pod 'LYEmptyView', "~> 1.2.3"  # 一行代码集成空白页面占位图(无数据、无网络占位图)
 
+pod 'JKCountDownButton'  # 倒计时按钮，封装得很好，倒计时结束之前不让点击
 end

@@ -14,6 +14,8 @@
 #import "UICollectionViewVC.h"
 #import "YZJUIViewAnimationVC.h"
 #import "JMViewController.h"
+#import "YZJUILabelVC.h"
+#import "YZJUIViewVC.h"
 
 @interface YZJiOSTechVC ()
 
@@ -49,7 +51,15 @@
     LMJWordArrowItem *item06= [LMJWordArrowItem itemWithTitle:@"UIButton" subTitle:@""];
     item06.destVc = [JMViewController class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06] andHeaderTitle:@"UI" footerTitle:nil];
+    LMJWordArrowItem *item07= [LMJWordArrowItem itemWithTitle:@"UILabel-倒计时" subTitle:@""];
+    item07.destVc = [YZJUILabelVC class];
+    
+    LMJWordArrowItem *item08= [LMJWordArrowItem itemWithTitle:@"UIView" subTitle:@"圆角"];
+    item08.destVc = [YZJUIViewVC class];
+    
+    
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06, item07, item08] andHeaderTitle:@"UI" footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }
 
