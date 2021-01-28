@@ -48,4 +48,17 @@
     self.text = str;
     self.numberOfLines = 0;
 }
+
+/// 使文字占满frame的宽度，左右对齐，左边右边都对齐
+- (void)changeAlignmentRightandLeft{
+    CGRect textSize = [self.text boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingTruncatesLastVisibleLine |NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName : self.font} context:nil];
+
+    CGFloat margin = (self.frame.size.width - textSize.size.width) / (self.text.length - 1);// 每个字符之间，平均的宽度（点坐标）
+    NSNumber *number = [NSNumber numberWithFloat:margin];
+    NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc]initWithString:self.text];
+
+    [attributeString addAttribute:(id)kCTKernAttributeName value:number range:NSMakeRange(0, self.text.length - 1)];
+
+    self.attributedText = attributeString;
+}
 @end

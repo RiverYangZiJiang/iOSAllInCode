@@ -9,6 +9,7 @@
 #import "YZJUILabelVC.h"
 #import "YZJCountDownVC.h"
 #import "YZJVerticalStringVC.h"
+#import "YZJLeftRightAlignment.h"
 
 @interface YZJUILabelVC ()
 
@@ -28,6 +29,11 @@
     item01.destVc = [YZJVerticalStringVC class];
     
     self.addItem(item01);
+    
+    LMJWordArrowItem *item02 = [LMJWordArrowItem itemWithTitle:@"文字左右对齐" subTitle:nil];
+    item02.destVc = [YZJLeftRightAlignment class];
+    
+    self.addItem(item02);
 }
 
 

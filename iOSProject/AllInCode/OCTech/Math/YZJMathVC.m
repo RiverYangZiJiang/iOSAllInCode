@@ -19,6 +19,16 @@
     
     [self addTitle:@"NSIntegerMax" subTitle:@(NSIntegerMax)];
     [self addTitle:@"NSIntegerMin" subTitle:@(NSIntegerMin)];
+    [self addTitle:@"0.090222120000" subTitle:[self removeFloatAllZero:@"0.090222120000"]];
 }
+
+/// 删除浮点数小数点后多余的0
+- (NSString*)removeFloatAllZero:(NSString*)string
+{
+    NSString * testNumber = string;
+    NSString * outNumber = [NSString stringWithFormat:@"%@",@(testNumber.floatValue)];
+    return outNumber;
+}
+
 
 @end

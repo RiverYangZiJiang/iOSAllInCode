@@ -39,8 +39,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) NSString *verticalText;
 
-
-
+/// 使文字占满frame的宽度，左右对齐，左边右边都对齐
+- (void)changeAlignmentRightandLeft;
 /**
  参考文献：(2) iOS开发之UI处理-UILabel篇 1.https://www.cnblogs.com/wangwei123/p/3486047.html 
  2.iOS常用控件封装-SZKLabel（基于UILabel的封装）https://www.jianshu.com/p/13fb34fa5f74

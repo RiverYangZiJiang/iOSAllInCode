@@ -497,6 +497,7 @@
 		6786FB4E25AEC570001A93D9 /* YZJImageLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB4D25AEC570001A93D9 /* YZJImageLoopViewController.m */; };
 		6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */; };
 		6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */; };
+		6786FB8825B0A64C001A93D9 /* YZJLeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */; };
 		DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA18E4D516C513D679667E40 /* libPods-AllInCode.a */; };
 /* End PBXBuildFile section */
 
@@ -1420,6 +1421,8 @@
 		6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountdownLabel.m; sourceTree = "<group>"; };
 		6786FB7925AF3EDF001A93D9 /* YZJVerticalStringVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJVerticalStringVC.h; sourceTree = "<group>"; };
 		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
+		6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJLeftRightAlignment.h; sourceTree = "<group>"; };
+		6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJLeftRightAlignment.m; sourceTree = "<group>"; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
 		D49A30618F315E1413EBE11B /* Pods-AllInCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -3879,6 +3882,8 @@
 				6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */,
 				6786FB7925AF3EDF001A93D9 /* YZJVerticalStringVC.h */,
 				6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */,
+				6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */,
+				6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -4459,6 +4464,7 @@
 				58DC83EB1FFB44380060DC03 /* WPFBaseView.m in Sources */,
 				15A00055257506800044686B /* UIScrollViewVC.m in Sources */,
 				58DC84411FFBD1290060DC03 /* LMJNSOperationViewController.m in Sources */,
+				6786FB8825B0A64C001A93D9 /* YZJLeftRightAlignment.m in Sources */,
 				15DC7AAF208C14D000A8D233 /* YZJImageZoomViewController.m in Sources */,
 				589B577A2000339800B2D5A8 /* ZFVideoResolution.m in Sources */,
 				15310334223E4CE500BC7AE5 /* MKMapViewTestVC.m in Sources */,

@@ -107,11 +107,10 @@ const UIEdgeInsets tableViewDefaultLayoutMargins = {8, 8, 8, 8};
 }
 
 - (void)addTitle:(id)title subTitle:(id)subTitle{
-    NSString *tempTitle;
     title = [NSString stringWithFormat:@"%@", title];
     subTitle = [NSString stringWithFormat:@"%@", subTitle];
     
-    LMJWordItem *item = [LMJWordItem itemWithTitle:tempTitle subTitle:subTitle itemOperation:nil];
+    LMJWordItem *item = [LMJWordItem itemWithTitle:title subTitle:subTitle itemOperation:nil];
     self.addItem(item);
 }
 
