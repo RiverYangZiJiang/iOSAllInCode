@@ -85,7 +85,7 @@
 		154D3A4825AB30E200C84C23 /* SDCycleScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D3A4725AB30E200C84C23 /* SDCycleScrollViewVC.m */; };
 		154D3BA525AD08DA00C84C23 /* YZJCountDownVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */; };
 		154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CA223DE63400E1D528 /* NSError+Hook.m */; };
-		154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTest.m */; };
+		154EF8CF223DE64C00E1D528 /* NSURLTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8CE223DE64C00E1D528 /* NSURLTestVC.m */; };
 		154EF8D9223DEB9A00E1D528 /* MLTopToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8D8223DEB9A00E1D528 /* MLTopToastView.m */; };
 		154EF8DB223DED3800E1D528 /* ML.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154EF8DA223DED3800E1D528 /* ML.xcassets */; };
 		154EF8DF223DEDCA00E1D528 /* UILabel+MLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF8DE223DEDCA00E1D528 /* UILabel+MLCategory.m */; };
@@ -487,10 +487,12 @@
 		58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */; };
 		672FFAF025AD26250065DE21 /* YZJUILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */; };
 		672FFB5025AD47360065DE21 /* YZJCountDownTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */; };
+		6738812A25D0EBE100FB401F /* YZJNetworkLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */; };
 		6751299F25A8842700F72B9F /* GHUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6751299E25A8842600F72B9F /* GHUIDefine.m */; };
 		675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A125A885AE00F72B9F /* UILabel+CPExtension.m */; };
 		675129AE25A886F800F72B9F /* CPActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129AD25A886F700F72B9F /* CPActivityController.m */; };
 		675129C725A88BEE00F72B9F /* UIFont+GHPingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */; };
+		6766EFB925C394AD00A0AC0C /* YZJUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */; };
 		6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0625AE7E0D001A93D9 /* UIView+Category.m */; };
 		6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */; };
 		6786FB1025AE8088001A93D9 /* YZJCornerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0F25AE8088001A93D9 /* YZJCornerVC.m */; };
@@ -645,8 +647,8 @@
 		154D3BA425AD08DA00C84C23 /* YZJCountDownVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountDownVC.m; sourceTree = "<group>"; };
 		154EF8C9223DE63400E1D528 /* NSError+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Hook.h"; sourceTree = "<group>"; };
 		154EF8CA223DE63400E1D528 /* NSError+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Hook.m"; sourceTree = "<group>"; };
-		154EF8CD223DE64C00E1D528 /* NSURLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTest.h; sourceTree = "<group>"; };
-		154EF8CE223DE64C00E1D528 /* NSURLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTest.m; sourceTree = "<group>"; };
+		154EF8CD223DE64C00E1D528 /* NSURLTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTestVC.h; sourceTree = "<group>"; };
+		154EF8CE223DE64C00E1D528 /* NSURLTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTestVC.m; sourceTree = "<group>"; };
 		154EF8D7223DEB9A00E1D528 /* MLTopToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTopToastView.h; sourceTree = "<group>"; };
 		154EF8D8223DEB9A00E1D528 /* MLTopToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTopToastView.m; sourceTree = "<group>"; };
 		154EF8DA223DED3800E1D528 /* ML.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ML.xcassets; sourceTree = "<group>"; };
@@ -1401,6 +1403,8 @@
 		672FFB1F25AD29F00065DE21 /* JMBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeViewController.h; sourceTree = "<group>"; };
 		672FFB4E25AD47360065DE21 /* YZJCountDownTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJCountDownTool.h; sourceTree = "<group>"; };
 		672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountDownTool.m; sourceTree = "<group>"; };
+		6738812825D0EBE100FB401F /* YZJNetworkLayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJNetworkLayerVC.h; sourceTree = "<group>"; };
+		6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJNetworkLayerVC.m; sourceTree = "<group>"; };
 		6751299D25A8842600F72B9F /* GHUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUIDefine.h; sourceTree = "<group>"; };
 		6751299E25A8842600F72B9F /* GHUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUIDefine.m; sourceTree = "<group>"; };
 		675129A125A885AE00F72B9F /* UILabel+CPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CPExtension.m"; sourceTree = "<group>"; };
@@ -1409,6 +1413,8 @@
 		675129AD25A886F700F72B9F /* CPActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPActivityController.m; sourceTree = "<group>"; };
 		675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GHPingFang.m"; sourceTree = "<group>"; };
 		675129C625A88BEE00F72B9F /* UIFont+GHPingFang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GHPingFang.h"; sourceTree = "<group>"; };
+		6766EFB725C394AD00A0AC0C /* YZJUIAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIAlertController.h; sourceTree = "<group>"; };
+		6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIAlertController.m; sourceTree = "<group>"; };
 		6786FB0525AE7E0D001A93D9 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		6786FB0625AE7E0D001A93D9 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		6786FB0A25AE8043001A93D9 /* YZJUIViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIViewVC.h; sourceTree = "<group>"; };
@@ -1880,8 +1886,8 @@
 		154EF8CC223DE64C00E1D528 /* NSURLTest */ = {
 			isa = PBXGroup;
 			children = (
-				154EF8CD223DE64C00E1D528 /* NSURLTest.h */,
-				154EF8CE223DE64C00E1D528 /* NSURLTest.m */,
+				154EF8CD223DE64C00E1D528 /* NSURLTestVC.h */,
+				154EF8CE223DE64C00E1D528 /* NSURLTestVC.m */,
 			);
 			path = NSURLTest;
 			sourceTree = "<group>";
@@ -2321,6 +2327,8 @@
 			children = (
 				154EF8CC223DE64C00E1D528 /* NSURLTest */,
 				15199EB32242572500464480 /* 网络层.md */,
+				6738812825D0EBE100FB401F /* YZJNetworkLayerVC.h */,
+				6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */,
 			);
 			path = "NetworkLayer网络层";
 			sourceTree = "<group>";
@@ -2607,6 +2615,8 @@
 			isa = PBXGroup;
 			children = (
 				159BEF382245E67F00EF2BC8 /* AlertView.md */,
+				6766EFB725C394AD00A0AC0C /* YZJUIAlertController.h */,
+				6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */,
 			);
 			path = AlertView;
 			sourceTree = "<group>";
@@ -4286,7 +4296,7 @@
 				151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */,
 				58DC84F71FFC972C0060DC03 /* BSJNewViewController.m in Sources */,
 				151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */,
-				154EF8CF223DE64C00E1D528 /* NSURLTest.m in Sources */,
+				154EF8CF223DE64C00E1D528 /* NSURLTestVC.m in Sources */,
 				58651AA21FFE6D6F0087419D /* SINHomeCategoryViewController.m in Sources */,
 				58DC85181FFC972C0060DC03 /* BSJTabBar.m in Sources */,
 				5892AD8D1FF5E2D700E868C2 /* LMJIntroductoryPagesView.m in Sources */,
@@ -4356,6 +4366,7 @@
 				5892AD011FF4F9D200E868C2 /* LMJWordItem.m in Sources */,
 				581A3E4020450B3E00AF08C0 /* MJDownloadConst.m in Sources */,
 				5840387F1FF9F128002A0566 /* LMJOCJSHelper.m in Sources */,
+				6766EFB925C394AD00A0AC0C /* YZJUIAlertController.m in Sources */,
 				5840386F1FF93133002A0566 /* LMJUpLoadProgressViewController.m in Sources */,
 				5822335420188F5D0008251F /* MCLocalHTMLViewController.m in Sources */,
 				58651ABA1FFE6D6F0087419D /* SINStatusRetweetView.m in Sources */,
@@ -4405,6 +4416,7 @@
 				15310203223E4C4600BC7AE5 /* UISegmentedControlVC.m in Sources */,
 				5840387B1FF9F0FA002A0566 /* LMJH5_OCViewController.m in Sources */,
 				1531035F223E4D9200BC7AE5 /* UINavigationControllerTest.m in Sources */,
+				6738812A25D0EBE100FB401F /* YZJNetworkLayerVC.m in Sources */,
 				58651AA31FFE6D6F0087419D /* SINDiscoveryViewController.m in Sources */,
 				58DC83E91FFB44380060DC03 /* WPFCollisionView.m in Sources */,
 				589B57021FFFC52F00B2D5A8 /* QQLrcLabel.m in Sources */,

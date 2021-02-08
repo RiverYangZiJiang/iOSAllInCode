@@ -8,7 +8,7 @@
 
 #import "YZJUIViewController.h"
 #import "MLTopToastViewVC.h"
-
+#import "YZJUIAlertController.h"
 @interface YZJUIViewController ()
 
 @end
@@ -21,6 +21,11 @@
     LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"MLTopToastViewVC" subTitle:nil];
     item00.destVc = [MLTopToastViewVC class];
     self.addItem(item00);
+    
+    LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"YZJUIAlertController" subTitle:nil];
+    item01.destVc = [YZJUIAlertController class];
+    self.addItem(item01);
+    
 }
 
 @end

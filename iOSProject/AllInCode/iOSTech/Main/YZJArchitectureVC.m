@@ -7,6 +7,7 @@
 //
 
 #import "YZJArchitectureVC.h"
+#import "YZJNetworkLayerVC.h"
 
 @interface YZJArchitectureVC ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 展示内容并且可以点击，section和item
+    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"NetworkLayer" subTitle:@"NetworkLayer"];
+    item00.destVc = [YZJNetworkLayerVC class];
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00] andHeaderTitle:@"1" footerTitle:nil];
+    [self.sections addObjectsFromArray:@[section0]];
 }
 
 /*

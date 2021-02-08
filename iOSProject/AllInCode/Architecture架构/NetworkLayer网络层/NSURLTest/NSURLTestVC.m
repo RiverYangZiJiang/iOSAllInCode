@@ -1,17 +1,23 @@
 //
-//  NSURLTest.m
+//  NSURLTestVC.m
 //  OCTest
 //
 //  Created by yangzijiang on 2018/12/6.
 //  Copyright © 2018 yangzijiang. All rights reserved.
 //
 
-#import "NSURLTest.h"
+#import "NSURLTestVC.h"
 
-@implementation NSURLTest
-+ (void)NSURLTest{
-    [NSURLTest readFromFile];
+@implementation NSURLTestVC
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [NSURLTestVC readFromFile];
 }
++ (void)NSURLTestVC{
+    [NSURLTestVC readFromFile];
+}
+
 + (void) readFromFile{
     NSString *path = @"/Library/WebServer/Documents/test.jsp";
     
@@ -40,7 +46,7 @@
     }
     NSLog(@"%@",str3);
     
-//    NSURL *url = [NSURL URLWithString:@"http://www.baidu.com/search?id=1"];
+    url = [NSURL URLWithString:@"http://www.baidu.com/search?id=1"];
 //    NSLog(@"scheme:%@", [url scheme]); //协议 http
 //    NSLog(@"host:%@", [url host]); //域名 www.baidu.com
 //    NSLog(@"absoluteString:%@", [url absoluteString]); //完整的url字符串 http://www.baidu.com:8080/search?id=1
@@ -49,6 +55,11 @@
 //    NSLog(@"path: %@", [url path]); // 路径 search
 //    NSLog(@"pathComponents:%@", [url pathComponents]); // search
 //    NSLog(@"Query:%@", [url query]); //参数 id=1
+    
+    
+    NSURLComponents *urlComponents = [[NSURLComponents alloc] initWithURL:url resolvingAgainstBaseURL:NO];
+    NSString *value = [urlComponents.queryItems firstObject].value;
+    NSLog(@"value:%@", value);  // id=1中的1
 
 }
 

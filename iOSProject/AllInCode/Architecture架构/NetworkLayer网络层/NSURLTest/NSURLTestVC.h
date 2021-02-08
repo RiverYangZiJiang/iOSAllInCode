@@ -1,5 +1,5 @@
 //
-//  NSURLTest.h
+//  NSURLTestVC.h
 //  OCTest
 //
 //  Created by yangzijiang on 2018/12/6.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSURLTest : NSObject
-+ (void)NSURLTest;
+@interface NSURLTestVC : LMJStaticTableViewController
++ (void)NSURLTestVC;
 @end
 
 NS_ASSUME_NONNULL_END
