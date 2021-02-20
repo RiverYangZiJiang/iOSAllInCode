@@ -12,10 +12,11 @@
 #import "YZJMultiMedia_HardWareVC.h"
 #import "WKWebViewTest.h"
 #import "UICollectionViewVC.h"
-#import "YZJUIViewAnimationVC.h"
+#import "YZJAnimationVC.h"
 #import "JMViewController.h"
 #import "YZJUILabelVC.h"
 #import "YZJUIViewVC.h"
+#import "UIImageTestVC.h"
 
 @interface YZJiOSTechVC ()
 
@@ -46,7 +47,7 @@
     item04.destVc = [UICollectionViewVC class];
     
     LMJWordArrowItem *item05= [LMJWordArrowItem itemWithTitle:@"动画" subTitle:@""];
-    item05.destVc = [YZJUIViewAnimationVC class];
+    item05.destVc = [YZJAnimationVC class];
     
     LMJWordArrowItem *item06= [LMJWordArrowItem itemWithTitle:@"UIButton" subTitle:@""];
     item06.destVc = [JMViewController class];
@@ -57,9 +58,10 @@
     LMJWordArrowItem *item08= [LMJWordArrowItem itemWithTitle:@"UIView" subTitle:@"圆角"];
     item08.destVc = [YZJUIViewVC class];
     
+    LMJWordArrowItem *item09= [LMJWordArrowItem itemWithTitle:@"UIImageView" subTitle:@""];
+    item09.destVc = [UIImageTestVC class];
     
-    
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06, item07, item08] andHeaderTitle:@"UI" footerTitle:nil];
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06, item07, item08, item09] andHeaderTitle:@"UI" footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }
 

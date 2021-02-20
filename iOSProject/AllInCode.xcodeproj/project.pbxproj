@@ -72,7 +72,7 @@
 		153103BD223E584C00BC7AE5 /* CustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103BB223E584B00BC7AE5 /* CustomUIView.m */; };
 		153103C0223E58B600BC7AE5 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103BE223E58B500BC7AE5 /* BlockTest.m */; };
 		153103C4223E595600BC7AE5 /* YZJInstrumentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103C3223E595600BC7AE5 /* YZJInstrumentsVC.m */; };
-		153103F6223E944300BC7AE5 /* YZJUIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103F5223E944300BC7AE5 /* YZJUIViewAnimationVC.m */; };
+		153103F6223E944300BC7AE5 /* YZJAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 153103F5223E944300BC7AE5 /* YZJAnimationVC.m */; };
 		1531FD75223E40D800BC7AE5 /* MLBaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD74223E40D800BC7AE5 /* MLBaseTableVC.m */; };
 		1531FD7D223E415900BC7AE5 /* iOS字体大小适配的几种方法.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1531FD77223E415900BC7AE5 /* iOS字体大小适配的几种方法.docx */; };
 		1531FD7E223E415900BC7AE5 /* iPhoneXAdaptivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531FD79223E415900BC7AE5 /* iPhoneXAdaptivityVC.m */; };
@@ -488,6 +488,9 @@
 		672FFAF025AD26250065DE21 /* YZJUILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */; };
 		672FFB5025AD47360065DE21 /* YZJCountDownTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */; };
 		6738812A25D0EBE100FB401F /* YZJNetworkLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */; };
+		6738813825DE694300FB401F /* YZJUIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738813725DE694300FB401F /* YZJUIViewAnimationVC.m */; };
+		6738819925E0BB9C00FB401F /* YZJUIImageBase64VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738819825E0BB9C00FB401F /* YZJUIImageBase64VC.m */; };
+		673881A225E0C84300FB401F /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 673881A125E0C84300FB401F /* MF_Base64Additions.m */; };
 		6751299F25A8842700F72B9F /* GHUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6751299E25A8842600F72B9F /* GHUIDefine.m */; };
 		675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A125A885AE00F72B9F /* UILabel+CPExtension.m */; };
 		675129AE25A886F800F72B9F /* CPActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129AD25A886F700F72B9F /* CPActivityController.m */; };
@@ -620,8 +623,8 @@
 		153103BF223E58B600BC7AE5 /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		153103C2223E595600BC7AE5 /* YZJInstrumentsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJInstrumentsVC.h; sourceTree = "<group>"; };
 		153103C3223E595600BC7AE5 /* YZJInstrumentsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJInstrumentsVC.m; sourceTree = "<group>"; };
-		153103F4223E944300BC7AE5 /* YZJUIViewAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIViewAnimationVC.h; sourceTree = "<group>"; };
-		153103F5223E944300BC7AE5 /* YZJUIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIViewAnimationVC.m; sourceTree = "<group>"; };
+		153103F4223E944300BC7AE5 /* YZJAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJAnimationVC.h; sourceTree = "<group>"; };
+		153103F5223E944300BC7AE5 /* YZJAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJAnimationVC.m; sourceTree = "<group>"; };
 		153103F7223E94FB00BC7AE5 /* Animation动画.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Animation动画.md"; sourceTree = "<group>"; };
 		153103F8223EA01900BC7AE5 /* OC_Concept概念.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC_Concept概念.md"; sourceTree = "<group>"; };
 		1531FD73223E40D800BC7AE5 /* MLBaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBaseTableVC.h; sourceTree = "<group>"; };
@@ -1405,6 +1408,12 @@
 		672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJCountDownTool.m; sourceTree = "<group>"; };
 		6738812825D0EBE100FB401F /* YZJNetworkLayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJNetworkLayerVC.h; sourceTree = "<group>"; };
 		6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJNetworkLayerVC.m; sourceTree = "<group>"; };
+		6738813625DE694300FB401F /* YZJUIViewAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIViewAnimationVC.h; sourceTree = "<group>"; };
+		6738813725DE694300FB401F /* YZJUIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIViewAnimationVC.m; sourceTree = "<group>"; };
+		6738819725E0BB9C00FB401F /* YZJUIImageBase64VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIImageBase64VC.h; sourceTree = "<group>"; };
+		6738819825E0BB9C00FB401F /* YZJUIImageBase64VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIImageBase64VC.m; sourceTree = "<group>"; };
+		673881A025E0C84300FB401F /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		673881A125E0C84300FB401F /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
 		6751299D25A8842600F72B9F /* GHUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUIDefine.h; sourceTree = "<group>"; };
 		6751299E25A8842600F72B9F /* GHUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUIDefine.m; sourceTree = "<group>"; };
 		675129A125A885AE00F72B9F /* UILabel+CPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CPExtension.m"; sourceTree = "<group>"; };
@@ -1507,10 +1516,13 @@
 		153101ED223E47E800BC7AE5 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
+				6738819F25E0C84300FB401F /* Base64 */,
 				153101F2223E480500BC7AE5 /* UIImageViewTestVC.h */,
 				153101F1223E480500BC7AE5 /* UIImageViewTestVC.m */,
 				153101EF223E47F600BC7AE5 /* UIImageTestVC.h */,
 				153101EE223E47F600BC7AE5 /* UIImageTestVC.m */,
+				6738819725E0BB9C00FB401F /* YZJUIImageBase64VC.h */,
+				6738819825E0BB9C00FB401F /* YZJUIImageBase64VC.m */,
 			);
 			path = UIImageView;
 			sourceTree = "<group>";
@@ -1774,6 +1786,8 @@
 		153103F2223E935E00BC7AE5 /* Animation动画 */ = {
 			isa = PBXGroup;
 			children = (
+				153103F4223E944300BC7AE5 /* YZJAnimationVC.h */,
+				153103F5223E944300BC7AE5 /* YZJAnimationVC.m */,
 				6786FB4B25AEC522001A93D9 /* ImgaeLoop */,
 				155A4ED025A603AC00BC841F /* WaterWave */,
 				153103F3223E936900BC7AE5 /* UIView */,
@@ -1785,8 +1799,8 @@
 		153103F3223E936900BC7AE5 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				153103F4223E944300BC7AE5 /* YZJUIViewAnimationVC.h */,
-				153103F5223E944300BC7AE5 /* YZJUIViewAnimationVC.m */,
+				6738813625DE694300FB401F /* YZJUIViewAnimationVC.h */,
+				6738813725DE694300FB401F /* YZJUIViewAnimationVC.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -3898,6 +3912,16 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
+		6738819F25E0C84300FB401F /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				673881A025E0C84300FB401F /* MF_Base64Additions.h */,
+				673881A125E0C84300FB401F /* MF_Base64Additions.m */,
+			);
+			name = Base64;
+			path = ../../../../../../ChargePlatform_iOS_deveop/Pods/Base64/Base64;
+			sourceTree = "<group>";
+		};
 		675129AB25A886E300F72B9F /* CustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -4270,6 +4294,7 @@
 				153101FA223E484300BC7AE5 /* SearchResultsViewController.m in Sources */,
 				58DC838D1FFB43460060DC03 /* LMJCABasicAnimationViewController.m in Sources */,
 				58DC81841FFA31200060DC03 /* LMJNavBarFadeViewController.m in Sources */,
+				6738819925E0BB9C00FB401F /* YZJUIImageBase64VC.m in Sources */,
 				58DC84FE1FFC972C0060DC03 /* BSJLoginRegisterViewController.m in Sources */,
 				155A4F3D25A9237E00BC841F /* JMRadioViewController.m in Sources */,
 				155A4F1C25A9234000BC841F /* UIView+JM.m in Sources */,
@@ -4440,6 +4465,7 @@
 				589B577C2000339800B2D5A8 /* ZFVideoModel.m in Sources */,
 				58DC835A1FFB43100060DC03 /* LMJCoreAnimationViewController.m in Sources */,
 				589B57081FFFC53000B2D5A8 /* QQTimeTool.m in Sources */,
+				6738813825DE694300FB401F /* YZJUIViewAnimationVC.m in Sources */,
 				589B57051FFFC53000B2D5A8 /* NeteaseMusicAPI.m in Sources */,
 				584038131FF63617002A0566 /* LMJEasyBlankPageView.m in Sources */,
 				5892AD7B1FF5133800E868C2 /* MBProgressHUD+LMJ.m in Sources */,
@@ -4462,7 +4488,7 @@
 				584038581FF872EB002A0566 /* LMJCoordinateModel.m in Sources */,
 				58DC851C1FFC972C0060DC03 /* BSJHlightedTextField.m in Sources */,
 				15310379223E50CE00BC7AE5 /* MLUserDefaults.m in Sources */,
-				153103F6223E944300BC7AE5 /* YZJUIViewAnimationVC.m in Sources */,
+				153103F6223E944300BC7AE5 /* YZJAnimationVC.m in Sources */,
 				584038501FF8727D002A0566 /* LMJBaiduMapViewController.m in Sources */,
 				58926426201B622B007DA41E /* BSJSQLiteManager.m in Sources */,
 				1531038C223E51CA00BC7AE5 /* Employee.m in Sources */,
@@ -4484,6 +4510,7 @@
 				154EF8DF223DEDCA00E1D528 /* UILabel+MLCategory.m in Sources */,
 				155A4F1525A9234000BC841F /* JMBaseButtonConfig.m in Sources */,
 				155A4F3825A9237E00BC841F /* JMBasicViewController.m in Sources */,
+				673881A225E0C84300FB401F /* MF_Base64Additions.m in Sources */,
 				58A17C4E2005F4E600B350AB /* LMJParagraph.m in Sources */,
 				58DC83CE1FFB43E30060DC03 /* LMJPiesViewController.m in Sources */,
 				589B57071FFFC53000B2D5A8 /* QQLrcDataTool.m in Sources */,

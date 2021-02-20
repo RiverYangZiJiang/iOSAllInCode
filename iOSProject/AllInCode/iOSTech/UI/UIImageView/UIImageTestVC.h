@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImageTestVC : UIViewController
+@interface UIImageTestVC : LMJStaticTableViewController
 
 @end
 

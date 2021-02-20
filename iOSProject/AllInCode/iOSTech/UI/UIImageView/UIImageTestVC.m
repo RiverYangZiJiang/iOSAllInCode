@@ -7,6 +7,7 @@
 //
 
 #import "UIImageTestVC.h"
+#import "YZJUIImageBase64VC.h"
 
 @interface UIImageTestVC ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"base64" subTitle:nil];
+    item00.destVc = [YZJUIImageBase64VC class];
+    
+    self.addItem(item00);
 }
 
 #pragma mark - 图片拉伸
