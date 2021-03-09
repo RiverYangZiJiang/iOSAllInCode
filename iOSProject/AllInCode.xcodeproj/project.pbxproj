@@ -490,7 +490,6 @@
 		6738812A25D0EBE100FB401F /* YZJNetworkLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */; };
 		6738813825DE694300FB401F /* YZJUIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738813725DE694300FB401F /* YZJUIViewAnimationVC.m */; };
 		6738819925E0BB9C00FB401F /* YZJUIImageBase64VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738819825E0BB9C00FB401F /* YZJUIImageBase64VC.m */; };
-		673881A225E0C84300FB401F /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 673881A125E0C84300FB401F /* MF_Base64Additions.m */; };
 		6751299F25A8842700F72B9F /* GHUIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6751299E25A8842600F72B9F /* GHUIDefine.m */; };
 		675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A125A885AE00F72B9F /* UILabel+CPExtension.m */; };
 		675129AE25A886F800F72B9F /* CPActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129AD25A886F700F72B9F /* CPActivityController.m */; };
@@ -1412,8 +1411,7 @@
 		6738813725DE694300FB401F /* YZJUIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIViewAnimationVC.m; sourceTree = "<group>"; };
 		6738819725E0BB9C00FB401F /* YZJUIImageBase64VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIImageBase64VC.h; sourceTree = "<group>"; };
 		6738819825E0BB9C00FB401F /* YZJUIImageBase64VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIImageBase64VC.m; sourceTree = "<group>"; };
-		673881A025E0C84300FB401F /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
-		673881A125E0C84300FB401F /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		673881D025E1E7C200FB401F /* Operator运算符.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Operator运算符.md"; sourceTree = "<group>"; };
 		6751299D25A8842600F72B9F /* GHUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUIDefine.h; sourceTree = "<group>"; };
 		6751299E25A8842600F72B9F /* GHUIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUIDefine.m; sourceTree = "<group>"; };
 		675129A125A885AE00F72B9F /* UILabel+CPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CPExtension.m"; sourceTree = "<group>"; };
@@ -1438,6 +1436,7 @@
 		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
 		6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJLeftRightAlignment.h; sourceTree = "<group>"; };
 		6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJLeftRightAlignment.m; sourceTree = "<group>"; };
+		67EE90D925F71A87002BA76E /* 后台保活.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "后台保活.md"; sourceTree = "<group>"; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
 		D49A30618F315E1413EBE11B /* Pods-AllInCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2214,6 +2213,9 @@
 		1596E0E82235761800D66C53 /* Supports Files */ = {
 			isa = PBXGroup;
 			children = (
+				67EE90D925F71A87002BA76E /* 后台保活.md */,
+				5892ACB01FF4EEB300E868C2 /* LMJAppDelegate.h */,
+				5892ACB11FF4EEB300E868C2 /* LMJAppDelegate.m */,
 				1596E0E92235762E00D66C53 /* Resources */,
 				5892ACA61FF4EB4A00E868C2 /* main.m */,
 				5892AD6A1FF5096500E868C2 /* LMJAllInCode.pch */,
@@ -2389,6 +2391,7 @@
 		1596E0FC2235774300D66C53 /* OCTech */ = {
 			isa = PBXGroup;
 			children = (
+				673881CF25E1E79B00FB401F /* Operator运算符 */,
 				154FAC42224273AB00E14859 /* Other */,
 				154FAC3D22426DED00E14859 /* Math */,
 				1531038E223E51DA00BC7AE5 /* BlockTest */,
@@ -3086,8 +3089,6 @@
 				5892ACA51FF4EB4A00E868C2 /* Info.plist */,
 				58A17C572007335400B350AB /* LMJConst.h */,
 				58A17C582007335400B350AB /* LMJConst.m */,
-				5892ACB01FF4EEB300E868C2 /* LMJAppDelegate.h */,
-				5892ACB11FF4EEB300E868C2 /* LMJAppDelegate.m */,
 				58651ABF1FFE6F3F0087419D /* Classes */,
 			);
 			path = AllInCode;
@@ -3915,11 +3916,17 @@
 		6738819F25E0C84300FB401F /* Base64 */ = {
 			isa = PBXGroup;
 			children = (
-				673881A025E0C84300FB401F /* MF_Base64Additions.h */,
-				673881A125E0C84300FB401F /* MF_Base64Additions.m */,
 			);
 			name = Base64;
 			path = ../../../../../../ChargePlatform_iOS_deveop/Pods/Base64/Base64;
+			sourceTree = "<group>";
+		};
+		673881CF25E1E79B00FB401F /* Operator运算符 */ = {
+			isa = PBXGroup;
+			children = (
+				673881D025E1E7C200FB401F /* Operator运算符.md */,
+			);
+			path = "Operator运算符";
 			sourceTree = "<group>";
 		};
 		675129AB25A886E300F72B9F /* CustomNavigationBar */ = {
@@ -4510,7 +4517,6 @@
 				154EF8DF223DEDCA00E1D528 /* UILabel+MLCategory.m in Sources */,
 				155A4F1525A9234000BC841F /* JMBaseButtonConfig.m in Sources */,
 				155A4F3825A9237E00BC841F /* JMBasicViewController.m in Sources */,
-				673881A225E0C84300FB401F /* MF_Base64Additions.m in Sources */,
 				58A17C4E2005F4E600B350AB /* LMJParagraph.m in Sources */,
 				58DC83CE1FFB43E30060DC03 /* LMJPiesViewController.m in Sources */,
 				589B57071FFFC53000B2D5A8 /* QQLrcDataTool.m in Sources */,

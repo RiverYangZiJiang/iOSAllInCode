@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-static NSString * const MLCustomCollectionViewCellId = @"MLCustomCollectionViewCellID";
+
 
 NS_ASSUME_NONNULL_BEGIN
+
+static NSString * const MLCustomCollectionViewCellId = @"MLCustomCollectionViewCellID";
 
 /**
  自定义UICollectionViewCell

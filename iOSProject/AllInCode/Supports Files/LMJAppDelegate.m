@@ -155,6 +155,27 @@
 }
 
 
+#pragma mark - 后台保活
+- (void)applicationWillResignActive:(UIApplication *)application {
+    [self startBgTask];
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application{
+    // 注：安装官方文档：不要在applicationDidEnterBackground: 方法末尾调用本方法并且期望应用能够继续运行，放在applicationWillResignActive调用才能真正实现后台保活
+//    [self startBgTask];
+}
+
+/// 请求进入后台保活180秒
+- (void)startBgTask{
+    UIApplication *application = [UIApplication sharedApplication];
+    __block UIBackgroundTaskIdentifier bgTask;
+    bgTask = [application beginBackgroundTaskWithExpirationHandler:^{
+        //这里延迟的系统时间结束
+        NSLog(@"%f",application.backgroundTimeRemaining);
+        [application endBackgroundTask:bgTask];
+    }];
+}
+
 
 #pragma mark - 通知
 //iOS10新增：处理前台收到通知的代理方法
