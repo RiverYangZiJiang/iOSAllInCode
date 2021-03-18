@@ -30,6 +30,10 @@ NS_ASSUME_NONNULL_BEGIN
  @return <#return value description#>
  */
 - (UIButton *)initWithTitle:(NSString *)title titleColor:(UIColor *)titleColor titleFont:(UIFont *)titleFont doneBlock:(nullable void(^)(UIButton *))doneBlock;
+
+/// 为不同状态设置不同的背景色
+- (void)setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
 @end
+
 
 NS_ASSUME_NONNULL_END
