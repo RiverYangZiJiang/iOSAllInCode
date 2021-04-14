@@ -102,4 +102,11 @@
 //    來源：简书
 //    简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 }
+
+// 让数组中的所有对象都执行removeFromSuperview方法
+// [self.answerView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+//    for (UIView *subview in self.answerView.subviews) {
+//        [subview removeFromSuperview];
+
+//    }
 @end

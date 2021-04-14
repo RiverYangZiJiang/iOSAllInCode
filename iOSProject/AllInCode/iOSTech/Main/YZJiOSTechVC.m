@@ -17,6 +17,8 @@
 #import "YZJUILabelVC.h"
 #import "YZJUIViewVC.h"
 #import "UIImageTestVC.h"
+#import "UITableViewControllerTest.h"
+#import "YZJUITextFieldVC.h"
 
 @interface YZJiOSTechVC ()
 
@@ -26,6 +28,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationController.navigationBarHidden = YES;
     
     // 表格底部往上移ttabBar的高度
     UIEdgeInsets edgeInsets = self.tableView.contentInset;
@@ -46,7 +50,7 @@
     LMJWordArrowItem *item04= [LMJWordArrowItem itemWithTitle:@"UICollectionViewVC" subTitle:@""];
     item04.destVc = [UICollectionViewVC class];
     
-    LMJWordArrowItem *item05= [LMJWordArrowItem itemWithTitle:@"动画" subTitle:@""];
+    LMJWordArrowItem *item05= [LMJWordArrowItem itemWithTitle:@"动画-画图" subTitle:@""];
     item05.destVc = [YZJAnimationVC class];
     
     LMJWordArrowItem *item06= [LMJWordArrowItem itemWithTitle:@"UIButton" subTitle:@""];
@@ -61,18 +65,12 @@
     LMJWordArrowItem *item09= [LMJWordArrowItem itemWithTitle:@"UIImageView" subTitle:@""];
     item09.destVc = [UIImageTestVC class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06, item07, item08, item09] andHeaderTitle:@"UI" footerTitle:nil];
+    LMJWordArrowItem *item10= [LMJWordArrowItem itemWithTitle:@"UITableViewController" subTitle:@"" destVc:@"UITableViewControllerTest"];
+    
+    LMJWordArrowItem *item11 = [LMJWordArrowItem itemWithTitle:@"UITextField" subTitle:@"" destVc:@"YZJUITextFieldVC"];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06, item07, item08, item09, item10, item11] andHeaderTitle:@"UI" footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -14,4 +14,5 @@
 /** <#digest#> */
 @property (assign, nonatomic) Class destVc;
 
++ (instancetype)itemWithTitle:(NSString *)title subTitle:(NSString *)subTitle destVc:(NSString *)destVc;
 @end

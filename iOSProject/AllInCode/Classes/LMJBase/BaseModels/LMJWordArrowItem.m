@@ -9,5 +9,10 @@
 #import "LMJWordArrowItem.h"
 
 @implementation LMJWordArrowItem
-
++ (instancetype)itemWithTitle:(NSString *)title subTitle:(NSString *)subTitle destVc:(NSString *)destVc
+{
+    LMJWordArrowItem *item = [super itemWithTitle:title subTitle:subTitle];
+    item.destVc = NSClassFromString(destVc);
+    return item;
+}
 @end

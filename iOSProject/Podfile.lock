@@ -55,7 +55,7 @@ PODS:
   - MJRefresh (3.5.0)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
-  - MOFSPickerManager (2.0.9)
+  - MOFSPickerManager (3.0.0)
   - Reachability (3.2)
   - SDCycleScrollView (1.82):
     - SDWebImage (>= 5.0.0)
@@ -123,7 +123,7 @@ DEPENDENCIES:
   - MJExtension
   - MJRefresh
   - MLeaksFinder
-  - MOFSPickerManager (~> 2.0.2)
+  - MOFSPickerManager (~> 3.0.0)
   - Reachability
   - SDCycleScrollView
   - SDWebImage (~> 5.0.0)
@@ -168,7 +168,6 @@ SPEC REPOS:
     - MJExtension
     - MJRefresh
     - MLeaksFinder
-    - MOFSPickerManager
     - Reachability
     - SDCycleScrollView
     - Toast
@@ -188,6 +187,7 @@ SPEC REPOS:
     - ZJScrollPageView
   trunk:
     - JKCountDownButton
+    - MOFSPickerManager
     - SDWebImage
 
 SPEC CHECKSUMS:
@@ -214,7 +214,7 @@ SPEC CHECKSUMS:
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
-  MOFSPickerManager: 1cda5d454cc0388b232ece06fb52d9d8e28464fc
+  MOFSPickerManager: 7328b6c6246714496710df67c1e22e4b0b184d61
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
@@ -234,6 +234,6 @@ SPEC CHECKSUMS:
   ZJAnimationPopView: 7edb9b4c9f10dc2bba3b6738817726adc9abc08f
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: 464277e78049ff5382d90a0cb03038604a2867b2
+PODFILE CHECKSUM: 49fe8d7effb635a1de7cb78afd759b5be446f98e
 
 COCOAPODS: 1.10.0

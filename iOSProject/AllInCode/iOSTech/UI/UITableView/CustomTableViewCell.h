@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomTableViewCell : UITableViewCell
+///
+@property (nonatomic, strong) UILabel *titleLabel;
+///
+@property (nonatomic, strong) UILabel *descLabel;
 
++ (CustomTableViewCell *)cellWithTableView:(UITableView *)tableView;
 @end

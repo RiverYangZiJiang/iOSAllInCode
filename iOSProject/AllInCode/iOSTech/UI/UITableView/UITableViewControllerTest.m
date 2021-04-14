@@ -21,6 +21,8 @@
     
     [self.array addObjectsFromArray:@[@"a", @"b", @"c", @"d", @"a", @"b", @"c", @"d", @"a", @"b", @"c", @"d", @"a", @"b", @"c", @"d", @"a", @"b", @"c", @"d", @"a", @"b", @"c", @"d", @"a", @"b", @"c", @"d"]];
     
+    self.tableView.estimatedRowHeight = 72;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
     [self.tableView registerClass:[CustomTableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
     
     // 解决单元格左滑显示红色删除按钮，然后不动，然后按住单元格水平右滑，不隐藏删除按钮的问题
@@ -57,11 +59,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     // This method dequeues an existing cell if one is available, or creates a new one based on the class or nib file you previously registered, and adds it to the table.
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
+//    CustomTableViewCell *cell = (CustomTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
+    CustomTableViewCell *cell = [CustomTableViewCell cellWithTableView:tableView];
     NSLog(@"cell %p", cell);
     
-    cell.textLabel.text = self.array[indexPath.row];
-    cell.textLabel.font = [UIFont systemFontOfSize:14];
+    cell.titleLabel.text = self.array[indexPath.row];
+//    cell.descLabel.text = self.array[indexPath.row];
+    cell.descLabel.text = @"self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]";
     return cell;
 }
 

@@ -9,7 +9,7 @@
 #import "YZJOCTechVC.h"
 #import "BlockTestViewController.h"
 #import "YZJMathVC.h"
-
+#import "YZJNSDateVC.h"
 @interface YZJOCTechVC ()
 
 @end
@@ -25,7 +25,9 @@
     LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"Math" subTitle:nil];
     item01.destVc = [YZJMathVC class];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01] andHeaderTitle:nil footerTitle:nil];
+    LMJWordArrowItem *item02 = [LMJWordArrowItem itemWithTitle:@"NSDate" subTitle:nil destVc:@"YZJNSDateVC"];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 
 }

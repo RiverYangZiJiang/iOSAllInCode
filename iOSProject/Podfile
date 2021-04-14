@@ -1,5 +1,5 @@
 # 清华大学镜像 https://mirror.tuna.tsinghua.edu.cn/help/CocoaPods/
-source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 platform :ios, '10.3'
 
@@ -71,7 +71,8 @@ pod 'FCUUID'
 
 
 # 三级联动 时间 地址
-pod 'MOFSPickerManager', "~> 2.0.2"
+#pod 'MOFSPickerManager', "~> 2.0.2"
+pod 'MOFSPickerManager', "~> 3.0.0"
 
 
 # 全局滑动

@@ -494,6 +494,12 @@
 		675129A325A885AE00F72B9F /* UILabel+CPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129A125A885AE00F72B9F /* UILabel+CPExtension.m */; };
 		675129AE25A886F800F72B9F /* CPActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129AD25A886F700F72B9F /* CPActivityController.m */; };
 		675129C725A88BEE00F72B9F /* UIFont+GHPingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = 675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */; };
+		67525896261D4953009BB00E /* YZJChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67525895261D4953009BB00E /* YZJChartVC.m */; };
+		6752589C261D8CC6009BB00E /* YZJUIBezierPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6752589B261D8CC6009BB00E /* YZJUIBezierPathVC.m */; };
+		675258A1261D8D3D009BB00E /* UIBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258A0261D8D3D009BB00E /* UIBezierPathView.m */; };
+		675258EB2623F431009BB00E /* YZJUITextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258EA2623F431009BB00E /* YZJUITextFieldVC.m */; };
+		675258F2262426AE009BB00E /* SSStationSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258F1262426AE009BB00E /* SSStationSearchView.m */; };
+		675258F726242C8C009BB00E /* SSStationSearchViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258F626242C8C009BB00E /* SSStationSearchViewVC.m */; };
 		6766EFB925C394AD00A0AC0C /* YZJUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */; };
 		6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0625AE7E0D001A93D9 /* UIView+Category.m */; };
 		6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */; };
@@ -502,6 +508,11 @@
 		6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */; };
 		6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */; };
 		6786FB8825B0A64C001A93D9 /* YZJLeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */; };
+		67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C388260C14E200459E05 /* YZJFilterView.m */; };
+		67E0C38E260C153C00459E05 /* YZJFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C38D260C153C00459E05 /* YZJFilterVC.m */; };
+		67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C444260DC4A500459E05 /* YZJNSDateVC.m */; };
+		67E0C451260DF6BD00459E05 /* NSDate+YZJNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C450260DF6BD00459E05 /* NSDate+YZJNSDate.m */; };
+		67E0C461260EE12000459E05 /* YZJNSPredict.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C460260EE12000459E05 /* YZJNSPredict.m */; };
 		DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA18E4D516C513D679667E40 /* libPods-AllInCode.a */; };
 /* End PBXBuildFile section */
 
@@ -1420,6 +1431,19 @@
 		675129AD25A886F700F72B9F /* CPActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPActivityController.m; sourceTree = "<group>"; };
 		675129C525A88BEE00F72B9F /* UIFont+GHPingFang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GHPingFang.m"; sourceTree = "<group>"; };
 		675129C625A88BEE00F72B9F /* UIFont+GHPingFang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GHPingFang.h"; sourceTree = "<group>"; };
+		6752588F261C09CF009BB00E /* 轮播.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "轮播.md"; sourceTree = "<group>"; };
+		67525894261D4953009BB00E /* YZJChartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJChartVC.h; sourceTree = "<group>"; };
+		67525895261D4953009BB00E /* YZJChartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJChartVC.m; sourceTree = "<group>"; };
+		6752589A261D8CC6009BB00E /* YZJUIBezierPathVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIBezierPathVC.h; sourceTree = "<group>"; };
+		6752589B261D8CC6009BB00E /* YZJUIBezierPathVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIBezierPathVC.m; sourceTree = "<group>"; };
+		6752589F261D8D3D009BB00E /* UIBezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBezierPathView.h; sourceTree = "<group>"; };
+		675258A0261D8D3D009BB00E /* UIBezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathView.m; sourceTree = "<group>"; };
+		675258E92623F431009BB00E /* YZJUITextFieldVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUITextFieldVC.h; sourceTree = "<group>"; };
+		675258EA2623F431009BB00E /* YZJUITextFieldVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUITextFieldVC.m; sourceTree = "<group>"; };
+		675258F0262426AE009BB00E /* SSStationSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStationSearchView.h; sourceTree = "<group>"; };
+		675258F1262426AE009BB00E /* SSStationSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStationSearchView.m; sourceTree = "<group>"; };
+		675258F526242C8C009BB00E /* SSStationSearchViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStationSearchViewVC.h; sourceTree = "<group>"; };
+		675258F626242C8C009BB00E /* SSStationSearchViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStationSearchViewVC.m; sourceTree = "<group>"; };
 		6766EFB725C394AD00A0AC0C /* YZJUIAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIAlertController.h; sourceTree = "<group>"; };
 		6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIAlertController.m; sourceTree = "<group>"; };
 		6786FB0525AE7E0D001A93D9 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
@@ -1436,6 +1460,23 @@
 		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
 		6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJLeftRightAlignment.h; sourceTree = "<group>"; };
 		6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJLeftRightAlignment.m; sourceTree = "<group>"; };
+		67E0C387260C14E200459E05 /* YZJFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterView.h; sourceTree = "<group>"; };
+		67E0C388260C14E200459E05 /* YZJFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJFilterView.m; sourceTree = "<group>"; };
+		67E0C38C260C153C00459E05 /* YZJFilterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterVC.h; sourceTree = "<group>"; };
+		67E0C38D260C153C00459E05 /* YZJFilterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJFilterVC.m; sourceTree = "<group>"; };
+		67E0C392260CA29800459E05 /* UIAlertControllerStyleActionSheet-title和message都为nil.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UIAlertControllerStyleActionSheet-title和message都为nil.jpeg"; sourceTree = "<group>"; };
+		67E0C393260CA29800459E05 /* UIAlertControllerStyleActionSheet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIAlertControllerStyleActionSheet.jpeg; sourceTree = "<group>"; };
+		67E0C443260DC4A500459E05 /* YZJNSDateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJNSDateVC.h; sourceTree = "<group>"; };
+		67E0C444260DC4A500459E05 /* YZJNSDateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJNSDateVC.m; sourceTree = "<group>"; };
+		67E0C44F260DF6BD00459E05 /* NSDate+YZJNSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YZJNSDate.h"; sourceTree = "<group>"; };
+		67E0C450260DF6BD00459E05 /* NSDate+YZJNSDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YZJNSDate.m"; sourceTree = "<group>"; };
+		67E0C45A260ED3C400459E05 /* UIDatePickerModeDate.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIDatePickerModeDate.jpeg; sourceTree = "<group>"; };
+		67E0C45B260ED3C400459E05 /* UIDatePickerModeDateAndTime.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIDatePickerModeDateAndTime.jpeg; sourceTree = "<group>"; };
+		67E0C45C260ED3C500459E05 /* UIDatePickerModeCountDownTimer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIDatePickerModeCountDownTimer.jpeg; sourceTree = "<group>"; };
+		67E0C45D260ED3C500459E05 /* UIDatePickerModeTime.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIDatePickerModeTime.jpeg; sourceTree = "<group>"; };
+		67E0C45F260EE12000459E05 /* YZJNSPredict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJNSPredict.h; sourceTree = "<group>"; };
+		67E0C460260EE12000459E05 /* YZJNSPredict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJNSPredict.m; sourceTree = "<group>"; };
+		67E0C47C261040A200459E05 /* 正则表达式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "正则表达式.md"; sourceTree = "<group>"; };
 		67EE90D925F71A87002BA76E /* 后台保活.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "后台保活.md"; sourceTree = "<group>"; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
@@ -1919,6 +1960,8 @@
 		154EF8D5223DEB2300E1D528 /* MLUI */ = {
 			isa = PBXGroup;
 			children = (
+				675258EE262425D5009BB00E /* SSStationSearchView */,
+				67E0C385260C128600459E05 /* Filter筛选 */,
 				159BEF372245E66200EF2BC8 /* AlertView */,
 				153103BA223E584100BC7AE5 /* CustomUIView */,
 				154EF8D6223DEB3900E1D528 /* MLTopToastView */,
@@ -2349,45 +2392,6 @@
 			path = "NetworkLayer网络层";
 			sourceTree = "<group>";
 		};
-		1596E0F72235771100D66C53 /* Project项目 */ = {
-			isa = PBXGroup;
-			children = (
-				1596E0FB2235773C00D66C53 /* 喜马拉雅 */,
-				1596E0FA2235773500D66C53 /* QQ音乐 */,
-				1596E0F92235772900D66C53 /* 新浪微博 */,
-				1596E0F82235771B00D66C53 /* 百思不得姐 */,
-			);
-			path = "Project项目";
-			sourceTree = "<group>";
-		};
-		1596E0F82235771B00D66C53 /* 百思不得姐 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "百思不得姐";
-			sourceTree = "<group>";
-		};
-		1596E0F92235772900D66C53 /* 新浪微博 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "新浪微博";
-			sourceTree = "<group>";
-		};
-		1596E0FA2235773500D66C53 /* QQ音乐 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "QQ音乐";
-			sourceTree = "<group>";
-		};
-		1596E0FB2235773C00D66C53 /* 喜马拉雅 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "喜马拉雅";
-			sourceTree = "<group>";
-		};
 		1596E0FC2235774300D66C53 /* OCTech */ = {
 			isa = PBXGroup;
 			children = (
@@ -2408,6 +2412,7 @@
 		1596E0FD2235774A00D66C53 /* iOSTech */ = {
 			isa = PBXGroup;
 			children = (
+				67525893261D48E4009BB00E /* 画图 */,
 				154FAC2C22413D8300E14859 /* MultiMedia_HardWare */,
 				1571FEE9223F710900BBC3AC /* Expand */,
 				153103F2223E935E00BC7AE5 /* Animation动画 */,
@@ -2493,6 +2498,7 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				675258E82623F3E9009BB00E /* UITextField */,
 				6786FB0425AE7D36001A93D9 /* UIView */,
 				672FFAEC25AD25E30065DE21 /* UILabel */,
 				155A4EE025A8983600BC841F /* UIButton */,
@@ -2518,6 +2524,8 @@
 		1596E11F2236C61800D66C53 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				67E0C45E260EE0E300459E05 /* NSPredict正则表达式 */,
+				67E0C442260DC46500459E05 /* NSDate */,
 				153103B5223E53AC00BC7AE5 /* NSString */,
 				153103A3223E525900BC7AE5 /* NSArrayTest */,
 				1531039A223E520900BC7AE5 /* NSDictionary */,
@@ -2634,6 +2642,8 @@
 				159BEF382245E67F00EF2BC8 /* AlertView.md */,
 				6766EFB725C394AD00A0AC0C /* YZJUIAlertController.h */,
 				6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */,
+				67E0C392260CA29800459E05 /* UIAlertControllerStyleActionSheet-title和message都为nil.jpeg */,
+				67E0C393260CA29800459E05 /* UIAlertControllerStyleActionSheet.jpeg */,
 			);
 			path = AlertView;
 			sourceTree = "<group>";
@@ -3081,7 +3091,7 @@
 				1596E1152236C22C00D66C53 /* AllInCode.entitlements */,
 				1596E0FD2235774A00D66C53 /* iOSTech */,
 				1596E0FC2235774300D66C53 /* OCTech */,
-				1596E0F72235771100D66C53 /* Project项目 */,
+				6752588D261C097F009BB00E /* Project项目 */,
 				1596E0F1223576C500D66C53 /* Architecture架构 */,
 				1596E0EC2235769200D66C53 /* Tool工具 */,
 				1596E0E82235761800D66C53 /* Supports Files */,
@@ -3949,6 +3959,63 @@
 			path = UIFont;
 			sourceTree = "<group>";
 		};
+		6752588D261C097F009BB00E /* Project项目 */ = {
+			isa = PBXGroup;
+			children = (
+				6752588E261C0998009BB00E /* 轮播 */,
+			);
+			path = "Project项目";
+			sourceTree = "<group>";
+		};
+		6752588E261C0998009BB00E /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				6752588F261C09CF009BB00E /* 轮播.md */,
+			);
+			path = "轮播";
+			sourceTree = "<group>";
+		};
+		67525893261D48E4009BB00E /* 画图 */ = {
+			isa = PBXGroup;
+			children = (
+				67525899261D8C89009BB00E /* UIBezierPath */,
+				67525894261D4953009BB00E /* YZJChartVC.h */,
+				67525895261D4953009BB00E /* YZJChartVC.m */,
+			);
+			path = "画图";
+			sourceTree = "<group>";
+		};
+		67525899261D8C89009BB00E /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				6752589A261D8CC6009BB00E /* YZJUIBezierPathVC.h */,
+				6752589B261D8CC6009BB00E /* YZJUIBezierPathVC.m */,
+				6752589F261D8D3D009BB00E /* UIBezierPathView.h */,
+				675258A0261D8D3D009BB00E /* UIBezierPathView.m */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		675258E82623F3E9009BB00E /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				675258E92623F431009BB00E /* YZJUITextFieldVC.h */,
+				675258EA2623F431009BB00E /* YZJUITextFieldVC.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		675258EE262425D5009BB00E /* SSStationSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				675258F0262426AE009BB00E /* SSStationSearchView.h */,
+				675258F1262426AE009BB00E /* SSStationSearchView.m */,
+				675258F526242C8C009BB00E /* SSStationSearchViewVC.h */,
+				675258F626242C8C009BB00E /* SSStationSearchViewVC.m */,
+			);
+			path = SSStationSearchView;
+			sourceTree = "<group>";
+		};
 		6786FB0425AE7D36001A93D9 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -3969,6 +4036,42 @@
 				6786FB4D25AEC570001A93D9 /* YZJImageLoopViewController.m */,
 			);
 			path = ImgaeLoop;
+			sourceTree = "<group>";
+		};
+		67E0C385260C128600459E05 /* Filter筛选 */ = {
+			isa = PBXGroup;
+			children = (
+				67E0C387260C14E200459E05 /* YZJFilterView.h */,
+				67E0C388260C14E200459E05 /* YZJFilterView.m */,
+				67E0C38C260C153C00459E05 /* YZJFilterVC.h */,
+				67E0C38D260C153C00459E05 /* YZJFilterVC.m */,
+			);
+			path = "Filter筛选";
+			sourceTree = "<group>";
+		};
+		67E0C442260DC46500459E05 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				67E0C443260DC4A500459E05 /* YZJNSDateVC.h */,
+				67E0C444260DC4A500459E05 /* YZJNSDateVC.m */,
+				67E0C44F260DF6BD00459E05 /* NSDate+YZJNSDate.h */,
+				67E0C450260DF6BD00459E05 /* NSDate+YZJNSDate.m */,
+				67E0C45C260ED3C500459E05 /* UIDatePickerModeCountDownTimer.jpeg */,
+				67E0C45A260ED3C400459E05 /* UIDatePickerModeDate.jpeg */,
+				67E0C45B260ED3C400459E05 /* UIDatePickerModeDateAndTime.jpeg */,
+				67E0C45D260ED3C500459E05 /* UIDatePickerModeTime.jpeg */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		67E0C45E260EE0E300459E05 /* NSPredict正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				67E0C45F260EE12000459E05 /* YZJNSPredict.h */,
+				67E0C460260EE12000459E05 /* YZJNSPredict.m */,
+				67E0C47C261040A200459E05 /* 正则表达式.md */,
+			);
+			path = "NSPredict正则表达式";
 			sourceTree = "<group>";
 		};
 		8FC3A5937CA448C8AE6DDE55 /* Frameworks */ = {
@@ -4203,6 +4306,7 @@
 				"${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml",
+				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.json",
 				"${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
@@ -4218,6 +4322,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMScanner.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.xml",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.json",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MagicWindow.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
@@ -4267,6 +4372,7 @@
 				588CCD82205DF7860067E3C4 /* LMJCuteFlowLayoutViewController.m in Sources */,
 				159BEF252245D74F00EF2BC8 /* Demo4ViewController.m in Sources */,
 				58651AAC1FFE6D6F0087419D /* SINStatusViewModel.m in Sources */,
+				67525896261D4953009BB00E /* YZJChartVC.m in Sources */,
 				589B56FB1FFFC52F00B2D5A8 /* MUSPlayingViewController.m in Sources */,
 				589B57852000339800B2D5A8 /* VIDVideoDownloadingCell.m in Sources */,
 				589B56FF1FFFC52F00B2D5A8 /* QQLrcModel.m in Sources */,
@@ -4293,6 +4399,7 @@
 				58651AAE1FFE6D6F0087419D /* SINDictURL.m in Sources */,
 				58DC85031FFC972C0060DC03 /* BSJPublishViewController.m in Sources */,
 				5822334B20185FB10008251F /* DBSphereView.m in Sources */,
+				675258A1261D8D3D009BB00E /* UIBezierPathView.m in Sources */,
 				5892AD061FF4F9D200E868C2 /* LMJVerticalFlowLayout.m in Sources */,
 				5892AD5F1FF5079C00E868C2 /* LMJRefreshCollectionViewController.m in Sources */,
 				58DC851A1FFC972C0060DC03 /* BSJRecommendUserCell.m in Sources */,
@@ -4300,6 +4407,7 @@
 				15310332223E4CE500BC7AE5 /* MLAnnotation.m in Sources */,
 				153101FA223E484300BC7AE5 /* SearchResultsViewController.m in Sources */,
 				58DC838D1FFB43460060DC03 /* LMJCABasicAnimationViewController.m in Sources */,
+				67E0C461260EE12000459E05 /* YZJNSPredict.m in Sources */,
 				58DC81841FFA31200060DC03 /* LMJNavBarFadeViewController.m in Sources */,
 				6738819925E0BB9C00FB401F /* YZJUIImageBase64VC.m in Sources */,
 				58DC84FE1FFC972C0060DC03 /* BSJLoginRegisterViewController.m in Sources */,
@@ -4377,6 +4485,7 @@
 				1531039D223E521000BC7AE5 /* NSDictionaryTest.m in Sources */,
 				5892AD081FF4F9D200E868C2 /* LMJNavigationBar.m in Sources */,
 				159BEF2F2245D74F00EF2BC8 /* OtherAppViewController.m in Sources */,
+				675258F726242C8C009BB00E /* SSStationSearchViewVC.m in Sources */,
 				6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */,
 				15310381223E518600BC7AE5 /* PropertyTestViewController.m in Sources */,
 				5892AD001FF4F9D200E868C2 /* LMJItemSection.m in Sources */,
@@ -4390,6 +4499,7 @@
 				58DC846F1FFC967E0060DC03 /* LMJBaseRequest.m in Sources */,
 				588CCD8A205DF92F0067E3C4 /* LMJGirdLayout.m in Sources */,
 				58DC83CC1FFB43E30060DC03 /* LMJJuZhenCaoZuoViewController.m in Sources */,
+				675258F2262426AE009BB00E /* SSStationSearchView.m in Sources */,
 				58DC838E1FFB43460060DC03 /* LMJHDZSQViewController.m in Sources */,
 				15199E9E2241DA4400464480 /* YZJAudioServicesPlaySystemSoundVC.m in Sources */,
 				58DC84FC1FFC972C0060DC03 /* BSJPictureShowViewController.m in Sources */,
@@ -4405,6 +4515,7 @@
 				58DC85221FFC972C0060DC03 /* BSJTopicPictureView.m in Sources */,
 				581A3E3F20450B3E00AF08C0 /* MJDownloadManager.m in Sources */,
 				672FFB5025AD47360065DE21 /* YZJCountDownTool.m in Sources */,
+				6752589C261D8CC6009BB00E /* YZJUIBezierPathVC.m in Sources */,
 				588CCD89205DF92F0067E3C4 /* LMJLineFlowLayout.m in Sources */,
 				5892AD571FF5079C00E868C2 /* LMJNavigationController.m in Sources */,
 				154EF8F0223DF7EB00E1D528 /* MLTopToastViewVC.m in Sources */,
@@ -4516,6 +4627,7 @@
 				58DC851B1FFC972C0060DC03 /* BSJMeSquareCell.m in Sources */,
 				154EF8DF223DEDCA00E1D528 /* UILabel+MLCategory.m in Sources */,
 				155A4F1525A9234000BC841F /* JMBaseButtonConfig.m in Sources */,
+				67E0C38E260C153C00459E05 /* YZJFilterVC.m in Sources */,
 				155A4F3825A9237E00BC841F /* JMBasicViewController.m in Sources */,
 				58A17C4E2005F4E600B350AB /* LMJParagraph.m in Sources */,
 				58DC83CE1FFB43E30060DC03 /* LMJPiesViewController.m in Sources */,
@@ -4546,6 +4658,7 @@
 				589B57832000339800B2D5A8 /* VIDCollectionViewVideoCell.m in Sources */,
 				15310395223E51F200BC7AE5 /* NSTimerTest.m in Sources */,
 				58651AAB1FFE6D6F0087419D /* SINBroswerAnimator.m in Sources */,
+				67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */,
 				58DC846C1FFC94B30060DC03 /* LMJGroup.m in Sources */,
 				159BEF2C2245D74F00EF2BC8 /* Demo2ViewController.m in Sources */,
 				5892AD5A1FF5079C00E868C2 /* LMJBaseViewController.m in Sources */,
@@ -4569,6 +4682,7 @@
 				5892AD5C1FF5079C00E868C2 /* LMJRefreshTableViewController.m in Sources */,
 				589B577E2000339800B2D5A8 /* VIDVideoDownloadedCell.m in Sources */,
 				58DC83841FFB43460060DC03 /* LMJDYViewController.m in Sources */,
+				67E0C451260DF6BD00459E05 /* NSDate+YZJNSDate.m in Sources */,
 				58DC83801FFB43460060DC03 /* LMJZDTPViewController.m in Sources */,
 				584038101FF62F30002A0566 /* LMJAdaptFontCell.m in Sources */,
 				58A17C592007335400B350AB /* LMJConst.m in Sources */,
@@ -4621,6 +4735,7 @@
 				5892AD901FF5E32500E868C2 /* LMJIntroductoryPagesHelper.m in Sources */,
 				58DC850D1FFC972C0060DC03 /* BSJComment.m in Sources */,
 				58651AAA1FFE6D6F0087419D /* SINBroswerCell.m in Sources */,
+				67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */,
 				154D3BA525AD08DA00C84C23 /* YZJCountDownVC.m in Sources */,
 				15310360223E4D9200BC7AE5 /* UINavigationItem+BackItem.m in Sources */,
 				583D508420765948001480C8 /* TDTouchID.m in Sources */,
@@ -4635,6 +4750,7 @@
 				1531FD75223E40D800BC7AE5 /* MLBaseTableVC.m in Sources */,
 				584038331FF72A40002A0566 /* LMJElementsCollectionViewController.m in Sources */,
 				58926467202C54C2007DA41E /* LMJRunLoopViewController.m in Sources */,
+				675258EB2623F431009BB00E /* YZJUITextFieldVC.m in Sources */,
 				153103C4223E595600BC7AE5 /* YZJInstrumentsVC.m in Sources */,
 				1546B4D221D0C5880072B89F /* YZJConcentricCirclesVC.m in Sources */,
 				58DC83C11FFB43E30060DC03 /* LMJZhusViewController.m in Sources */,

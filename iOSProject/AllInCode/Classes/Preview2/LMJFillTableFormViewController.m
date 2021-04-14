@@ -18,100 +18,100 @@
 @implementation LMJFillTableFormViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    LMJWeak(self);
-    LMJWordItem *item0 = [LMJWordArrowItem itemWithTitle:@"系统设置" subTitle: nil];
-    item0.image = [UIImage imageNamed:@"mine-setting-icon"];
-    [item0 setItemOperation:^void(NSIndexPath *indexPath){
-        
-        [weakself.view makeToast:@"跳转成功"];
-        
-    }];
-    
-    LMJWordItem *item1 = [LMJWordItem itemWithTitle:@"姓名" subTitle:@"请输入姓名"];
-    item1.subTitleColor = [UIColor lightGrayColor];
-    item1.subTitleNumberOfLines = 1;
-//    LMJWeak(item1);
-    [item1 setItemOperation:^void(NSIndexPath *indexPath){
-        // 拿到cell
-        UITableViewCell *cell = [weakself.tableView cellForRowAtIndexPath:indexPath];
-        
-        UITextField *textF = [cell.contentView viewWithTag:indexPath.row + 100];
-        // 创建textF
-        if (!textF) {
-            textF = [[UITextField alloc] init];
-            textF.tag = indexPath.row + 100;
-            textF.delegate = self;
-//            textF.textColor = [UIColor clearColor];
-//            textF.borderStyle = UITextBorderStyleNone;
-            [cell.contentView addSubview:textF];
-            textF.hidden = YES;
-        }
-
-        [textF becomeFirstResponder];
-    }];
-    
-    
-    LMJWordItem *item2 = [LMJWordArrowItem itemWithTitle:@"性别" subTitle: @"请选择出性别"];
-    item2.subTitleColor = [UIColor lightGrayColor];
-    LMJWeak(item2);
-    [item2 setItemOperation:^void(NSIndexPath *indexPath){
-        
-        [[MOFSPickerManager shareManger] showPickerViewWithDataArray:@[@"男",@"女"] tag:1 title:nil cancelTitle:@"取消" commitTitle:@"确定" commitBlock:^(NSString *string) {
-            
-            weakitem2.subTitle = string;
-            [weakself.tableView reloadRowAtIndexPath:indexPath withRowAnimation:UITableViewRowAnimationAutomatic];
-            
-        } cancelBlock:^{
-            
-            
-        }];
-        
-    }];
-    
-    LMJWordItem *item3 = [LMJWordArrowItem itemWithTitle:@"生日" subTitle: @"请选择出生日期"];
-    item3.subTitleColor = [UIColor lightGrayColor];
-    LMJWeak(item3);
-    [item3 setItemOperation:^void(NSIndexPath *indexPath){
-        
-        [[MOFSPickerManager shareManger] showDatePickerWithTag:1 commitBlock:^(NSDate *date) {
-            
-            weakitem3.subTitle = [date stringWithFormat:@"yyyy-MM-dd"];
-            [weakself.tableView reloadRowAtIndexPath:indexPath withRowAnimation:UITableViewRowAnimationAutomatic];
-        } cancelBlock:^{
-            
-        }];
-        
-    }];
-    
-    
-    // 占位
-    LMJWordItem *item4 = [LMJWordItem itemWithTitle:@"家庭地址" subTitle:@"请输入家庭地址"];
-//    LMJWeak(item4);
-    item4.subTitleNumberOfLines = 1;
-    [item4 setItemOperation:^void(NSIndexPath *indexPath){
-        // 拿到cell
-        UITableViewCell *cell = [weakself.tableView cellForRowAtIndexPath:indexPath];
-        
-        UITextField *textF = [cell.contentView viewWithTag:indexPath.row + 100];
-        // 创建textF
-        if (!textF) {
-            textF = [[UITextField alloc] init];
-            textF.tag = indexPath.row + 100;
-            textF.delegate = self;
-//            textF.textColor = [UIColor clearColor];
-//            textF.borderStyle = UITextBorderStyleNone;
-            [cell.contentView addSubview:textF];
-            textF.hidden = YES;
-        }
-        
-        [textF becomeFirstResponder];
-    }];
-    
-    
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item4, item3, item2, item1, item0] andHeaderTitle:nil footerTitle:nil];
-    
-    [self.sections addObject:section0];
+//    [super viewDidLoad];
+//    LMJWeak(self);
+//    LMJWordItem *item0 = [LMJWordArrowItem itemWithTitle:@"系统设置" subTitle: nil];
+//    item0.image = [UIImage imageNamed:@"mine-setting-icon"];
+//    [item0 setItemOperation:^void(NSIndexPath *indexPath){
+//        
+//        [weakself.view makeToast:@"跳转成功"];
+//        
+//    }];
+//    
+//    LMJWordItem *item1 = [LMJWordItem itemWithTitle:@"姓名" subTitle:@"请输入姓名"];
+//    item1.subTitleColor = [UIColor lightGrayColor];
+//    item1.subTitleNumberOfLines = 1;
+////    LMJWeak(item1);
+//    [item1 setItemOperation:^void(NSIndexPath *indexPath){
+//        // 拿到cell
+//        UITableViewCell *cell = [weakself.tableView cellForRowAtIndexPath:indexPath];
+//        
+//        UITextField *textF = [cell.contentView viewWithTag:indexPath.row + 100];
+//        // 创建textF
+//        if (!textF) {
+//            textF = [[UITextField alloc] init];
+//            textF.tag = indexPath.row + 100;
+//            textF.delegate = self;
+////            textF.textColor = [UIColor clearColor];
+////            textF.borderStyle = UITextBorderStyleNone;
+//            [cell.contentView addSubview:textF];
+//            textF.hidden = YES;
+//        }
+//
+//        [textF becomeFirstResponder];
+//    }];
+//    
+//    
+//    LMJWordItem *item2 = [LMJWordArrowItem itemWithTitle:@"性别" subTitle: @"请选择出性别"];
+//    item2.subTitleColor = [UIColor lightGrayColor];
+//    LMJWeak(item2);
+//    [item2 setItemOperation:^void(NSIndexPath *indexPath){
+//        
+////        [[MOFSPickerManager shareManger] showPickerViewWithDataArray:@[@"男",@"女"] tag:1 title:nil cancelTitle:@"取消" commitTitle:@"确定" commitBlock:^(NSString *string) {
+////
+////            weakitem2.subTitle = string;
+////            [weakself.tableView reloadRowAtIndexPath:indexPath withRowAnimation:UITableViewRowAnimationAutomatic];
+//            
+//        } cancelBlock:^{
+//            
+//            
+//        }];
+//        
+//    }];
+//    
+//    LMJWordItem *item3 = [LMJWordArrowItem itemWithTitle:@"生日" subTitle: @"请选择出生日期"];
+//    item3.subTitleColor = [UIColor lightGrayColor];
+//    LMJWeak(item3);
+//    [item3 setItemOperation:^void(NSIndexPath *indexPath){
+//        
+//        [[MOFSPickerManager shareManger] showDatePickerWithTag:1 commitBlock:^(NSDate *date) {
+//            
+//            weakitem3.subTitle = [date stringWithFormat:@"yyyy-MM-dd"];
+//            [weakself.tableView reloadRowAtIndexPath:indexPath withRowAnimation:UITableViewRowAnimationAutomatic];
+//        } cancelBlock:^{
+//            
+//        }];
+//        
+//    }];
+//    
+//    
+//    // 占位
+//    LMJWordItem *item4 = [LMJWordItem itemWithTitle:@"家庭地址" subTitle:@"请输入家庭地址"];
+////    LMJWeak(item4);
+//    item4.subTitleNumberOfLines = 1;
+//    [item4 setItemOperation:^void(NSIndexPath *indexPath){
+//        // 拿到cell
+//        UITableViewCell *cell = [weakself.tableView cellForRowAtIndexPath:indexPath];
+//        
+//        UITextField *textF = [cell.contentView viewWithTag:indexPath.row + 100];
+//        // 创建textF
+//        if (!textF) {
+//            textF = [[UITextField alloc] init];
+//            textF.tag = indexPath.row + 100;
+//            textF.delegate = self;
+////            textF.textColor = [UIColor clearColor];
+////            textF.borderStyle = UITextBorderStyleNone;
+//            [cell.contentView addSubview:textF];
+//            textF.hidden = YES;
+//        }
+//        
+//        [textF becomeFirstResponder];
+//    }];
+//    
+//    
+//    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item4, item3, item2, item1, item0] andHeaderTitle:nil footerTitle:nil];
+//    
+//    [self.sections addObject:section0];
     
 }
 
