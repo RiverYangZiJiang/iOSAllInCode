@@ -43,6 +43,7 @@
                         dispatch_source_cancel(_timer);
                         _timer = nil;
                         dispatch_async(dispatch_get_main_queue(), ^{
+                            strongSelf.userInteractionEnabled = YES;
                             strongSelf.text = @"00";
                             // 如果需用block，不管用self/weakSelf/strongSelf都会造成循环引用
 //                            if (strongSelf.doneBlock) {

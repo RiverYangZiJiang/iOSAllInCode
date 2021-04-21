@@ -500,6 +500,10 @@
 		675258EB2623F431009BB00E /* YZJUITextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258EA2623F431009BB00E /* YZJUITextFieldVC.m */; };
 		675258F2262426AE009BB00E /* SSStationSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258F1262426AE009BB00E /* SSStationSearchView.m */; };
 		675258F726242C8C009BB00E /* SSStationSearchViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 675258F626242C8C009BB00E /* SSStationSearchViewVC.m */; };
+		67525A01262C7DDD009BB00E /* CPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 675259FE262C7DDD009BB00E /* CPButton.m */; };
+		67525A02262C7DDD009BB00E /* UIButton+CPRedPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 675259FF262C7DDD009BB00E /* UIButton+CPRedPointExtension.m */; };
+		67525A09262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67525A08262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m */; };
+		67525A0F262D6DC7009BB00E /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 67525A0E262D6DC7009BB00E /* JStoOC.html */; };
 		6766EFB925C394AD00A0AC0C /* YZJUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */; };
 		6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0625AE7E0D001A93D9 /* UIView+Category.m */; };
 		6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */; };
@@ -1444,6 +1448,13 @@
 		675258F1262426AE009BB00E /* SSStationSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStationSearchView.m; sourceTree = "<group>"; };
 		675258F526242C8C009BB00E /* SSStationSearchViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSStationSearchViewVC.h; sourceTree = "<group>"; };
 		675258F626242C8C009BB00E /* SSStationSearchViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStationSearchViewVC.m; sourceTree = "<group>"; };
+		675259FD262C7DDD009BB00E /* UIButton+CPRedPointExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CPRedPointExtension.h"; sourceTree = "<group>"; };
+		675259FE262C7DDD009BB00E /* CPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPButton.m; sourceTree = "<group>"; };
+		675259FF262C7DDD009BB00E /* UIButton+CPRedPointExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CPRedPointExtension.m"; sourceTree = "<group>"; };
+		67525A00262C7DDD009BB00E /* CPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPButton.h; sourceTree = "<group>"; };
+		67525A07262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakWebViewScriptMessageDelegate.h; sourceTree = "<group>"; };
+		67525A08262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakWebViewScriptMessageDelegate.m; sourceTree = "<group>"; };
+		67525A0E262D6DC7009BB00E /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
 		6766EFB725C394AD00A0AC0C /* YZJUIAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIAlertController.h; sourceTree = "<group>"; };
 		6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIAlertController.m; sourceTree = "<group>"; };
 		6786FB0525AE7E0D001A93D9 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
@@ -2087,6 +2098,7 @@
 		155A4EE025A8983600BC841F /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				675259FC262C7DDD009BB00E /* Button */,
 				155A4F2125A9234800BC841F /* JMButtonVC */,
 				155A4EEA25A9234000BC841F /* JMButton */,
 			);
@@ -2208,10 +2220,12 @@
 		1562775E2546AAA400E5FF34 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				67525A0B262D6BF7009BB00E /* WeakWebViewScriptMessageDelegate */,
 				156277602546AAA400E5FF34 /* WKWebViewTest.h */,
 				156277622546AAA400E5FF34 /* WKWebViewTest.m */,
 				1562775F2546AAA400E5FF34 /* UIWebViewTest.h */,
 				156277612546AAA400E5FF34 /* UIWebViewTest.m */,
+				67525A0E262D6DC7009BB00E /* JStoOC.html */,
 			);
 			path = WKWebView;
 			sourceTree = "<group>";
@@ -4016,6 +4030,26 @@
 			path = SSStationSearchView;
 			sourceTree = "<group>";
 		};
+		675259FC262C7DDD009BB00E /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				67525A00262C7DDD009BB00E /* CPButton.h */,
+				675259FE262C7DDD009BB00E /* CPButton.m */,
+				675259FD262C7DDD009BB00E /* UIButton+CPRedPointExtension.h */,
+				675259FF262C7DDD009BB00E /* UIButton+CPRedPointExtension.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		67525A0B262D6BF7009BB00E /* WeakWebViewScriptMessageDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				67525A07262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.h */,
+				67525A08262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m */,
+			);
+			path = WeakWebViewScriptMessageDelegate;
+			sourceTree = "<group>";
+		};
 		6786FB0425AE7D36001A93D9 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -4265,6 +4299,7 @@
 				58DC83F11FFB47710060DC03 /* 小新.jpg in Resources */,
 				5892ACBD1FF4EF4500E868C2 /* BSJ.xcassets in Resources */,
 				58DC85231FFC972C0060DC03 /* BSJTopicCmtCell.xib in Resources */,
+				67525A0F262D6DC7009BB00E /* JStoOC.html in Resources */,
 				5822335620188F6E0008251F /* adm in Resources */,
 				159BEF2B2245D74F00EF2BC8 /* Demo4ViewController.xib in Resources */,
 				1531034B223E4D2F00BC7AE5 /* station_last_one.png in Resources */,
@@ -4413,6 +4448,7 @@
 				58DC84FE1FFC972C0060DC03 /* BSJLoginRegisterViewController.m in Sources */,
 				155A4F3D25A9237E00BC841F /* JMRadioViewController.m in Sources */,
 				155A4F1C25A9234000BC841F /* UIView+JM.m in Sources */,
+				67525A01262C7DDD009BB00E /* CPButton.m in Sources */,
 				584038491FF7F3E5002A0566 /* LMJBaseResponse.m in Sources */,
 				5892AD551FF5079C00E868C2 /* LMJNavUIBaseViewController.m in Sources */,
 				155A4F3725A9237E00BC841F /* JMViewController.m in Sources */,
@@ -4478,6 +4514,7 @@
 				58DC83D81FFB440E0060DC03 /* LMJDynamicViewController.m in Sources */,
 				155A4F1325A9234000BC841F /* JMBootstrapButton.m in Sources */,
 				675129AE25A886F800F72B9F /* CPActivityController.m in Sources */,
+				67525A02262C7DDD009BB00E /* UIButton+CPRedPointExtension.m in Sources */,
 				15310375223E4DD800BC7AE5 /* UITableViewControllerTest.m in Sources */,
 				156277632546AAA400E5FF34 /* UIWebViewTest.m in Sources */,
 				6751299F25A8842700F72B9F /* GHUIDefine.m in Sources */,
@@ -4486,6 +4523,7 @@
 				5892AD081FF4F9D200E868C2 /* LMJNavigationBar.m in Sources */,
 				159BEF2F2245D74F00EF2BC8 /* OtherAppViewController.m in Sources */,
 				675258F726242C8C009BB00E /* SSStationSearchViewVC.m in Sources */,
+				67525A09262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m in Sources */,
 				6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */,
 				15310381223E518600BC7AE5 /* PropertyTestViewController.m in Sources */,
 				5892AD001FF4F9D200E868C2 /* LMJItemSection.m in Sources */,

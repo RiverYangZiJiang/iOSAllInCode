@@ -25,11 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
  更好地遵守网络标准
  可靠的滚动事件（对虚拟列表很重要）
  
- 1.同样的HTML，在WKWebView中显示的字体比UIWebView中的小。https://segmentfault.com/q/1010000010971196/a-1020000010982716
+ 1.同样的HTML，在WKWebView中显示的字体比UIWebView中的小。修改HTML或者注入代码使得'width=device-width'[5]
  2.ionic3 从UIWebView升级到WKWebView（翻译） https://www.jianshu.com/p/1648ac581906
  3.WKWebView【关于WKWebViewx非常详尽的使用，如标题、刷新按钮、显示加载进度条】 https://www.jianshu.com/p/35be2053111c
  4.WKWebView获取页面title和加载进度值 https://www.jianshu.com/p/6f2d733502c6
- 
+ 5.iOS WKWebView的使用https://www.jianshu.com/p/5cf0d241ae12
  */
 
 @property (copy, nonatomic) NSString *url;

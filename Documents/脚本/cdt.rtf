@@ -1,0 +1,211 @@
+{\rtf1\ansi\ansicpg936\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #
+\f1 \'b9\'a4\'b3\'cc\'c3\'fb\'d7\'d6
+\f0 \
+project_name="ChargePlatform"\
+\
+#
+\f1 \'d2\'aa\'b1\'e0\'d2\'eb\'b5\'c4
+\f0 scheme\
+scheme="ChargePlatform"\
+\
+#
+\f1 \'c8\'a1\'b5\'b1\'c7\'b0\'ca\'b1\'bc\'e4\'d7\'d6\'b7\'fb\'b4\'ae\'cc\'ed\'bc\'d3\'b5\'bd\'ce\'c4\'bc\'fe\'bd\'e1\'ce\'b2
+\f0 \
+dateString=$(date +"%Y%m%d%H%M")\
+infoPlistPath="$\{scheme\}/info.plist"\
+\
+#
+\f1 \'b1\'e0\'d2\'eb\'c4\'a3\'ca\'bd
+\f0 \
+if [ $\{build_type\} == "debug" ]; then \
+	build_mode=Debug\
+else \
+	build_mode=Release\
+fi\
+\
+#
+\f1 \'b5\'bc\'b3\'f6\'b5\'c4\'c5\'e4\'d6\'c3\'ce\'c4\'bc\'fe
+\f0 \
+exportOptionsPlist="exportOptionsPlist.plist"\
+#build
+\f1 \'c2\'b7\'be\'b6
+\f0 \
+build_dir="$\{WORKSPACE\}/build"\
+#archive
+\f1 \'c2\'b7\'be\'b6
+\f0 \
+archive_path=$\{build_dir\}/$\{scheme\}.xcarchive\
+#
+\f1 \'b5\'bc\'b3\'f6\'b5\'c4
+\f0 ipa
+\f1 \'c2\'b7\'be\'b6
+\f0 \
+ipa_path=$\{build_dir\}/$\{scheme\}\
+\
+#
+\f1 \'c5\'e4\'d6\'c3\'b0\'e6\'b1\'be\'ba\'c5
+\f0 \
+if [ -n "$\{version\}" ]; then\
+/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $\{version\}" $\{infoPlistPath\}\
+fi\
+\
+#
+\f1 \'c5\'e4\'d6\'c3\'b9\'b9\'bd\'a8\'ba\'c5
+\f0 \
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $\{dateString\}" $\{infoPlistPath\}\
+/usr/libexec/PlistBuddy -c "print" $\{infoPlistPath\}\
+\
+#
+\f1 \'c5\'e4\'d6\'c3\'d6\'a4\'ca\'e9
+\f0   appstore \
+if [ $\{build_type\} == "debug" ]; then \
+bundle_id="com.hd.chargePlatform"\
+team_id="CVPYVQRPA4"\
+method="development"\
+cer_name="iPhone Developer"\
+provision_name="Dev_ChargePlatform_20210415"\
+else \
+bundle_id="com.hd.chargePlatform"\
+team_id="CVPYVQRPA4"\
+method="app-store"\
+cer_name="iPhone Distribution"\
+provision_name="Dis_ChargePlatform_20210404"\
+fi\
+\
+# debug & inhouse 
+\f1 \'a3\'a8\'d5\'e2\'c1\'bd\'b8\'f6\'c4\'a3\'ca\'bd\'d2\'bb\'d1\'f9\'a3\'a9\'cd\'b3\'d2\'bb\'b3\'c9
+\f0 testflight
+\f1 \'c4\'a3\'ca\'bd
+\f0 \
+#if [ $\{build_type\} == "debug" ]; then \
+#sed -i '' 's/#define SV_APP_FOR_TEXTFLEIGHT.*/#define SV_APP_FOR_TEXTFLEIGHT 1/' ChargePlatform/BaseModules/Constant/Macros/SCEnvironmentMacro.h\
+#fi\
+\
+echo "
+\f1 \'bd\'d7\'b6\'ce\'c8\'d5\'d6\'be
+\f0 --
+\f1 \'d7\'bc\'b1\'b8\'b9\'a4\'d7\'f7\'cd\'ea\'b3\'c9\'a3\'ac\'bf\'aa\'ca\'bc\'c7\'e5\'c0\'ed\'b9\'a4\'b3\'cc
+\f0 "\
+#
+\f1 \'c7\'e5\'b3\'fd\'c9\'cf\'b4\'ce\'b1\'e0\'d2\'eb\'b5\'c4\'c4\'da\'c8\'dd
+\f0 \
+xcodebuild clean -workspace $\{project_name\}.xcworkspace -scheme $\{scheme\}\
+echo "
+\f1 \'bd\'d7\'b6\'ce\'c8\'d5\'d6\'be
+\f0 --
+\f1 \'c7\'e5\'c0\'ed\'cd\'ea\'b3\'c9\'a3\'ac\'bf\'aa\'ca\'bc\'b1\'e0\'d2\'eb
+\f0 "\
+\
+#
+\f1 \'bf\'aa\'ca\'bc\'b1\'e0\'d2\'eb
+\f0 \
+if [ $\{build_type\} == "debug" ]; then \
+xcodebuild archive -workspace $\{project_name\}.xcworkspace -scheme $\{scheme\} -configuration $\{build_mode\} -archivePath $\{archive_path\} PRODUCT_BUNDLE_IDENTIFIER=$\{bundle_id\} PROVISIONING_PROFILE_SPECIFIER=$\{provision_name\} DEVELOPMENT_TEAM=$\{team_id\} CODE_SIGN_IDENTITY="iPhone Developer" CODE_SIGN_STYLE=Manual\
+else \
+xcodebuild archive \
+-workspace $\{project_name\}.xcworkspace \
+-scheme $\{scheme\} \
+-configuration $\{build_mode\} \
+-archivePath $\{archive_path\} \
+PRODUCT_BUNDLE_IDENTIFIER=$\{bundle_id\} \
+PROVISIONING_PROFILE_SPECIFIER=$\{provision_name\} \
+DEVELOPMENT_TEAM=$\{team_id\} \
+CODE_SIGN_IDENTITY=$\{cer_name\} \
+CODE_SIGN_STYLE=Manual\
+fi\
+\
+#
+\f1 \'c5\'e4\'d6\'c3\'b5\'bc\'b3\'f6\'ce\'c4\'bc\'fe
+\f0 \
+/usr/libexec/PlistBuddy -c "Add :compileBitcode bool true" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :method string $\{method\}" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :provisioningProfiles dict" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :provisioningProfiles:$\{bundle_id\} string $\{provision_name\}" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :signingCertificate string $\{cer_name\}" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :signingStyle string manual" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :stripSwiftSymbols bool true" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :teamID string $\{team_id\}" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "Add :thinning string <none>" exportOptionsPlist.plist\
+/usr/libexec/PlistBuddy -c "print" exportOptionsPlist.plist\
+\
+echo "begin archive"\
+\
+#
+\f1 \'b5\'bc\'b3\'f6
+\f0 ipa\
+xcodebuild -exportArchive -archivePath $\{archive_path\} -configuration $\{build_mode\} -exportPath $\{ipa_path\} -exportOptionsPlist $\{exportOptionsPlist\}\
+echo "
+\f1 \'b5\'bc\'b3\'f6
+\f0 ipa
+\f1 \'b3\'c9\'b9\'a6
+\f0 "\
+\
+#
+\f1 \'b0\'d1
+\f0 ipa
+\f1 \'b0\'fc\'b8\'b4\'d6\'c6\'b5\'bd\'d7\'c0\'c3\'e6
+\f0 build
+\f1 \'c4\'bf\'c2\'bc
+\f0 \
+cd /Users/hellomoto/Desktop/build\
+dateString=$(date +"%Y%m%d%H%M")\
+mkdir $dateString\
+cd $dateString\
+#
+\f1 \'bf\'bd\'b1\'b4
+\f0 ipa
+\f1 \'b5\'bd\'d5\'e2\'b8\'f6\'c4\'bf\'c2\'bc
+\f0 \
+cp -r $ipa_path ./\
+#
+\f1 \'c8\'e7\'b9\'fb\'ca\'c7
+\f0 release
+\f1 \'bf\'bd\'b1\'b4
+\f0 dSYMs
+\f1 \'c4\'bf\'c2\'bc
+\f0 \
+if [ $\{build_type\} == "release" ]; then \
+dsym_path=$archive_path/dSYMs/*.*\
+cp -r $dsym_path ./\
+fi\
+#
+\f1 \'b4\'f2\'d3\'a1\'b5\'b1\'c7\'b0\'b2\'ce\'ca\'fd
+\f0 \
+echo "
+\f1 \'b4\'f2\'b0\'fc\'b7\'d6\'d6\'a7\'a3\'ba
+\f0 $\{branch\}
+\f1 \'a3\'ac\'b4\'f2\'b0\'fc\'c0\'e0\'d0\'cd\'a3\'ba
+\f0 $\{build_type\}" > readme.txt\
+echo '
+\f1 \'d7\'bc\'b1\'b8\'c9\'cf\'b4\'ab\'b0\'fc
+\f0 '\
+\
+#debug
+\f1 \'a3\'ac
+\f0 release
+\f1 \'b0\'fc\'c9\'cf\'b4\'ab
+\f0 fir
+\f1 \'a3\'ac
+\f0 app-store
+\f1 \'b0\'fc\'c9\'cf\'b4\'ab
+\f0 appstore\
+if [ $\{build_type\} == "appstore" ]; then \
+	echo "
+\f1 \'c9\'cf\'b4\'ab
+\f0 AppStore"\
+    appleid="hdzhcdkj_app@evergrande.com"\
+    password="xgla-khie-xurx-koba"\
+    xcrun altool --upload-app -f $\{ipa_path\} -t ios -u $\{appleid\} -p $\{password\} --output-format normal\
+else\
+   	echo "
+\f1 \'c9\'cf\'b4\'ab
+\f0 fir"\
+    fir publish $ipa_path\
+fi}

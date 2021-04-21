@@ -109,6 +109,9 @@ shared##name = [[self alloc] init];                 \
 return shared##name;                                \
 }
 
+//弱self
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
 /** 弱引用 */
 #define MLWeakSelf(type)  __weak __typeof(type) weak##type = type;
 /** 强引用 */
@@ -124,3 +127,4 @@ return shared##name;                                \
 /** 获取登录账号的用全名 */
 #define GET_MINE_USER_FULL_NAME [AppCache sharedInstance].loginResult.username
 
+#define CPHexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
