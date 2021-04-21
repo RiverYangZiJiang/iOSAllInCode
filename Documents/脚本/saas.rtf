@@ -155,7 +155,7 @@ echo "
 \f1 \'c4\'bf\'c2\'bc
 \f0 \
 cd /Users/hellomoto/Desktop/build\
-dateString=$(date +"%Y%m%d%H%M")\
+dateString=$(date +"%Y%m%d%H%M")_saas\
 mkdir $dateString\
 cd $dateString\
 #
@@ -207,5 +207,5 @@ else\
    	echo "
 \f1 \'c9\'cf\'b4\'ab
 \f0 fir"\
-    fir publish $ipa_path\
+    fir publish $\{ipa_path\}/$\{scheme\}.ipa\
 fi}
