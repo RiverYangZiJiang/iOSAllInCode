@@ -31,7 +31,7 @@
 // 适配iPhone X 导航栏高度
 #define Nav_Height (isiPhoneXStyle ? 88.f : 64.f)
 // 判断iPhoneX系列
-#define isiPhoneXStyle ( (ScreenHeight == 812.f ||  ScreenHeight == 896.f ) ? YES : NO)
+#define isiPhoneXStyle (ScreenHeight > 811.f ? YES : NO)
 
  #define SafeAreaBottomHeight (isiPhoneXStyle ? 34 : 0)
 

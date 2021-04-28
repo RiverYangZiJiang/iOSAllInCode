@@ -10,7 +10,7 @@
 #import <UserNotifications/UserNotifications.h>
 
 @interface LMJAppDelegate : UIResponder <UIApplicationDelegate, UNUserNotificationCenterDelegate>
-
+/// 注：默认情况下AppDelegate.h没有UIWindow对象，需要手动添加对象并且完成初始化
 @property (strong, nonatomic) UIWindow *window;
 
 @end

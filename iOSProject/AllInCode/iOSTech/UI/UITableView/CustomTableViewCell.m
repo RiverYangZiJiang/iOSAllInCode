@@ -59,8 +59,10 @@
 //    return self;
 //}
 
+// 可以在updateConstraints里make，或者在设置模型的方法里面remake约束
 - (void)updateConstraints {
     NSLog(@"%@ %s", NSStringFromClass([self class]), __func__);
+    // 参考《Masonry实现cell自适应高度》
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(self.contentView);
         // Masonry实现cell自适应高度，要设置cell里最上方控件与cell.contentView上方的距离，最下方控件与cell.contentView下方的距离，各控件间距离

@@ -10,6 +10,8 @@
 #import "BlockTestViewController.h"
 #import "YZJMathVC.h"
 #import "YZJNSDateVC.h"
+#import "YZJNSInvocationVC.h"
+
 @interface YZJOCTechVC ()
 
 @end
@@ -27,7 +29,9 @@
     
     LMJWordArrowItem *item02 = [LMJWordArrowItem itemWithTitle:@"NSDate" subTitle:nil destVc:@"YZJNSDateVC"];
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02] andHeaderTitle:nil footerTitle:nil];
+    LMJWordArrowItem *item03 = [LMJWordArrowItem itemWithTitle:@"NSInvocation" subTitle:nil destVc:@"YZJNSInvocationVC"];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 
 }

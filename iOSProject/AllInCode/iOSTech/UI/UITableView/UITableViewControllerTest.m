@@ -65,7 +65,12 @@
     
     cell.titleLabel.text = self.array[indexPath.row];
 //    cell.descLabel.text = self.array[indexPath.row];
-    cell.descLabel.text = @"self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]";
+    if (indexPath.row % 2) {
+        cell.descLabel.text = @"self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]";
+    }else {
+        cell.descLabel.text = @"self.array[indexPath.row]self.array[indexPath.row]self.array[indexPath.row]self.array";
+    }
+    
     return cell;
 }
 

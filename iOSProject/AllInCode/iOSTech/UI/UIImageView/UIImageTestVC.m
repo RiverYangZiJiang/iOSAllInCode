@@ -18,10 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"base64" subTitle:nil];
-    item00.destVc = [YZJUIImageBase64VC class];
+    self.addItem([LMJWordArrowItem itemWithTitle:@"base64" subTitle:nil destVc:@"YZJUIImageBase64VC"]);
     
-    self.addItem(item00);
+    self.addItem([LMJWordArrowItem itemWithTitle:@"YYAnimatedImageView" subTitle:nil destVc:@"YZJYYAnimatedImageViewVC"]);
 }
 
 #pragma mark - 图片拉伸

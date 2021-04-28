@@ -30,6 +30,12 @@
     [self.view addSubview:self.loginLabel];
     self.loginLabel.alpha = 0;
     
+    [self.userNameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self.view);
+        make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop).offset(-44);
+        make.height.mas_equalTo(44);
+    }];
+    
     self.userNameLabel.frame = CGRectMake(-100, 100, 100, 100);
     self.passwordLabel.frame = CGRectMake(-100, 200, 100, 100);
     self.loginLabel.frame = CGRectMake(100, 300, 100, 100);
@@ -42,9 +48,17 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [UIView animateWithDuration:0.5 animations:^{
-        self.userNameLabel.lmj_x = 100;
+    [self.userNameLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop);
     }];
+//    [UIView animateWithDuration:0.4 animations:^{
+//        [self.view layoutIfNeeded];
+//    }];
+
+    
+//    [UIView animateWithDuration:0.5 animations:^{
+//        self.userNameLabel.lmj_x = 100;
+//    }];
     [UIView animateWithDuration:0.5 delay:0.25 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.passwordLabel.lmj_x = 100;
     } completion:^(BOOL finished) {
@@ -56,7 +70,7 @@
 
 - (UILabel *)userNameLabel{
     if(!_userNameLabel) {
-        _userNameLabel = [UILabel labelWithTextColor:[UIColor colorWithHexString:@"#0E1F33"] backgroundColor:[UIColor clearColor] textFont:[UIFont PingFangSC_RegularOfSize:14] textAlignment:NSTextAlignmentLeft nuberOflines:1];
+        _userNameLabel = [UILabel labelWithTextColor:[UIColor colorWithHexString:@"#0E1F33"] backgroundColor:[UIColor clearColor] textFont:[UIFont PingFangSC_RegularOfSize:14] textAlignment:NSTextAlignmentCenter nuberOflines:1];
         _userNameLabel.text = @"abcedfghi";
     }
     return _userNameLabel;

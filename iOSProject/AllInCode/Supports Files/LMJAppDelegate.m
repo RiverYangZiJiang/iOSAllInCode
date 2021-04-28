@@ -33,7 +33,7 @@
     // 刷新率
     [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 70, 0, 0)]];
     
-    return YES;
+//    return YES;
     // 欢迎视图
     [LMJIntroductoryPagesHelper showIntroductoryPageView:@[@"intro_0.jpg", @"intro_1.jpg", @"intro_2.jpg", @"intro_3.jpg"]];
     
@@ -44,12 +44,12 @@
     // 检查版本更新
     NSLog(@"%zd", [LMJRequestManager sharedManager].reachabilityManager.networkReachabilityStatus);
     
-    // 友盟统计
-    [LMJUMengHelper UMAnalyticStart];
-    // 友盟社交化
-    [LMJUMengHelper UMSocialStart];
-    // 友盟推送
-    [LMJUMengHelper UMPushStart:launchOptions];
+//    // 友盟统计
+//    [LMJUMengHelper UMAnalyticStart];
+//    // 友盟社交化
+//    [LMJUMengHelper UMSocialStart];
+//    // 友盟推送
+//    [LMJUMengHelper UMPushStart:launchOptions];
     
     if (launchOptions) {
         [UIAlertController mj_showAlertWithTitle:@"有launchOptions!!" message:launchOptions.description appearanceProcess:^(JXTAlertController * _Nonnull alertMaker) {
@@ -59,7 +59,7 @@
     }
     
     
-    [AvoidCrash becomeEffective];
+    [AvoidCrash makeAllEffective];
     
     //监听通知:AvoidCrashNotification, 获取AvoidCrash捕获的崩溃日志的详细信息
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:AvoidCrashNotification object:nil];
@@ -232,6 +232,7 @@
 }
 
 #pragma mark - getter
+/// 注：默认情况下AppDelegate.h没有UIWindow对象，需要手动添加对象并且完成初始化
 - (UIWindow *)window
 {
     if(!_window)

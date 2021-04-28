@@ -505,6 +505,8 @@
 		67525A09262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67525A08262D6BF3009BB00E /* WeakWebViewScriptMessageDelegate.m */; };
 		67525A0F262D6DC7009BB00E /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 67525A0E262D6DC7009BB00E /* JStoOC.html */; };
 		6766EFB925C394AD00A0AC0C /* YZJUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */; };
+		67851A2C2639049C00572271 /* YZJYYAnimatedImageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67851A2B2639049C00572271 /* YZJYYAnimatedImageViewVC.m */; };
+		67851A312639093600572271 /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67851A302639093600572271 /* pia@2x.png */; };
 		6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0625AE7E0D001A93D9 /* UIView+Category.m */; };
 		6786FB0C25AE8043001A93D9 /* YZJUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0B25AE8043001A93D9 /* YZJUIViewVC.m */; };
 		6786FB1025AE8088001A93D9 /* YZJCornerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB0F25AE8088001A93D9 /* YZJCornerVC.m */; };
@@ -517,6 +519,7 @@
 		67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C444260DC4A500459E05 /* YZJNSDateVC.m */; };
 		67E0C451260DF6BD00459E05 /* NSDate+YZJNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C450260DF6BD00459E05 /* NSDate+YZJNSDate.m */; };
 		67E0C461260EE12000459E05 /* YZJNSPredict.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C460260EE12000459E05 /* YZJNSPredict.m */; };
+		67E39DEB2637B8A9003FC6A1 /* YZJNSInvocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E39DEA2637B8A9003FC6A1 /* YZJNSInvocationVC.m */; };
 		DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA18E4D516C513D679667E40 /* libPods-AllInCode.a */; };
 /* End PBXBuildFile section */
 
@@ -639,7 +642,6 @@
 		153103C3223E595600BC7AE5 /* YZJInstrumentsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJInstrumentsVC.m; sourceTree = "<group>"; };
 		153103F4223E944300BC7AE5 /* YZJAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJAnimationVC.h; sourceTree = "<group>"; };
 		153103F5223E944300BC7AE5 /* YZJAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJAnimationVC.m; sourceTree = "<group>"; };
-		153103F7223E94FB00BC7AE5 /* Animation动画.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Animation动画.md"; sourceTree = "<group>"; };
 		153103F8223EA01900BC7AE5 /* OC_Concept概念.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC_Concept概念.md"; sourceTree = "<group>"; };
 		1531FD73223E40D800BC7AE5 /* MLBaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBaseTableVC.h; sourceTree = "<group>"; };
 		1531FD74223E40D800BC7AE5 /* MLBaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBaseTableVC.m; sourceTree = "<group>"; };
@@ -1457,6 +1459,9 @@
 		67525A0E262D6DC7009BB00E /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
 		6766EFB725C394AD00A0AC0C /* YZJUIAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIAlertController.h; sourceTree = "<group>"; };
 		6766EFB825C394AD00A0AC0C /* YZJUIAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUIAlertController.m; sourceTree = "<group>"; };
+		67851A2A2639049C00572271 /* YZJYYAnimatedImageViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZJYYAnimatedImageViewVC.h; path = AllInCode/iOSTech/UI/UIImageView/YZJYYAnimatedImageViewVC/YZJYYAnimatedImageViewVC.h; sourceTree = SOURCE_ROOT; };
+		67851A2B2639049C00572271 /* YZJYYAnimatedImageViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZJYYAnimatedImageViewVC.m; path = AllInCode/iOSTech/UI/UIImageView/YZJYYAnimatedImageViewVC/YZJYYAnimatedImageViewVC.m; sourceTree = SOURCE_ROOT; };
+		67851A302639093600572271 /* pia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pia@2x.png"; sourceTree = "<group>"; };
 		6786FB0525AE7E0D001A93D9 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		6786FB0625AE7E0D001A93D9 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		6786FB0A25AE8043001A93D9 /* YZJUIViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUIViewVC.h; sourceTree = "<group>"; };
@@ -1488,6 +1493,8 @@
 		67E0C45F260EE12000459E05 /* YZJNSPredict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJNSPredict.h; sourceTree = "<group>"; };
 		67E0C460260EE12000459E05 /* YZJNSPredict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJNSPredict.m; sourceTree = "<group>"; };
 		67E0C47C261040A200459E05 /* 正则表达式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "正则表达式.md"; sourceTree = "<group>"; };
+		67E39DE92637B8A9003FC6A1 /* YZJNSInvocationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJNSInvocationVC.h; sourceTree = "<group>"; };
+		67E39DEA2637B8A9003FC6A1 /* YZJNSInvocationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJNSInvocationVC.m; sourceTree = "<group>"; };
 		67EE90D925F71A87002BA76E /* 后台保活.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "后台保活.md"; sourceTree = "<group>"; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
@@ -1567,6 +1574,7 @@
 		153101ED223E47E800BC7AE5 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
+				67851A2E263904A200572271 /* YZJYYAnimatedImageViewVC */,
 				6738819F25E0C84300FB401F /* Base64 */,
 				153101F2223E480500BC7AE5 /* UIImageViewTestVC.h */,
 				153101F1223E480500BC7AE5 /* UIImageViewTestVC.m */,
@@ -1842,7 +1850,6 @@
 				6786FB4B25AEC522001A93D9 /* ImgaeLoop */,
 				155A4ED025A603AC00BC841F /* WaterWave */,
 				153103F3223E936900BC7AE5 /* UIView */,
-				153103F7223E94FB00BC7AE5 /* Animation动画.md */,
 			);
 			path = "Animation动画";
 			sourceTree = "<group>";
@@ -2512,6 +2519,7 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				67525AFB26310F7E009BB00E /* UIWindow */,
 				675258E82623F3E9009BB00E /* UITextField */,
 				6786FB0425AE7D36001A93D9 /* UIView */,
 				672FFAEC25AD25E30065DE21 /* UILabel */,
@@ -2538,6 +2546,7 @@
 		1596E11F2236C61800D66C53 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				67E39DE82637B868003FC6A1 /* NSInvocation-NSMethodSignature */,
 				67E0C45E260EE0E300459E05 /* NSPredict正则表达式 */,
 				67E0C442260DC46500459E05 /* NSDate */,
 				153103B5223E53AC00BC7AE5 /* NSString */,
@@ -4050,6 +4059,23 @@
 			path = WeakWebViewScriptMessageDelegate;
 			sourceTree = "<group>";
 		};
+		67525AFB26310F7E009BB00E /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		67851A2E263904A200572271 /* YZJYYAnimatedImageViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				67851A302639093600572271 /* pia@2x.png */,
+				67851A2A2639049C00572271 /* YZJYYAnimatedImageViewVC.h */,
+				67851A2B2639049C00572271 /* YZJYYAnimatedImageViewVC.m */,
+			);
+			path = YZJYYAnimatedImageViewVC;
+			sourceTree = "<group>";
+		};
 		6786FB0425AE7D36001A93D9 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -4106,6 +4132,15 @@
 				67E0C47C261040A200459E05 /* 正则表达式.md */,
 			);
 			path = "NSPredict正则表达式";
+			sourceTree = "<group>";
+		};
+		67E39DE82637B868003FC6A1 /* NSInvocation-NSMethodSignature */ = {
+			isa = PBXGroup;
+			children = (
+				67E39DE92637B8A9003FC6A1 /* YZJNSInvocationVC.h */,
+				67E39DEA2637B8A9003FC6A1 /* YZJNSInvocationVC.m */,
+			);
+			path = "NSInvocation-NSMethodSignature";
 			sourceTree = "<group>";
 		};
 		8FC3A5937CA448C8AE6DDE55 /* Frameworks */ = {
@@ -4227,6 +4262,7 @@
 				58DC83831FFB43460060DC03 /* LMJLZDHDTViewController.xib in Resources */,
 				58DC83CB1FFB43E30060DC03 /* LMJPiesViewController.xib in Resources */,
 				159BEF282245D74F00EF2BC8 /* Demo2ViewController.xib in Resources */,
+				67851A312639093600572271 /* pia@2x.png in Resources */,
 				15310368223E4DA900BC7AE5 /* UILabelViewController.xib in Resources */,
 				58DC83C71FFB43E30060DC03 /* LMJDrawBoardViewController.xib in Resources */,
 				1571FEF0223F858600BBC3AC /* MLTopToastViewTypeOpenLocation.png in Resources */,
@@ -4488,6 +4524,7 @@
 				581A3E4120450B3E00AF08C0 /* NSString+MJDownload.m in Sources */,
 				154FAC3622414A2C00E14859 /* YZJMultiMedia_HardWareVC.m in Sources */,
 				58926429201B64D3007DA41E /* BSJTopicListDAL.m in Sources */,
+				67851A2C2639049C00572271 /* YZJYYAnimatedImageViewVC.m in Sources */,
 				584038721FF9399B002A0566 /* LMJListTimerCountDownViewController.m in Sources */,
 				5898889F206B34BF00BDAACD /* DES3Encryptor.m in Sources */,
 				1596E12F2236C73500D66C53 /* CrashTest.m in Sources */,
@@ -4774,6 +4811,7 @@
 				58DC850D1FFC972C0060DC03 /* BSJComment.m in Sources */,
 				58651AAA1FFE6D6F0087419D /* SINBroswerCell.m in Sources */,
 				67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */,
+				67E39DEB2637B8A9003FC6A1 /* YZJNSInvocationVC.m in Sources */,
 				154D3BA525AD08DA00C84C23 /* YZJCountDownVC.m in Sources */,
 				15310360223E4D9200BC7AE5 /* UINavigationItem+BackItem.m in Sources */,
 				583D508420765948001480C8 /* TDTouchID.m in Sources */,

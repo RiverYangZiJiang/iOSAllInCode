@@ -34,8 +34,6 @@
         animation.fillMode =kCAFillModeForwards;
         animation.repeatCount = MAXFLOAT;
         animation.removedOnCompletion = NO;  // 解决切换到后台动画失效的问题[3]
-        [_imageView.layer addAnimation:animation forKey:nil];
-
         [_imageView.layer addAnimation:animation forKey:@"animation"];
     }
     return _imageView;

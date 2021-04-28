@@ -32,16 +32,19 @@
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    
+    CGFloat timeW = ceil([self.timeLabel widthForSingleLine]);
+    CGFloat timeH = [self.timeLabel heightForWidth:timeW];
+    NSLog(@"%s, timeW: %f, timeH: %f", __func__, timeW, timeH);
     self.timeLabel.top = 100;
     self.timeLabel.left = 100;
-    self.timeLabel.width = self.view.width;
-    self.timeLabel.height = SH(161);
+//    self.timeLabel.width = self.view.width;
+    self.timeLabel.width = 143;
+    self.timeLabel.height = timeH;
     
     self.countdownLabel.top = 200;
     self.countdownLabel.left = 100;
     self.countdownLabel.width = self.view.width;
-    self.countdownLabel.height = SH(20);
+    self.countdownLabel.height = 20;
 }
 
 - (void)dealloc {
@@ -98,7 +101,7 @@
 
 - (UILabel *)timeLabel{
     if(!_timeLabel) {
-        _timeLabel = [UILabel labelWithText:@"活动倒计时" font:[UIFont systemFontOfSize:14] textColor:[UIColor redColor] textAlignment:NSTextAlignmentCenter numberOfLines:1];
+        _timeLabel = [UILabel labelWithText:@"当前活动已结束" font:[UIFont systemFontOfSize:20] textColor:[UIColor redColor] textAlignment:NSTextAlignmentLeft numberOfLines:1];
     }
     return _timeLabel;
 }
@@ -110,7 +113,7 @@
 
 - (YZJCountdownLabel *)countdownLabel{
     if(!_countdownLabel) {
-        _countdownLabel = [[YZJCountdownLabel alloc] initWithSeconds:2 delegate:self];
+        _countdownLabel = [[YZJCountdownLabel alloc] initWithSeconds:20 delegate:self];
         _countdownLabel.textColor = [UIColor greenColor];
         _countdownLabel.font = [UIFont systemFontOfSize:14];
         _countdownLabel.countdownLabelDelegate = self;
