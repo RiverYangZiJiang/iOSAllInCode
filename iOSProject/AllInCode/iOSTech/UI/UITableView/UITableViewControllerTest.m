@@ -119,6 +119,16 @@
 }
 */
 
+#pragma mark - 无限滚动，无缝加载
+/*
+ +使用UITableView 的 Prefetching API 来对数据进行预加载，从而来实现数据的无缝加载。
+ 提到列表分页，相信大家第一个想到的就是 MJRefresh，用于上拉下拉来刷新数据，当滚动数据到达底部的时候向服务器发送请求，然后在控件底部显示一个 Loading 动画，待请求数据返回后，Loading 动画消失，由 UITableView 或者 UICollectionView 控件继续加载这些数据并显示给用户
+ 在 iOS 10 上，Apple 对 UICollectionView 和 UITableView 引入了 Prefetching API，它提供了一种在需要显示数据之前预先准备数据的机制，旨在提高数据的滚动性能。在 UI 初始化的时候 App 会加载一些初始数据，然后当用户滚动快要到达显示内容的底部时加载更多的数据。多年来，像 Instagram, Twitter 和 Facebook 这样的社交媒体公司都使这种技术。如果查看他们的 App ，你就可以看到无限滚动的实际效果
+ 
+ 优雅的处理网络数据，你真的会吗？不如看看这篇.https://mp.weixin.qq.com/s/Jcl4Din60i6IcahvbvDraQ
+*/
+
+
 #pragma mark - getters & setters
 - (NSMutableArray *)array{
     if (!_array) {

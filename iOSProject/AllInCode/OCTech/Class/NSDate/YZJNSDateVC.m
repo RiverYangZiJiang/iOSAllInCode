@@ -20,20 +20,20 @@
     // 展示内容不可点击
     [self addTitle:@"当前时间13位时间戳" subTitle:[NSDate getCurr13BitTime]];
 
+    WeakSelf
     self.date = [NSDate date];
-    UITapGestureRecognizer *gr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(photoButtonDidPressed:)];
-    self.tableView.userInteractionEnabled = YES;  // 必须设置才能交互
-    [self.tableView addGestureRecognizer:gr];
-    // 展示内容并且可以点击，section和item
-//    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"MLUI" subTitle:@"自定义UI"];
-//    item00.destVc = [YZJUIViewController class];
-//    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00] andHeaderTitle:@"UI" footerTitle:nil];
-//    [self.sections addObjectsFromArray:@[section0]];
+    self.addItem([LMJWordItem itemWithTitle:@"哪个方法计算两个时间之间的间隔？" subTitle:@"整数部分从时分秒毫秒哪个开始？" itemOperation:^(NSIndexPath *indexPath) {
+        [weakSelf photoButtonDidPressed];
+    }]);
+    
+    self.addItem([LMJWordItem itemWithTitle:@"CACurrentMediaTime" subTitle:@"可以用来做啥？" itemOperation:^(NSIndexPath *indexPath) {
+        [weakSelf CACurrentMediaTimeTest];
+    }]);
     
     
 }
 
-- (void)photoButtonDidPressed:(UIGestureRecognizer *)gr {
+- (void)photoButtonDidPressed {
     NSDate *date = [NSDate date];
     // 返回时间整数部分从秒开始，如6.666表示6.666秒
     CGFloat timeInterval = [date timeIntervalSinceDate:self.date];
@@ -41,6 +41,14 @@
     [self.tableView reloadData];
 }
 
-
+- (void)CACurrentMediaTimeTest{
+    // Returns the current absolute time, in seconds.
+    NSTimeInterval start = CACurrentMediaTime();
+    [NSThread sleepForTimeInterval:1];
+    NSTimeInterval delta = CACurrentMediaTime() - start;
+    NSLog(@"耗时：%f",  delta);  // 耗时：1.001024
+    [self addTitle:@"已经过了" subTitle:[NSString stringWithFormat:@"%f秒", delta]];
+    [self.tableView reloadData];
+}
 
 @end

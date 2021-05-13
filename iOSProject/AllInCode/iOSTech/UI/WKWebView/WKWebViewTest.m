@@ -12,7 +12,7 @@
 #import "CPButton.h"
 #import "WeakWebViewScriptMessageDelegate.h"
 
-@interface WKWebViewTest ()<WKNavigationDelegate>
+@interface WKWebViewTest ()<WKNavigationDelegate, WKScriptMessageHandler>
 
 @property (strong, nonatomic) WKWebView *webView;
 /// 是否加载完成
@@ -53,7 +53,7 @@
 
 - (void)dealloc {
     NSLog(@"%s", __func__);
-    //移除注册的js方法
+    //移除注册的js方法，否则addScriptMessageHandler很容易引起循环引用，导致控制器无法被释放
     [[_webView configuration].userContentController removeScriptMessageHandlerForName:@"jsToOcNoPrams"];
     [[_webView configuration].userContentController removeScriptMessageHandlerForName:@"jsToOcWithPrams"];
     
@@ -101,10 +101,11 @@
     
     //    self.url = @"https://www.baidu.com";
 //        self.url = self.url ? :  @"https:\/\/ad-h5.fcb.com.cn\/makePost\/index.html#\/page?jsUrl=4yuebdw01&channel=8621&groupId=30a6b37e0f2cea20462da646f0af545e&utm_campaign=4yuebdw01&utm_content=8621&utm_source=30a6b37e0f2cea20462da646f0af545e&activityNo=";
-        self.url = self.url ? : @"https://forms.ebdan.net/ls/9LzohiFC";
-        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
+//        self.url = self.url ? : @"https://forms.ebdan.net/ls/9LzohiFC";
     
-//    [self loadLocalHtmlFile];
+//        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
+    
+    [self loadLocalHtmlFile];
     
 }
 /**
@@ -469,7 +470,7 @@
         preference.javaScriptCanOpenWindowsAutomatically = YES;
         config.preferences = preference;
         
-        // 是使用h5的视频播放器在线播放, 还是使用原生播放器全屏播放 The default value for iPhone is false and the default value for iPad is true.
+        // 是使用h5的视频播放器在线播放YES, 还是使用原生播放器全屏播放NO The default value for iPhone is false and the default value for iPad is true.
         config.allowsInlineMediaPlayback = YES;
         //设置视频是否需要用户手动播放  设置为NO则会允许自动播放
         config.requiresUserActionForMediaPlayback = YES;
@@ -479,9 +480,10 @@
         config.applicationNameForUserAgent = @"ChinaDailyForiPad";
          //自定义的WKScriptMessageHandler 是为了解决内存不释放的问题
         WeakWebViewScriptMessageDelegate *weakScriptMessageDelegate = [[WeakWebViewScriptMessageDelegate alloc] initWithDelegate:self];
-        //这个类主要用来做native与JavaScript的交互管理
+        //这个类主要用来做native与JavaScript的交互管理，js要想调用OC方法，必须实现本步骤
         WKUserContentController * wkUController = [[WKUserContentController alloc] init];
         //注册一个name为jsToOcNoPrams的js方法，设置处理接收JS方法的代理
+        // 可以定义一个公共的name，然后在返回的message.body里去解析对应的方法名称/参数/回调函数名，这样就不用多次调用addScriptMessageHandler方法
         [wkUController addScriptMessageHandler:weakScriptMessageDelegate  name:@"jsToOcNoPrams"];
         [wkUController addScriptMessageHandler:weakScriptMessageDelegate  name:@"jsToOcWithPrams"];
        config.userContentController = wkUController;

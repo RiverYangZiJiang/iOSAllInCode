@@ -1,8 +1,8 @@
 //
-//  YZJNSPredict.h
+//  YZJCustomOperation.h
 //  AllInCode
 //
-//  Created by hd on 2021/3/27.
+//  Created by hd on 2021/4/29.
 //  Copyright © 2021 github.com/njhu. All rights reserved.
 //
 
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YZJNSPredict : NSObject
-/// 是否为纯数字
-+ (BOOL)isPureNumber:(NSString *)str;
+/// 自定义Operation
+@interface YZJCustomOperation : NSOperation
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  2.ionic3 从UIWebView升级到WKWebView（翻译） https://www.jianshu.com/p/1648ac581906
  3.WKWebView【关于WKWebViewx非常详尽的使用，如标题、刷新按钮、显示加载进度条】 https://www.jianshu.com/p/35be2053111c
  4.WKWebView获取页面title和加载进度值 https://www.jianshu.com/p/6f2d733502c6
- 5.iOS WKWebView的使用https://www.jianshu.com/p/5cf0d241ae12
+ 5.iOS WKWebView的使用 https://www.jianshu.com/p/5cf0d241ae12
  */
 
 @property (copy, nonatomic) NSString *url;

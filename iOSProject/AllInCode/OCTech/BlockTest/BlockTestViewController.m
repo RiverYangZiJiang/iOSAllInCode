@@ -1,5 +1,5 @@
 //
-//  BlockTestViewController.m
+//  captureTestViewController.m
 //  OCTest
 //
 //  Created by 杨子江 on 11/18/18.
@@ -8,9 +8,8 @@
 
 #import "BlockTestViewController.h"
 
-
 // 静态全局变量，在block外修改了静态全局变量，再访问block里的静态全局变量，其值是修改后的值
-// Block中可以修改全局变量，全局静态变量，局部静态变量[1]
+// Block中可以修改全局变量/全局静态变量/局部静态变量[1]
 static NSInteger staticNum = 0;
 // Use Type Definitions to Simplify Block Syntax 输入typedefBlock的snippet就OK
 // If you need to define more than one block with the same signature, you might like to define your own type for that signature.
@@ -35,6 +34,12 @@ typedef void(^XYZSimpleBlock)(void);
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 展示内容可点击不跳转
+    WeakSelf
+    self.addItem([LMJWordItem itemWithTitle:@"局部变量捕获" subTitle:@"基本类型/对象类型分别是什么传递方式?" itemOperation:^(NSIndexPath *indexPath) {
+        [weakSelf captureTest];
+    }]);
+    
     //    [self blockTakeArgumentsAndReturnValues];
     //    [self passBlocksAsArgumentsToMethodOrFunctions];
     //    [self useTypeDefinitionsToSimplifyBlockSyntax];
@@ -47,7 +52,7 @@ typedef void(^XYZSimpleBlock)(void);
     
     [self configureBlock];
 }
-
+#pragma mark - 官方案例
 - (void)blockSyntax{
     // block variable declaration
     // void return type of block; ^ indication that this is a block; simpleBlock name of block variable; void argument type
@@ -135,16 +140,59 @@ typedef void(^XYZSimpleBlock)(void);
 }
 
 
-// 1.Block中可以修改全局变量，全局静态变量，局部静态变量http://www.code4app.com/blog-969296-47680.html
+
+
+#pragma mark - <#type#>
+NSString * (^printInfo)(NSString *name, unsigned int age) = ^(NSString *name, unsigned int age) {
+    NSLog(@"name = %@, age = %ul", name, age);
+    return name;
+};
+
+- (void)captureTest{
+    __block int age = 10;
+    __block NSString *name1 = printInfo(@"zs", 30);
+    NSLog(@"name = %@", name1);
+    [self argumentsBlock:1 block:^(NSString *name) {
+        NSLog(@"name = %@, age = %d", name, age);
+        /// 不加__block，报Variable is not assignable (missing __block type specifier)
+        name1 = @"abc";
+        // 不加__block，报Variable is not assignable (missing __block type specifier)
+        age = 20;
+        NSLog(@"name1 = %@, age = %d", name1, age);
+    }];
+    NSLog(@"name11 = %@, age = %d", name1, age);  // name11 = abc, age = 20
+    
+    [self argumengsBlock1:^(NSString *str) {
+        NSLog(@"str = %@", str);
+    }];
+}
+
+- (void)argumentsBlock:(NSInteger)num block:(GetCapitalNameBlock)block{
+    if (num%2 == 0) {
+        NSLog(@"偶数");
+    }else{  // 满足一定条件才调用用户自己实现的block，并且给block传递参数
+        block(@"ls");
+    }
+}
+
+- (void)argumengsBlock1:(void(^)(NSString *str))block{
+    NSString *info = @"argumengsBlock1";
+    // 注：本方法中不能直接调用str，会报"Use of undeclared identifier 'str'"，而是在回调中，传递给block的参数会赋值给str
+//    str = info;
+//    block(str);
+    // 正解
+    block(info);
+}
 
 
 
 
 
-
-
-
-
+#pragma mark - 参考文献
+/*
+1.Block中可以修改全局变量，全局静态变量，局部静态变量http://www.code4app.com/blog-969296-47680.html
+2.Programming with Objective-C-Working with Blocks https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html#//apple_ref/doc/uid/TP40011210-CH8-SW1
+*/
 
 
 @end

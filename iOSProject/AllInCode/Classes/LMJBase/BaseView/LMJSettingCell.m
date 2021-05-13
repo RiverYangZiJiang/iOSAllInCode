@@ -64,6 +64,7 @@ static NSString *const ID = @"LMJSettingCell";
 - (void)fillData
 {
     self.textLabel.text = self.item.title;
+    self.textLabel.numberOfLines = 0;
     self.detailTextLabel.text = self.item.subTitle;
 //    self.imageView.image = self.item.image;
     /** 左边的图片 UIImage 或者 NSURL 或者 URLString 或者 ImageName */
@@ -115,7 +116,8 @@ static NSString *const ID = @"LMJSettingCell";
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
+    self.textLabel.frame = CGRectMake(10, 0, self.contentView.width * 0.4, self.contentView.height);
+    self.detailTextLabel.frame = CGRectMake(self.textLabel.right + 10, 0, self.contentView.width * 0.6 - 20, self.contentView.height);
 }
 
 @end
