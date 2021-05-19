@@ -34,9 +34,10 @@
     LMJWordArrowItem *item04 = [LMJWordArrowItem itemWithTitle:@"MultiThread" subTitle:nil destVc:@"YZJMultiThreadVC"];
     
     LMJWordArrowItem *item05 = [LMJWordArrowItem itemWithTitle:@"NSTimer" subTitle:nil destVc:@"YZJNSTimerVC"];
+    LMJWordArrowItem *item06 = [LMJWordArrowItem itemWithTitle:@"Memory" subTitle:nil destVc:@"YZJMemoryVC"];
     
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05] andHeaderTitle:nil footerTitle:nil];
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 
 }

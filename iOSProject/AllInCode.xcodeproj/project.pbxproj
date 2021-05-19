@@ -518,6 +518,7 @@
 		6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */; };
 		6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */; };
 		6786FB8825B0A64C001A93D9 /* YZJLeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */; };
+		67AC7D39264CFCD200CCDB08 /* YZJMemoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */; };
 		67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C388260C14E200459E05 /* YZJFilterView.m */; };
 		67E0C38E260C153C00459E05 /* YZJFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C38D260C153C00459E05 /* YZJFilterVC.m */; };
 		67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C444260DC4A500459E05 /* YZJNSDateVC.m */; };
@@ -1488,6 +1489,8 @@
 		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
 		6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJLeftRightAlignment.h; sourceTree = "<group>"; };
 		6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJLeftRightAlignment.m; sourceTree = "<group>"; };
+		67AC7D37264CFCD200CCDB08 /* YZJMemoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMemoryVC.h; sourceTree = "<group>"; };
+		67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMemoryVC.m; sourceTree = "<group>"; };
 		67E0C387260C14E200459E05 /* YZJFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterView.h; sourceTree = "<group>"; };
 		67E0C388260C14E200459E05 /* YZJFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJFilterView.m; sourceTree = "<group>"; };
 		67E0C38C260C153C00459E05 /* YZJFilterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterVC.h; sourceTree = "<group>"; };
@@ -2509,6 +2512,7 @@
 		1596E1132236C15B00D66C53 /* Memory内存 */ = {
 			isa = PBXGroup;
 			children = (
+				67AC7D3B264CFCDC00CCDB08 /* YZJMemoryVC */,
 				153103B6223E577300BC7AE5 /* CopyAndMutableCopy */,
 				15310383223E51A900BC7AE5 /* ARC-MRCTest */,
 			);
@@ -4126,6 +4130,15 @@
 			path = ImgaeLoop;
 			sourceTree = "<group>";
 		};
+		67AC7D3B264CFCDC00CCDB08 /* YZJMemoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				67AC7D37264CFCD200CCDB08 /* YZJMemoryVC.h */,
+				67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */,
+			);
+			path = YZJMemoryVC;
+			sourceTree = "<group>";
+		};
 		67E0C385260C128600459E05 /* Filter筛选 */ = {
 			isa = PBXGroup;
 			children = (
@@ -4767,6 +4780,7 @@
 				58651AAB1FFE6D6F0087419D /* SINBroswerAnimator.m in Sources */,
 				67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */,
 				58DC846C1FFC94B30060DC03 /* LMJGroup.m in Sources */,
+				67AC7D39264CFCD200CCDB08 /* YZJMemoryVC.m in Sources */,
 				159BEF2C2245D74F00EF2BC8 /* Demo2ViewController.m in Sources */,
 				5892AD5A1FF5079C00E868C2 /* LMJBaseViewController.m in Sources */,
 				6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */,

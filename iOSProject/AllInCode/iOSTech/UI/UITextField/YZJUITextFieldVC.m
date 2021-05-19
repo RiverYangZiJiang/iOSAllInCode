@@ -8,6 +8,7 @@
 
 #import "YZJUITextFieldVC.h"
 #import "YZJNSPredict.h"
+#import "IQKeyboardManager.h"
 
 @interface YZJUITextFieldVC ()<UITextFieldDelegate>
 ///
@@ -20,6 +21,11 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.textField];
+    
+    // 键盘右上角Done按钮标题改为完成
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.toolbarDoneBarButtonItemText = @"完成";
+
     self.textField.frame = CGRectMake(100, 100, 100, 100);
     
     /// 没有输入内容后立马调用的代理方法，只能监听
