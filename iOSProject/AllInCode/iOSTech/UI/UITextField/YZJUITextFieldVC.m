@@ -90,6 +90,10 @@
 
 -(void)textFieldDidEditing:(UITextField *)textField {
     NSLog(@"%s, textField.text: %@", __func__, textField.text);
+    if (textField.text.length >= 6) {  // 截取前6位
+        textField.text = [textField.text substringToIndex:6];
+        [textField resignFirstResponder];
+    }
 }
 
 #pragma mark - Getters & Setters

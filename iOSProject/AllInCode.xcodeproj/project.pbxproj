@@ -518,6 +518,7 @@
 		6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */; };
 		6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */; };
 		6786FB8825B0A64C001A93D9 /* YZJLeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */; };
+		67A1B2312668D971000998A0 /* UIImagePickerControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */; };
 		67AC7D39264CFCD200CCDB08 /* YZJMemoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */; };
 		67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C388260C14E200459E05 /* YZJFilterView.m */; };
 		67E0C38E260C153C00459E05 /* YZJFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C38D260C153C00459E05 /* YZJFilterVC.m */; };
@@ -1489,6 +1490,8 @@
 		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
 		6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJLeftRightAlignment.h; sourceTree = "<group>"; };
 		6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJLeftRightAlignment.m; sourceTree = "<group>"; };
+		67A1B22F2668D971000998A0 /* UIImagePickerControllerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImagePickerControllerVC.h; sourceTree = "<group>"; };
+		67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerControllerVC.m; sourceTree = "<group>"; };
 		67AC7D37264CFCD200CCDB08 /* YZJMemoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMemoryVC.h; sourceTree = "<group>"; };
 		67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMemoryVC.m; sourceTree = "<group>"; };
 		67E0C387260C14E200459E05 /* YZJFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterView.h; sourceTree = "<group>"; };
@@ -2540,6 +2543,7 @@
 		1596E11E2236C5CA00D66C53 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				67A1B22E2668D93F000998A0 /* UIImagePickerController */,
 				67525AFB26310F7E009BB00E /* UIWindow */,
 				675258E82623F3E9009BB00E /* UITextField */,
 				6786FB0425AE7D36001A93D9 /* UIView */,
@@ -4130,6 +4134,15 @@
 			path = ImgaeLoop;
 			sourceTree = "<group>";
 		};
+		67A1B22E2668D93F000998A0 /* UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				67A1B22F2668D971000998A0 /* UIImagePickerControllerVC.h */,
+				67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */,
+			);
+			path = UIImagePickerController;
+			sourceTree = "<group>";
+		};
 		67AC7D3B264CFCDC00CCDB08 /* YZJMemoryVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -4551,6 +4564,7 @@
 				151C8F4D211D38B800A883CB /* YZJCallViewController.m in Sources */,
 				58DC84F71FFC972C0060DC03 /* BSJNewViewController.m in Sources */,
 				151C8F602123FFBE00A883CB /* YZJARCViewController.m in Sources */,
+				67A1B2312668D971000998A0 /* UIImagePickerControllerVC.m in Sources */,
 				154EF8CF223DE64C00E1D528 /* NSURLTestVC.m in Sources */,
 				58651AA21FFE6D6F0087419D /* SINHomeCategoryViewController.m in Sources */,
 				58DC85181FFC972C0060DC03 /* BSJTabBar.m in Sources */,
