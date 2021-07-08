@@ -13,7 +13,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //1.创建UIAlertControler
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"标题" message:@"这是一些信息" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"标题" message:@"这是一些信息\nabc" preferredStyle:UIAlertControllerStyleAlert];  // \n换行成功
+    // 服务器配置成/n，可能转换成//n导致换行失败，此时将//n替换成/n即可
     /*
      参数说明：
      Title:弹框的标题

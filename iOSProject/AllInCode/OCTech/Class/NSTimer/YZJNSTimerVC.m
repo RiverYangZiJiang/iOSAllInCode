@@ -72,8 +72,8 @@
     
 //    NSLog(@"%s,self.weakTimer: %@, self.strongTimer: %@", __func__, self.weakTimer, self.strongTimer);
     
-    [self.blockTimer invalidate];  // 必须调用，否则定时器会一直执行
-    self.blockTimer = nil;
+    [_blockTimer invalidate];  // 必须调用，否则定时器会一直执行
+    _blockTimer = nil;
 }
 
 #pragma mark - 循环引用

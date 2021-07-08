@@ -47,12 +47,10 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return self.array.count;
 }
 
@@ -118,6 +116,10 @@
     return YES;
 }
 */
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    NSLog(@"%s", __func__);
+}
 
 #pragma mark - 无限滚动，无缝加载
 /*

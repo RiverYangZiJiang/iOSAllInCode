@@ -484,6 +484,8 @@
 		58DC85331FFCA30C0060DC03 /* UIImageView+FitNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC85311FFCA30B0060DC03 /* UIImageView+FitNet.m */; };
 		58DC88CE1FFDEEF70060DC03 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */; };
 		58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */; };
+		6714A4CB267C605B00339299 /* YZJChangeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6714A4C9267C605B00339299 /* YZJChangeLineViewController.m */; };
+		6714A4CC267C605B00339299 /* YZJChangeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6714A4CA267C605B00339299 /* YZJChangeLineViewController.xib */; };
 		672FFAF025AD26250065DE21 /* YZJUILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */; };
 		672FFB5025AD47360065DE21 /* YZJCountDownTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FFB4F25AD47360065DE21 /* YZJCountDownTool.m */; };
 		6738812A25D0EBE100FB401F /* YZJNetworkLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6738812925D0EBE100FB401F /* YZJNetworkLayerVC.m */; };
@@ -518,8 +520,12 @@
 		6786FB5925AED695001A93D9 /* YZJCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB5825AED695001A93D9 /* YZJCountdownLabel.m */; };
 		6786FB7B25AF3EE0001A93D9 /* YZJVerticalStringVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */; };
 		6786FB8825B0A64C001A93D9 /* YZJLeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */; };
+		6786FF74268C7D4C0074329A /* YZJYYModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FF73268C7D4C0074329A /* YZJYYModelVC.m */; };
+		6786FFAC268C8FC60074329A /* YZJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FFAB268C8FC60074329A /* YZJModel.m */; };
 		67A1B2312668D971000998A0 /* UIImagePickerControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */; };
 		67AC7D39264CFCD200CCDB08 /* YZJMemoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */; };
+		67C82CD3268073AB0006CA6B /* YZJComponentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C82CD2268073AB0006CA6B /* YZJComponentsVC.m */; };
+		67DB00692696EE0F009E5D10 /* YZJYYLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DB00682696EE0F009E5D10 /* YZJYYLabelViewController.m */; };
 		67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C388260C14E200459E05 /* YZJFilterView.m */; };
 		67E0C38E260C153C00459E05 /* YZJFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C38D260C153C00459E05 /* YZJFilterVC.m */; };
 		67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C444260DC4A500459E05 /* YZJNSDateVC.m */; };
@@ -1421,6 +1427,9 @@
 		58DC85321FFCA30C0060DC03 /* UIImageView+FitNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FitNet.h"; sourceTree = "<group>"; };
 		58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		6714A4C8267C605B00339299 /* YZJChangeLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJChangeLineViewController.h; sourceTree = "<group>"; };
+		6714A4C9267C605B00339299 /* YZJChangeLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJChangeLineViewController.m; sourceTree = "<group>"; };
+		6714A4CA267C605B00339299 /* YZJChangeLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZJChangeLineViewController.xib; sourceTree = "<group>"; };
 		672FFAEE25AD26250065DE21 /* YZJUILabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUILabelVC.h; sourceTree = "<group>"; };
 		672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUILabelVC.m; sourceTree = "<group>"; };
 		672FFB1F25AD29F00065DE21 /* JMBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeViewController.h; sourceTree = "<group>"; };
@@ -1490,10 +1499,20 @@
 		6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJVerticalStringVC.m; sourceTree = "<group>"; };
 		6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJLeftRightAlignment.h; sourceTree = "<group>"; };
 		6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJLeftRightAlignment.m; sourceTree = "<group>"; };
+		6786FF3E2689E6640074329A /* YYCache.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = YYCache.md; sourceTree = "<group>"; };
+		6786FF72268C7D4C0074329A /* YZJYYModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJYYModelVC.h; sourceTree = "<group>"; };
+		6786FF73268C7D4C0074329A /* YZJYYModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJYYModelVC.m; sourceTree = "<group>"; };
+		6786FF77268C8D780074329A /* YYModel.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = YYModel.md; sourceTree = "<group>"; };
+		6786FFAA268C8FC60074329A /* YZJModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJModel.h; sourceTree = "<group>"; };
+		6786FFAB268C8FC60074329A /* YZJModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJModel.m; sourceTree = "<group>"; };
 		67A1B22F2668D971000998A0 /* UIImagePickerControllerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImagePickerControllerVC.h; sourceTree = "<group>"; };
 		67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerControllerVC.m; sourceTree = "<group>"; };
 		67AC7D37264CFCD200CCDB08 /* YZJMemoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMemoryVC.h; sourceTree = "<group>"; };
 		67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMemoryVC.m; sourceTree = "<group>"; };
+		67C82CD1268073AB0006CA6B /* YZJComponentsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJComponentsVC.h; sourceTree = "<group>"; };
+		67C82CD2268073AB0006CA6B /* YZJComponentsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJComponentsVC.m; sourceTree = "<group>"; };
+		67DB00672696EE0F009E5D10 /* YZJYYLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJYYLabelViewController.h; sourceTree = "<group>"; };
+		67DB00682696EE0F009E5D10 /* YZJYYLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJYYLabelViewController.m; sourceTree = "<group>"; };
 		67E0C387260C14E200459E05 /* YZJFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterView.h; sourceTree = "<group>"; };
 		67E0C388260C14E200459E05 /* YZJFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJFilterView.m; sourceTree = "<group>"; };
 		67E0C38C260C153C00459E05 /* YZJFilterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterVC.h; sourceTree = "<group>"; };
@@ -2382,6 +2401,8 @@
 		1596E0F1223576C500D66C53 /* Architecture架构 */ = {
 			isa = PBXGroup;
 			children = (
+				6786FF71268C7D000074329A /* Model模型 */,
+				670417972678459200E47F7B /* 组件化Components */,
 				1596E0F62235770500D66C53 /* NetworkLayer网络层 */,
 				1596E0F5223576F500D66C53 /* DatabaseLayer数据库层 */,
 				1596E0F4223576EB00D66C53 /* FileLayer文件层 */,
@@ -2409,6 +2430,7 @@
 		1596E0F4223576EB00D66C53 /* FileLayer文件层 */ = {
 			isa = PBXGroup;
 			children = (
+				6786FF3D2689E6360074329A /* YYCache */,
 				1596E1162236C52C00D66C53 /* NSUserDefaults */,
 			);
 			path = "FileLayer文件层";
@@ -2525,8 +2547,8 @@
 		1596E1162236C52C00D66C53 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				1596E1172236C52C00D66C53 /* YZJUserDefaults.m */,
 				1596E1182236C52C00D66C53 /* YZJUserDefaults.h */,
+				1596E1172236C52C00D66C53 /* YZJUserDefaults.m */,
 			);
 			path = NSUserDefaults;
 			sourceTree = "<group>";
@@ -3952,6 +3974,15 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		670417972678459200E47F7B /* 组件化Components */ = {
+			isa = PBXGroup;
+			children = (
+				67C82CD1268073AB0006CA6B /* YZJComponentsVC.h */,
+				67C82CD2268073AB0006CA6B /* YZJComponentsVC.m */,
+			);
+			path = "组件化Components";
+			sourceTree = "<group>";
+		};
 		672FFAEC25AD25E30065DE21 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -3967,6 +3998,11 @@
 				6786FB7A25AF3EE0001A93D9 /* YZJVerticalStringVC.m */,
 				6786FB8625B0A64C001A93D9 /* YZJLeftRightAlignment.h */,
 				6786FB8725B0A64C001A93D9 /* YZJLeftRightAlignment.m */,
+				6714A4C8267C605B00339299 /* YZJChangeLineViewController.h */,
+				6714A4C9267C605B00339299 /* YZJChangeLineViewController.m */,
+				6714A4CA267C605B00339299 /* YZJChangeLineViewController.xib */,
+				67DB00672696EE0F009E5D10 /* YZJYYLabelViewController.h */,
+				67DB00682696EE0F009E5D10 /* YZJYYLabelViewController.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -4132,6 +4168,34 @@
 				6786FB4D25AEC570001A93D9 /* YZJImageLoopViewController.m */,
 			);
 			path = ImgaeLoop;
+			sourceTree = "<group>";
+		};
+		6786FF3D2689E6360074329A /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				6786FF3E2689E6640074329A /* YYCache.md */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		6786FF71268C7D000074329A /* Model模型 */ = {
+			isa = PBXGroup;
+			children = (
+				6786FFA9268C8F9B0074329A /* YZJModel */,
+				6786FF72268C7D4C0074329A /* YZJYYModelVC.h */,
+				6786FF73268C7D4C0074329A /* YZJYYModelVC.m */,
+				6786FF77268C8D780074329A /* YYModel.md */,
+			);
+			path = "Model模型";
+			sourceTree = "<group>";
+		};
+		6786FFA9268C8F9B0074329A /* YZJModel */ = {
+			isa = PBXGroup;
+			children = (
+				6786FFAA268C8FC60074329A /* YZJModel.h */,
+				6786FFAB268C8FC60074329A /* YZJModel.m */,
+			);
+			path = YZJModel;
 			sourceTree = "<group>";
 		};
 		67A1B22E2668D93F000998A0 /* UIImagePickerController */ = {
@@ -4376,6 +4440,7 @@
 				58DC85241FFC972C0060DC03 /* BSJReommmendCategoryCell.xib in Resources */,
 				15310345223E4D2F00BC7AE5 /* station_next_one.png in Resources */,
 				589B56FA1FFFC52F00B2D5A8 /* MUSPlayingViewController.xib in Resources */,
+				6714A4CC267C605B00339299 /* YZJChangeLineViewController.xib in Resources */,
 				159BEF2A2245D74F00EF2BC8 /* Demo1ViewController.xib in Resources */,
 				5840385C1FF873A8002A0566 /* LMJAnnotationCustomPopView.xib in Resources */,
 				58651AB31FFE6D6F0087419D /* SINPublishToolBar.xib in Resources */,
@@ -4554,6 +4619,7 @@
 				154EF8CB223DE63400E1D528 /* NSError+Hook.m in Sources */,
 				1531038D223E51CA00BC7AE5 /* KVC-KVOTest.m in Sources */,
 				155A4F3B25A9237E00BC841F /* JMBadgeViewController.m in Sources */,
+				67C82CD3268073AB0006CA6B /* YZJComponentsVC.m in Sources */,
 				58DC84541FFBDDC40060DC03 /* LMJChildBlockViewController.m in Sources */,
 				581A3E2C2044434400AF08C0 /* LMJOfflineDownloadViewController.m in Sources */,
 				153103AA223E529200BC7AE5 /* NSString+Category.m in Sources */,
@@ -4749,6 +4815,7 @@
 				58DC83E61FFB44380060DC03 /* WPFSpringView.m in Sources */,
 				58DC851E1FFC972C0060DC03 /* BSJTopicVideoView.m in Sources */,
 				584038571FF872EB002A0566 /* LMJBaiduPointAnnotation.m in Sources */,
+				67DB00692696EE0F009E5D10 /* YZJYYLabelViewController.m in Sources */,
 				5892AD041FF4F9D200E868C2 /* LMJNormalRefreshHeader.m in Sources */,
 				58DC83EB1FFB44380060DC03 /* WPFBaseView.m in Sources */,
 				15A00055257506800044686B /* UIScrollViewVC.m in Sources */,
@@ -4840,6 +4907,7 @@
 				58DC83D91FFB440E0060DC03 /* WPFDemoController.m in Sources */,
 				58DC843F1FFBD1290060DC03 /* LMJGCDViewController.m in Sources */,
 				159BEF2D2245D74F00EF2BC8 /* Demo5ViewController.m in Sources */,
+				6786FF74268C7D4C0074329A /* YZJYYModelVC.m in Sources */,
 				58DC85291FFC972C0060DC03 /* BSJTopicCmtService.m in Sources */,
 				58651AA71FFE6D6F0087419D /* SINTabBarController.m in Sources */,
 				58DC83CD1FFB43E30060DC03 /* LMJShangXiaWenZhanViewController.m in Sources */,
@@ -4870,6 +4938,8 @@
 				5892AD901FF5E32500E868C2 /* LMJIntroductoryPagesHelper.m in Sources */,
 				58DC850D1FFC972C0060DC03 /* BSJComment.m in Sources */,
 				58651AAA1FFE6D6F0087419D /* SINBroswerCell.m in Sources */,
+				6714A4CB267C605B00339299 /* YZJChangeLineViewController.m in Sources */,
+				6786FFAC268C8FC60074329A /* YZJModel.m in Sources */,
 				67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */,
 				67E39DEB2637B8A9003FC6A1 /* YZJNSInvocationVC.m in Sources */,
 				154D3BA525AD08DA00C84C23 /* YZJCountDownVC.m in Sources */,

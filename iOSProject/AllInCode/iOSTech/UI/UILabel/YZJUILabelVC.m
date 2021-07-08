@@ -34,6 +34,11 @@
     item02.destVc = [YZJLeftRightAlignment class];
     
     self.addItem(item02);
+    
+    self.addItem([LMJWordArrowItem itemWithTitle:@"换行" subTitle:nil destVc:@"YZJChangeLineViewController"]);
+    
+    self.addItem([LMJWordArrowItem itemWithTitle:@"YYLabel" subTitle:@"中间文本可点击" destVc:@"YZJYYLabelViewController"]);
+    
 }
 
 
