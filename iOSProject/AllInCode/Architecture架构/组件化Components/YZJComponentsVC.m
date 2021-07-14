@@ -9,7 +9,10 @@
 #import "YZJComponentsVC.h"
 // import私有pod
 #import <PrivatePod/PrivateClass.h>
-#import <YZJA/CTMediator+YZJA.h>
+//#import <YZJA/CTMediator+YZJA.h>
+#import <CTMediator/CTMediator.h>
+#import <YZJSwift/YZJSwift-Swift.h>
+
 @interface YZJComponentsVC ()
 
 @end
@@ -26,9 +29,19 @@
         [[[PrivateClass alloc] init] printFuncName];
     }]);
     
+    self.addItem([LMJWordItem itemWithTitle:@"私有pod" subTitle:@"OC -> Swift Extension" itemOperation:^(NSIndexPath *indexPath) {
+        // Objective-C -> Extension -> Swift
+        UIViewController *viewController = [[CTMediator sharedInstance] YZJSwift_demoWithName:@"yzj" callback:^(NSString * _Nonnull result) {
+            NSLog(@"%s, result: %@", __func__, result);
+        }];
+        [self.navigationController pushViewController:viewController animated:YES];
+    }]);
+    
+
+    
     // 调用A工程里的方法
-    NSString *str = [[CTMediator sharedInstance] YZJA_test];
-    [self addTitle:@"调用YZJA工程方法返回值" subTitle:str];
+//    NSString *str = [[CTMediator sharedInstance] YZJA_test];
+//    [self addTitle:@"调用YZJA工程方法返回值" subTitle:str];
     
     // 展示内容可点击可跳转，默认加入section0
 //    self.addItem([LMJWordArrowItem itemWithTitle:<#(NSString *)#> subTitle:<#(NSString *)#> destVc:<#(NSString *)#>]);

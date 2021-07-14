@@ -524,15 +524,24 @@
 		6786FFAC268C8FC60074329A /* YZJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786FFAB268C8FC60074329A /* YZJModel.m */; };
 		67A1B2312668D971000998A0 /* UIImagePickerControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */; };
 		67AC7D39264CFCD200CCDB08 /* YZJMemoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */; };
+		67C73083269835BF00B0D94A /* Pods_AllInCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C73082269835BF00B0D94A /* Pods_AllInCode.framework */; };
+		67C730CC269AF80C00B0D94A /* YZJRACVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C730CB269AF80C00B0D94A /* YZJRACVC.m */; };
+		67C73169269BF2EF00B0D94A /* YZJMVVMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C73168269BF2EF00B0D94A /* YZJMVVMVC.m */; };
+		67C7316E269BF34B00B0D94A /* YZJMVVMRACVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C7316D269BF34B00B0D94A /* YZJMVVMRACVC.m */; };
+		67C73178269BF3B000B0D94A /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C73170269BF3AF00B0D94A /* MVVMView.m */; };
+		67C73179269BF3B000B0D94A /* ViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C73171269BF3AF00B0D94A /* ViewModelClass.m */; };
+		67C7317A269BF3B000B0D94A /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C73174269BF3B000B0D94A /* MVVMViewModel.m */; };
+		67C7317B269BF3B000B0D94A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C73176269BF3B000B0D94A /* Model.m */; };
 		67C82CD3268073AB0006CA6B /* YZJComponentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C82CD2268073AB0006CA6B /* YZJComponentsVC.m */; };
 		67DB00692696EE0F009E5D10 /* YZJYYLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DB00682696EE0F009E5D10 /* YZJYYLabelViewController.m */; };
+		67DB006E2696FED0009E5D10 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB006D2696FED0009E5D10 /* Test.swift */; };
+		67DB00732696FFDF009E5D10 /* YZJSwiftOCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DB00722696FFDF009E5D10 /* YZJSwiftOCVC.m */; };
 		67E0C389260C14E200459E05 /* YZJFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C388260C14E200459E05 /* YZJFilterView.m */; };
 		67E0C38E260C153C00459E05 /* YZJFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C38D260C153C00459E05 /* YZJFilterVC.m */; };
 		67E0C445260DC4A500459E05 /* YZJNSDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C444260DC4A500459E05 /* YZJNSDateVC.m */; };
 		67E0C451260DF6BD00459E05 /* NSDate+YZJNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C450260DF6BD00459E05 /* NSDate+YZJNSDate.m */; };
 		67E0C461260EE12000459E05 /* YZJNSPredict.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E0C460260EE12000459E05 /* YZJNSPredict.m */; };
 		67E39DEB2637B8A9003FC6A1 /* YZJNSInvocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E39DEA2637B8A9003FC6A1 /* YZJNSInvocationVC.m */; };
-		DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA18E4D516C513D679667E40 /* libPods-AllInCode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1430,6 +1439,7 @@
 		6714A4C8267C605B00339299 /* YZJChangeLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJChangeLineViewController.h; sourceTree = "<group>"; };
 		6714A4C9267C605B00339299 /* YZJChangeLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJChangeLineViewController.m; sourceTree = "<group>"; };
 		6714A4CA267C605B00339299 /* YZJChangeLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZJChangeLineViewController.xib; sourceTree = "<group>"; };
+		672651AC2697E3A9005BAD74 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		672FFAEE25AD26250065DE21 /* YZJUILabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJUILabelVC.h; sourceTree = "<group>"; };
 		672FFAEF25AD26250065DE21 /* YZJUILabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJUILabelVC.m; sourceTree = "<group>"; };
 		672FFB1F25AD29F00065DE21 /* JMBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeViewController.h; sourceTree = "<group>"; };
@@ -1509,10 +1519,34 @@
 		67A1B2302668D971000998A0 /* UIImagePickerControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerControllerVC.m; sourceTree = "<group>"; };
 		67AC7D37264CFCD200CCDB08 /* YZJMemoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMemoryVC.h; sourceTree = "<group>"; };
 		67AC7D38264CFCD200CCDB08 /* YZJMemoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMemoryVC.m; sourceTree = "<group>"; };
+		67C72EA42698263200B0D94A /* libYZJSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYZJSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C7302B26982E7000B0D94A /* libYZJSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYZJSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C73082269835BF00B0D94A /* Pods_AllInCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AllInCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C730CA269AF80C00B0D94A /* YZJRACVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJRACVC.h; sourceTree = "<group>"; };
+		67C730CB269AF80C00B0D94A /* YZJRACVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJRACVC.m; sourceTree = "<group>"; };
+		67C73100269B09F400B0D94A /* ReactiveObjc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReactiveObjc.md; sourceTree = "<group>"; };
+		67C73167269BF2EF00B0D94A /* YZJMVVMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMVVMVC.h; sourceTree = "<group>"; };
+		67C73168269BF2EF00B0D94A /* YZJMVVMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMVVMVC.m; sourceTree = "<group>"; };
+		67C7316C269BF34B00B0D94A /* YZJMVVMRACVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJMVVMRACVC.h; sourceTree = "<group>"; };
+		67C7316D269BF34B00B0D94A /* YZJMVVMRACVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJMVVMRACVC.m; sourceTree = "<group>"; };
+		67C73170269BF3AF00B0D94A /* MVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		67C73171269BF3AF00B0D94A /* ViewModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelClass.m; sourceTree = "<group>"; };
+		67C73172269BF3AF00B0D94A /* ViewModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelClass.h; sourceTree = "<group>"; };
+		67C73173269BF3AF00B0D94A /* MVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		67C73174269BF3B000B0D94A /* MVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		67C73175269BF3B000B0D94A /* MVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		67C73176269BF3B000B0D94A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		67C73177269BF3B000B0D94A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		67C7317E269C190E00B0D94A /* 快速开发环境.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "快速开发环境.md"; sourceTree = "<group>"; };
 		67C82CD1268073AB0006CA6B /* YZJComponentsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJComponentsVC.h; sourceTree = "<group>"; };
 		67C82CD2268073AB0006CA6B /* YZJComponentsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJComponentsVC.m; sourceTree = "<group>"; };
 		67DB00672696EE0F009E5D10 /* YZJYYLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJYYLabelViewController.h; sourceTree = "<group>"; };
 		67DB00682696EE0F009E5D10 /* YZJYYLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJYYLabelViewController.m; sourceTree = "<group>"; };
+		67DB006C2696FECF009E5D10 /* AllInCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllInCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		67DB006D2696FED0009E5D10 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		67DB00712696FFDF009E5D10 /* YZJSwiftOCVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJSwiftOCVC.h; sourceTree = "<group>"; };
+		67DB00722696FFDF009E5D10 /* YZJSwiftOCVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJSwiftOCVC.m; sourceTree = "<group>"; };
+		67DB01132697D9F3009E5D10 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E0C387260C14E200459E05 /* YZJFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterView.h; sourceTree = "<group>"; };
 		67E0C388260C14E200459E05 /* YZJFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJFilterView.m; sourceTree = "<group>"; };
 		67E0C38C260C153C00459E05 /* YZJFilterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZJFilterVC.h; sourceTree = "<group>"; };
@@ -1536,7 +1570,7 @@
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		B78C64A6B422348B7E3DACA9 /* Pods-AllInCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.release.xcconfig"; sourceTree = "<group>"; };
 		D49A30618F315E1413EBE11B /* Pods-AllInCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllInCode/Pods-AllInCode.debug.xcconfig"; sourceTree = "<group>"; };
-		EA18E4D516C513D679667E40 /* libPods-AllInCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AllInCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46C53039AEAC008EF426029 /* Pods_AllInCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllInCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1544,10 +1578,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C73083269835BF00B0D94A /* Pods_AllInCode.framework in Frameworks */,
 				58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */,
 				58DC88CE1FFDEEF70060DC03 /* libbz2.1.0.tbd in Frameworks */,
 				5892ACC21FF4F45700E868C2 /* libUMessage_Sdk_1.5.0.a in Frameworks */,
-				DFD9914E74F48573C8A97C50 /* libPods-AllInCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2389,6 +2423,7 @@
 		1596E0F0223576B800D66C53 /* OpenSource开源 */ = {
 			isa = PBXGroup;
 			children = (
+				67C730C9269AF75700B0D94A /* RAC */,
 				154D3A4525AB30AF00C84C23 /* SDCycleScrollView */,
 				159BEEC22245D71C00EF2BC8 /* LYEmptyView */,
 				154FAC22223EAB9F00E14859 /* awesome-ios.md */,
@@ -2401,6 +2436,8 @@
 		1596E0F1223576C500D66C53 /* Architecture架构 */ = {
 			isa = PBXGroup;
 			children = (
+				67C7317D269C18F100B0D94A /* 快速开发框架 */,
+				67C73101269BCB1900B0D94A /* MVVM */,
 				6786FF71268C7D000074329A /* Model模型 */,
 				670417972678459200E47F7B /* 组件化Components */,
 				1596E0F62235770500D66C53 /* NetworkLayer网络层 */,
@@ -2458,6 +2495,7 @@
 		1596E0FC2235774300D66C53 /* OCTech */ = {
 			isa = PBXGroup;
 			children = (
+				67DB006B2696FD53009E5D10 /* Swift */,
 				673881CF25E1E79B00FB401F /* Operator运算符 */,
 				154FAC42224273AB00E14859 /* Other */,
 				154FAC3D22426DED00E14859 /* Math */,
@@ -4216,6 +4254,62 @@
 			path = YZJMemoryVC;
 			sourceTree = "<group>";
 		};
+		67C730C9269AF75700B0D94A /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				67C73100269B09F400B0D94A /* ReactiveObjc.md */,
+				67C730CA269AF80C00B0D94A /* YZJRACVC.h */,
+				67C730CB269AF80C00B0D94A /* YZJRACVC.m */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		67C73101269BCB1900B0D94A /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				67C7316B269BF30D00B0D94A /* RAC */,
+				67C73167269BF2EF00B0D94A /* YZJMVVMVC.h */,
+				67C73168269BF2EF00B0D94A /* YZJMVVMVC.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		67C7316B269BF30D00B0D94A /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				67C73177269BF3B000B0D94A /* Model.h */,
+				67C73176269BF3B000B0D94A /* Model.m */,
+				67C73173269BF3AF00B0D94A /* MVVMView.h */,
+				67C73170269BF3AF00B0D94A /* MVVMView.m */,
+				67C73175269BF3B000B0D94A /* MVVMViewModel.h */,
+				67C73174269BF3B000B0D94A /* MVVMViewModel.m */,
+				67C73172269BF3AF00B0D94A /* ViewModelClass.h */,
+				67C73171269BF3AF00B0D94A /* ViewModelClass.m */,
+				67C7316C269BF34B00B0D94A /* YZJMVVMRACVC.h */,
+				67C7316D269BF34B00B0D94A /* YZJMVVMRACVC.m */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		67C7317D269C18F100B0D94A /* 快速开发框架 */ = {
+			isa = PBXGroup;
+			children = (
+				67C7317E269C190E00B0D94A /* 快速开发环境.md */,
+			);
+			path = "快速开发框架";
+			sourceTree = "<group>";
+		};
+		67DB006B2696FD53009E5D10 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				67DB006D2696FED0009E5D10 /* Test.swift */,
+				67DB006C2696FECF009E5D10 /* AllInCode-Bridging-Header.h */,
+				67DB00712696FFDF009E5D10 /* YZJSwiftOCVC.h */,
+				67DB00722696FFDF009E5D10 /* YZJSwiftOCVC.m */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		67E0C385260C128600459E05 /* Filter筛选 */ = {
 			isa = PBXGroup;
 			children = (
@@ -4264,10 +4358,15 @@
 		8FC3A5937CA448C8AE6DDE55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67C73082269835BF00B0D94A /* Pods_AllInCode.framework */,
+				67C7302B26982E7000B0D94A /* libYZJSwift.a */,
+				67C72EA42698263200B0D94A /* libYZJSwift.a */,
+				672651AC2697E3A9005BAD74 /* CTMediator.framework */,
+				67DB01132697D9F3009E5D10 /* libCTMediator.a */,
 				58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */,
 				58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */,
 				195AF1DB9976AB51691A659C /* libPods-iOSProject.a */,
-				EA18E4D516C513D679667E40 /* libPods-AllInCode.a */,
+				F46C53039AEAC008EF426029 /* Pods_AllInCode.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -4318,6 +4417,7 @@
 				TargetAttributes = {
 					5892AC931FF4EB4A00E868C2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1240;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -4492,34 +4592,20 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AllInCode/Pods-AllInCode-resources.sh",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
-				"${PODS_ROOT}/HMEmoticon/表情键盘/Emoticon/HMEmoticon.bundle",
-				"${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml",
-				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.json",
 				"${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle",
-				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
-				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMEmoticon.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMScanner.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.xml",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.json",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MagicWindow.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4533,11 +4619,95 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AllInCode/Pods-AllInCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ASIHTTPRequest/ASIHTTPRequest.framework",
+				"${BUILT_PRODUCTS_DIR}/AvoidCrash/AvoidCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/DWBubbleMenuButton/DWBubbleMenuButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HMEmoticon/HMEmoticon.framework",
+				"${BUILT_PRODUCTS_DIR}/HMQRCodeScanner/HMQRCodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JKCountDownButton/JKCountDownButton.framework",
+				"${BUILT_PRODUCTS_DIR}/KILabel/KILabel.framework",
+				"${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework",
+				"${BUILT_PRODUCTS_DIR}/M13ProgressSuite/M13ProgressSuite.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/MOFSPickerManager/MOFSPickerManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PrivatePod/PrivatePod.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
 				"${PODS_ROOT}/WoodPeckeriOS/WoodPeckeriOS.framework",
+				"${BUILT_PRODUCTS_DIR}/YYAsyncLayer/YYAsyncLayer.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/YZJSwift/YZJSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDownload/ZFDownload.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/ZJAnimationPopView/ZJAnimationPopView.framework",
+				"${BUILT_PRODUCTS_DIR}/ZJScrollPageView/ZJScrollPageView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASIHTTPRequest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvoidCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DWBubbleMenuButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCUUID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMEmoticon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMQRCodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKCountDownButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KILabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYEmptyView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13ProgressSuite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOFSPickerManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrivatePod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WoodPeckeriOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYAsyncLayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YZJSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDownload.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJAnimationPopView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJScrollPageView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4572,6 +4742,7 @@
 				588CCD7A205D45DC0067E3C4 /* WKWebViewJsBridge.m in Sources */,
 				58DC850B1FFC972C0060DC03 /* BSJUser.m in Sources */,
 				58DC852A1FFC972C0060DC03 /* BSJRecommendSevice.m in Sources */,
+				67C73179269BF3B000B0D94A /* ViewModelClass.m in Sources */,
 				5892AD751FF5114A00E868C2 /* LMJMessageViewController.m in Sources */,
 				5822332020182C5D0008251F /* MCCornersRoundViewController.m in Sources */,
 				5892AD031FF4F9D200E868C2 /* LMJElementsFlowLayout.m in Sources */,
@@ -4587,6 +4758,7 @@
 				5892AD5E1FF5079C00E868C2 /* LMJTableViewController.m in Sources */,
 				156EBC76208B0F1400A941D3 /* LMJCameraViewController.m in Sources */,
 				67851A72263AA41A00572271 /* YZJGCDVC.m in Sources */,
+				67C7317B269BF3B000B0D94A /* Model.m in Sources */,
 				58651AAE1FFE6D6F0087419D /* SINDictURL.m in Sources */,
 				58DC85031FFC972C0060DC03 /* BSJPublishViewController.m in Sources */,
 				5822334B20185FB10008251F /* DBSphereView.m in Sources */,
@@ -4652,6 +4824,7 @@
 				5898889F206B34BF00BDAACD /* DES3Encryptor.m in Sources */,
 				1596E12F2236C73500D66C53 /* CrashTest.m in Sources */,
 				154D3A4825AB30E200C84C23 /* SDCycleScrollViewVC.m in Sources */,
+				67DB006E2696FED0009E5D10 /* Test.swift in Sources */,
 				155A4F1825A9234000BC841F /* JMNumberButtonConfig.m in Sources */,
 				5840385D1FF873A8002A0566 /* LMJAnnotationCustomPopView.m in Sources */,
 				58651AB41FFE6D6F0087419D /* SINUnLoginRegisterView.m in Sources */,
@@ -4663,10 +4836,12 @@
 				5822334520185F790008251F /* MCSphereTagCloudViewController.m in Sources */,
 				156277642546AAA400E5FF34 /* WKWebViewTest.m in Sources */,
 				588CCD8B205DF92F0067E3C4 /* LMJCircleLayout.m in Sources */,
+				67C7316E269BF34B00B0D94A /* YZJMVVMRACVC.m in Sources */,
 				589B57762000339800B2D5A8 /* VIDTableViewController.m in Sources */,
 				67851AA82646588900572271 /* YZJNSTimerVC.m in Sources */,
 				58DC83D11FFB43E30060DC03 /* LMJClipImageViewController.m in Sources */,
 				589B56F91FFFC52F00B2D5A8 /* MUSLrcTableViewController.m in Sources */,
+				67C7317A269BF3B000B0D94A /* MVVMViewModel.m in Sources */,
 				155A4ED725A6063A00BC841F /* YZJWaterWaveVC.m in Sources */,
 				15310391223E51E100BC7AE5 /* BlockTestViewController.m in Sources */,
 				6786FB1025AE8088001A93D9 /* YZJCornerVC.m in Sources */,
@@ -4737,6 +4912,7 @@
 				584038391FF7E2BE002A0566 /* LMJHorizontalLayoutViewController.m in Sources */,
 				589B57742000339800B2D5A8 /* VIDTabBarController.m in Sources */,
 				58DC83981FFB43DC0060DC03 /* LMJDrawRectViewController.m in Sources */,
+				67DB00732696FFDF009E5D10 /* YZJSwiftOCVC.m in Sources */,
 				58651AAD1FFE6D6F0087419D /* SINStatus.m in Sources */,
 				58DC83D21FFB43E30060DC03 /* LMJPicWordsViewController.m in Sources */,
 				58DC838A1FFB43460060DC03 /* LMJCAAnimationGroupViewController.m in Sources */,
@@ -4763,6 +4939,7 @@
 				58DC83E91FFB44380060DC03 /* WPFCollisionView.m in Sources */,
 				589B57021FFFC52F00B2D5A8 /* QQLrcLabel.m in Sources */,
 				6786FB0725AE7E0D001A93D9 /* UIView+Category.m in Sources */,
+				67C73169269BF2EF00B0D94A /* YZJMVVMVC.m in Sources */,
 				584038601FF875F8002A0566 /* LMJQRCodeViewController.m in Sources */,
 				5892ADAA1FF603AD00E868C2 /* LMJUMengHelper.m in Sources */,
 				58DC83CA1FFB43E30060DC03 /* LMJFingerLockViewController.m in Sources */,
@@ -4922,10 +5099,12 @@
 				58DC81721FFA29E00060DC03 /* LMJDragTableViewController.m in Sources */,
 				154EF8E3223DEDE000E1D528 /* UIButton+MLCategory.m in Sources */,
 				589888A3206B34BF00BDAACD /* RSAEncryptor.m in Sources */,
+				67C730CC269AF80C00B0D94A /* YZJRACVC.m in Sources */,
 				584038481FF7F3E5002A0566 /* LMJRequestManager.m in Sources */,
 				155A4F1A25A9234000BC841F /* JMButton.m in Sources */,
 				5892AD781FF5115E00E868C2 /* LMJNewViewController.m in Sources */,
 				58DC84291FFBC3260060DC03 /* UIButton+LMJBlock.m in Sources */,
+				67C73178269BF3B000B0D94A /* MVVMView.m in Sources */,
 				58DC83891FFB43460060DC03 /* LMJCALayerBaseViewController.m in Sources */,
 				589B56F61FFFC52F00B2D5A8 /* CALayer+MUSAmi.m in Sources */,
 				584038221FF64865002A0566 /* LMJListExpandHideViewController.m in Sources */,
@@ -5100,12 +5279,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
 				CODE_SIGN_ENTITLEMENTS = AllInCode/AllInCode.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5X83UD87RT;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "AllInCode/Supports Files/LMJAllInCode.pch";
@@ -5116,111 +5297,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AllInCode/Classes/Libs/UMessage_Sdk_1.5.0",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"AFNetworking\"",
-					"-l\"CYLTabBarController\"",
-					"-l\"FCUUID\"",
-					"-l\"FDFullscreenPopGesture\"",
-					"-l\"FMDB\"",
-					"-l\"HMEmoticon\"",
-					"-l\"IQKeyboardManager\"",
-					"-l\"M13ProgressSuite\"",
-					"-l\"MBProgressHUD\"",
-					"-l\"MJExtension\"",
-					"-l\"MJRefresh\"",
-					"-l\"MOFSPickerManager\"",
-					"-l\"MagicWindowSDK\"",
-					"-l\"Masonry\"",
-					"-l\"Reachability\"",
-					"-l\"SDCycleScrollView\"",
-					"-l\"SDWebImage\"",
-					"-l\"SocialQQ\"",
-					"-l\"SocialSina\"",
-					"-l\"SocialWeChat\"",
-					"-l\"Toast\"",
-					"-l\"UICKeyChainStore\"",
-					"-l\"UMSocialLog\"",
-					"-l\"WeChatSDK\"",
-					"-l\"WeiboSDK\"",
-					"-l\"YYAsyncLayer\"",
-					"-l\"YYCategories\"",
-					"-l\"YYImage\"",
-					"-l\"YYText\"",
-					"-l\"c++\"",
-					"-l\"crypto\"",
-					"-l\"sqlite3\"",
-					"-l\"sqlite3.0\"",
-					"-l\"ssl\"",
-					"-l\"xml2\"",
-					"-l\"z\"",
-					"-framework",
-					"\"Accelerate\"",
-					"-framework",
-					"\"AdSupport\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"BaiduMapAPI_Base\"",
-					"-framework",
-					"\"BaiduMapAPI_Cloud\"",
-					"-framework",
-					"\"BaiduMapAPI_Location\"",
-					"-framework",
-					"\"BaiduMapAPI_Map\"",
-					"-framework",
-					"\"BaiduMapAPI_Radar\"",
-					"-framework",
-					"\"BaiduMapAPI_Search\"",
-					"-framework",
-					"\"BaiduMapAPI_Utils\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreImage\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"CoreText\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"LocalAuthentication\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-					"-framework",
-					"\"TencentOpenAPI\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"UMMobClick\"",
-					"-framework",
-					"\"UMSocialCore\"",
-					"-framework",
-					"\"UMSocialNetwork\"",
-					"-framework",
-					"\"UShareUI\"",
-					"-framework",
-					"\"WebKit\"",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.riveryzj.HelloCC.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllInCode/OCTech/Swift/AllInCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -5231,12 +5314,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
 				CODE_SIGN_ENTITLEMENTS = AllInCode/AllInCode.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5X83UD87RT;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "AllInCode/Supports Files/LMJAllInCode.pch";
@@ -5277,7 +5362,6 @@
 					"-l\"WeiboSDK\"",
 					"-l\"YYAsyncLayer\"",
 					"-l\"YYCategories\"",
-					"-l\"YYImage\"",
 					"-l\"YYText\"",
 					"-l\"c++\"",
 					"-l\"crypto\"",
@@ -5352,6 +5436,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.riveryzj.HelloCC.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllInCode/OCTech/Swift/AllInCode-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

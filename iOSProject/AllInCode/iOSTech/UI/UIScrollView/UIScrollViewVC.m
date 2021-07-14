@@ -21,7 +21,7 @@
     self.scrollView = scrollView;
     scrollView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:scrollView];
-    [self.scrollView makeConstraints:^(MASConstraintMaker *make) {
+    [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
     
@@ -32,7 +32,7 @@
     UIView* contentView = UIView.new;
     [self.scrollView addSubview:contentView];
     
-    [contentView makeConstraints:^(MASConstraintMaker *make) {
+    [contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.scrollView);
         make.width.equalTo(self.scrollView);
     }];
@@ -63,7 +63,7 @@
         lastView = view;
     }
     
-    [contentView makeConstraints:^(MASConstraintMaker *make) {
+    [contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(lastView.mas_bottom);
     }];
 }

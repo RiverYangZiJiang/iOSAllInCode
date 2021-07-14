@@ -24,6 +24,8 @@
     
     self.addItem([LMJWordArrowItem itemWithTitle:@"模型层" subTitle:@"YYModel" destVc:@"YZJYYModelVC"]);
     
+    self.addItem([LMJWordArrowItem itemWithTitle:@"YZJMVVMVC" subTitle:@"" destVc:@"YZJMVVMVC"]);
+    
     
 }
 

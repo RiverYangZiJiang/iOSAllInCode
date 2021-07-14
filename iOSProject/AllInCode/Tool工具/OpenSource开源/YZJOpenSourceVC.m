@@ -26,6 +26,8 @@
     LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"SDCycleScrollView" subTitle:@""];
     item01.destVc = [SDCycleScrollViewVC class];
 
+    self.addItem([LMJWordArrowItem itemWithTitle:@"RAC" subTitle:@"" destVc:@"YZJRACVC"]);
+    
     LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 }

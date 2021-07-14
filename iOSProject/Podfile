@@ -10,19 +10,28 @@ source 'https://github.com/RiverYangZiJiang/Specs.git'
 #如果在Podfile中没有指定target，那么只有工程里的第一个target能够使用Podfile中描述的Pods依赖库。http://blog.csdn.net/wzzvictory/article/details/19178709
 target 'AllInCode' do
 
-inhibit_all_warnings!
+inhibit_all_warnings!  # 忽略所有三方库警告
 #use_modular_headers!
 
 # 组件化
-pod 'CTMediator', :modular_headers => true
+#pod 'CTMediator', :modular_headers => true  #会报No such module 'CTMediator'
+use_frameworks!  # CTMediator+YZJB.h报'CTMediator/CTMediator.h' file not found
+#use_modular_headers!  # No such module 'CTMediator'
+#pod 'CTMediator'  #会报No such module 'CTMediator'
 # 直接指定私有pod路径，这样会Pre-downloading PrivatePod
 #pod 'PrivatePod', :git => 'https://github.com/RiverYangZiJiang/PrivatePod.git'
 pod 'PrivatePod'
-pod 'YZJA'
-pod 'YZJB'
-#pod 'YZJSwift'
+#pod 'YZJA'
+#pod 'YZJB'
+pod 'YZJSwift'
 #pod 'YZJA_Category'
 #pod 'A'
+pod 'CTMediator', :modular_headers => true
+
+# RAC
+pod 'ReactiveObjC'  # OC
+pod 'ReactiveObjCBridge'  # Swift和OC混合
+pod 'ReactiveCocoa'  # Swift和OC混合
 
 # 网络请求
 pod 'AFNetworking', "~> 3.2.1"

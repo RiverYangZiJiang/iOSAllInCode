@@ -37,7 +37,9 @@
     LMJWordArrowItem *item06 = [LMJWordArrowItem itemWithTitle:@"Memory" subTitle:nil destVc:@"YZJMemoryVC"];
     
     
-    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item02, item03, item04, item05, item06] andHeaderTitle:nil footerTitle:nil];
+    LMJWordArrowItem *item07 = [LMJWordArrowItem itemWithTitle:@"Swift" subTitle:nil destVc:@"YZJSwiftOCVC"];
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item07, item00, item01, item02, item03, item04, item05, item06] andHeaderTitle:nil footerTitle:nil];
     [self.sections addObjectsFromArray:@[section0]];
 
 }

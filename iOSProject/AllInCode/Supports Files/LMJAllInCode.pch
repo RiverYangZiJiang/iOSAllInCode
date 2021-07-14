@@ -37,24 +37,24 @@
 
 
 // libs
-#import <AFNetworking.h>
-#import <IQKeyboardManager.h>
+#import <AFNetworking/AFNetworking.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 //define this constant if you want to use Masonry without the 'mas_' prefix
 #define MAS_SHORTHAND
 
 //define this constant if you want to enable auto-boxing for default syntax
 #define MAS_SHORTHAND_GLOBALS
-#import <Masonry.h>
+#import <Masonry/Masonry.h>
 #import <MBProgressHUD.h>
 #import <MJExtension.h>
 #import <MJRefresh.h>
 #import <SDCycleScrollView.h>
 #import <UIImageView+WebCache.h>
-#import <YYAsyncLayer.h>
-#import <YYCategories.h>
-#import <YYImage.h>
-#import <YYText.h>
+#import <YYAsyncLayer/YYAsyncLayer.h>
+#import <YYCategories/YYCategories.h>
+#import <YYImage/YYImage.h>
+#import <YYText/YYText.h>
 #import <Toast.h>
 
 //弱引用/强引用  可配对引用在外面用MPWeakSelf(self)，block用MPStrongSelf(self)  也可以单独引用在外面用MPWeakSelf(self) block里面用weakself

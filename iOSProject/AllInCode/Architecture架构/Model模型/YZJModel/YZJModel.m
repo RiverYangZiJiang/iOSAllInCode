@@ -8,7 +8,7 @@
 
 #import "YZJModel.h"
 #import <NSObject+YYModel.h>
-#import <YYCache.h>
+#import <YYCache/YYCache.h>
 @interface YZJModel ()<NSCoding>
 
 @end
